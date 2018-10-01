@@ -436,6 +436,38 @@ const projectList = [
       'https://github.com/qutebrowser/qutebrowser',
     description: 'A keyboard-driven, vim-like browser based on PyQt5',
     tags: ['Python','Qt','pyqt5','Vim','Browser','qtWebEngine','web']
+  },
+  {
+    name: 'Ghost',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/2178663?s=200&v=4',
+    githubLink:
+      'https://github.com/TryGhost/Ghost/issues',
+    description: 'Just a blogging platform',
+    tags: ['nodejs','javascript','ember','cms','blogging']
+  },
+  {
+    name: 'Hyper',
+    imageSrc: 'https://hyper.is/static/hyper.png',
+    githubLink:
+      'https://github.com/zeit/hyper/issues',
+    description: 'A terminal built on web technologies',
+    tags: ['html','javascript','css','react','terminal']
+  },
+  {
+    name: 'Kap',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/16321113?s=200&v=4',
+    githubLink:
+      'https://github.com/wulkano/kap/labels/good%20first%20issue',
+    description: 'An open-source screen recorder built with web technology',
+    tags: ['electron','javascript','mac','oss','screencast']
+  },
+  {
+    name: 'Ember.js',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/1253363?s=200&v=4',
+    githubLink:
+      'https://github.com/emberjs/ember.js/labels/Good%20for%20New%20Contributors',
+    description: 'A JavaScript framework for creating ambitious web applications',
+    tags: ['ember','javascript','javascript-framework']
   }
 ];
 export default projectList;
