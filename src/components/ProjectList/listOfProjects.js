@@ -468,6 +468,13 @@ const projectList = [
       'https://github.com/emberjs/ember.js/labels/Good%20for%20New%20Contributors',
     description: 'A JavaScript framework for creating ambitious web applications',
     tags: ['ember','javascript','javascript-framework']
+  },
+  {
+    name: 'Opensourcedesign',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/4183553?s=200&v=4',
+    githubLink: 'https://github.com/opensourcedesign/opensourcedesign.github.io',
+    description: 'Source code of the website opensourcedesign.net',
+    tags: ['design', 'opensourcedesign', 'open-source', 'open-source-design']
   }
 ];
 export default projectList;
