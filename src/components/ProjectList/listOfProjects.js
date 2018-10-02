@@ -475,6 +475,13 @@ const projectList = [
     githubLink: 'https://github.com/opensourcedesign/opensourcedesign.github.io',
     description: 'Source code of the website opensourcedesign.net',
     tags: ['design', 'opensourcedesign', 'open-source', 'open-source-design']
+  },
+  {
+    name: 'ifme',
+    imageSrc: 'https://raw.githubusercontent.com/ifmeorg/ifme/master/public/logo_512.png',
+    githubLink: 'https://github.com/ifmeorg/ifme/',
+    description: 'A community for mental health experiences',
+    tags: ['ruby-on-rails', 'javascript', 'react']
   }
 ];
 export default projectList;
