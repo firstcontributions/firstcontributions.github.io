@@ -482,6 +482,20 @@ const projectList = [
     githubLink: 'https://github.com/ifmeorg/ifme/',
     description: 'A community for mental health experiences',
     tags: ['ruby-on-rails', 'javascript', 'react']
-  }
+  },
+  {
+    name: 'Node Slack SDK',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/6962987?s=200&v=4',
+    githubLink: 'https://github.com/slackapi/node-slack-sdk/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22',
+    description: 'Slack Developer Kit for Node.js',
+    tags: ['slack', 'javascript', 'typescript', 'nodejs', 'bot', 'http']
+  },
+    {
+    name: 'Python Slack SDK',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/6962987?s=200&v=4',
+    githubLink: 'https://github.com/slackapi/python-slackclient/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22good+first+issue%22',
+    description: 'Slack Developer Kit for Python',
+    tags: ['slack', 'python', 'bot', 'http', 'requests']
+  },
 ];
 export default projectList;
