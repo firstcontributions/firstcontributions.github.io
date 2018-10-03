@@ -1,25 +1,44 @@
 .topnav {
-    background-color:#007EE5;
-    overflow: hidden;
-    text-align: right;
+    background-color:rgba(0, 49, 229, 0.4);
+    display: flex;
+    justify-content: flex-end;
 }
+
+.topnav > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
 @media (max-width: 700px) {
-    .topnav {
-        text-align: center;
+    .topnav > .logo{
+        display: none;
+    }
+
+    .topnav > ul {
+        width: 100%;
+        justify-content: center;
     }
 }
 
-.topnav a {
-    display: inline-block;
+@media (max-width: 380px) {
+    .topnav > ul > li > a > i {
+        display: none;
+    }
+}
+
+
+.topnav > ul a {
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    text-align: center;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #fff;
     color: black;
 }
 

@@ -11,6 +11,7 @@
     "sw-precache": "^5.2.0"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "lodash": "^4.17.10",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
