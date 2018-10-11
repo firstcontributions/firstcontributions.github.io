@@ -51,7 +51,7 @@ export default class CardsContainer extends React.Component {
     let updatedList = [];
 
     // If no filters
-    if ((!value || value.length === 0) && (this.inputValue === null || this.inputValue.length === 0)) {
+    if ((!value || value.length === 0) && (!this.inputValue || this.inputValue.length === 0)) {
       return this.setState({ filterList: projectList });
     }
 
