@@ -32,6 +32,9 @@
     .Card-Container{
         width: 100%;
     }
+    .Card-Real-Link{
+        width: 100%;
+    }
 }
 
 .Card-Container:hover{
