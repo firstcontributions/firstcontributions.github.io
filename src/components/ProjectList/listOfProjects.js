@@ -492,7 +492,7 @@ const projectList = [
   {
     name: 'Hacktoberfest',
     imageSrc: 'https://hacktoberfest.digitalocean.com/assets/logo-hacktoberfest-658b5aa2bd34e782d29c40bf6afbdff00f20fe1328efa6da17743878ba8db66f.png',
-    githubLink: 'https://github.com/owaisalics/Hacktoberfest/',
+    githubLink: 'https://github.com/ows-ali/Hacktoberfest/',
     description: 'Opportunity to start open source and PR experience for beginners',
     tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
   }
