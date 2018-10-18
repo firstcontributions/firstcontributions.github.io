@@ -2,6 +2,7 @@
     background-color:#007EE5;
     overflow: hidden;
     text-align: right;
+    padding: 10px;
 }
 @media (max-width: 700px) {
     .topnav {
@@ -15,15 +16,23 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
+    margin-right: 10px;
+
 }
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+.slack:hover {
+    color: #e20b64;
+}
+
+.twitter:hover {
+    color: #059ff5;
+}
+
+.github:hover {
+    color: #24292d;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
     color: white;
 }

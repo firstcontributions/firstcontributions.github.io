@@ -10,10 +10,20 @@
 
 .App-header {
   padding: 20px;
-  color: white;
+  color: #f6f6f6;
 }
 
 .App-header > h1 {
   padding-top: 10%;
-  font-size: 2.5em;
+}
+
+.heading1 {
+  font-size: 2em;
+  font-weight: 500;
+
+}
+
+.heading2 {
+  font-size: 1.5em;
+  font-weight: lighter;
 }

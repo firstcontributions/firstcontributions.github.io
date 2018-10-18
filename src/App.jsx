@@ -11,7 +11,8 @@ class App extends Component {
             <div className="App">
                 <Navbar />
                 <div className="App-header">
-                    <h1>Make your first open source contribution in 5 minutes</h1>
+                  <h1 className="heading1">Make your first open source contribution today</h1>
+                  <h2 className="heading2">All it takes is 5 minutes</h2>
                 </div>
                 <LinkButton />
                 <CardsContainer />
