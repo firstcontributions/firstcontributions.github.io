@@ -488,6 +488,24 @@ const projectList = [
     githubLink: 'https://github.com/ows-ali/Hacktoberfest/',
     description: 'Opportunity to start open source and PR experience for beginners',
     tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
+  },
+  {
+    name: 'HoodieCamp',
+    githubLink: 'https://github.com/hoodiehq/camp/',
+    description: 'A space to welcome new and existing contributors.',
+    tags: ['first-timers-only']
+  },
+  {
+    name: 'Yarn',
+    githubLink: 'https://github.com/yarnpkg/yarn/',
+    description: 'Fast, reliable, and secure dependency management.',
+    tags: ['good first issue']
+  },
+  {
+    name: 'Pixi',
+    githubLink: 'https://github.com/pixijs/pixi.js/',
+    description: 'a 2D javascript framework.',
+    tags: ['good first issue']
   }
 ];
 export default projectList;
