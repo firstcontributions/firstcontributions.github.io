@@ -465,6 +465,13 @@ const projectList = [
     githubLink: 'https://github.com/ows-ali/Hacktoberfest/',
     description: 'Opportunity to start open source and PR experience for beginners',
     tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
+  },
+  {
+    name: 'PRoot',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
+    githubLink: 'https://github.com/proot-me/PRoot',
+    description: 'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
+    tags: ['chroot-environment','userland-exec','rootfs','chroot','c']
   }
 ];
 export default projectList;
