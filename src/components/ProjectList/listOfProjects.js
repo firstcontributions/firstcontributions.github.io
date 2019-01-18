@@ -467,6 +467,13 @@ const projectList = [
     tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
   },
   {
+    name: 'Rebus',
+    imageSrc: 'https://raw.githubusercontent.com/ollelauribostrom/rebus/master/logo.png',
+    githubLink: 'https://github.com/ollelauribostrom/rebus',
+    description: 'Helping new developers take their first steps as open source contributors by developing a simple rebus game together',
+    tags: ['javascript', 'html', 'css', 'tutorial']
+  },
+  {
     name: 'PRoot',
     imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
     githubLink: 'https://github.com/proot-me/PRoot',
