@@ -14,42 +14,37 @@ const projectList = [
   }, {
     name: 'Exercism',
     imageSrc: 'https://avatars2.githubusercontent.com/u/5624255?v=3&s=100',
-    githubLink:
-      'https://github.com/exercism/exercism.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+patch%22',
-    description: 'Quickly ramp up in new programming languages!',
+    githubLink: 'https://github.com/exercism/exercism/labels/difficulty%2Feasy',
+    description:  'Quickly ramp up in new programming languages!',
     tags: ['Ruby', 'Exercises', 'CLI', 'Web App'],
   },{
     name: 'Gauge',
     imageSrc: 'https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4',
-    githubLink: 'https://github.com/getgauge/gauge',
+    githubLink: 'https://github.com/getgauge/gauge/issues',
     description: 'A free and open source test automation framework',
     tags: ['Golang','Automation','command line','testing']
   },{
     name: 'Fun Retros',
     imageSrc: 'https://avatars3.githubusercontent.com/u/15913975?v=3&s=100',
-    githubLink:
-      'https://github.com/funretro/distributed/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22',
+    githubLink: 'https://github.com/funretro/distributed/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22beginner+friendly%22',
     description: 'Easy to use and beautiful restrospective tool!',
     tags: ['JavaScript', 'Web App', 'AngularJS', 'Firebase'],
   }, {
     name: 'Habitat',
     imageSrc: 'https://avatars1.githubusercontent.com/u/18171698?v=3&s=100',
-    githubLink:
-      'https://github.com/habitat-sh/habitat/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3AE-Easy',
+    githubLink: 'https://github.com/habitat-sh/habitat/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3AE-Easy',
     description: 'Modern applications with built-in automation.',
     tags: ['Docs','Front-End','Rust','MultiOS'],
   }, {
     name: 'Scikit-learn',
     imageSrc: 'https://avatars0.githubusercontent.com/u/365630?v=3&s=100',
-    githubLink:
-      'https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy',
+    githubLink: 'https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy',
     description: 'Machine learning in Python!',
     tags: ['Python', 'Machine Learning', 'Math'],
   }, {
     name: 'AVA',
     imageSrc: 'https://avatars0.githubusercontent.com/u/8527916?v=3&s=100',
-    githubLink:
-      'https://github.com/avajs/ava/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+for+beginner%22',
+    githubLink: 'https://github.com/avajs/ava/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+for+beginner%22',
     description: 'The Futuristic JavaScript test runner!',
     tags: ['JavaScript','Tests', 'Docs', 'Babel'],
   }, {
@@ -63,28 +58,25 @@ const projectList = [
   }, {
     name: 'Elasticsearch',
     imageSrc: 'https://avatars2.githubusercontent.com/u/6764390?v=3&s=100',
-    githubLink:
-      'https://github.com/elastic/elasticsearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22low+hanging+fruit%22',
+    githubLink: 'https://github.com/elastic/elasticsearch/labels/good%20first%20issue',
     description: 'Open Source, Distributed, RESTful Search Engine.',
     tags: ['REST', 'Docs', 'Java', 'Lucene'],
   }, {
     name: 'Homebrew',
     imageSrc: 'https://avatars2.githubusercontent.com/u/1503512?v=3&s=100',
-    githubLink:
-      'https://github.com/Homebrew/brew/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22',
+    githubLink: 'https://github.com/Homebrew/brew/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22',
     description: 'The missing package manager for macOS.',
     tags: ['MacOS', 'Ruby', 'C++'],
   }, {
     name: 'Rust',
     imageSrc: 'https://avatars1.githubusercontent.com/u/5430905?v=3&s=100',
-    githubLink:
-      'https://github.com/rust-lang/rust/issues?q=is%3Aopen+is%3Aissue+label%3AE-easy',
+    githubLink: 'https://github.com/rust-lang/rust/issues?q=is%3Aopen+is%3Aissue+label%3AE-easy',
     description: 'A safe, concurrent, practical language!',
     tags: ['Rust', 'Compiler', 'Mentored', 'Parser'],
   }, {
     name: 'Vuejs',
     imageSrc: 'https://avatars1.githubusercontent.com/u/6128107?v=3&s=100',
-    githubLink: 'https://github.com/vuejs/vue/issues?q=is%3Aopen+is%3Aissue+label%3A%22contribution+welcome%22',
+    githubLink: 'https://github.com/vuejs/vue/labels/good%20first%20issue',
     description: 'A progressive, incrementally-adoptable JavaScript framework for building UI on the web.',
     tags: ['JavaScript', 'UI', 'Front-End'],
   }, {
@@ -102,8 +94,7 @@ const projectList = [
   }, {
     name: 'PowerShell',
     imageSrc: 'https://avatars0.githubusercontent.com/u/11524380?v=3&s=100',
-    githubLink:
-      'https://github.com/powershell/powershell/issues?q=is%3Aopen+is%3Aissue+label%3AUp-for-Grabs',
+    githubLink: 'https://github.com/powershell/powershell/issues?q=is%3Aopen+is%3Aissue+label%3AUp-for-Grabs',
     description: 'PowerShell for every system.',
     tags: ['Shell', 'Linux', 'MacOS', 'Windows', '*BSD'],
   }, {
@@ -115,8 +106,7 @@ const projectList = [
   }, {
     name: 'Moment',
     imageSrc: 'https://avatars2.githubusercontent.com/u/4129662?v=3&s=100',
-    githubLink:
-      'https://github.com/moment/moment/issues?q=is%3Aopen+is%3Aissue+label%3AUp-For-Grabs',
+    githubLink: 'https://github.com/moment/moment/issues?q=is%3Aopen+is%3Aissue+label%3AUp-For-Grabs',
     description: 'Parse, validate, manipulate, and display dates in JavaScript.',
     tags: ['JavaScript', 'Front-End', 'Meta'],
   }, {
@@ -142,51 +132,43 @@ const projectList = [
   }, {
     name: 'Babel',
     imageSrc: 'https://avatars2.githubusercontent.com/u/9637642?v=3&s=100',
-    githubLink:
-      'https://github.com/babel/babel/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22',
+    githubLink: 'https://github.com/babel/babel/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22',
     description: 'Babel is a compiler for writing next generation JavaScript.',
     tags: ['es2015', 'JavaScript', 'Compiler'],
   }, {
     name: 'Pouchdb',
     imageSrc: 'https://avatars3.githubusercontent.com/u/3406112?v=3&s=100',
-    githubLink:
-      'https://github.com/pouchdb/pouchdb/issues?q=is%3Aopen+is%3Aissue+label%3A%22first+timers+only%22',
+    githubLink: 'https://github.com/pouchdb/pouchdb/issues?q=is%3Aopen+is%3Aissue+label%3A%22first+timers+only%22',
     description: 'A pocket-sized database.',
     tags: ['JavaScript','Node.js','CouchDB'],
   }, {
     name: 'Neovim',
     imageSrc: 'https://avatars0.githubusercontent.com/u/6471485?v=3&s=100',
-    githubLink:
-      'https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow',
+    githubLink: 'https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow',
     description: 'Vim-fork focused on extensibility and usability.',
     tags: ['Editor', 'API', 'Cross-Platform', 'Vim'],
   }, {
     name: 'Hoodie',
     imageSrc: 'https://hoodiehq.github.io/hoodie-css/src/content_img/animals/low-profile-dog-1.png',
-    githubLink:
-      'https://github.com/hoodiehq/hoodie/issues',
+    githubLink: 'https://github.com/hoodiehq/hoodie/issues',
     description: 'The Offline First JavaScript Backend.',
     tags: ['JavaScript', 'Node.js', 'Web development','User-Friendly'],
   }, {
     name: 'freeCodeCamp',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
-    githubLink:
-      'https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only',
+    githubLink: 'https://github.com/freeCodeCamp/freeCodeCamp/labels/first%20timers%20welcome',
     description: 'Open Source codebase and curriculum.',
     tags: ['Learn', 'Education', 'Non-Profit', 'Certification'],
   }, {
     name: 'Node.js',
     imageSrc: 'https://avatars1.githubusercontent.com/u/9950313?v=3&s=100',
-    githubLink:
-      'https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
+    githubLink: 'https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
     description: 'Node.js JavaScript runtime.',
     tags: ['JavaScript', 'HTML', 'CSS'],
   }, {
     name: 'Semantic-UI-React',
-    imageSrc:
-      'https://avatars1.githubusercontent.com/u/5796209?s=200&v=4',
-    githubLink:
-      'https://github.com/Semantic-Org/Semantic-UI-React/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/5796209?s=200&v=4',
+    githubLink: 'https://github.com/Semantic-Org/Semantic-UI-React/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
     description: 'The official Semantic-UI-React integration.',
     tags: ['React', 'Library', 'Component', 'Front-End'],
   }, {
@@ -204,35 +186,35 @@ const projectList = [
   }, {
     name: 'Mail For Good',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
-    githubLink: 'https://github.com/freeCodeCamp/mail-for-good/issues',
+    githubLink: 'https://github.com/freeCodeCamp/mail-for-good/labels/First%20Timers%20Only',
     description: 'An open source email campaign management tool.',
     tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
   },
   {
     name: 'Visual Studio Code',
     imageSrc: 'https://i.warosu.org/data/g/img/0514/15/1447907357729.png',
-    githubLink: 'https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue',
+    githubLink: 'https://github.com/Microsoft/vscode/labels/good%20first%20issue',
     description: 'VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.',
     tags: ['TypeScript', 'Text-Editor', 'Electron'],
   },
   {
     name: 'Scrapy',
     imageSrc: 'https://blog-media.scrapinghub.com/production/wp-content/uploads/2016/10/06054611/Scrapy-300x300.png',
-    githubLink: 'https://github.com/scrapy/scrapy/issues',
+    githubLink: 'https://github.com/scrapy/scrapy/labels/good%20first%20issue',
     description: 'Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ',
     tags: ['Python', 'Module', 'Data-Mining', 'Automated-Testing'],
   },
   {
     name: 'Angular',
     imageSrc: 'https://avatars0.githubusercontent.com/u/139426?s=200&v=4',
-    githubLink: 'https://github.com/angular/angular/issues?q=is%3Aopen+is%3Aissue+label%3A%22effort1%3A+easy+%28hours%29%22',
+    githubLink: 'https://github.com/angular/angular/labels/effort1%3A%20hours',
     description: 'Angular is a development platform for building mobile and desktop Web Applications using TypeScript or JavaScript and other languages.',
     tags: ['Angular', 'TypeScript', 'JavaScript'],
   },
   {
     name: 'React Styleguidist',
     imageSrc: 'https://d3vv6lp55qjaqc.cloudfront.net/items/061f0A2n1B0H3p0T1p1f/react-styleguidist-logo.png',
-    githubLink: 'https://github.com/styleguidist/react-styleguidist/issues',
+    githubLink: 'https://github.com/styleguidist/react-styleguidist/labels/good%20first%20issue',
     description: 'React Styleguidist is a component development environment with hot reloaded dev server and a living style guide that you can share with your team. It lists component propTypes and shows live, editable usage examples based on Markdown files.',
     tags: ['JavaScript', 'UI'],
   },
@@ -253,7 +235,7 @@ const projectList = [
   {
     name: 'Scala Exercises',
     imageSrc: 'https://avatars1.githubusercontent.com/u/17570897?s=200&v=4',
-    githubLink: 'https://github.com/scala-exercises/scala-exercises/issues',
+    githubLink: 'https://github.com/scala-exercises/scala-exercises/labels/low%20hanging%20fruit',
     description: 'Scala Exercises is an Open Source project for learning different technologies based in the Scala Programming Language.',
     tags: ['Scala', 'Exercises', 'Functional Programming'],
   },
@@ -267,21 +249,21 @@ const projectList = [
   {
     name: 'TEAMMATES',
     imageSrc: 'https://raw.githubusercontent.com/TEAMMATES/teammates/master/src/main/webapp/images/teammateslogo-black.png',
-    githubLink: 'https://github.com/TEAMMATES/teammates/issues',
+    githubLink: 'https://github.com/TEAMMATES/teammates/labels/d.FirstTimers',
     description: 'An online feedback management system for students and teachers',
     tags: ['Java', 'Javascript', 'HTML', 'Web App'],
   },
   {
     name: 'electron',
     imageSrc: 'https://avatars3.githubusercontent.com/u/13409222?s=200&v=4',
-    githubLink: 'https://github.com/electron/electron/issues',
+    githubLink: 'https://github.com/electron/electron/labels/good%20first%20issue',
     description: 'Build cross platform desktop apps with JavaScript, HTML, and CSS!',
     tags: ['JavaScript', 'Electron', 'Css', 'Html', 'Chrome', 'Nodejs', 'V8']
   },
   {
     name: 'Oppia',
     imageSrc: 'https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png',
-    githubLink: 'https://github.com/oppia/oppia/issues',
+    githubLink: 'https://github.com/oppia/oppia/labels/good%20first%20issue',
     description: 'Tool for collaboratively building interactive lessons.',
     tags: ['Python', 'Javascript', 'Css', 'Html', 'Shell'],
   },
@@ -302,21 +284,21 @@ const projectList = [
   {
     name:'DuckDuckGo',
     imageSrc:'https://avatars3.githubusercontent.com/u/342708?s=200&v=4',
-    githubLink: 'https://github.com/duckduckgo/duckduckgo-privacy-extension/issues',
+    githubLink: 'https://github.com/duckduckgo/duckduckgo-privacy-extension/labels/good%20first%20issue',
     description:'The search engine that doesn\'t track you!',
     tags: ['Javascript','Perl','Python','Privacy']
   },
   {
     name:'Kinto',
     imageSrc:'https://avatars2.githubusercontent.com/u/13413813?s=200&v=4',
-    githubLink: 'https://github.com/Kinto/kinto/issues',
+    githubLink: 'https://github.com/Kinto/kinto/labels/easy-pick',
     description:'A generic JSON document store with sharing and synchronisation capabilities.',
     tags: ['Python', 'API', 'HTTP', 'Web', 'Decentralisation'],
   },
   {  
     name:'atom',
     imageSrc:'https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png',
-    githubLink: 'https://github.com/atom/atom/issues',
+    githubLink: 'https://github.com/atom/atom/labels/beginner',
     description:'A customizable text editor built on electron.',
     tags: ['Atom', 'Editor', 'Javascript', 'Electron', 'Windows', 'Linux', 'Macos']
   },
@@ -373,7 +355,7 @@ const projectList = [
   {
     name:'Movie-Stream',
     imageSrc:'https://image.ibb.co/faTroc/movie_stream.png',
-    githubLink:'https://github.com/hrishi7/streamIt',
+    githubLink:'https://github.com/hrishi7/streamIt/labels/good%20first%20issue',
     description:'Provides Online free movie streaming service with adfree. flexible for mobile also',
     tags:['Web development','HTML','Javascript','API','CSS','Bootstrap']
   },
@@ -396,7 +378,7 @@ const projectList = [
   {
     name: 'probot',
     imageSrc: 'https://avatars2.githubusercontent.com/u/26350515?s=400&v=4',
-    githubLink: 'https://github.com/probot/probot',
+    githubLink: 'https://github.com/probot/probot/labels/good%20first%20issue%20🎈',
     description: 'Probot is a framework for building Github Apps in Node.js.',
     tags: ['Node.js','Github','Javascript']
   },
@@ -417,68 +399,63 @@ const projectList = [
   {
     name: 'Jupyter Hub',
     imageSrc: 'https://avatars2.githubusercontent.com/u/17927519?s=400&v=4',
-    githubLink: 'https://github.com/jupyterhub/jupyterhub',
+    githubLink: 'https://github.com/jupyterhub/jupyterhub/labels/good%20first%20issue',
     description: 'A multi-user Hub, spawns, manages, and proxies multiple instances of the single-user Jupyter notebook server.',
     tags: ['Proxy Server','Python','REST API']
   },
   {
     name: 'Allenai',
     imageSrc: 'https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png',
-    githubLink: 'https://github.com/allenai/allennlp',
+    githubLink: 'https://github.com/allenai/allennlp/labels/Good%20First%20Issue',
     description: 'conducts high-impact research and engineering to tackle key problems in artificial intelligence.',
     tags: ['Artificial Intelligence','Python','NLP']
   },
   {
     name: 'Qute Browser',
     imageSrc: 'https://avatars1.githubusercontent.com/u/21955151?s=200&v=4',
-    githubLink:
-      'https://github.com/qutebrowser/qutebrowser',
+    githubLink: 'https://github.com/qutebrowser/qutebrowser/labels/easy',
     description: 'A keyboard-driven, vim-like browser based on PyQt5',
     tags: ['Python','Qt','pyqt5','Vim','Browser','qtWebEngine','web']
   },
   {
     name: 'Ghost',
     imageSrc: 'https://avatars1.githubusercontent.com/u/2178663?s=200&v=4',
-    githubLink:
-      'https://github.com/TryGhost/Ghost/issues',
+    githubLink: 'https://github.com/TryGhost/Ghost/labels/good%20first%20issue',
     description: 'Just a blogging platform',
     tags: ['nodejs','javascript','ember','cms','blogging']
   },
   {
     name: 'Hyper',
     imageSrc: 'https://hyper.is/static/hyper.png',
-    githubLink:
-      'https://github.com/zeit/hyper/issues',
+    githubLink: 'https://github.com/zeit/hyper/issues',
     description: 'A terminal built on web technologies',
     tags: ['html','javascript','css','react','terminal']
   },
   {
     name: 'Kap',
     imageSrc: 'https://avatars3.githubusercontent.com/u/16321113?s=200&v=4',
-    githubLink:
-      'https://github.com/wulkano/kap/labels/good%20first%20issue',
+    githubLink: 'https://github.com/wulkano/kap/labels/good%20first%20issue',
     description: 'An open-source screen recorder built with web technology',
     tags: ['electron','javascript','mac','oss','screencast']
   },
   {
     name: 'Ember.js',
     imageSrc: 'https://avatars0.githubusercontent.com/u/1253363?s=200&v=4',
-    githubLink:
-      'https://github.com/emberjs/ember.js/labels/Good%20for%20New%20Contributors',
+    githubLink: 'https://github.com/emberjs/ember.js/labels/Good%20for%20New%20Contributors',
     description: 'A JavaScript framework for creating ambitious web applications',
     tags: ['ember','javascript','javascript-framework']
   },
   {
     name: 'Opensourcedesign',
     imageSrc: 'https://avatars3.githubusercontent.com/u/4183553?s=200&v=4',
-    githubLink: 'https://github.com/opensourcedesign/opensourcedesign.github.io',
+    githubLink: 'https://github.com/opensourcedesign/opensourcedesign.github.io/labels/starter%20issue',
     description: 'Source code of the website opensourcedesign.net',
     tags: ['design', 'opensourcedesign', 'open-source', 'open-source-design']
   },
   {
     name: 'ifme',
     imageSrc: 'https://raw.githubusercontent.com/ifmeorg/ifme/master/public/logo_512.png',
-    githubLink: 'https://github.com/ifmeorg/ifme/',
+    githubLink: 'https://github.com/ifmeorg/ifme/labels/beginner%20friendly',
     description: 'A community for mental health experiences',
     tags: ['ruby-on-rails', 'javascript', 'react']
   },
@@ -495,6 +472,13 @@ const projectList = [
     githubLink: 'https://github.com/ollelauribostrom/rebus',
     description: 'Helping new developers take their first steps as open source contributors by developing a simple rebus game together',
     tags: ['javascript', 'html', 'css', 'tutorial']
+  },
+  {
+    name: 'PRoot',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
+    githubLink: 'https://github.com/proot-me/PRoot',
+    description: 'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
+    tags: ['chroot-environment','userland-exec','rootfs','chroot','c']
   }
 ];
 export default projectList;
