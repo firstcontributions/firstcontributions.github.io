@@ -479,6 +479,13 @@ const projectList = [
     githubLink: 'https://github.com/proot-me/PRoot',
     description: 'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
     tags: ['chroot-environment','userland-exec','rootfs','chroot','c']
+  },
+  {
+    name: 'Techqueria.org',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/17460806?s=200&v=4',
+    githubLink: 'https://github.com/techqueria',
+    description: 'We\'re a community of Latinx professionals in the tech industry.',
+    tags: ['latinx', 'latinx in tech', 'hugo', 'netlify', 'jamstack']
   }
 ];
 export default projectList;
