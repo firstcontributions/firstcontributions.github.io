@@ -486,6 +486,13 @@ const projectList = [
     githubLink: 'https://github.com/techqueria',
     description: 'We\'re a community of Latinx professionals in the tech industry.',
     tags: ['latinx', 'latinx in tech', 'hugo', 'netlify', 'jamstack']
+  },
+  {
+    name: 'Nextcloud',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/19211038?s=200&v=4',
+    githubLink: 'https://github.com/nextcloud/server/labels/good%20first%20issue',
+    description: 'Open source collaboration platform for files, calendar, contacts, chat & calls, mail and more.',
+    tags: ['javascript','php','html','css','android','c++','qt','design','ios','vuejs','web']
   }
 ];
 export default projectList;
