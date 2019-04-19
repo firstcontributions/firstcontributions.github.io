@@ -493,6 +493,13 @@ const projectList = [
     githubLink: 'https://github.com/nextcloud/server/labels/good%20first%20issue',
     description: 'Open source collaboration platform for files, calendar, contacts, chat & calls, mail and more.',
     tags: ['javascript','php','html','css','android','c++','qt','design','ios','vuejs','web']
+  },
+  {
+    name: 'Open Source Diversity',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/31018274?s=200&v=4',
+    githubLink: 'https://github.com/opensourcediversity/opensourcediversity.org/labels/good%20first%20issue',
+    description: 'For more diversity & inclusion in free & open source software communities 😊',
+    tags: ['javascript','html','css','diversity','inclusion','🎉','web','community']
   }
 ];
 export default projectList;
