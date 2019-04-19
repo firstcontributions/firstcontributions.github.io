@@ -11,7 +11,6 @@ const SocialShare = () => (
         <div id='social-shares-container'>
             <TwitterCard/>
             <FacebookCard/>
-            <GoogleCard/>
             <LinkedinCard/>
 
         </div>
