@@ -15,7 +15,7 @@ export default class CardsContainer extends React.Component {
 
     this.state = {
       value: [],
-      filterList: projectList
+      filterList: this.sortArrayRandom(projectList)
     }
 
     this.setTags = new Set();
@@ -52,7 +52,7 @@ export default class CardsContainer extends React.Component {
 
     // If no filters
     if ((!value || value.length === 0) && (!this.inputValue || this.inputValue.length === 0)) {
-      return this.setState({ filterList: projectList });
+      return this.setState({ filterList: this.sortArrayRandom(projectList) });
     }
 
     // If tags filter applied
@@ -104,6 +104,13 @@ export default class CardsContainer extends React.Component {
     this.inputValue = this.inputValue.toLowerCase();
 
     this.handleFilterListUpdate(this.value)
+  }
+
+  sortArrayRandom(array){
+    if(Array.isArray(array)){
+      return array.sort(()=>0.5-Math.random())
+    }
+    return array
   }
 
   render() {
