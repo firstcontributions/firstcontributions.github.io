@@ -1,7 +1,6 @@
 import React from 'react';
 import TwitterCard from './Twitter';
 import FacebookCard from './Facebook';
-import GoogleCard from './Google';
 import LinkedinCard from './Linkedin';
 import './SocialShare.css';
 
@@ -12,7 +11,6 @@ const SocialShare = () => (
             <TwitterCard/>
             <FacebookCard/>
             <LinkedinCard/>
-
         </div>
     </section>
 );
