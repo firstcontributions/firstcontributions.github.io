@@ -51,6 +51,7 @@
 .Card-Real-Link:link{
     text-decoration: none;
     color:black;
+	margin: 0 auto;
 }
 .Card-Real-Link:active {
     text-decoration: none;

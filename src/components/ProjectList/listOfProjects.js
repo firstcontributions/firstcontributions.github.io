@@ -74,7 +74,7 @@ const projectList = [
     description: 'A safe, concurrent, practical language!',
     tags: ['Rust', 'Compiler', 'Mentored', 'Parser'],
   }, {
-    name: 'Vuejs',
+    name: 'Vue.js',
     imageSrc: 'https://avatars1.githubusercontent.com/u/6128107?v=3&s=100',
     githubLink: 'https://github.com/vuejs/vue/labels/good%20first%20issue',
     description: 'A progressive, incrementally-adoptable JavaScript framework for building UI on the web.',
@@ -96,7 +96,7 @@ const projectList = [
     imageSrc: 'https://avatars0.githubusercontent.com/u/11524380?v=3&s=100',
     githubLink: 'https://github.com/powershell/powershell/issues?q=is%3Aopen+is%3Aissue+label%3AUp-for-Grabs',
     description: 'PowerShell for every system.',
-    tags: ['Shell', 'Linux', 'MacOS', 'Windows', '*BSD'],
+    tags: ['Shell', 'Linux', 'MacOS', 'Windows', 'BSD'],
   }, {
     name: 'Coala',
     imageSrc: 'https://avatars2.githubusercontent.com/u/10620750?v=3&s=100',
@@ -251,28 +251,28 @@ const projectList = [
     imageSrc: 'https://raw.githubusercontent.com/TEAMMATES/teammates/master/src/main/webapp/images/teammateslogo-black.png',
     githubLink: 'https://github.com/TEAMMATES/teammates/labels/d.FirstTimers',
     description: 'An online feedback management system for students and teachers',
-    tags: ['Java', 'Javascript', 'HTML', 'Web App'],
+    tags: ['Java', 'JavaScript', 'HTML', 'Web'],
   },
   {
-    name: 'electron',
+    name: 'Electron',
     imageSrc: 'https://avatars3.githubusercontent.com/u/13409222?s=200&v=4',
     githubLink: 'https://github.com/electron/electron/labels/good%20first%20issue',
     description: 'Build cross platform desktop apps with JavaScript, HTML, and CSS!',
-    tags: ['JavaScript', 'Electron', 'Css', 'Html', 'Chrome', 'Nodejs', 'V8']
+    tags: ['JavaScript', 'Electron', 'CSS', 'Html', 'Chrome', 'Node.js', 'V8']
   },
   {
     name: 'Oppia',
     imageSrc: 'https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png',
     githubLink: 'https://github.com/oppia/oppia/labels/good%20first%20issue',
     description: 'Tool for collaboratively building interactive lessons.',
-    tags: ['Python', 'Javascript', 'Css', 'Html', 'Shell'],
+    tags: ['Python', 'JavaScript', 'CSS', 'HTML', 'Shell'],
   },
   {
     name: 'Public Lab',
     imageSrc: 'https://publiclab.org/system/images/photos/000/023/444/large/Screenshot_20180204-101546_2.png',
     githubLink: 'https://publiclab.github.io/community-toolbox/#r=all',
     description: 'PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈',
-    tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'Non-Profit', 'Web App', 'First-Timers', 'Environment', 'Science'],
+    tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'Non-Profit', 'Web', 'First-Timers', 'Environment', 'Science'],
   },
   {
     name:'MissionControl',
@@ -296,11 +296,11 @@ const projectList = [
     tags: ['Python', 'API', 'HTTP', 'Web', 'Decentralisation'],
   },
   {  
-    name:'atom',
+    name:'Atom',
     imageSrc:'https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png',
     githubLink: 'https://github.com/atom/atom/labels/beginner',
     description:'A customizable text editor built on electron.',
-    tags: ['Atom', 'Editor', 'Javascript', 'Electron', 'Windows', 'Linux', 'Macos']
+    tags: ['Atom', 'Editor', 'Javascript', 'Electron', 'Windows', 'Linux', 'MacOS']
   },
   {
     name: 'OpenGenus',
@@ -310,21 +310,21 @@ const projectList = [
     tags: ['C++','Python','Java','Good First Issue']
   },
   {
-    name:'css-protips',
+    name:'CSS-Protips',
     imageSrc:'https://camo.githubusercontent.com/9b290de6835cf807aaa81bb6a7cfdf3835636f8c/68747470733a2f2f7261776769742e636f6d2f416c6c5468696e6773536d697474792f6373732d70726f746970732f6d61737465722f6d656469612f6c6f676f2e737667',
     githubLink:'https://github.com/AllThingsSmitty/css-protips/issues',
     description:'Simple but useful tips to improve your CSS skills.',
-    tags:['CSS','tips','guide','simple','useful']
+    tags:['CSS','Tips','Guide','Simple','Useful']
   },
   {
     name:'Systers',
     imageSrc:'https://avatars3.githubusercontent.com/u/6520415?s=200&v=4',
     githubLink:'https://github.com/systers',
     description:'Helping women find their potential in code.',
-    tags:['Python','Java','Swift','Javascript','HTML'],
+    tags:['Python','Java','Swift','JavaScript','HTML'],
   },
   {
-    name:'Centos',
+    name:'CentOS',
     imageSrc:'https://avatars2.githubusercontent.com/u/79192?s=200&v=4',
     githubLink:'https://github.com/CentOS',
     description:'A community-driven free software effort focused on delivering a robust open source ecosystem.',
@@ -335,10 +335,10 @@ const projectList = [
     imageSrc:'https://avatars0.githubusercontent.com/u/6078720?s=200&v=4',
     githubLink:'https://github.com/npm',
     description:'Npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.',
-    tags:['Javascript','Shell','CSS','HTML','Rust'],
+    tags:['JavaScript','Shell','CSS','HTML','Rust'],
   },
   {
-    name:'openEBS',
+    name:'OpenEBS',
     imageSrc:'https://avatars1.githubusercontent.com/u/20769039?s=200&v=4',
     githubLink:'https://github.com/openebs/',
     description:'OpenEBS is an open source storage platform that provides persistent and containerized  block storage for DevOps and container environments.',
@@ -353,14 +353,14 @@ const projectList = [
   },
 
   {
-    name:'Movie-Stream',
+    name:'StreamIt',
     imageSrc:'https://image.ibb.co/faTroc/movie_stream.png',
     githubLink:'https://github.com/hrishi7/streamIt/labels/good%20first%20issue',
     description:'Provides Online free movie streaming service with adfree. flexible for mobile also',
     tags:['Web development','HTML','Javascript','API','CSS','Bootstrap']
   },
   {
-    name: 'ethereum',
+    name: 'Ethereum',
     imageSrc: 'https://avatars1.githubusercontent.com/u/6250754?s=200&v=4',
     githubLink: 'https://github.com/ethereum/',
     description: 'Ethereum is a decentralized platform that runs smart contracts applications.',
@@ -376,11 +376,11 @@ const projectList = [
     ]
   },
   {
-    name: 'probot',
+    name: 'Probot',
     imageSrc: 'https://avatars2.githubusercontent.com/u/26350515?s=400&v=4',
     githubLink: 'https://github.com/probot/probot/labels/good%20first%20issue%20🎈',
-    description: 'Probot is a framework for building Github Apps in Node.js.',
-    tags: ['Node.js','Github','Javascript']
+    description: 'Probot is a framework for building GitHub Apps in Node.js.',
+    tags: ['Node.js','GitHub','JavaScript']
   },
   {
     name: 'Open Data Kit',
@@ -404,7 +404,7 @@ const projectList = [
     tags: ['Proxy Server','Python','REST API']
   },
   {
-    name: 'Allenai',
+    name: 'AllenAI',
     imageSrc: 'https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png',
     githubLink: 'https://github.com/allenai/allennlp/labels/Good%20First%20Issue',
     description: 'conducts high-impact research and engineering to tackle key problems in artificial intelligence.',
@@ -415,91 +415,92 @@ const projectList = [
     imageSrc: 'https://avatars1.githubusercontent.com/u/21955151?s=200&v=4',
     githubLink: 'https://github.com/qutebrowser/qutebrowser/labels/easy',
     description: 'A keyboard-driven, vim-like browser based on PyQt5',
-    tags: ['Python','Qt','pyqt5','Vim','Browser','qtWebEngine','web']
+    tags: ['Python','Qt','PyQt5','Vim','Browser','qtWebEngine','Web']
   },
   {
     name: 'Ghost',
     imageSrc: 'https://avatars1.githubusercontent.com/u/2178663?s=200&v=4',
     githubLink: 'https://github.com/TryGhost/Ghost/labels/good%20first%20issue',
     description: 'Just a blogging platform',
-    tags: ['nodejs','javascript','ember','cms','blogging']
+    tags: ['Node.js','JavaScript','Ember','CMS','Blogging']
+		  
   },
   {
     name: 'Hyper',
     imageSrc: 'https://hyper.is/static/hyper.png',
     githubLink: 'https://github.com/zeit/hyper/issues',
     description: 'A terminal built on web technologies',
-    tags: ['html','javascript','css','react','terminal']
+    tags: ['HTML','JavaScript','CSS','React','Terminal']
   },
   {
     name: 'Kap',
     imageSrc: 'https://avatars3.githubusercontent.com/u/16321113?s=200&v=4',
-    githubLink: 'https://github.com/wulkano/kap/labels/good%20first%20issue',
+    githubLink: 'https://github.com/wulkano/kap/',
     description: 'An open-source screen recorder built with web technology',
-    tags: ['electron','javascript','mac','oss','screencast']
+    tags: ['Electron','JavaScript','macOS','OSS','Screencast']
   },
   {
     name: 'Ember.js',
     imageSrc: 'https://avatars0.githubusercontent.com/u/1253363?s=200&v=4',
     githubLink: 'https://github.com/emberjs/ember.js/labels/Good%20for%20New%20Contributors',
     description: 'A JavaScript framework for creating ambitious web applications',
-    tags: ['ember','javascript','javascript-framework']
+    tags: ['Ember','JavaScript', 'Framework']
   },
   {
-    name: 'Opensourcedesign',
+    name: 'OpenSourceDesign',
     imageSrc: 'https://avatars3.githubusercontent.com/u/4183553?s=200&v=4',
     githubLink: 'https://github.com/opensourcedesign/opensourcedesign.github.io/labels/starter%20issue',
     description: 'Source code of the website opensourcedesign.net',
-    tags: ['design', 'opensourcedesign', 'open-source', 'open-source-design']
+    tags: ['Design', 'Open Source Design', 'Open-source']
   },
   {
     name: 'ifme',
     imageSrc: 'https://raw.githubusercontent.com/ifmeorg/ifme/master/public/logo_512.png',
     githubLink: 'https://github.com/ifmeorg/ifme/labels/beginner%20friendly',
     description: 'A community for mental health experiences',
-    tags: ['ruby-on-rails', 'javascript', 'react']
+    tags: ['Ruby on Rails', 'JavaScript', 'React']
   },
   {
     name: 'Hacktoberfest',
     imageSrc: 'https://hacktoberfest.digitalocean.com/assets/logo-hacktoberfest-658b5aa2bd34e782d29c40bf6afbdff00f20fe1328efa6da17743878ba8db66f.png',
     githubLink: 'https://github.com/ows-ali/Hacktoberfest/',
     description: 'Opportunity to start open source and PR experience for beginners',
-    tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
+    tags: ['Hacktoberfest','HackerRank','Low-hanging Fruit']
   },
   {
     name: 'Rebus',
     imageSrc: 'https://raw.githubusercontent.com/ollelauribostrom/rebus/master/logo.png',
     githubLink: 'https://github.com/ollelauribostrom/rebus',
     description: 'Helping new developers take their first steps as open source contributors by developing a simple rebus game together',
-    tags: ['javascript', 'html', 'css', 'tutorial']
+    tags: ['JavaScript', 'HTML', 'CSS', 'Tutorials']
   },
   {
     name: 'PRoot',
     imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
     githubLink: 'https://github.com/proot-me/PRoot',
     description: 'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
-    tags: ['chroot-environment','userland-exec','rootfs','chroot','c']
+    tags: ['chroot-environment','userland-exec','rootfs','chroot','C']
   },
   {
     name: 'Techqueria.org',
     imageSrc: 'https://avatars1.githubusercontent.com/u/17460806?s=200&v=4',
     githubLink: 'https://github.com/techqueria',
     description: 'We\'re a community of Latinx professionals in the tech industry.',
-    tags: ['latinx', 'latinx in tech', 'hugo', 'netlify', 'jamstack']
+    tags: ['Latinx', 'Latinx in Tech', 'Hugo', 'Netlify', 'JAMstack']
   },
   {
     name: 'Nextcloud',
     imageSrc: 'https://avatars0.githubusercontent.com/u/19211038?s=200&v=4',
     githubLink: 'https://github.com/nextcloud/server/labels/good%20first%20issue',
     description: 'Open source collaboration platform for files, calendar, contacts, chat & calls, mail and more.',
-    tags: ['javascript','php','html','css','android','c++','qt','design','ios','vuejs','web']
+    tags: ['JavaScript','PHP','HTML','CSS','Android','C++','Qt','Design','iOS','Vue.js','Web']
   },
   {
     name: 'Open Source Diversity',
     imageSrc: 'https://avatars1.githubusercontent.com/u/31018274?s=200&v=4',
     githubLink: 'https://github.com/opensourcediversity/opensourcediversity.org/labels/good%20first%20issue',
     description: 'For more diversity & inclusion in free & open source software communities 😊',
-    tags: ['javascript','html','css','diversity','inclusion','🎉','web','community']
+    tags: ['JavaScript','HTML','CSS','Diversity','Inclusion','🎉','Web','Community']
   }
 ];
 export default projectList;
