@@ -3,7 +3,7 @@
 exports[`renders a project card 1`] = `
 <a
   className="LinkButton"
-  href="https://github.com/Roshanjossey/first-contributions/blob/master/README.md"
+  href="https://github.com/firstcontributions/first-contributions/blob/master/README.md"
 >
   <span>
      Get started 

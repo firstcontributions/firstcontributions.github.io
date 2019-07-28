@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a project card 1`] = `
+<a
+  className="icon-card linkedin"
+  href="https://www.linkedin.com/shareArticle?mini=true&url=https://goo.gl/66Axwe&title=First%20Contributions%20&summary=A%20project%20to%20help%20beginners%20get%20started%20with%20contributing%20to%20open%20source&source=https://roshanjossey.github.io"
+  target="_blank"
+>
+  <svg
+    height="50px"
+    style={
+      Object {
+        "display": "block",
+        "margin": "0 auto",
+      }
+    }
+    viewBox="0 0 24 28"
+    width="50px"
+  >
+    <path
+      d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"
+      style={
+        Object {
+          "fill": "rgb(255, 255, 255)",
+        }
+      }
+    />
+  </svg>
+</a>
+`;

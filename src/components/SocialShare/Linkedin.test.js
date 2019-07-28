@@ -4,7 +4,7 @@ import LinkedinLink from './Linkedin';
 
 it('renders a project card', () => {
   const tree = renderer.create(
-    <Linkedin/>
+    <LinkedinLink/>
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });

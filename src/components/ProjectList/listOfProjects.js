@@ -500,6 +500,13 @@ const projectList = [
     githubLink: 'https://github.com/opensourcediversity/opensourcediversity.org/labels/good%20first%20issue',
     description: 'For more diversity & inclusion in free & open source software communities 😊',
     tags: ['javascript','html','css','diversity','inclusion','🎉','web','community']
+  },
+  {
+    name: 'Bitcoin',
+    imageSrc: 'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79',
+    githubLink: 'https://github.com/bitcoin/bitcoin',
+    description: 'Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.',
+    tags: ['C++', 'Python', 'Cryptocurrency','Blockchain', 'Peer-to-peer']
   }
 ];
 export default projectList;
