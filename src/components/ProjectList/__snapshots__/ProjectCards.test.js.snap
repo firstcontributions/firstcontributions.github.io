@@ -26,6 +26,9 @@ exports[`renders a project card 1`] = `
       className="Card-Body"
     >
       <div
+        className="Card-Tag"
+      />
+      <div
         className="Card-Description"
       >
         <p>

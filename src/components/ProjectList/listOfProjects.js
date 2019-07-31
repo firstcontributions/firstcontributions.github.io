@@ -502,6 +502,13 @@ const projectList = [
     tags: ['javascript','html','css','diversity','inclusion','🎉','web','community']
   },
   {
+    name: 'Bitcoin',
+    imageSrc: 'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79',
+    githubLink: 'https://github.com/bitcoin/bitcoin',
+    description: 'Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.',
+    tags: ['C++', 'Python', 'Cryptocurrency','Blockchain', 'Peer-to-peer']
+  },
+  {
     name: 'Tensorflow',
     imageSrc: 'https://camo.githubusercontent.com/0905c7d634421f8aa4ab3ddf19a582572df568e1/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67',
     githubLink: 'https://github.com/tensorflow/tensorflow',
