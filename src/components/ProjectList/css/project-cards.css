@@ -42,15 +42,16 @@
 }
 .Card-Real-Link:hover{
     text-decoration: none;
-    color:black;
+    color: black;
 }
 .Card-Real-Link:visited{
     text-decoration: none;
-    color:black;
+    color: black;
 }
 .Card-Real-Link:link{
     text-decoration: none;
     color:black;
+    margin: 0 auto;
 }
 .Card-Real-Link:active {
     text-decoration: none;
@@ -58,12 +59,12 @@
 }
 .Card-Description{
     position: relative;
-    padding:5%;
+    padding: 5%;
 }
 .Card-Link{
     position: relative;
-    padding:10px;
-    color:#0F3CEF;
+    padding: 10px;
+    color: #0F3CEF;
 }
 .Card-Title{
     margin-top: 6%;
