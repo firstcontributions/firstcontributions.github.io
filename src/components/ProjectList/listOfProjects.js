@@ -507,6 +507,13 @@ const projectList = [
     githubLink: 'https://github.com/bitcoin/bitcoin',
     description: 'Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.',
     tags: ['C++', 'Python', 'Cryptocurrency','Blockchain', 'Peer-to-peer']
+  },
+  {
+    name: 'Tensorflow',
+    imageSrc: 'https://camo.githubusercontent.com/0905c7d634421f8aa4ab3ddf19a582572df568e1/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67',
+    githubLink: 'https://github.com/tensorflow/tensorflow',
+    description: 'A Machine Learning library in Python for implementing Machine Learning and Deep Learning models',
+    tags: ['python', 'c++', 'machine learning', 'math', 'deep learning', 'neural network']
   }
 ];
 export default projectList;
