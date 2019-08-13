@@ -517,7 +517,7 @@ const projectList = [
   },
   {
     name: 'Next',
-    imageSrc: 'https://camo.githubusercontent.com/1f8dec51cb01842d7bb7a7cd50ade17c75c5e3bd/68747470733a2f2f6173736574732e7a6569742e636f2f696d6167652f75706c6f61642f76313533383336313039312f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6a732e706e67',
+    imageSrc: 'https://cloud.githubusercontent.com/assets/13041/19686250/971bf7f8-9ac0-11e6-975c-188defd82df1.png',
     githubLink: 'https://github.com/zeit/next.js/',
     description: 'Next.js is a framework that most notably allows you to write server-rendered React apps easily',
     tags: ['JavaScript', 'server-rendering', 'node', 'nextjs', 'react']
