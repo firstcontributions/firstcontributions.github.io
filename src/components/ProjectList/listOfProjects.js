@@ -514,6 +514,13 @@ const projectList = [
     githubLink: 'https://github.com/tensorflow/tensorflow',
     description: 'A Machine Learning library in Python for implementing Machine Learning and Deep Learning models',
     tags: ['python', 'c++', 'machine learning', 'math', 'deep learning', 'neural network']
+  },
+  {
+    name: 'Next',
+    imageSrc: 'https://cloud.githubusercontent.com/assets/13041/19686250/971bf7f8-9ac0-11e6-975c-188defd82df1.png',
+    githubLink: 'https://github.com/zeit/next.js/',
+    description: 'Next.js is a framework that most notably allows you to write server-rendered React apps easily',
+    tags: ['JavaScript', 'server-rendering', 'node', 'nextjs', 'react']
   }
 ];
 export default projectList;
