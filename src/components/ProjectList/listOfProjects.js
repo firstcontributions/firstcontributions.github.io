@@ -521,6 +521,13 @@ const projectList = [
     githubLink: 'https://github.com/zeit/next.js/',
     description: 'Next.js is a framework that most notably allows you to write server-rendered React apps easily',
     tags: ['JavaScript', 'server-rendering', 'node', 'nextjs', 'react']
+  },
+  {
+    name: 'Roc',
+    imageSrc: 'https://roc-project.github.io/icon.png',
+    githubLink: 'https://github.com/roc-project/roc/labels/help%20wanted',
+    description: 'A toolkit for real-time audio streaming over the network',
+    tags: ['C++', 'Audio', 'Streaming', 'Networking', 'Cross-Platform', 'Linux', 'MacOS', 'Windows']
   }
 ];
 export default projectList;
