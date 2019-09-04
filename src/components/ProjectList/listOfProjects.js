@@ -100,7 +100,7 @@ const projectList = [
   }, {
     name: 'Coala',
     imageSrc: 'https://avatars2.githubusercontent.com/u/10620750?v=3&s=100',
-    githubLink: 'https://coala.io/new',
+    githubLink: 'https://coala.io/newcomer',
     description: 'Unified command-line interface for linting and fixing all your code.',
     tags: ['UX', 'Linter', 'Python'],
   }, {
