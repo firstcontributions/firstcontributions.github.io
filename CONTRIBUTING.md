@@ -19,7 +19,7 @@ For example:
 git clone https://github.com/this-is-you/firstcontributions.github.io.git
 ```
 where `this-is-you` is your GitHub username.
-Here you're copying the contents of the first-contributions repository in GitHub to your computer.
+Here you're copying the contents of your firstcontributions.github.io repository on GitHub to your computer.
 
 ## Running The Project
 Change to the repository directory on your computer (if you are not already there):
