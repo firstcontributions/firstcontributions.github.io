@@ -192,7 +192,7 @@ const projectList = [
   },
   {
     name: 'Visual Studio Code',
-    imageSrc: 'https://i.warosu.org/data/g/img/0514/15/1447907357729.png',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/480px-Visual_Studio_Code_1.35_icon.svg.png',
     githubLink: 'https://github.com/Microsoft/vscode/contribute',
     description: 'VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.',
     tags: ['TypeScript', 'Text-Editor', 'Electron'],
@@ -248,7 +248,7 @@ const projectList = [
   },
   {
     name: 'TEAMMATES',
-    imageSrc: 'https://raw.githubusercontent.com/TEAMMATES/teammates/master/src/main/webapp/images/teammateslogo-black.png',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/7374810',
     githubLink: 'https://github.com/TEAMMATES/teammates/contribute',
     description: 'An online feedback management system for students and teachers',
     tags: ['Java', 'Javascript', 'HTML', 'Web App'],
@@ -461,7 +461,7 @@ const projectList = [
   },
   {
     name: 'Hacktoberfest',
-    imageSrc: 'https://hacktoberfest.digitalocean.com/assets/logo-hacktoberfest-658b5aa2bd34e782d29c40bf6afbdff00f20fe1328efa6da17743878ba8db66f.png',
+    imageSrc: 'https://my-first-pr.github.io/assets/images/Hacktoberfest_2018_logo_lockup.png',
     githubLink: 'https://github.com/ows-ali/Hacktoberfest/contribute',
     description: 'Opportunity to start open source and PR experience for beginners',
     tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
