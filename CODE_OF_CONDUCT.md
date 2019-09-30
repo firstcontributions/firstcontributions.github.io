@@ -2,7 +2,7 @@
 
 ## Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as
+In the interest of fostering an open and welcoming environment, we
 contributors and maintainers pledge to make participation in our project and
 our community a harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, gender identity and expression, level of experience,
@@ -12,9 +12,9 @@ orientation.
 ## Our Standards
 
 Examples of behaviour that contributes to creating a positive environment
-include:
+including:
 
-*   Using welcoming and inclusive language.
+*   Using welcoming and impressive language.
 *   Being respectful of differing viewpoints and experiences.
 *   Gracefully accepting constructive criticism.
 *   Focusing on what is best for the community.
@@ -42,7 +42,7 @@ threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces
+This Code of Conduct applies to both within project spaces and in public spaces
 when an individual is representing the project or its community. Examples of
 representing a project or community include using an official project e-mail
 address, posting via an official social media account, or acting as an appointed
