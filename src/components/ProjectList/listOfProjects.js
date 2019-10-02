@@ -535,6 +535,13 @@ const projectList = [
     githubLink: 'https://github.com/conda',
     description: 'Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.',
     tags: ['ML', 'Python', 'Builds','Package Manager']
+  },
+  {
+    name: 'Light Table',
+    imageSrc: 'http://lighttable.com/images/logo.png',
+    githubLink: 'https://github.com/LightTable',
+    description: 'Light Table is a next generation code editor that connects you to your creation with instant feedback. Light Table is very customizable and can display anything a Chromium browser can.',
+    tags: ['clojurescript', 'ide', 'editor', 'clojure', 'lighttable', 'clojure-development']
   }
 ];
 export default projectList;
