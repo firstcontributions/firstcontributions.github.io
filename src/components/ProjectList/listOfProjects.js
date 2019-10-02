@@ -248,7 +248,7 @@ const projectList = [
   },
   {
     name: 'TEAMMATES',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/7374810',
+    imageSrc: 'https://www.google-melange.com/archive/gsoc/2015/orgs/teammates/logo-200.png',
     githubLink: 'https://github.com/TEAMMATES/teammates/contribute',
     description: 'An online feedback management system for students and teachers',
     tags: ['Java', 'Javascript', 'HTML', 'Web App'],
