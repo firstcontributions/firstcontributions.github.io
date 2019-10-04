@@ -525,7 +525,7 @@ const projectList = [
   {
     name: 'Roc',
     imageSrc: 'https://roc-project.github.io/icon.png',
-    githubLink: 'https://github.com/roc-project/roc/contribute',
+    githubLink: 'https://github.com/roc-project/roc/labels/help%20wanted',
     description: 'A toolkit for real-time audio streaming over the network',
     tags: ['C++', 'Audio', 'Streaming', 'Networking', 'Cross-Platform', 'Linux', 'MacOS', 'Windows']
   },
