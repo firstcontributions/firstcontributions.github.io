@@ -542,6 +542,13 @@ const projectList = [
     githubLink: 'https://github.com/LightTable',
     description: 'Light Table is a next generation code editor that connects you to your creation with instant feedback. Light Table is very customizable and can display anything a Chromium browser can.',
     tags: ['clojurescript', 'ide', 'editor', 'clojure', 'lighttable', 'clojure-development']
+  },
+  {
+    name: 'Dragula',
+    imageSrc: 'https://bevacqua.github.io/dragula/resources/icon.svg',
+    githubLink: 'https://github.com/bevacqua/dragula',
+    description: 'Dragula provides the easiest possible API to make drag and drop a breeze in your applications.',
+    tags: ['Javascript', 'front-end', 'drag-and-drop', 'vanilla', 'drag-drop', 'dragging','component']
   }
 ];
 export default projectList;
