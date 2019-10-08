@@ -15,15 +15,15 @@ const projectList = [
     name: 'Exercism',
     imageSrc: 'https://avatars2.githubusercontent.com/u/5624255?v=3&s=100',
     githubLink: 'https://github.com/exercism/exercism/contribute',
-    description:  'Quickly ramp up in new programming languages!',
+    description: 'Quickly ramp up in new programming languages!',
     tags: ['Ruby', 'Exercises', 'CLI', 'Web App'],
-  },{
+  }, {
     name: 'Gauge',
     imageSrc: 'https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4',
     githubLink: 'https://github.com/getgauge/gauge/contribute',
     description: 'A free and open source test automation framework',
-    tags: ['Golang','Automation','command line','testing']
-  },{
+    tags: ['Golang', 'Automation', 'command line', 'testing']
+  }, {
     name: 'Fun Retros',
     imageSrc: 'https://avatars3.githubusercontent.com/u/15913975?v=3&s=100',
     githubLink: 'https://github.com/funretro/distributed/contribute',
@@ -34,7 +34,7 @@ const projectList = [
     imageSrc: 'https://avatars1.githubusercontent.com/u/18171698?v=3&s=100',
     githubLink: 'https://github.com/habitat-sh/habitat/contribute',
     description: 'Modern applications with built-in automation.',
-    tags: ['Docs','Front-End','Rust','MultiOS'],
+    tags: ['Docs', 'Front-End', 'Rust', 'MultiOS'],
   }, {
     name: 'Scikit-learn',
     imageSrc: 'https://avatars0.githubusercontent.com/u/365630?v=3&s=100',
@@ -46,7 +46,7 @@ const projectList = [
     imageSrc: 'https://avatars0.githubusercontent.com/u/8527916?v=3&s=100',
     githubLink: 'https://github.com/avajs/ava/contribute',
     description: 'The Futuristic JavaScript test runner!',
-    tags: ['JavaScript','Tests', 'Docs', 'Babel'],
+    tags: ['JavaScript', 'Tests', 'Docs', 'Babel'],
   }, {
     name: 'Numpy',
     imageSrc:
@@ -140,7 +140,7 @@ const projectList = [
     imageSrc: 'https://avatars3.githubusercontent.com/u/3406112?v=3&s=100',
     githubLink: 'https://github.com/pouchdb/pouchdb/contribute',
     description: 'A pocket-sized database.',
-    tags: ['JavaScript','Node.js','CouchDB'],
+    tags: ['JavaScript', 'Node.js', 'CouchDB'],
   }, {
     name: 'Neovim',
     imageSrc: 'https://avatars0.githubusercontent.com/u/6471485?v=3&s=100',
@@ -152,7 +152,7 @@ const projectList = [
     imageSrc: 'https://hoodiehq.github.io/hoodie-css/src/content_img/animals/low-profile-dog-1.png',
     githubLink: 'https://github.com/hoodiehq/hoodie/contribute',
     description: 'The Offline First JavaScript Backend.',
-    tags: ['JavaScript', 'Node.js', 'Web development','User-Friendly'],
+    tags: ['JavaScript', 'Node.js', 'Web development', 'User-Friendly'],
   }, {
     name: 'freeCodeCamp',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
@@ -275,96 +275,96 @@ const projectList = [
     tags: ['Ruby on Rails', 'Ruby', 'JavaScript', 'Non-Profit', 'Web App', 'First-Timers', 'Environment', 'Science'],
   },
   {
-    name:'MissionControl',
-    imageSrc:'https://i.imgur.com/nSRLFas.gif',
+    name: 'MissionControl',
+    imageSrc: 'https://i.imgur.com/nSRLFas.gif',
     githubLink: 'https://github.com/DAVFoundation/missioncontrol/contribute',
-    description:'Controls and orchestrates missions between autonomous vehicles and DAV users.',
-    tags: ['Javascript','Docker','Thrift','Good First Issue']
+    description: 'Controls and orchestrates missions between autonomous vehicles and DAV users.',
+    tags: ['Javascript', 'Docker', 'Thrift', 'Good First Issue']
   },
   {
-    name:'DuckDuckGo',
-    imageSrc:'https://avatars3.githubusercontent.com/u/342708?s=200&v=4',
+    name: 'DuckDuckGo',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/342708?s=200&v=4',
     githubLink: 'https://github.com/duckduckgo/duckduckgo-privacy-extension/contribute',
-    description:'The search engine that doesn\'t track you!',
-    tags: ['Javascript','Perl','Python','Privacy']
+    description: 'The search engine that doesn\'t track you!',
+    tags: ['Javascript', 'Perl', 'Python', 'Privacy']
   },
   {
-    name:'Kinto',
-    imageSrc:'https://avatars2.githubusercontent.com/u/13413813?s=200&v=4',
+    name: 'Kinto',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/13413813?s=200&v=4',
     githubLink: 'https://github.com/Kinto/kinto/contribute',
-    description:'A generic JSON document store with sharing and synchronisation capabilities.',
+    description: 'A generic JSON document store with sharing and synchronisation capabilities.',
     tags: ['Python', 'API', 'HTTP', 'Web', 'Decentralisation'],
   },
-  {  
-    name:'atom',
-    imageSrc:'https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png',
+  {
+    name: 'atom',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png',
     githubLink: 'https://github.com/atom/atom/contribute',
-    description:'A customizable text editor built on electron.',
+    description: 'A customizable text editor built on electron.',
     tags: ['Atom', 'Editor', 'Javascript', 'Electron', 'Windows', 'Linux', 'Macos']
   },
   {
     name: 'OpenGenus',
-    imageSrc:'https://raw.githubusercontent.com/notnerb/FamilySite/master/logo.png',
+    imageSrc: 'https://raw.githubusercontent.com/notnerb/FamilySite/master/logo.png',
     githubLink: 'https://github.com/OpenGenus/Join_OpenGenus/contribute',
     description: 'A positive open-source community working to bring essential programming knowledge offline.',
-    tags: ['C++','Python','Java','Good First Issue']
+    tags: ['C++', 'Python', 'Java', 'Good First Issue']
   },
   {
-    name:'css-protips',
-    imageSrc:'https://camo.githubusercontent.com/9b290de6835cf807aaa81bb6a7cfdf3835636f8c/68747470733a2f2f7261776769742e636f6d2f416c6c5468696e6773536d697474792f6373732d70726f746970732f6d61737465722f6d656469612f6c6f676f2e737667',
-    githubLink:'https://github.com/AllThingsSmitty/css-protips/contribute',
-    description:'Simple but useful tips to improve your CSS skills.',
-    tags:['CSS','tips','guide','simple','useful']
+    name: 'css-protips',
+    imageSrc: 'https://camo.githubusercontent.com/9b290de6835cf807aaa81bb6a7cfdf3835636f8c/68747470733a2f2f7261776769742e636f6d2f416c6c5468696e6773536d697474792f6373732d70726f746970732f6d61737465722f6d656469612f6c6f676f2e737667',
+    githubLink: 'https://github.com/AllThingsSmitty/css-protips/contribute',
+    description: 'Simple but useful tips to improve your CSS skills.',
+    tags: ['CSS', 'tips', 'guide', 'simple', 'useful']
   },
   {
-    name:'Systers',
-    imageSrc:'https://avatars3.githubusercontent.com/u/6520415?s=200&v=4',
-    githubLink:'https://github.com/systers',
-    description:'Helping women find their potential in code.',
-    tags:['Python','Java','Swift','Javascript','HTML'],
+    name: 'Systers',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/6520415?s=200&v=4',
+    githubLink: 'https://github.com/systers',
+    description: 'Helping women find their potential in code.',
+    tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML'],
   },
   {
-    name:'Centos',
-    imageSrc:'https://avatars2.githubusercontent.com/u/79192?s=200&v=4',
-    githubLink:'https://github.com/CentOS',
-    description:'A community-driven free software effort focused on delivering a robust open source ecosystem.',
-    tags:['Shell','Python','HTML','Ruby','Puppet'],
+    name: 'Centos',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/79192?s=200&v=4',
+    githubLink: 'https://github.com/CentOS',
+    description: 'A community-driven free software effort focused on delivering a robust open source ecosystem.',
+    tags: ['Shell', 'Python', 'HTML', 'Ruby', 'Puppet'],
   },
   {
-    name:'NPM',
-    imageSrc:'https://avatars0.githubusercontent.com/u/6078720?s=200&v=4',
-    githubLink:'https://github.com/npm',
-    description:'Npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.',
-    tags:['Javascript','Shell','CSS','HTML','Rust'],
+    name: 'NPM',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/6078720?s=200&v=4',
+    githubLink: 'https://github.com/npm',
+    description: 'Npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.',
+    tags: ['Javascript', 'Shell', 'CSS', 'HTML', 'Rust'],
   },
   {
-    name:'openEBS',
-    imageSrc:'https://avatars1.githubusercontent.com/u/20769039?s=200&v=4',
-    githubLink:'https://github.com/openebs/',
-    description:'OpenEBS is an open source storage platform that provides persistent and containerized  block storage for DevOps and container environments.',
-    tags:['Containers','DevOps','Go'],
+    name: 'openEBS',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/20769039?s=200&v=4',
+    githubLink: 'https://github.com/openebs/',
+    description: 'OpenEBS is an open source storage platform that provides persistent and containerized  block storage for DevOps and container environments.',
+    tags: ['Containers', 'DevOps', 'Go'],
   },
   {
     name: 'Kubernetes',
     imageSrc: 'https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png',
     githubLink: 'https://github.com/kubernetes',
     description: 'Production-Grade Container Scheduling and Management',
-    tags: ['Go', 'Container','Orchestration'],
+    tags: ['Go', 'Container', 'Orchestration'],
   },
 
   {
-    name:'Movie-Stream',
-    imageSrc:'https://image.ibb.co/faTroc/movie_stream.png',
-    githubLink:'https://github.com/hrishi7/streamIt/contribute',
-    description:'Provides Online free movie streaming service with adfree. flexible for mobile also',
-    tags:['Web development','HTML','Javascript','API','CSS','Bootstrap']
+    name: 'Movie-Stream',
+    imageSrc: 'https://image.ibb.co/faTroc/movie_stream.png',
+    githubLink: 'https://github.com/hrishi7/streamIt/contribute',
+    description: 'Provides Online free movie streaming service with adfree. flexible for mobile also',
+    tags: ['Web development', 'HTML', 'Javascript', 'API', 'CSS', 'Bootstrap']
   },
   {
     name: 'ethereum',
     imageSrc: 'https://avatars1.githubusercontent.com/u/6250754?s=200&v=4',
     githubLink: 'https://github.com/ethereum/',
     description: 'Ethereum is a decentralized platform that runs smart contracts applications.',
-    tags: ['Go', 'C++', 'Solidity','Python', 'Shell', 'Java'
+    tags: ['Go', 'C++', 'Solidity', 'Python', 'Shell', 'Java'
     ]
   },
   {
@@ -372,7 +372,7 @@ const projectList = [
     imageSrc: 'https://avatars2.githubusercontent.com/u/14631425?s=200&v=4',
     githubLink: 'https://github.com/rust-lang-nursery/rust-clippy/contribute',
     description: 'A collection of lints to catch common mistakes and improve your Rust code.',
-    tags: ['Rust','Compiler','Parser','Mentors'
+    tags: ['Rust', 'Compiler', 'Parser', 'Mentors'
     ]
   },
   {
@@ -380,70 +380,70 @@ const projectList = [
     imageSrc: 'https://avatars2.githubusercontent.com/u/26350515?s=400&v=4',
     githubLink: 'https://github.com/probot/probot/contribute',
     description: 'Probot is a framework for building Github Apps in Node.js.',
-    tags: ['Node.js','Github','Javascript']
+    tags: ['Node.js', 'Github', 'Javascript']
   },
   {
     name: 'Open Data Kit',
     imageSrc: 'https://opendatakit.org/assets/images/logo.png',
     githubLink: 'https://github.com/opendatakit',
     description: 'Free and open-source set of tools for collecting data in challenging environments.',
-    tags: ['Open Source','Software','JAVA', 'Android']
+    tags: ['Open Source', 'Software', 'JAVA', 'Android']
   },
   {
     name: 'Sugar Labs',
     imageSrc: 'https://avatars3.githubusercontent.com/u/3996398?s=280&v=4',
     githubLink: 'https://github.com/sugarlabs',
     description: 'Learning Software for children.',
-    tags: ['Ubuntu','Rasberry Pi','Debian','Fedora']
+    tags: ['Ubuntu', 'Rasberry Pi', 'Debian', 'Fedora']
   },
   {
     name: 'Jupyter Hub',
     imageSrc: 'https://avatars2.githubusercontent.com/u/17927519?s=400&v=4',
     githubLink: 'https://github.com/jupyterhub/jupyterhub/contribute',
     description: 'A multi-user Hub, spawns, manages, and proxies multiple instances of the single-user Jupyter notebook server.',
-    tags: ['Proxy Server','Python','REST API']
+    tags: ['Proxy Server', 'Python', 'REST API']
   },
   {
     name: 'Allenai',
     imageSrc: 'https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png',
     githubLink: 'https://github.com/allenai/allennlp/contribute',
     description: 'conducts high-impact research and engineering to tackle key problems in artificial intelligence.',
-    tags: ['Artificial Intelligence','Python','NLP']
+    tags: ['Artificial Intelligence', 'Python', 'NLP']
   },
   {
     name: 'Qute Browser',
     imageSrc: 'https://avatars1.githubusercontent.com/u/21955151?s=200&v=4',
     githubLink: 'https://github.com/qutebrowser/qutebrowser/contribute',
     description: 'A keyboard-driven, vim-like browser based on PyQt5',
-    tags: ['Python','Qt','pyqt5','Vim','Browser','qtWebEngine','web']
+    tags: ['Python', 'Qt', 'pyqt5', 'Vim', 'Browser', 'qtWebEngine', 'web']
   },
   {
     name: 'Ghost',
     imageSrc: 'https://avatars1.githubusercontent.com/u/2178663?s=200&v=4',
     githubLink: 'https://github.com/TryGhost/Ghost/contribute',
     description: 'Just a blogging platform',
-    tags: ['nodejs','javascript','ember','cms','blogging']
+    tags: ['nodejs', 'javascript', 'ember', 'cms', 'blogging']
   },
   {
     name: 'Hyper',
     imageSrc: 'https://hyper.is/static/hyper.png',
     githubLink: 'https://github.com/zeit/hyper/contribute',
     description: 'A terminal built on web technologies',
-    tags: ['html','javascript','css','react','terminal']
+    tags: ['html', 'javascript', 'css', 'react', 'terminal']
   },
   {
     name: 'Kap',
     imageSrc: 'https://avatars3.githubusercontent.com/u/16321113?s=200&v=4',
     githubLink: 'https://github.com/wulkano/kap/contribute',
     description: 'An open-source screen recorder built with web technology',
-    tags: ['electron','javascript','mac','oss','screencast']
+    tags: ['electron', 'javascript', 'mac', 'oss', 'screencast']
   },
   {
     name: 'Ember.js',
     imageSrc: 'https://avatars0.githubusercontent.com/u/1253363?s=200&v=4',
     githubLink: 'https://github.com/emberjs/ember.js/contribute',
     description: 'A JavaScript framework for creating ambitious web applications',
-    tags: ['ember','javascript','javascript-framework']
+    tags: ['ember', 'javascript', 'javascript-framework']
   },
   {
     name: 'Opensourcedesign',
@@ -464,7 +464,7 @@ const projectList = [
     imageSrc: 'https://my-first-pr.github.io/assets/images/Hacktoberfest_2018_logo_lockup.png',
     githubLink: 'https://github.com/ows-ali/Hacktoberfest/contribute',
     description: 'Opportunity to start open source and PR experience for beginners',
-    tags: ['hacktoberfest','hackerrank','low-hanging-fruit']
+    tags: ['hacktoberfest', 'hackerrank', 'low-hanging-fruit']
   },
   {
     name: 'Rebus',
@@ -478,7 +478,7 @@ const projectList = [
     imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
     githubLink: 'https://github.com/proot-me/PRoot/contribute',
     description: 'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
-    tags: ['chroot-environment','userland-exec','rootfs','chroot','c']
+    tags: ['chroot-environment', 'userland-exec', 'rootfs', 'chroot', 'c']
   },
   {
     name: 'Techqueria.org',
@@ -492,21 +492,21 @@ const projectList = [
     imageSrc: 'https://avatars0.githubusercontent.com/u/19211038?s=200&v=4',
     githubLink: 'https://github.com/nextcloud/server/contribute',
     description: 'Open source collaboration platform for files, calendar, contacts, chat & calls, mail and more.',
-    tags: ['javascript','php','html','css','android','c++','qt','design','ios','vuejs','web']
+    tags: ['javascript', 'php', 'html', 'css', 'android', 'c++', 'qt', 'design', 'ios', 'vuejs', 'web']
   },
   {
     name: 'Open Source Diversity',
     imageSrc: 'https://avatars1.githubusercontent.com/u/31018274?s=200&v=4',
     githubLink: 'https://github.com/opensourcediversity/opensourcediversity.org/contribute',
     description: 'For more diversity & inclusion in free & open source software communities 😊',
-    tags: ['javascript','html','css','diversity','inclusion','🎉','web','community']
+    tags: ['javascript', 'html', 'css', 'diversity', 'inclusion', '🎉', 'web', 'community']
   },
   {
     name: 'Bitcoin',
     imageSrc: 'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79',
     githubLink: 'https://github.com/bitcoin/bitcoin/contribute',
     description: 'Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.',
-    tags: ['C++', 'Python', 'Cryptocurrency','Blockchain', 'Peer-to-peer']
+    tags: ['C++', 'Python', 'Cryptocurrency', 'Blockchain', 'Peer-to-peer']
   },
   {
     name: 'Tensorflow',
@@ -529,12 +529,12 @@ const projectList = [
     description: 'A toolkit for real-time audio streaming over the network',
     tags: ['C++', 'Audio', 'Streaming', 'Networking', 'Cross-Platform', 'Linux', 'MacOS', 'Windows']
   },
-   {
+  {
     name: 'Conda',
     imageSrc: 'https://conda.io/en/latest/_images/conda_logo.svg',
     githubLink: 'https://github.com/conda',
     description: 'Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.',
-    tags: ['ML', 'Python', 'Builds','Package Manager']
+    tags: ['ML', 'Python', 'Builds', 'Package Manager']
   },
   {
     name: 'Light Table',
@@ -548,7 +548,14 @@ const projectList = [
     imageSrc: 'https://bevacqua.github.io/dragula/resources/icon.svg',
     githubLink: 'https://github.com/bevacqua/dragula',
     description: 'Dragula provides the easiest possible API to make drag and drop a breeze in your applications.',
-    tags: ['Javascript', 'front-end', 'drag-and-drop', 'vanilla', 'drag-drop', 'dragging','component']
+    tags: ['Javascript', 'front-end', 'drag-and-drop', 'vanilla', 'drag-drop', 'dragging', 'component']
+  },
+  {
+    name: 'Moby',
+    imageSrc: 'https://github.com/moby/moby/raw/master/docs/static_files/moby-project-logo.png',
+    githubLink: 'https://github.com/moby/moby',
+    description: 'The Moby project is a collaborative project for the container ecosystem to assemble container-based systems',
+    tags: ['docker', 'containers', 'go']
   }
 ];
 export default projectList;
