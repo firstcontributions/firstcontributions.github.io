@@ -6,7 +6,7 @@
   "devDependencies": {
     "enzyme": "^3.0.0",
     "gh-pages": "^0.12.0",
-    "react-scripts": "1.0.14",
+    "react-scripts": "3.2.0",
     "react-test-renderer": "^15.0.0",
     "sw-precache": "^5.2.0"
   },
@@ -22,5 +22,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build&&gh-pages -b master -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
