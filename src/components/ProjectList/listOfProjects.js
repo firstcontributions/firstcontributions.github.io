@@ -560,7 +560,7 @@ const projectList = [
   {
     name: 'ScyllaDb',
     imageSrc: 'https://avatars1.githubusercontent.com/u/14364730?s=200&v=4',
-    githubLink: 'https://github.com/scylladb/scylla/blob/master/CONTRIBUTING.md',
+    githubLink: 'https://github.com/scylladb/scylla',
     description: 'NoSQL data store using the seastar framework, compatible with Apache Cassandra',
     tags: ['nosql', 'cpp', 'cassandra']
   },
