@@ -556,6 +556,20 @@ const projectList = [
     githubLink: 'https://github.com/moby/moby',
     description: 'The Moby project is a collaborative project for the container ecosystem to assemble container-based systems',
     tags: ['docker', 'containers', 'go']
+  },
+  {
+    name: 'ScyllaDb',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/14364730?s=200&v=4',
+    githubLink: 'https://github.com/scylladb/scylla',
+    description: 'NoSQL data store using the seastar framework, compatible with Apache Cassandra',
+    tags: ['nosql', 'cpp', 'cassandra']
+  },
+  {
+    name: 'OSRM (Open Source Routing Machine)',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/8207060?s=200&v=4',
+    githubLink: 'https://github.com/Project-OSRM/osrm-backend',
+    description: 'High performance routing engine written in C++14 designed to run on OpenStreetMap data',
+    tags: ['osrm', 'routing-engine', 'cpp', 'openstreetmap']
   }
 ];
 export default projectList;
