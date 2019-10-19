@@ -439,7 +439,7 @@ Re-run flow, and you shouldn’t get any extra issues.
 >Note: this feature is available with `react-scripts@0.2.3` and higher.
 
 Your project can consume variables declared in your environment as if they were declared locally in your JS files. By
-default you will have `NODE_ENV` defined for you, and any other environment variables starting with
+default, you will have `NODE_ENV` defined for you, and any other environment variables starting with
 `REACT_APP_`. These environment variables will be defined for you on `process.env`. For example, having an environment
 variable named `REACT_APP_SECRET_CODE` will be exposed in your JS as `process.env.REACT_APP_SECRET_CODE`, in addition
 to `process.env.NODE_ENV`.
