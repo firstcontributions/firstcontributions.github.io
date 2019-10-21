@@ -1,6 +1,6 @@
 ## Fork this repository
 
-Fork this repo by clicking on the fork button on the top of this page.
+For k this repo by clicking on the fork button on the top of this page.
 This will create a copy of this repository in your account.
 
 ## Clone the repository
