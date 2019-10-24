@@ -11,6 +11,7 @@
 .App-header {
   padding: 20px;
   color: white;
+  text-decoration: underline overline;
 }
 
 .App-header > h1 {
