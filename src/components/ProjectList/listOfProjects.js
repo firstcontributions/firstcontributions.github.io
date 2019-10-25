@@ -179,7 +179,7 @@ const projectList = [
     tags: ['GitHub', 'Tutorial'],
   }, {
     name: 'RubyGems ecosystem',
-    imageSrc: 'https://avatars.githubusercontent.com/u/17981340',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/208761?s=200&v=4',
     githubLink: 'https://github.com/rubygems/contribute',
     description: 'One site to show all related RubyGems ecosystem projects and help developers get involved.',
     tags: ['Ruby', 'Rubygems'],
