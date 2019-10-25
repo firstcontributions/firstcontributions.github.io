@@ -570,6 +570,20 @@ const projectList = [
     githubLink: 'https://github.com/Project-OSRM/osrm-backend',
     description: 'High performance routing engine written in C++14 designed to run on OpenStreetMap data',
     tags: ['osrm', 'routing-engine', 'cpp', 'openstreetmap']
+  },
+  {
+    name: 'Laravel',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/958072?s=200&v=4',
+    githubLink: 'https://github.com/laravel/laravel',
+    description: 'A PHP Framework for Web Artisans',
+    tags: ['PHP', 'web development']
+  },
+  {
+    name: 'Django',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/27804?s=200&v=4',
+    githubLink: 'https://github.com/django/django',
+    description: 'A high-level Python Web framework that encourages rapid development and clean, pragmatic design',
+    tags: ['python', 'web development']
   }
 ];
 export default projectList;
