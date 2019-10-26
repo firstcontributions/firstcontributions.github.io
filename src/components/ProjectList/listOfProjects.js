@@ -587,5 +587,12 @@ const projectList = [
     description: 'JavaScript library for visualizing data using web standards',
     tags: ['Javascript', 'graph', 'graph-based', 'graph visualization', 'data visualization', 'dynamic plots']
   },
+  {
+    name: 'SirixDB',
+    imageSrc: 'https://raw.githubusercontent.com/sirixdb/sirix/master/logo.png',
+    githubLink: 'https://github.com/sirixdb/sirix',
+    description: 'SirixDB - An Evolutionary, Temporal NoSQL Document Store',
+    tags: ['NoSQL','Database']
+  },
 ];
 export default projectList;
