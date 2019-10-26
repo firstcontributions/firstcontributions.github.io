@@ -584,6 +584,27 @@ const projectList = [
     githubLink: 'https://github.com/django/django',
     description: 'A high-level Python Web framework that encourages rapid development and clean, pragmatic design',
     tags: ['python', 'web development']
-  }
+  },
+  {
+    name: 'Plotly',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/5997976?s=200&v=4',
+    githubLink: 'https://github.com/plotly/plotly.py',
+    description: 'A high-level Python declarative charting library',
+    tags: ['python', 'graph', 'graph-based', 'graph visualization']
+  },
+  {
+    name: 'Plotly',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/5997976?s=200&v=4',
+    githubLink: 'https://github.com/plotly/plotly.js',
+    description: 'A high-level Javascript declarative charting library',
+    tags: ['javascript', 'graph', 'graph-based', 'graph visualization']
+  },
+  {
+    name: 'NetworkX',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/388785?s=200&v=4',
+    githubLink: 'https://github.com/networkx/networkx',
+    description: 'Python library for studying graphs and networks',
+    tags: ['Python', 'graph', 'graph-based', 'graph visualization']
+  },
 ];
 export default projectList;
