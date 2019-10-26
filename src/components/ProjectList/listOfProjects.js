@@ -584,6 +584,34 @@ const projectList = [
     githubLink: 'https://github.com/django/django',
     description: 'A high-level Python Web framework that encourages rapid development and clean, pragmatic design',
     tags: ['python', 'web development']
-  }
+  },
+  {
+    name: 'Plotly',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/5997976?s=200&v=4',
+    githubLink: 'https://github.com/plotly',
+    description: 'A high-level Python declarative charting library',
+    tags: ['python', 'javascript', 'graph', 'graph-based', 'graph visualization']
+  },
+  {
+    name: 'NetworkX',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/388785?s=200&v=4',
+    githubLink: 'https://github.com/networkx/networkx/contribute',
+    description: 'Python library for studying graphs and networks',
+    tags: ['Python', 'graph', 'graph algorithms', 'complex networks']
+  },
+  {
+    name: 'Igraph',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/3735184?s=200&v=4',
+    githubLink: 'https://github.com/igraph/igraph/contribute',
+    description: 'Python Library for creating and manipulating graphs',
+    tags: ['Python', 'graph', 'graph algorithms', 'complex networks']
+  },
+  {
+    name: 'D3',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/1562726?s=200&v=4',
+    githubLink: 'https://github.com/d3/d3/contribute',
+    description: 'JavaScript library for visualizing data using web standards',
+    tags: ['Javascript', 'graph', 'graph-based', 'graph visualization', 'data visualization', 'dynamic plots']
+  },
 ];
 export default projectList;
