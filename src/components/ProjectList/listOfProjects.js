@@ -588,16 +588,9 @@ const projectList = [
   {
     name: 'Plotly',
     imageSrc: 'https://avatars3.githubusercontent.com/u/5997976?s=200&v=4',
-    githubLink: 'https://github.com/plotly/plotly.py',
+    githubLink: 'https://github.com/plotly',
     description: 'A high-level Python declarative charting library',
-    tags: ['python', 'graph', 'graph-based', 'graph visualization']
-  },
-  {
-    name: 'Plotly',
-    imageSrc: 'https://avatars3.githubusercontent.com/u/5997976?s=200&v=4',
-    githubLink: 'https://github.com/plotly/plotly.js',
-    description: 'A high-level Javascript declarative charting library',
-    tags: ['javascript', 'graph', 'graph-based', 'graph visualization']
+    tags: ['python', 'javascript', 'graph', 'graph-based', 'graph visualization']
   },
   {
     name: 'NetworkX',
