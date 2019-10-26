@@ -606,5 +606,12 @@ const projectList = [
     description: 'Python library for studying graphs and networks',
     tags: ['Python', 'graph', 'graph-based', 'graph visualization']
   },
+  {
+    name: 'Igraph',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/3735184?s=200&v=4',
+    githubLink: 'https://github.com/igraph/igraph',
+    description: 'Python Library for creating and manipulating graphs',
+    tags: ['Python', 'graph', 'graph-based', 'graph visualization']
+  },
 ];
 export default projectList;
