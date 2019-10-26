@@ -613,5 +613,12 @@ const projectList = [
     description: 'Python Library for creating and manipulating graphs',
     tags: ['Python', 'graph', 'graph-based', 'graph visualization']
   },
+  {
+    name: 'D3',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/1562726?s=200&v=4',
+    githubLink: 'https://github.com/d3/d3',
+    description: 'JavaScript library for visualizing data using web standards',
+    tags: ['Javascript', 'graph', 'graph-based', 'graph visualization']
+  },
 ];
 export default projectList;
