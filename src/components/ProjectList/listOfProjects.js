@@ -24,12 +24,6 @@ const projectList = [
     description: 'A free and open source test automation framework',
     tags: ['Golang', 'Automation', 'command line', 'testing']
   }, {
-    name: 'Fun Retros',
-    imageSrc: 'https://avatars3.githubusercontent.com/u/15913975?v=3&s=100',
-    githubLink: 'https://github.com/funretro/distributed/contribute',
-    description: 'Easy to use and beautiful restrospective tool!',
-    tags: ['JavaScript', 'Web App', 'AngularJS', 'Firebase'],
-  }, {
     name: 'Habitat',
     imageSrc: 'https://avatars1.githubusercontent.com/u/18171698?v=3&s=100',
     githubLink: 'https://github.com/habitat-sh/habitat/contribute',
@@ -178,12 +172,6 @@ const projectList = [
     description: 'Learn GitHub\'s pull request process by contributing code in a fun simulation project.',
     tags: ['GitHub', 'Tutorial'],
   }, {
-    name: 'RubyGems ecosystem',
-    imageSrc: 'https://avatars3.githubusercontent.com/u/208761?s=200&v=4',
-    githubLink: 'https://github.com/rubygems/contribute',
-    description: 'One site to show all related RubyGems ecosystem projects and help developers get involved.',
-    tags: ['Ruby', 'Rubygems'],
-  }, {
     name: 'Mail For Good',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
     githubLink: 'https://github.com/freeCodeCamp/mail-for-good/contribute',
@@ -217,13 +205,6 @@ const projectList = [
     githubLink: 'https://github.com/styleguidist/react-styleguidist/contribute',
     description: 'React Styleguidist is a component development environment with hot reloaded dev server and a living style guide that you can share with your team. It lists component propTypes and shows live, editable usage examples based on Markdown files.',
     tags: ['JavaScript', 'UI'],
-  },
-  {
-    name: 'Ruby Koans',
-    imageSrc: 'https://pbs.twimg.com/profile_images/1133211803/enso_400x400.png',
-    githubLink: 'https://github.com/edgecase/ruby_koans/contribute',
-    description: 'Learn Ruby With the Edgecase Ruby Koans. The Koans walk you along the path to enlightenment in order to learn Ruby. The goal is to learn the Ruby language, syntax, structure, and some common functions and libraries.',
-    tags: ['Ruby', 'Exercises', 'CLI', 'Web App'],
   },
   {
     name: 'Python Koans',
@@ -458,13 +439,6 @@ const projectList = [
     githubLink: 'https://github.com/ifmeorg/ifme/contribute',
     description: 'A community for mental health experiences',
     tags: ['ruby-on-rails', 'javascript', 'react']
-  },
-  {
-    name: 'Hacktoberfest',
-    imageSrc: 'https://my-first-pr.github.io/assets/images/Hacktoberfest_2018_logo_lockup.png',
-    githubLink: 'https://github.com/ows-ali/Hacktoberfest/contribute',
-    description: 'Opportunity to start open source and PR experience for beginners',
-    tags: ['hacktoberfest', 'hackerrank', 'low-hanging-fruit']
   },
   {
     name: 'Rebus',
