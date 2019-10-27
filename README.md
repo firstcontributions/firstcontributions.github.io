@@ -10,7 +10,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Folder Structure](#folder-structure)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
-  - [npm test](#npm-test)
+  - [npm test](#npm-test)updatetypo.txtupdatetypo.txtupdatetypo.txt
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
 - [Displaying Lint Output in the Editor](#displaying-lint-output-in-the-editor)
@@ -94,7 +94,7 @@ my-app/
 ```
 
 For the project to build, **these files must exist with exact filenames**:
-
+updatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txtupdatetypo.txt
 * `public/index.html` is the page template;
 * `src/index.js` is the JavaScript entry point.
 
