@@ -587,5 +587,12 @@ const projectList = [
     description: 'JavaScript library for visualizing data using web standards',
     tags: ['Javascript', 'graph', 'graph-based', 'graph visualization', 'data visualization', 'dynamic plots']
   },
+  {
+    name: 'FontAwesome',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/1505683?s=200&v=4',
+    githubLink: 'https://github.com/FortAwesome/Font-Awesome/contribute',
+    description: 'The iconic SVG, font, and CSS toolkit',
+    tags: ['SVG', 'CSS', 'font']
+  },
 ];
 export default projectList;
