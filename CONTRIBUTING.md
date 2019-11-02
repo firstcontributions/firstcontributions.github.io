@@ -32,7 +32,7 @@ Then install the required Dependencies using:
  yarn install
 ```
 
-*For dependencies issues, try removing node_modules.
+*If you run into a dependencies issue, try removing `node_modules`.*
 
 After installation, run:
 ```
