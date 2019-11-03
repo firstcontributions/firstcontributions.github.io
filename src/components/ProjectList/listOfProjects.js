@@ -594,5 +594,12 @@ const projectList = [
     description: 'The iconic SVG, font, and CSS toolkit',
     tags: ['SVG', 'CSS', 'font']
   },
+  {
+    name: 'TallyCTF',
+    imageSrc: 'https://raw.githubusercontent.com/CyberNinjas/TallyCTF/master/modules/core/client/img/brand/Tallylogo_1.png',
+    githubLink: 'https://github.com/CyberNinjas/TallyCTF/contribute',
+    description: 'Capture-The-Flag Scoreboard & CTF Event Running Software',
+    tags: ['ctf', 'ctf-scoreboard', 'ctf-platform', 'JavaScript']
+  },
 ];
 export default projectList;
