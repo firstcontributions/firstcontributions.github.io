@@ -22,6 +22,8 @@ where `<github_sername>` is your GitHub username.
 Here you're copying the contents of your firstcontributions.github.io repository on GitHub to your computer.
 
 ## Running The Project
+You should have [yarn](https://yarnpkg.com/en/docs/install) and [node](https://nodejs.org/en/download/) to run the project locally.
+
 Change to the repository directory on your computer (if you are not already there):
 ```
 cd firstcontributions.github.io
