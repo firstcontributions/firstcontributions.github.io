@@ -601,5 +601,12 @@ const projectList = [
     description: 'Capture-The-Flag Scoreboard & CTF Event Running Software',
     tags: ['ctf', 'ctf-scoreboard', 'ctf-platform', 'JavaScript']
   },
+  {
+    name: 'Milligram',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/16243913',
+    githubLink: 'https://github.com/milligram/milligram/contribute',
+    description: 'A minimalist CSS framework.',
+    tags: ['milligram', 'css', 'html', 'framework', 'css-framework', 'design', 'minimalist', 'flexbox', 'amp'],
+  },
 ];
 export default projectList;
