@@ -608,5 +608,12 @@ const projectList = [
     description: 'Functional HTML forms for Front-End Developers.',
     tags: ['airform',  'serverless',  'sendmail',  'mailer',  'html-forms',  'forms',  'smtp',  'sendgrid',  'mailchimp',  'mailgun'],
   },
+  {
+    name: 'Milligram',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/16243913',
+    githubLink: 'https://github.com/milligram/milligram/contribute',
+    description: 'A minimalist CSS framework.',
+    tags: ['milligram', 'css', 'html', 'framework', 'css-framework', 'design', 'minimalist', 'flexbox', 'amp'],
+  },
 ];
 export default projectList;
