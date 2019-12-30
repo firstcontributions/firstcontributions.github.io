@@ -332,7 +332,13 @@ const projectList = [
     description: 'Production-Grade Container Scheduling and Management',
     tags: ['Go', 'Container', 'Orchestration'],
   },
-
+  {
+    name: 'styled-system',
+    imageSrc: 'https://camo.githubusercontent.com/8b3dc6438530a7240e952b187e40bd8380090f64/68747470733a2f2f7374796c65642d73797374656d2e636f6d2f6c6f676f2e737667',
+    githubLink: 'https://github.com/styled-system/styled-system/contribute',
+    description: 'Style props for rapid UI development',
+    tags: ['ui', 'css-in-js', 'design-systems', 'style-props', 'theming'],
+   },
   {
     name: 'Movie-Stream',
     imageSrc: 'https://image.ibb.co/faTroc/movie_stream.png',
