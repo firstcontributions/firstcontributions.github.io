@@ -139,7 +139,7 @@ export default class CardsContainer extends React.Component {
                 key={key}
                 name={item.name}
                 logoLink={item.imageSrc}
-                githubLink={item.githubLink}
+                projectLink={item.projectLink}
                 description={item.description}
                 tags={item.tags}
               />

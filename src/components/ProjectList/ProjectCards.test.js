@@ -7,7 +7,7 @@ it('renders a project card', () => {
     <Card
               name='Awesome Project'
               logoLink='http://awesome-project.com/logo.jpg'
-              githubLink='https://github.com/awesome-project'
+              projectLink='https://github.com/awesome-project'
               description='Simply awesome Project'
     />
   ).toJSON();
