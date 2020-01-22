@@ -10,7 +10,7 @@ export default class Card extends React.Component {
 
     return (
       <div className="Card-Container">
-        <a  className="Card-Real-Link" href={this.props.githubLink}>
+        <a  className="Card-Real-Link" href={this.props.projectLink}>
           <div className="Card-Header">
             <img className="Project-Logo"
               alt="the framework or language that the project is build upon"
