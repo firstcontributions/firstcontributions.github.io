@@ -628,5 +628,12 @@ const projectList = [
     description: 'A free and open source framework based on React that helps developers build blazing fast websites and apps.',
     tags: ['React', 'Javascript', 'HTML', 'CSS', 'GraphQL', 'Web Development', 'Markdown'],
   },
+  {
+    name: 'ClickHouse',
+    imageSrc: 'https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/website/images/logo.png',
+    projectLink: 'https://github.com/ClickHouse/ClickHouse/contribute',
+    description: 'Column-oriented database management system that allows generating analytical data reports in real time.',
+    tags: ['C++', 'C++20', 'cpp', 'Linux', 'DBMS', 'OLAP', 'Analytics', 'SQL', 'Big Data', 'Distributed Database', 'MPP'],
+  },
 ];
 export default projectList;
