@@ -635,5 +635,12 @@ const projectList = [
     description: 'Column-oriented database management system that allows generating analytical data reports in real time.',
     tags: ['C++', 'C++20', 'cpp', 'Linux', 'DBMS', 'OLAP', 'Analytics', 'SQL', 'Big Data', 'Distributed Database', 'MPP'],
   },
+  {
+    name: 'RDoc SolarFish',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/25398702',
+    projectLink: 'https://github.com/rbdoc/rdoc-generator-solarfish/labels/help%20wanted',
+    description: 'Single-page HTML5 generator for Ruby RDoc.',
+    tags: ['Ruby', 'HTML', 'CSS'],
+  }
 ];
 export default projectList;
