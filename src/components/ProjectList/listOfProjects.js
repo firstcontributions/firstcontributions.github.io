@@ -643,7 +643,7 @@ const projectList = [
     tags: ['Ruby', 'HTML', 'CSS'],
   },
   {
-    name: 'game-of-life',
+    name: 'Game of Life',
     imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
