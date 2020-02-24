@@ -645,7 +645,7 @@ const projectList = [
   {
     name: 'game-of-life',
     imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
-    projectLink: 'https://github.com/TroyTae/game-of-life/issues',
+    projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
   }
