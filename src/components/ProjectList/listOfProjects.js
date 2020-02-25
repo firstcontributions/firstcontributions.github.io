@@ -641,6 +641,13 @@ const projectList = [
     projectLink: 'https://github.com/rbdoc/rdoc-generator-solarfish/labels/help%20wanted',
     description: 'Single-page HTML5 generator for Ruby RDoc.',
     tags: ['Ruby', 'HTML', 'CSS'],
+  },
+  {
+    name: 'Game of Life',
+    imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
+    projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
+    description: 'Conway\'s game of life web version!',
+    tags: ['Javascript', 'Typescript', 'Good First Issue'],
   }
 ];
 export default projectList;
