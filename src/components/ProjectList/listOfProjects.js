@@ -636,13 +636,6 @@ const projectList = [
     tags: ['C++', 'C++20', 'cpp', 'Linux', 'DBMS', 'OLAP', 'Analytics', 'SQL', 'Big Data', 'Distributed Database', 'MPP'],
   },
   {
-    name: 'RDoc SolarFish',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/25398702',
-    projectLink: 'https://github.com/rbdoc/rdoc-generator-solarfish/labels/help%20wanted',
-    description: 'Single-page HTML5 generator for Ruby RDoc.',
-    tags: ['Ruby', 'HTML', 'CSS'],
-  },
-  {
     name: 'Game of Life',
     imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
