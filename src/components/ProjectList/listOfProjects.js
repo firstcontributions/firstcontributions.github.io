@@ -12,6 +12,12 @@ const projectList = [
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
   }, {
+    name: 'Darktable',
+    imageSrc: 'https://raw.githubusercontent.com/darktable-org/darktable/master/data/pixmaps/idbutton.png',
+    projectLink: 'https://github.com/darktable-org/darktable',
+    description: 'Open source photography workflow application and raw developer.',
+    tags: ['C', 'Lua', 'OpenCL', 'Photography'],
+  }, {
     name: 'Exercism',
     imageSrc: 'https://avatars2.githubusercontent.com/u/5624255?v=3&s=100',
     projectLink: 'https://github.com/exercism/exercism/contribute',
