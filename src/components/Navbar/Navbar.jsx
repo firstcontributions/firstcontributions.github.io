@@ -12,9 +12,9 @@ class Navbar extends Component {
                 <a href="https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM"  target="_blank" rel="noopener noreferrer">Slack</a>
                 <img src={youtube} className="youtube"/>
                 <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">YouTube</a>
-                <img src={github} className="github"/>
+                <img src={twitter} className="github"/>
                 <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">Twitter</a>
-                <img src={twitter} className="twitter"/>
+                <img src={github} className="twitter"/>
                 <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         );
