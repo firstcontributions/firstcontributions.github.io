@@ -647,6 +647,13 @@ const projectList = [
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
+  },
+  {
+    name: 'Mattermost',
+    imageSrc: 'https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png',
+    projectLink: 'https://github.com/mattermost/mattermost-server/contribute',
+    description: 'Open source Slack-alternative for DevOps teams',
+    tags: ['Go', 'Javascript', 'React', 'React Native'],
   }
 ];
 export default projectList;
