@@ -8,14 +8,22 @@ class Navbar extends Component {
     render() {
         return (
             <div className="topnav">
+                <a href="https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM"  target="_blank" rel="noopener noreferrer">
                 <img src={slack} className="slack"/>
-                <a href="https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM"  target="_blank" rel="noopener noreferrer">Slack</a>
+                <span>Slack</span>
+                </a>
+                <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">
                 <img  src={youtube} className="youtube"/>
-                <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <span>Youtube</span>    
+                </a>
+                <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">
                 <img   src={twitter} className="twitter"/>
-                <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <span>Twitter</span>
+                </a>
+                <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">
                 <img  src={github} className="github"/>
-                <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">GitHub</a>
+                Github
+                </a>
             </div>
         );
     }

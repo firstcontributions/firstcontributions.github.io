@@ -13,7 +13,7 @@
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 15px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -23,7 +23,6 @@
     color: black;
     border-radius: 25px;
     border: #ddd;
-    margin-top: 10px;
     block-size: auto;
     display: inline;
 }
@@ -35,30 +34,29 @@
 .slack{
     display: inline-block;
     vertical-align:middle;
-    flex: 1;
     margin-top: 10px;
-    width: 90px;
-    height: 50px;
-    resizeMode: 'contain';
+    width: 60px;
+    height: 40px;
 }
 .youtube{
-  vertical-align:middle;
+    vertical-align:middle;
     margin-top: 10px;
     width: 70px;
     height: 50px;
-    resizeMode: 'contain';
+    display: inline-block;
 }
 .github{
     margin-top: 10px;
     vertical-align:middle;
-    width: 50px;
+    width: 60px;
     height: 50px;
-    resizeMode: 'contain';
+    display: inline-block;
 }
 .twitter{
     margin-top: 10px;
-    width: 50px;
+    width: 60px;
     vertical-align:middle;
     height: 50px;
-    resizeMode: 'contain';
+    fill: white;
+    display: inline-block;
 } 
