@@ -1,5 +1,6 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+<img src="https://badgen.net/github/contributors/firstcontributions/firstcontributions.github.io">
 [<img align="right" width="150" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/join-slack-team.png?raw=true">](https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
