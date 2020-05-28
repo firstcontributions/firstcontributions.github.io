@@ -29,13 +29,13 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 -  [**Available Scripts**](#available-scripts)
 
--  [**npm start**](#npm-start)
+  -  [**npm start**](#npm-start)
 
--  [**npm test**](#npm-test)
+  -  [**npm test**](#npm-test)
 
--  [**npm run build**](#npm-run-build)
+  -  [**npm run build**](#npm-run-build)
 
--  [**npm run eject**](#npm-run-eject)
+  -  [**npm run eject**](#npm-run-eject)
 
 -  [**Displaying Lint Output in the Editor**](#displaying-lint-output-in-the-editor)
 
@@ -69,45 +69,45 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 -  [**Running Tests**](#running-tests)
 
--  [**Filename Conventions**](#filename-conventions)
+  -  [**Filename Conventions**](#filename-conventions)
 
--  [**Command Line Interface**](#command-line-interface)
+  -  [**Command Line Interface**](#command-line-interface)
 
--  [**Version Control Integration**](#version-control-integration)
+  -  [**Version Control Integration**](#version-control-integration)
 
--  [**Writing Tests**](#writing-tests)
+  -  [**Writing Tests**](#writing-tests)
 
--  [**Testing Components**](#testing-components)
+  -  [**Testing Components**](#testing-components)
 
--  [**Using Third Party Assertion Libraries**](#using-third-party-assertion-libraries)
+  -  [**Using Third Party Assertion Libraries**](#using-third-party-assertion-libraries)
 
--  [**Initializing Test Environment**](#initializing-test-environment)
+  -  [**Initializing Test Environment**](#initializing-test-environment)
 
--  [**Focusing and Excluding Tests**](#focusing-and-excluding-tests)
+  -  [**Focusing and Excluding Tests**](#focusing-and-excluding-tests)
 
--  [**Coverage Reporting**](#coverage-reporting)
+  -  [**Coverage Reporting**](#coverage-reporting)
 
--  [**Continuous Integration**](#continuous-integration)
+  -  [**Continuous Integration**](#continuous-integration)
 
--  [**Disabling jsdom**](#disabling-jsdom)
+  -  [**Disabling jsdom**](#disabling-jsdom)
 
--  [**Experimental Snapshot Testing**](#experimental-snapshot-testing)
+  -  [**Experimental Snapshot Testing**](#experimental-snapshot-testing)
 
 -  [**Deployment**](#deployment)
 
--  [**Building for Relative Paths**](#building-for-relative-paths)
+  -  [**Building for Relative Paths**](#building-for-relative-paths)
 
--  [**GitHub Pages**](#github-pages)
+  -  [**GitHub Pages**](#github-pages)
 
--  [**Heroku**](#heroku)
+  -  [**Heroku**](#heroku)
 
--  [**Modulus**](#modulus)
+  -  [**Modulus**](#modulus)
 
--  [**Netlify**](#netlify)
+  -  [**Netlify**](#netlify)
 
--  [**Now**](#now)
+  -  [**Now**](#now)
 
--  [**Surge**](#surge)
+  -  [**Surge**](#surge)
 
 -  [**Something Missing?**](#something-missing)
 
