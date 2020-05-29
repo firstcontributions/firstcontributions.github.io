@@ -213,6 +213,13 @@ const projectList = [
     tags: ['JavaScript', 'UI'],
   },
   {
+    name: 'Flutter',
+    imageSrc: 'https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png',
+    projectLink: 'https://github.com/flutter/flutter/contribute',
+    description: 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond.',
+    tags: ['Dart','Android','Flutter','UI'],
+  },
+  {
     name: 'Python Koans',
     imageSrc: 'https://s3.amazonaws.com/media-p.slid.es/thumbnails/akoebbe/b35d77/python-koans.jpg',
     projectLink: 'https://github.com/gregmalcolm/python_koans/contribute',
