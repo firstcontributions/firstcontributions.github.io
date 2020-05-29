@@ -13,7 +13,7 @@
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 15px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -21,9 +21,21 @@
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+    border-radius: 25px;
+    border: #ddd;
+    block-size: auto;
+    display: inline;
 }
 
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 60px;
+    vertical-align:middle;
+    height: 50px;
+    display: inline-block;
 }
