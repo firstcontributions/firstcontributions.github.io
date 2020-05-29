@@ -31,32 +31,11 @@
     background-color: #4CAF50;
     color: white;
 }
-.slack{
-    display: inline-block;
-    vertical-align:middle;
-    margin-top: 10px;
-    width: 60px;
-    height: 40px;
-}
-.youtube{
-    vertical-align:middle;
-    margin-top: 10px;
-    width: 70px;
-    height: 50px;
-    display: inline-block;
-}
-.github{
-    margin-top: 10px;
-    vertical-align:middle;
-    width: 60px;
-    height: 50px;
-    display: inline-block;
-}
-.twitter{
+
+.logo{
     margin-top: 10px;
     width: 60px;
     vertical-align:middle;
     height: 50px;
-    fill: white;
     display: inline-block;
-} 
+}
