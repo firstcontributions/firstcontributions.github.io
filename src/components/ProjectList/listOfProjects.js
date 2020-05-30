@@ -217,7 +217,7 @@ const projectList = [
     imageSrc: 'https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png',
     projectLink: 'https://github.com/flutter/flutter/contribute',
     description: 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond.',
-    tags: ['Dart','Android','Flutter','UI'],
+    tags: ['Dart','Android','Flutter','UI','Cross-platform'],
   },
   {
     name: 'Python Koans',
