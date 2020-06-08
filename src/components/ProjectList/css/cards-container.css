@@ -6,3 +6,9 @@
   padding: 1vw;
   overflow: hidden;
 }
+
+@media screen and (max-width: 500px) {
+  .containerLayout{
+    padding: 15px;
+  }
+}
