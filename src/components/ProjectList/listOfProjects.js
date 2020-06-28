@@ -516,9 +516,9 @@ const projectList = [
     tags: ['JavaScript', 'server-rendering', 'node', 'nextjs', 'react']
   },
   {
-    name: 'Roc',
-    imageSrc: 'https://roc-project.github.io/icon.png',
-    projectLink: 'https://github.com/roc-project/roc/labels/help%20wanted',
+    name: 'Roc Toolkit',
+    imageSrc: 'https://roc-streaming.org/icon.png',
+    projectLink: 'https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted',
     description: 'A toolkit for real-time audio streaming over the network',
     tags: ['C++', 'Audio', 'Streaming', 'Networking', 'Cross-Platform', 'Linux', 'MacOS', 'Windows']
   },
