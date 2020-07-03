@@ -661,6 +661,12 @@ const projectList = [
     projectLink: 'https://github.com/mattermost/mattermost-server/contribute',
     description: 'Open source Slack-alternative for DevOps teams',
     tags: ['Go', 'Javascript', 'React', 'React Native'],
+  }, {
+    name: 'Markdown Dungeon',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/markdown-dungeon',
+    description: 'This is an example that how to use Markdown creating a dungeon.',
+    tags: ['Markdown', 'Good First Issue', 'Beginner'],
   }
 ];
 export default projectList;
