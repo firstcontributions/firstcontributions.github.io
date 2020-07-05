@@ -664,7 +664,7 @@ const projectList = [
   }, {
     name: 'Markdown Dungeon',
     imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
-    projectLink: 'https://github.com/MakeContributions/markdown-dungeon/labels/help%20wanted',
+    projectLink: 'https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines',
     description: 'This is an example that how to use Markdown creating a dungeon.',
     tags: ['Markdown', 'Good First Issue', 'Beginner'],
   }
