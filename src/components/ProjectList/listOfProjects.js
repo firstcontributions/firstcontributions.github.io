@@ -661,12 +661,20 @@ const projectList = [
     projectLink: 'https://github.com/mattermost/mattermost-server/contribute',
     description: 'Open source Slack-alternative for DevOps teams',
     tags: ['Go', 'Javascript', 'React', 'React Native'],
-  }, {
+  },
+  {
     name: 'Markdown Dungeon',
     imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
     projectLink: 'https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines',
     description: 'This is an example that how to use Markdown creating a dungeon.',
     tags: ['Markdown', 'Good First Issue', 'Beginner'],
+  },
+  {
+    name: 'Ansible',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/1507452?s=200&v=4',
+    projectLink: 'https://docs.ansible.com/ansible/latest/community/index.html',
+    description: 'Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.',
+    tags: ['Python', 'Automated-Testingg', 'Beginner'],
   }
 ];
 export default projectList;
