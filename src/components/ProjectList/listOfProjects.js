@@ -675,6 +675,20 @@ const projectList = [
     projectLink: 'https://docs.ansible.com/ansible/latest/community/index.html',
     description: 'Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.',
     tags: ['Python', 'Automated-Testingg', 'Beginner'],
+  },
+  {
+    name: 'start-here-guidelines',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/35373879?s=200&v=4',
+    projectLink: 'https://github.com/zero-to-mastery/start-here-guidelines#a-guide-to-get-started',
+    description: 'Lets Git started in the world of opensource, starting in the Zero To Mastery opensource playground. Especially designed for education and practical experience purposes.',
+    tags: ['Markdown', 'Beginner'],
+  },
+  {
+    name: 'CSS-Art',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/35373879?s=200&v=4',
+    projectLink: 'https://github.com/zero-to-mastery/CSS-Art#instructions',
+    description: 'General Edition - A CSS art challenge, for all skill levels.',
+    tags: ['CSS', 'HTML', 'Javascript', 'Beginner'],
   }
 ];
 export default projectList;
