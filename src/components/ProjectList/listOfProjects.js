@@ -693,7 +693,7 @@ const projectList = [
   {
     name: 'Chat-e2ee',
     imageSrc: 'https://repository-images.githubusercontent.com/271544524/44353a80-d451-11ea-815c-594e4a0c5fb8',
-    projectLink: 'https://github.com/muke1908/chat-e2ee',
+    projectLink: 'https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue',
     description: 'Chat app in end-to-end enctypted environment without registration',
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   }
