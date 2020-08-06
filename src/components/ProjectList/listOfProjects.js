@@ -619,7 +619,7 @@ const projectList = [
     projectLink: 'https://github.com/CyberNinjas/TallyCTF/contribute',
     description: 'Capture-The-Flag Scoreboard & CTF Event Running Software',
     tags: ['ctf', 'ctf-scoreboard', 'ctf-platform', 'JavaScript']
-  }, 
+  },
   {
     name: 'Airform',
     imageSrc: 'https://avatars1.githubusercontent.com/u/24883621',
@@ -689,6 +689,13 @@ const projectList = [
     projectLink: 'https://github.com/zero-to-mastery/CSS-Art#instructions',
     description: 'General Edition - A CSS art challenge, for all skill levels.',
     tags: ['CSS', 'HTML', 'Javascript', 'Beginner'],
+  },
+  {
+    name: 'Chat-e2ee',
+    imageSrc: 'https://repository-images.githubusercontent.com/271544524/44353a80-d451-11ea-815c-594e4a0c5fb8',
+    projectLink: 'https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue',
+    description: 'Chat app in end-to-end enctypted environment without registration',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   }
 ];
 export default projectList;
