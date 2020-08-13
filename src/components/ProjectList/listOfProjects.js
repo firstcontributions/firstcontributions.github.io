@@ -426,7 +426,7 @@ const projectList = [
   },
   {
     name: 'Hyper',
-    imageSrc: 'https://hyper.is/static/hyper.png',
+    imageSrc: 'https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png',
     projectLink: 'https://github.com/zeit/hyper/contribute',
     description: 'A terminal built on web technologies',
     tags: ['html', 'javascript', 'css', 'react', 'terminal']
@@ -636,7 +636,7 @@ const projectList = [
   },
   {
     name: 'Gatsby',
-    imageSrc: 'https://camo.githubusercontent.com/ac31ac54c2013850b0fb8a3a4926f4718a398fb3/68747470733a2f2f7777772e6761747362796a732e6f72672f6d6f6e6f6772616d2e737667',
+    imageSrc: 'https://raw.githubusercontent.com/gatsbyjs/gatsby/master/www/static/Gatsby-Monogram.svg',
     projectLink: 'https://github.com/gatsbyjs/gatsby/contribute',
     description: 'A free and open source framework based on React that helps developers build blazing fast websites and apps.',
     tags: ['React', 'Javascript', 'HTML', 'CSS', 'GraphQL', 'Web Development', 'Markdown'],
@@ -650,7 +650,7 @@ const projectList = [
   },
   {
     name: 'Game of Life',
-    imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
+    imageSrc: 'https://raw.githubusercontent.com/TroyTae/game-of-life/master/.github/images/favicon.gif',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
