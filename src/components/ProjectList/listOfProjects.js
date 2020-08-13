@@ -667,7 +667,7 @@ const projectList = [
     imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
     projectLink: 'https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines',
     description: 'This is an example that how to use Markdown creating a dungeon.',
-    tags: ['Markdown', 'Good First Issue', 'Beginner'],
+    tags: ['Markdown', 'React', 'Gatsby', 'Good First Issue', 'Beginner'],
   },
   {
     name: 'Ansible',
