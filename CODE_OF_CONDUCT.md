@@ -66,3 +66,10 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+
+#include<stdio.h>
+Int main()
+{
+Printf("hacktoberfest 2020");
+Return 0;
+}
