@@ -698,6 +698,13 @@ const projectList = [
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   },
   {
+    name: 'Open Source Code',
+    imageSrc: 'https://raw.githubusercontent.com/OpenSouceCode/Frontend/master/public/logo/favicon-logo.png',
+    projectLink: 'https://github.com/OpenSouceCode',
+    description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS'],
+  },
+  {
     name: 'Zulip',
     imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
     projectLink: 'https://github.com/zulip/zulip/contribute',
