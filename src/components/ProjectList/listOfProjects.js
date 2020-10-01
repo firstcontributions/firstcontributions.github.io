@@ -312,7 +312,7 @@ const projectList = [
   },
   {
     name: 'AnitaB.org ',
-    imageSrc: '![image](https://user-images.githubusercontent.com/60894542/94313579-9780c080-ff9c-11ea-8853-daa2a1c0fff5.png)',
+    imageSrc: 'https://user-images.githubusercontent.com/60894542/94313579-9780c080-ff9c-11ea-8853-daa2a1c0fff5.png',
     projectLink: 'https://github.com/anitab-org',
     description: 'Helping women find their potential in code.',
     tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML' , 'Kotlin' , 'Dart'],
