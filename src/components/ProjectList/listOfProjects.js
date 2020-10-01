@@ -696,6 +696,13 @@ const projectList = [
     projectLink: 'https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue',
     description: 'Chat app in end-to-end enctypted environment without registration',
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
+  },
+  {
+    name: 'Open Source Code',
+    imageSrc: 'https://raw.githubusercontent.com/OpenSouceCode/Frontend/master/public/logo/favicon-logo.png',
+    projectLink: 'https://github.com/OpenSouceCode',
+    description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS'],
   }
 ];
 export default projectList;
