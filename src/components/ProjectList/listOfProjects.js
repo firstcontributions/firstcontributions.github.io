@@ -700,7 +700,7 @@ const projectList = [
   {
     name: 'Zulip',
     imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
-    projectLink: 'https://github.com/zulip',
+    projectLink: 'https://github.com/zulip/zulip/contribute',
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
   }
