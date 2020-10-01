@@ -696,6 +696,13 @@ const projectList = [
     projectLink: 'https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue',
     description: 'Chat app in end-to-end enctypted environment without registration',
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
+  },
+  {
+    name: 'Zulip',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
+    projectLink: 'https://github.com/zulip',
+    description: 'Powerful Open Source Group Chat',
+    tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
   }
 ];
 export default projectList;
