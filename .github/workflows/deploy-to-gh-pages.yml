@@ -1,12 +1,12 @@
 name: Build and Deploy to GitHub pages
-on:
+ on:
   push:
     branches:
       - source
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    steps:
+     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
