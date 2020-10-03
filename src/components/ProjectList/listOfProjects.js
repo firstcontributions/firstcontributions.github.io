@@ -385,7 +385,7 @@ const projectList = [
   {
     name: 'Open Data Kit',
     imageSrc: 'https://opendatakit.org/assets/images/logo.png',
-    projectLink: 'https://github.com/opendatakit',
+    projectLink: 'https://github.com/getodk',
     description: 'Free and open-source set of tools for collecting data in challenging environments.',
     tags: ['Open Source', 'Software', 'JAVA', 'Android']
   },
