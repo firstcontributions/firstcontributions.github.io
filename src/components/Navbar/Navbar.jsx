@@ -8,7 +8,7 @@ class Navbar extends Component {
     render() {
         return (
             <div className="topnav">
-                <a href="https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM"  target="_blank" rel="noopener noreferrer">
+                <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-hfcq788y-QaXzXT5clBBWukXQyBhH4w"  target="_blank" rel="noopener noreferrer">
                 <img src={slack} className="logo" alt="slack logo" />
                 <span>Slack</span>
                 </a>
