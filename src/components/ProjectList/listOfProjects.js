@@ -721,14 +721,14 @@ const projectList = [
   {
     name : 'pavlos',
     imageSrc : 'https://raw.githubusercontent.com/Narasimha1997/pavlos/master/logo/logo.png',
-    projectLink : 'https://github.com/Narasimha1997/pavlos',
+    projectLink : 'https://github.com/Narasimha1997/MarvinOS/issues',
     description : 'Pavlos is a clone of docker with minimilistic features, a great place for learning container technology.',
     tags : ['OpenSource', 'golang', 'go', 'Beginner', 'containers', 'security', 'networking', 'deployment', 'linux']
   },
   {
     name : 'Marvin.OS',
     imageSrc : 'https://raw.githubusercontent.com/Narasimha1997/MarvinOS/master/logo/logo.png',
-    projectLink : 'https://github.com/Narasimha1997/MarvinOS',
+    projectLink : 'https://github.com/Narasimha1997/MarvinOS/issues',
     description : 'A hobby operating system built from scratch using C and Assembly',
     tags : ['OpenSource', 'osdev', 'c', 'hobby-kernel', 'assembly', 'x86_64']
   }
