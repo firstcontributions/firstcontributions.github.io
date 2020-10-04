@@ -311,11 +311,11 @@ const projectList = [
     tags: ['CSS', 'tips', 'guide', 'simple', 'useful']
   },
   {
-    name: 'Systers',
-    imageSrc: 'https://avatars3.githubusercontent.com/u/6520415?s=200&v=4',
-    projectLink: 'https://github.com/systers',
+    name: 'AnitaB.org ',
+    imageSrc: 'https://user-images.githubusercontent.com/60894542/94313579-9780c080-ff9c-11ea-8853-daa2a1c0fff5.png',
+    projectLink: 'https://github.com/anitab-org',
     description: 'Helping women find their potential in code.',
-    tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML'],
+    tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML' , 'Kotlin' , 'Dart'],
   },
   {
     name: 'Centos',
@@ -385,7 +385,7 @@ const projectList = [
   {
     name: 'Open Data Kit',
     imageSrc: 'https://opendatakit.org/assets/images/logo.png',
-    projectLink: 'https://github.com/opendatakit',
+    projectLink: 'https://github.com/getodk',
     description: 'Free and open-source set of tools for collecting data in challenging environments.',
     tags: ['Open Source', 'Software', 'JAVA', 'Android']
   },
@@ -426,7 +426,7 @@ const projectList = [
   },
   {
     name: 'Hyper',
-    imageSrc: 'https://hyper.is/static/hyper.png',
+    imageSrc: 'https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png',
     projectLink: 'https://github.com/zeit/hyper/contribute',
     description: 'A terminal built on web technologies',
     tags: ['html', 'javascript', 'css', 'react', 'terminal']
@@ -516,9 +516,9 @@ const projectList = [
     tags: ['JavaScript', 'server-rendering', 'node', 'nextjs', 'react']
   },
   {
-    name: 'Roc',
-    imageSrc: 'https://roc-project.github.io/icon.png',
-    projectLink: 'https://github.com/roc-project/roc/labels/help%20wanted',
+    name: 'Roc Toolkit',
+    imageSrc: 'https://roc-streaming.org/icon.png',
+    projectLink: 'https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted',
     description: 'A toolkit for real-time audio streaming over the network',
     tags: ['C++', 'Audio', 'Streaming', 'Networking', 'Cross-Platform', 'Linux', 'MacOS', 'Windows']
   },
@@ -619,7 +619,7 @@ const projectList = [
     projectLink: 'https://github.com/CyberNinjas/TallyCTF/contribute',
     description: 'Capture-The-Flag Scoreboard & CTF Event Running Software',
     tags: ['ctf', 'ctf-scoreboard', 'ctf-platform', 'JavaScript']
-  }, 
+  },
   {
     name: 'Airform',
     imageSrc: 'https://avatars1.githubusercontent.com/u/24883621',
@@ -636,7 +636,7 @@ const projectList = [
   },
   {
     name: 'Gatsby',
-    imageSrc: 'https://camo.githubusercontent.com/ac31ac54c2013850b0fb8a3a4926f4718a398fb3/68747470733a2f2f7777772e6761747362796a732e6f72672f6d6f6e6f6772616d2e737667',
+    imageSrc: 'https://raw.githubusercontent.com/gatsbyjs/gatsby/master/www/static/Gatsby-Monogram.svg',
     projectLink: 'https://github.com/gatsbyjs/gatsby/contribute',
     description: 'A free and open source framework based on React that helps developers build blazing fast websites and apps.',
     tags: ['React', 'Javascript', 'HTML', 'CSS', 'GraphQL', 'Web Development', 'Markdown'],
@@ -650,7 +650,7 @@ const projectList = [
   },
   {
     name: 'Game of Life',
-    imageSrc: 'https://troytae.github.io/game-of-life/favicon.gif',
+    imageSrc: 'https://raw.githubusercontent.com/TroyTae/game-of-life/master/.github/images/favicon.gif',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
@@ -661,6 +661,55 @@ const projectList = [
     projectLink: 'https://github.com/mattermost/mattermost-server/contribute',
     description: 'Open source Slack-alternative for DevOps teams',
     tags: ['Go', 'Javascript', 'React', 'React Native'],
+  },
+  {
+    name: 'Markdown Dungeon',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines',
+    description: 'This is an example that how to use Markdown creating a dungeon.',
+    tags: ['Markdown', 'React', 'Gatsby', 'Good First Issue', 'Beginner'],
+  },
+  {
+    name: 'Ansible',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/1507452?s=200&v=4',
+    projectLink: 'https://docs.ansible.com/ansible/latest/community/index.html',
+    description: 'Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.',
+    tags: ['Python', 'Automated-Testingg', 'Beginner'],
+  },
+  {
+    name: 'start-here-guidelines',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/35373879?s=200&v=4',
+    projectLink: 'https://github.com/zero-to-mastery/start-here-guidelines#a-guide-to-get-started',
+    description: 'Lets Git started in the world of opensource, starting in the Zero To Mastery opensource playground. Especially designed for education and practical experience purposes.',
+    tags: ['Markdown', 'Beginner'],
+  },
+  {
+    name: 'CSS-Art',
+    imageSrc: 'https://avatars2.githubusercontent.com/u/35373879?s=200&v=4',
+    projectLink: 'https://github.com/zero-to-mastery/CSS-Art#instructions',
+    description: 'General Edition - A CSS art challenge, for all skill levels.',
+    tags: ['CSS', 'HTML', 'Javascript', 'Beginner'],
+  },
+  {
+    name: 'Chat-e2ee',
+    imageSrc: 'https://repository-images.githubusercontent.com/271544524/44353a80-d451-11ea-815c-594e4a0c5fb8',
+    projectLink: 'https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue',
+    description: 'Chat app in end-to-end enctypted environment without registration',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
+  },
+  {
+    name: 'Open Source Code',
+    imageSrc: 'https://raw.githubusercontent.com/OpenSouceCode/Frontend/master/public/logo/favicon-logo.png',
+    projectLink: 'https://github.com/OpenSouceCode',
+    description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS'],
+  },
+  {
+    name: 'Zulip',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
+    projectLink: 'https://github.com/zulip/zulip/contribute',
+    description: 'Powerful Open Source Group Chat',
+    tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
   }
 ];
 export default projectList;
