@@ -461,8 +461,8 @@ const projectList = [
   },
   {
     name: 'ifme',
-    imageSrc: 'https://raw.githubusercontent.com/ifmeorg/ifme/master/public/logo_512.png',
-    projectLink: 'https://github.com/ifmeorg/ifme/contribute',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/23299450?s=200',
+    projectLink: 'https://github.com/ifmeorg/ifme',
     description: 'A community for mental health experiences',
     tags: ['ruby-on-rails', 'javascript', 'react']
   },
@@ -538,7 +538,7 @@ const projectList = [
   },
   {
     name: 'Light Table',
-    imageSrc: 'http://lighttable.com/images/logo.png',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/5877010?s=200',
     projectLink: 'https://github.com/LightTable',
     description: 'Light Table is a next generation code editor that connects you to your creation with instant feedback. Light Table is very customizable and can display anything a Chromium browser can.',
     tags: ['clojurescript', 'ide', 'editor', 'clojure', 'lighttable', 'clojure-development']
@@ -657,7 +657,7 @@ const projectList = [
   },
   {
     name: 'Game of Life',
-    imageSrc: 'https://raw.githubusercontent.com/TroyTae/game-of-life/master/.github/images/favicon.gif',
+    imageSrc: 'https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
