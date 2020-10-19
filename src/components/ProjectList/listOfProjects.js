@@ -717,6 +717,14 @@ const projectList = [
     projectLink: 'https://github.com/zulip/zulip/contribute',
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
-  }
+  },
+  {
+    name: 'Proton',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/21955151?s=200&v=4',
+    githubLink:
+      'https:github.com/ValveSoftware/Proton.git',
+    description: 'A keyboard-driven, vim-like browser based on PyQt5',
+    tags: ['Python','Qt','windows','gamer','streamplay','qtWebEngine','app']
+  },
 ];
 export default projectList;
