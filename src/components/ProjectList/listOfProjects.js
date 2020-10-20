@@ -718,5 +718,12 @@ const projectList = [
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
   }
+   {
+    name: 'Ghost',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ghost-Logo.svg/1008px-Ghost-Logo.svg.png',
+    projectLink: 'https://github.com/TryGhost/Ghost',
+    description: ' The #1 headless Node.js CMS for professional publishing',
+    tags: ['journalism', 'publishing', 'blogging', 'javascript', 'web-application','cms','nodejs','ember','headless-cms','jamstack'],
+  }
 ];
 export default projectList;
