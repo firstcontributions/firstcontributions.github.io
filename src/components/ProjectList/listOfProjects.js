@@ -1,5 +1,11 @@
 const projectList = [
   {
+    name: 'Jina',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/60539444?s=200&v=4',
+    projectLink: 'https://github.com/jina-ai/jina',
+    description: 'An easier way to build neural search on the cloud. An AI-powered search framework, empowering developers to create cross-/multi-modal search systems',
+    tags: ['Python', 'Machine Learning', 'Web App', 'Deep Learning', 'NLP'],
+  }, {
     name: 'React',
     imageSrc: 'https://camo.githubusercontent.com/22045498095171997ccf6a9554672519b9f67898/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742e737667',
     projectLink: 'https://github.com/facebook/react/contribute',
