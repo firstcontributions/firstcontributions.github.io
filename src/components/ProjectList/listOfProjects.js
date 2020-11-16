@@ -1,5 +1,11 @@
 const projectList = [
   {
+    name: 'MoveIt',
+    imageSrc: 'https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67',
+    projectLink: 'https://github.com/ros-planning/moveit',
+    description: 'Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.',
+    tags: ['c++', 'python', 'robotics', 'open source', 'motion planning'],
+  }, {
     name: 'Jina',
     imageSrc: 'https://avatars1.githubusercontent.com/u/60539444?s=200&v=4',
     projectLink: 'https://github.com/jina-ai/jina',
