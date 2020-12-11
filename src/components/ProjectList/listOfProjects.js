@@ -682,6 +682,13 @@ const projectList = [
     tags: ['Go', 'Javascript', 'React', 'React Native'],
   },
   {
+    name: 'Leapcode',
+    imageSrc: 'https://avatars1.githubusercontent.com/u/66108516?s=200&v=4',
+    projectLink: 'https://github.com/Leapcode-Open/leapcode-frontend/issues',
+    description: 'Leapcode is an online community & platform that motivates and rewards first-time open source contributors to get started.',
+    tags: ['Javascript', 'React', 'Gatsby'],
+  },
+  {
     name: 'Markdown Dungeon',
     imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
     projectLink: 'https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines',
