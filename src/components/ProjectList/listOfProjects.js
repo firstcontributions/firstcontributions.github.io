@@ -736,6 +736,13 @@ const projectList = [
     projectLink: 'https://github.com/zulip/zulip/contribute',
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
+  },
+    {
+    name: 'SimplQ',
+    imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
+    projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
+    description: 'Modern and fully web based queue management solution for crowded businesses.',
+    tags: ['OpenSource', 'React', 'Javascript', 'Beginner', 'Productivity'],
   }
 ];
 export default projectList;
