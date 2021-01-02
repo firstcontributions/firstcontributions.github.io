@@ -750,6 +750,13 @@ const projectList = [
   projectLink: 'https://github.com/rocky-linux/rocky#contributing',
   description: 'Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux, now that CentOS has shifted direction.',
   tags: ['OpenSource', 'Shell', 'Python', 'HTML', 'Ruby', 'Puppet'],
-}
+  },
+  {
+  name: 'Phpmyadmin',
+  imageSrc: 'https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png',
+  projectLink: 'https://github.com/phpmyadmin/phpmyadmin/blob/master/CONTRIBUTING.md',
+  description: 'A web interface for MySQL and MariaDB.',
+  tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
+  }
 ];
 export default projectList;
