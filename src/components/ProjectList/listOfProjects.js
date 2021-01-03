@@ -722,7 +722,7 @@ const projectList = [
     name: 'Proton',
     imageSrc: 'https://avatars1.githubusercontent.com/u/21955151?s=200&v=4',
    projectLink:
-      'https:github.com/ValveSoftware/Proton.git',
+      'https://github.com/ValveSoftware/Proton',
     description: 'A keyboard-driven, vim-like browser based on PyQt5',
     tags: ['Python','Qt','windows','gamer','streamplay','qtWebEngine','app']
   },
