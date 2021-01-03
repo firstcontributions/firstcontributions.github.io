@@ -754,7 +754,7 @@ const projectList = [
   {
   name: 'Phpmyadmin',
   imageSrc: 'https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png',
-  projectLink: 'https://github.com/phpmyadmin/phpmyadmin/blob/master/CONTRIBUTING.md',
+  projectLink: 'https://www.phpmyadmin.net/contribute/',
   description: 'A web interface for MySQL and MariaDB.',
   tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   }
