@@ -45,7 +45,7 @@ const projectList = [
   }, {
     name: 'React Testing Library',
     imageSrc: 'https://raw.githubusercontent.com/testing-library/react-testing-library/master/other/goat.png',
-    projectLink: 'https://github.com/testing-library/react-testing-library',
+    projectLink: 'https://github.com/testing-library/react-testing-library/blob/master/CONTRIBUTING.md',
     description: 'Simple and complete React DOM testing utilities that encourage good testing practices.',
     tags: ['Unit testing', 'JavaScript', 'React', 'React Native'],
   }, {
