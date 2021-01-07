@@ -43,6 +43,12 @@ const projectList = [
     description: 'Quickly ramp up in new programming languages!',
     tags: ['Ruby', 'Exercises', 'CLI', 'Web App'],
   }, {
+    name: 'React Testing Library',
+    imageSrc: 'https://raw.githubusercontent.com/testing-library/react-testing-library/master/other/goat.png',
+    projectLink: 'https://github.com/testing-library/react-testing-library/blob/master/CONTRIBUTING.md',
+    description: 'Simple and complete React DOM testing utilities that encourage good testing practices.',
+    tags: ['Unit testing', 'JavaScript', 'React', 'React Native'],
+  }, {
     name: 'Gauge',
     imageSrc: 'https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4',
     projectLink: 'https://github.com/getgauge/gauge/contribute',
