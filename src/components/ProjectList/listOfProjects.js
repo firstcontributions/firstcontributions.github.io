@@ -204,8 +204,8 @@ const projectList = [
     tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
   },{
     name: 'Hyper',
-    imageSrc: '68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313534393732333834362f7265706f7369746f726965732f68797065722f68797065722d332d7265706f2d62616e6e65722e706e67',
-    projectLink: 'https://github.com/vercel/hyper',
+    imageSrc: 'https://camo.githubusercontent.com/847ee74c9984736cc7027686e0a965073b34c9b85677d019111855503fdf869c/68747470733a2f2f6173736574732e7a6569742e636f2f696d6167652f75706c6f61642f76313534393732333834362f7265706f7369746f726965732f68797065722f68797065722d332d7265706f2d62616e6e65722e706e67',
+    projectLink: 'https://github.com/vercel/hyper/contribute',
     description: 'JS/HTML/CSS Terminal',
     tags: ['HTML','CSS','JavaScript','React','Typescript','linux','macos','terminal'],
   },{
