@@ -43,6 +43,12 @@ const projectList = [
     description: 'Quickly ramp up in new programming languages!',
     tags: ['Ruby', 'Exercises', 'CLI', 'Web App'],
   }, {
+    name: 'React Testing Library',
+    imageSrc: 'https://raw.githubusercontent.com/testing-library/react-testing-library/master/other/goat.png',
+    projectLink: 'https://github.com/testing-library/react-testing-library/blob/master/CONTRIBUTING.md',
+    description: 'Simple and complete React DOM testing utilities that encourage good testing practices.',
+    tags: ['Unit testing', 'JavaScript', 'React', 'React Native'],
+  }, {
     name: 'Gauge',
     imageSrc: 'https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4',
     projectLink: 'https://github.com/getgauge/gauge/contribute',
@@ -743,6 +749,20 @@ const projectList = [
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description: 'Modern and fully web based queue management solution for crowded businesses.',
     tags: ['OpenSource', 'React', 'Javascript', 'Beginner', 'Productivity'],
+  },
+  {
+    name: 'Rocky Linux',
+    imageSrc: 'https://raw.githubusercontent.com/rocky-linux/rocky-logos/main/icons/hicolor/256x256/apps/system-logo-icon.png',
+    projectLink: 'https://github.com/rocky-linux/rocky#contributing',
+    description: 'Rocky Linux is a community enterprise Operating System designed to be 100% bug-for-bug compatible with Enterprise Linux, now that CentOS has shifted direction.',
+    tags: ['OpenSource', 'Shell', 'Python', 'HTML', 'Ansible', 'Linux'],
+  },
+  {
+    name: 'Phpmyadmin',
+    imageSrc: 'https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png',
+    projectLink: 'https://www.phpmyadmin.net/contribute/',
+    description: 'A web interface for MySQL and MariaDB.',
+    tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   },
   {
     name: 'Navy Linux',
