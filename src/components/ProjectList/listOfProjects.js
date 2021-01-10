@@ -743,6 +743,13 @@ const projectList = [
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description: 'Modern and fully web based queue management solution for crowded businesses.',
     tags: ['OpenSource', 'React', 'Javascript', 'Beginner', 'Productivity'],
+  },
+  {
+    name: 'Navy Linux',
+    imageSrc: 'https://raw.githubusercontent.com/navy-linux/logos/main/logo-text.jpg',
+    projectLink: 'https://github.com/navy-linux/',
+    description: 'Navy Linux is a recompilation of the Red Hat Linux project just as the centOS Linux project has been for all these years.',
+    tags: ['Shell', 'Python', 'HTML', 'Ruby', 'Puppet'],
   }
 ];
 export default projectList;
