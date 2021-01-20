@@ -767,9 +767,23 @@ const projectList = [
   {
     name: 'Litefy',
     imageSrc: 'https://raw.githubusercontent.com/mathkruger/litefy/master/src/assets/logo.png',
-    projectLink: 'https://github.com/mathkruger/litefy',
+    projectLink: 'https://github.com/mathkruger/litefy/contribute',
     description: 'A lighweight Spotify client for low-end devices',
     tags: ['OpenSource', 'Angular', 'HTML', 'CSS', 'Javascript', 'Typescript'],
+  },
+  {
+    name: 'Navy Linux',
+    imageSrc: 'https://raw.githubusercontent.com/navy-linux/logos/main/logo-text.jpg',
+    projectLink: 'https://github.com/navy-linux/',
+    description: 'Navy Linux is a recompilation of the Red Hat Linux project just as the centOS Linux project has been for all these years.',
+    tags: ['Shell', 'Python', 'HTML', 'Ruby', 'Puppet'],
+  },
+  {
+    name: 'DSA',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/DSA',
+    description: 'Data structure and Algorithm (DSA) contributions',
+    tags: ['OpenSource', 'Javascript', 'C#', 'C', 'C++', 'Python', 'Beginner', 'DSA'],
   }
 ];
 export default projectList;
