@@ -769,7 +769,7 @@ const projectList = [
     imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
     projectLink: 'https://github.com/MakeContributions/DSA',
     description: 'Data structure and Algorithm (DSA) contributions',
-    tags: ['OpenSource', 'Javascript', 'C#', 'C', 'C++', 'Python', 'Beginner'],
+    tags: ['OpenSource', 'Javascript', 'C#', 'C', 'C++', 'Python', 'Beginner', 'DSA'],
   }
 ];
 export default projectList;
