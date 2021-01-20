@@ -763,6 +763,13 @@ const projectList = [
     projectLink: 'https://www.phpmyadmin.net/contribute/',
     description: 'A web interface for MySQL and MariaDB.',
     tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
+  },
+  {
+    name: 'DSA',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/DSA',
+    description: 'Data structure and Algorithm (DSA) contributions',
+    tags: ['OpenSource', 'Javascript', 'C#', 'C', 'C++', 'Python', 'Beginner'],
   }
 ];
 export default projectList;
