@@ -202,14 +202,19 @@ const projectList = [
     projectLink: 'https://github.com/danthareja/contribute-to-open-source/contribute',
     description: 'Learn GitHub\'s pull request process by contributing code in a fun simulation project.',
     tags: ['GitHub', 'Tutorial'],
-  }, {
+  },{
     name: 'Mail For Good',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
     projectLink: 'https://github.com/freeCodeCamp/mail-for-good/contribute',
     description: 'An open source email campaign management tool.',
     tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
-  },
-  {
+  },{
+    name: 'Hyper',
+    imageSrc: 'https://camo.githubusercontent.com/847ee74c9984736cc7027686e0a965073b34c9b85677d019111855503fdf869c/68747470733a2f2f6173736574732e7a6569742e636f2f696d6167652f75706c6f61642f76313534393732333834362f7265706f7369746f726965732f68797065722f68797065722d332d7265706f2d62616e6e65722e706e67',
+    projectLink: 'https://github.com/vercel/hyper/contribute',
+    description: 'JS/HTML/CSS Terminal',
+    tags: ['HTML','CSS','JavaScript','React','Typescript','linux','macos','terminal'],
+  },{
     name: 'Visual Studio Code',
     imageSrc: 'https://camo.githubusercontent.com/a7f6e01cc208b478047eade76755f46cf1098c05/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f322f32642f56697375616c5f53747564696f5f436f64655f312e31385f69636f6e2e737667',
     projectLink: 'https://github.com/Microsoft/vscode/contribute',
