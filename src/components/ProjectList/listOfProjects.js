@@ -242,7 +242,7 @@ const projectList = [
     imageSrc: 'https://raw.githubusercontent.com/flutter/website/master/src/_assets/image/flutter-lockup.png',
     projectLink: 'https://github.com/flutter/flutter/contribute',
     description: 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond.',
-    tags: ['Dart','Android','iOS','UI','Cross-platform'],
+    tags: ['Dart', 'Android', 'iOS', 'UI', 'Cross-platform'],
   },
   {
     name: 'Python Koans',
@@ -340,7 +340,7 @@ const projectList = [
     imageSrc: 'https://user-images.githubusercontent.com/60894542/94313579-9780c080-ff9c-11ea-8853-daa2a1c0fff5.png',
     projectLink: 'https://github.com/anitab-org',
     description: 'Helping women find their potential in code.',
-    tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML' , 'Kotlin' , 'Dart'],
+    tags: ['Python', 'Java', 'Swift', 'Javascript', 'HTML', 'Kotlin', 'Dart'],
   },
   {
     name: 'Centos',
@@ -376,7 +376,7 @@ const projectList = [
     projectLink: 'https://github.com/styled-system/styled-system/contribute',
     description: 'Style props for rapid UI development',
     tags: ['ui', 'css-in-js', 'design-systems', 'style-props', 'theming'],
-   },
+  },
   {
     name: 'Movie-Stream',
     imageSrc: 'https://image.ibb.co/faTroc/movie_stream.png',
@@ -650,7 +650,7 @@ const projectList = [
     imageSrc: 'https://avatars1.githubusercontent.com/u/24883621',
     projectLink: 'https://github.com/airform/airform/contribute',
     description: 'Functional HTML forms for Front-End Developers.',
-    tags: ['airform',  'serverless',  'sendmail',  'mailer',  'html-forms',  'forms',  'smtp',  'sendgrid',  'mailchimp',  'mailgun'],
+    tags: ['airform', 'serverless', 'sendmail', 'mailer', 'html-forms', 'forms', 'smtp', 'sendgrid', 'mailchimp', 'mailgun'],
   },
   {
     name: 'Milligram',
@@ -743,7 +743,7 @@ const projectList = [
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
   },
-    {
+  {
     name: 'SimplQ',
     imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
@@ -777,6 +777,13 @@ const projectList = [
     projectLink: 'https://github.com/MakeContributions/DSA',
     description: 'Data structure and Algorithm (DSA) contributions',
     tags: ['OpenSource', 'Javascript', 'C#', 'C', 'C++', 'Python', 'Beginner', 'DSA'],
+  },
+  {
+    name: 'Jest',
+    imageSrc: 'https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png',
+    projectLink: 'https://github.com/facebook/jest/contribute',
+    description: 'Delightful JavaScript Testing',
+    tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
   }
 ];
 export default projectList;
