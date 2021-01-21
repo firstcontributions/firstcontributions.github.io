@@ -770,6 +770,13 @@ const projectList = [
     tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   },
   {
+    name: 'Litefy',
+    imageSrc: 'https://raw.githubusercontent.com/mathkruger/litefy/master/src/assets/logo.png',
+    projectLink: 'https://github.com/mathkruger/litefy/contribute',
+    description: 'A lighweight Spotify client for low-end devices',
+    tags: ['OpenSource', 'Angular', 'HTML', 'CSS', 'Javascript', 'Typescript'],
+  },
+  {
     name: 'Navy Linux',
     imageSrc: 'https://raw.githubusercontent.com/navy-linux/logos/main/logo-text.jpg',
     projectLink: 'https://github.com/navy-linux/',
