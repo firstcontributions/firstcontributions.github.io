@@ -796,6 +796,13 @@ const projectList = [
     projectLink: 'https://github.com/facebook/jest/contribute',
     description: 'Delightful JavaScript Testing',
     tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
+  },
+  {
+    name: 'Idea Hub',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/ideahub#contribution-guidelines',
+    description: 'A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀',
+    tags: ['Hub', 'ideas', 'Project List', 'Good First Issue', 'Beginner'],
   }
 ];
 export default projectList;
