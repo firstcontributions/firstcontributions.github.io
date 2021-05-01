@@ -1,5 +1,12 @@
 const projectList = [
   {
+    name: 'Reseter.css',
+    imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
+    projectLink: 'https://github.com/krishdevdb/reseter.css',
+    description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
+    tags: ['css', 'sass' 'scss', 'less', 'stylus']
+  },
+  {
     name: 'MoveIt',
     imageSrc: 'https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67',
     projectLink: 'https://github.com/ros-planning/moveit',
