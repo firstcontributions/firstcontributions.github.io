@@ -16,6 +16,10 @@
   border: 1px solid #DCDCDC;
 }
 
+#search:hover,#search:focus {
+  border: 1px #0f3cef solid ;
+}
+
 .inputContainer {
    width: 47%;
    margin-top: 40px;
