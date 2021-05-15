@@ -735,11 +735,11 @@ const projectList = [
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   },
   {
-    name: 'Open Source Code',
-    imageSrc: 'https://raw.githubusercontent.com/OpenSouceCode/Frontend/master/public/logo/favicon-logo.png',
-    projectLink: 'https://github.com/OpenSouceCode',
+    name: 'CodeTrophs',
+    imageSrc: 'https://avatars.githubusercontent.com/u/62751673?s=200&v=4',
+    projectLink: 'https://github.com/CodeTrophs',
     description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
-    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS'],
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS', 'Python', 'ML/AI', 'OpenSource'],
   },
   {
     name: 'Zulip',
@@ -796,6 +796,13 @@ const projectList = [
     projectLink: 'https://github.com/facebook/jest/contribute',
     description: 'Delightful JavaScript Testing',
     tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
+  },
+  {
+    name: 'Jigsaw',
+    imageSrc: 'https://avatars.githubusercontent.com/u/19845815?s=200&v=4',
+    projectLink: 'https://github.com/Jigsaw-Code',
+    description: 'Jigsaw is an incubator within Google that uses technology to address geopolitical issues.',
+    tags: ['Go', 'TypeScript', 'c', 'Shell', 'Python'],
   }
 ];
 export default projectList;
