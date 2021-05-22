@@ -796,6 +796,13 @@ const projectList = [
     projectLink: 'https://github.com/facebook/jest/contribute',
     description: 'Delightful JavaScript Testing',
     tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
+  },
+  {
+    name: 'Simple Icons',
+    imageSrc: 'https://github.com/simple-icons/simple-icons-website/blob/master/public/images/og.png',
+    projectLink: 'https://github.com/simple-icons/simple-icons',
+    description: 'SVG icons for popular brands',
+    tags: ['JavaScript', 'OpenSource', 'Beginner', 'SVG', 'NodeJS']
   }
 ];
 export default projectList;
