@@ -798,6 +798,13 @@ const projectList = [
     tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
   },
   {
+    name: 'Idea Hub',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/ideahub#contribution-guidelines',
+    description: 'A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀',
+    tags: ['Hub', 'ideas', 'Project List', 'Good First Issue', 'Beginner'],
+  },
+  {
     name: 'Simple Icons',
     imageSrc: 'https://github.com/simple-icons/simple-icons-website/blob/master/public/images/og.png',
     projectLink: 'https://github.com/simple-icons/simple-icons',
