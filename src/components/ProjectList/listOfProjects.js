@@ -735,11 +735,11 @@ const projectList = [
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   },
   {
-    name: 'Open Source Code',
-    imageSrc: 'https://raw.githubusercontent.com/OpenSouceCode/Frontend/master/public/logo/favicon-logo.png',
-    projectLink: 'https://github.com/OpenSouceCode',
+    name: 'CodeTrophs',
+    imageSrc: 'https://avatars.githubusercontent.com/u/62751673?s=200&v=4',
+    projectLink: 'https://github.com/CodeTrophs',
     description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
-    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS'],
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS', 'Python', 'ML/AI', 'OpenSource'],
   },
   {
     name: 'Zulip',
@@ -803,6 +803,27 @@ const projectList = [
     projectLink: 'https://github.com/CollaboraOnline/online/contribute',
     description: 'A collaborative online office suite based on LibreOffice technology. This is also the source for the Collabora Office apps for iOS and Android.',
     tags: ['javascript', 'css', 'android', 'c++', 'design', 'ios', 'web', 'productivity', 'typescript', 'libreoffice', 'office', 'documents']
+  },
+  {
+    name: 'Jigsaw',
+    imageSrc: 'https://avatars.githubusercontent.com/u/19845815?s=200&v=4',
+    projectLink: 'https://github.com/Jigsaw-Code',
+    description: 'Jigsaw is an incubator within Google that uses technology to address geopolitical issues.',
+    tags: ['Go', 'TypeScript', 'c', 'Shell', 'Python'],
+  },
+  {
+    name: 'Idea Hub',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/ideahub#contribution-guidelines',
+    description: 'A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀',
+    tags: ['Hub', 'ideas', 'Project List', 'Good First Issue', 'Beginner'],
+  },
+  {
+    name: 'Simple Icons',
+    imageSrc: 'https://github.com/simple-icons/simple-icons-website/blob/master/public/images/og.png',
+    projectLink: 'https://github.com/simple-icons/simple-icons',
+    description: 'SVG icons for popular brands',
+    tags: ['JavaScript', 'OpenSource', 'Beginner', 'SVG', 'NodeJS']
   }
 ];
 export default projectList;
