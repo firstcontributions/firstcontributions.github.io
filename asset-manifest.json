@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.001bb6bb.chunk.css",
-    "main.js": "/static/js/main.790cf66f.chunk.js",
-    "main.js.map": "/static/js/main.790cf66f.chunk.js.map",
+    "main.css": "/static/css/main.0a2ab546.chunk.css",
+    "main.js": "/static/js/main.0ab1a03e.chunk.js",
+    "main.js.map": "/static/js/main.0ab1a03e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5fd1ef99.js",
     "runtime-main.js.map": "/static/js/runtime-main.5fd1ef99.js.map",
     "static/css/2.a003e2ee.chunk.css": "/static/css/2.a003e2ee.chunk.css",
@@ -10,9 +10,10 @@
     "static/js/2.af166750.chunk.js.map": "/static/js/2.af166750.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a003e2ee.chunk.css.map": "/static/css/2.a003e2ee.chunk.css.map",
-    "static/css/main.001bb6bb.chunk.css.map": "/static/css/main.001bb6bb.chunk.css.map",
+    "static/css/main.0a2ab546.chunk.css.map": "/static/css/main.0a2ab546.chunk.css.map",
     "static/js/2.af166750.chunk.js.LICENSE.txt": "/static/js/2.af166750.chunk.js.LICENSE.txt",
     "static/media/github.c5776142.svg": "/static/media/github.c5776142.svg",
+    "static/media/scroll-down.61897565.svg": "/static/media/scroll-down.61897565.svg",
     "static/media/slack.467b83a4.svg": "/static/media/slack.467b83a4.svg",
     "static/media/twitter.59345615.svg": "/static/media/twitter.59345615.svg",
     "static/media/youtube.197f2734.svg": "/static/media/youtube.197f2734.svg"
@@ -21,7 +22,7 @@
     "static/js/runtime-main.5fd1ef99.js",
     "static/css/2.a003e2ee.chunk.css",
     "static/js/2.af166750.chunk.js",
-    "static/css/main.001bb6bb.chunk.css",
-    "static/js/main.790cf66f.chunk.js"
+    "static/css/main.0a2ab546.chunk.css",
+    "static/js/main.0ab1a03e.chunk.js"
   ]
 }
