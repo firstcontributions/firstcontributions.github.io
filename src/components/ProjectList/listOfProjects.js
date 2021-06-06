@@ -798,6 +798,13 @@ const projectList = [
     tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
   },
   {
+    name: 'Collabora Online',
+    imageSrc: 'https://avatars.githubusercontent.com/u/22418908?s=200&v=4',
+    projectLink: 'https://github.com/CollaboraOnline/online/contribute',
+    description: 'A collaborative online office suite based on LibreOffice technology. This is also the source for the Collabora Office apps for iOS and Android.',
+    tags: ['javascript', 'css', 'android', 'c++', 'design', 'ios', 'web', 'productivity', 'typescript', 'libreoffice', 'office', 'documents']
+  },
+  {
     name: 'Jigsaw',
     imageSrc: 'https://avatars.githubusercontent.com/u/19845815?s=200&v=4',
     projectLink: 'https://github.com/Jigsaw-Code',
