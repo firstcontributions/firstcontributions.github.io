@@ -13,13 +13,13 @@ const projectList = [
     tags: ['Python', 'Machine Learning', 'Web App', 'Deep Learning', 'NLP'],
   }, {
     name: 'React',
-    imageSrc: 'https://camo.githubusercontent.com/22045498095171997ccf6a9554672519b9f67898/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742e737667',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
     projectLink: 'https://github.com/facebook/react/contribute',
     description: 'A declarative, efficient, and flexible JavaScript library for building user interfaces.',
     tags: ['JavaScript', 'UI', 'Web App'],
   }, {
     name: 'React Native',
-    imageSrc: 'https://camo.githubusercontent.com/22045498095171997ccf6a9554672519b9f67898/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742e737667',
+    imageSrc: 'https://www.abvt.com.au/wp-content/uploads/2020/10/react-native-logo-web.png',
     projectLink: 'https://github.com/facebook/react-native/contribute',
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
@@ -666,7 +666,7 @@ const projectList = [
   },
   {
     name: 'Gatsby',
-    imageSrc: 'https://raw.githubusercontent.com/gatsbyjs/gatsby/master/www/static/Gatsby-Monogram.svg',
+     imageSrc: 'https://www.gatsbyjs.com/Gatsby-Logo.svg',
     projectLink: 'https://github.com/gatsbyjs/gatsby/contribute',
     description: 'A free and open source framework based on React that helps developers build blazing fast websites and apps.',
     tags: ['React', 'Javascript', 'HTML', 'CSS', 'GraphQL', 'Web Development', 'Markdown'],
@@ -778,7 +778,7 @@ const projectList = [
   },
   {
     name: 'Navy Linux',
-    imageSrc: 'https://raw.githubusercontent.com/navy-linux/logos/main/logo-text.jpg',
+   imageSrc: 'https://navylinux.org/images/logo-blue.png',
     projectLink: 'https://github.com/navy-linux/',
     description: 'Navy Linux is a recompilation of the Red Hat Linux project just as the centOS Linux project has been for all these years.',
     tags: ['Shell', 'Python', 'HTML', 'Ruby', 'Puppet'],
