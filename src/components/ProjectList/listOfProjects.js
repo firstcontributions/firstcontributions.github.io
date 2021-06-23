@@ -824,6 +824,13 @@ const projectList = [
     projectLink: 'https://github.com/simple-icons/simple-icons',
     description: 'SVG icons for popular brands',
     tags: ['JavaScript', 'OpenSource', 'Beginner', 'SVG', 'NodeJS']
+  },
+  {
+    name: 'Eclipse JKube',
+    imageSrc: 'https://github.com/eclipse/jkube/raw/master/media/JKube-Logo-final-square-color.png',
+    projectLink: 'https://github.com/eclipse/jkube',
+    description: 'Cloud-Native Java Applications without a hassle, bring your Java applications to Kubernetes',
+    tags: ['Java', 'Kubernetes', 'OpenShift', 'Eclipse', 'OpenSource', 'Beginner']
   }
 ];
 export default projectList;
