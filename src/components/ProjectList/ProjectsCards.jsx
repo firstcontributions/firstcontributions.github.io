@@ -34,8 +34,8 @@ const Card = ({
           <div className="Card-Description">
             <p> {description}</p>
           </div>
-          <div className="Card-Link">Go to Project</div>
         </div>
+        <div className="Card-Link">Go to Project</div>
       </a>
     </div>
   );

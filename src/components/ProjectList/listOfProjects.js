@@ -1,5 +1,12 @@
 const projectList = [
   {
+    name: 'Reseter.css',
+    imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
+    projectLink: 'https://github.com/krishdevdb/reseter.css',
+    description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
+    tags: ['css', 'sass' 'scss', 'less', 'stylus']
+  },
+  {
     name: 'MoveIt',
     imageSrc:
       'https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67',
@@ -1003,7 +1010,13 @@ const projectList = [
       'Chat app in end-to-end enctypted environment without registration',
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   },
-
+  {
+    name: 'CodeTrophs',
+    imageSrc: 'https://avatars.githubusercontent.com/u/62751673?s=200&v=4',
+    projectLink: 'https://github.com/CodeTrophs',
+    description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
+    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS', 'Python', 'ML/AI', 'OpenSource'],
+  },
   {
     name: 'Zulip',
     imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
@@ -1075,14 +1088,42 @@ const projectList = [
       'https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png',
     projectLink: 'https://github.com/facebook/jest/contribute',
     description: 'Delightful JavaScript Testing',
-    tags: [
-      'OpenSource',
-      'Facebook',
-      'Testing',
-      'Immersive',
-      'JavaScript',
-      'TypeScript',
-    ],
+    tags: ['OpenSource', 'Facebook', 'Testing', 'Immersive', 'JavaScript', 'TypeScript'],
   },
+  {
+    name: 'Collabora Online',
+    imageSrc: 'https://avatars.githubusercontent.com/u/22418908?s=200&v=4',
+    projectLink: 'https://github.com/CollaboraOnline/online/contribute',
+    description: 'A collaborative online office suite based on LibreOffice technology. This is also the source for the Collabora Office apps for iOS and Android.',
+    tags: ['javascript', 'css', 'android', 'c++', 'design', 'ios', 'web', 'productivity', 'typescript', 'libreoffice', 'office', 'documents']
+  },
+  {
+    name: 'Jigsaw',
+    imageSrc: 'https://avatars.githubusercontent.com/u/19845815?s=200&v=4',
+    projectLink: 'https://github.com/Jigsaw-Code',
+    description: 'Jigsaw is an incubator within Google that uses technology to address geopolitical issues.',
+    tags: ['Go', 'TypeScript', 'c', 'Shell', 'Python'],
+  },
+  {
+    name: 'Idea Hub',
+    imageSrc: 'https://avatars3.githubusercontent.com/u/67384272?v=4',
+    projectLink: 'https://github.com/MakeContributions/ideahub#contribution-guidelines',
+    description: 'A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀',
+    tags: ['Hub', 'ideas', 'Project List', 'Good First Issue', 'Beginner'],
+  },
+  {
+    name: 'Simple Icons',
+    imageSrc: 'https://github.com/simple-icons/simple-icons-website/blob/master/public/images/og.png',
+    projectLink: 'https://github.com/simple-icons/simple-icons',
+    description: 'SVG icons for popular brands',
+    tags: ['JavaScript', 'OpenSource', 'Beginner', 'SVG', 'NodeJS']
+  },
+  {
+    name: 'Eclipse JKube',
+    imageSrc: 'https://github.com/eclipse/jkube/raw/master/media/JKube-Logo-final-square-color.png',
+    projectLink: 'https://github.com/eclipse/jkube',
+    description: 'Cloud-Native Java Applications without a hassle, bring your Java applications to Kubernetes',
+    tags: ['Java', 'Kubernetes', 'OpenShift', 'Eclipse', 'OpenSource', 'Beginner']
+  }
 ];
 export default projectList;

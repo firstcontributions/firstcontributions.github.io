@@ -10,6 +10,7 @@ const FacebookCard = () => (
             size={40}
             icon={IconPaths.facebook}
             boxStyle="0 0 22 22"
+            
         />
     </a>
 );
