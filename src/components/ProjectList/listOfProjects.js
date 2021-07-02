@@ -1113,8 +1113,8 @@ const projectList = [
   },
   {
     name: 'Simple Icons',
-    imageSrc: 'https://github.com/simple-icons/simple-icons-website/blob/master/public/images/og.png',
-    projectLink: 'https://github.com/simple-icons/simple-icons',
+    imageSrc: 'https://raw.githubusercontent.com/simple-icons/simple-icons-website/master/public/images/og.png',
+    projectLink: 'https://github.com/simple-icons/simple-icons/contribute',
     description: 'SVG icons for popular brands',
     tags: ['JavaScript', 'OpenSource', 'Beginner', 'SVG', 'NodeJS']
   },
