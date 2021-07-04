@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import "./LinkButton.css";
 import scrollDown from "./scroll-down.svg";
 
-class LinkButton extends Component {
-  render() {
+function LinkButton() {
     return (
       <div className="LinkButton-Wrapper">
         <a
@@ -17,7 +16,6 @@ class LinkButton extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default LinkButton;
