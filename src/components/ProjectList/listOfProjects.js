@@ -4,7 +4,7 @@ const projectList = [
     imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
     projectLink: 'https://github.com/krishdevdb/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
-    tags: ['css', 'sass' 'scss', 'less', 'stylus']
+    tags: ['css', 'sass', 'scss', 'less', 'stylus']
   },
   {
     name: 'MoveIt',
@@ -48,6 +48,13 @@ const projectList = [
     description:
       'TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.',
     tags: ['TypeScript', 'JavaScript'],
+  },
+  {
+    name: 'MongoDB',
+    imageSrc: 'https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913759/noticon/rewwujgq5wuw2qohwta9.png',
+    projectLink: 'https://github.com/mongodb/mongo/blob/master/CONTRIBUTING.rst',
+    description: 'MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.',
+    tags: ['NOSQL','Database']
   },
   {
     name: 'Darktable',
