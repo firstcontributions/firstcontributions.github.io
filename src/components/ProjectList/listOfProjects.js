@@ -1136,6 +1136,13 @@ const projectList = [
     projectLink: 'https://github.com/eclipse/jkube',
     description: 'Cloud-Native Java Applications without a hassle, bring your Java applications to Kubernetes',
     tags: ['Java', 'Kubernetes', 'OpenShift', 'Eclipse', 'OpenSource', 'Beginner']
+  },
+  {
+    name: 'Spaceship Prompt',
+    imageSrc: 'https://raw.githubusercontent.com/spaceship-prompt/brand/main/spaceship-letters-outside.svg',
+    projectLink: 'https://github.com/spaceship-prompt/spaceship-prompt',
+    description: 'Minimalistic, powerful and extremely customizable Zsh prompt',
+    tags: ['Shell', 'Zsh', 'Prompt', 'Productivity']
   }
 ];
 export default projectList;
