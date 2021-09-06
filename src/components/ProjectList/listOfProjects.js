@@ -1143,6 +1143,13 @@ const projectList = [
     projectLink: 'https://github.com/spaceship-prompt/spaceship-prompt',
     description: 'Minimalistic, powerful and extremely customizable Zsh prompt',
     tags: ['Shell', 'Zsh', 'Prompt', 'Productivity']
+  },
+  {
+    name: 'tldr',
+    imageSrc: 'https://raw.githubusercontent.com/tldr-pages/tldr/main/images/banner.png',
+    projectLink: 'https://github.com/tldr-pages/tldr',
+    description: 'Collaborative cheatsheets for console commands',
+    tags: ['Markdown', 'Docs', 'Beginner']
   }
 ];
 export default projectList;
