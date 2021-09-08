@@ -1143,6 +1143,13 @@ const projectList = [
     projectLink: 'https://github.com/spaceship-prompt/spaceship-prompt',
     description: 'Minimalistic, powerful and extremely customizable Zsh prompt',
     tags: ['Shell', 'Zsh', 'Prompt', 'Productivity']
+  },
+    {
+    name: 'Codename One',
+    imageSrc: 'https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png',
+    projectLink: 'https://github.com/codenameone/CodenameOne',
+    description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
+    tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
   }
 ];
 export default projectList;
