@@ -1150,6 +1150,13 @@ const projectList = [
     projectLink: 'https://github.com/tldr-pages/tldr',
     description: 'Collaborative cheatsheets for console commands',
     tags: ['Markdown', 'Docs', 'Beginner']
+  },
+  {
+    name: 'Codename One',
+    imageSrc: 'https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png',
+    projectLink: 'https://github.com/codenameone/CodenameOne',
+    description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
+    tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
   }
 ];
 export default projectList;
