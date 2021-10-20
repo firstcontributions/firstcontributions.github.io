@@ -645,7 +645,7 @@ const projectList = [
   {
     name: 'PRoot',
     imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
-    projectLink: 'https://github.com/proot-me/PRoot/contribute',
+    projectLink: 'https://github.com/proot-me/proot',
     description:
       'chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ',
     tags: ['chroot-environment', 'userland-exec', 'rootfs', 'chroot', 'c'],
