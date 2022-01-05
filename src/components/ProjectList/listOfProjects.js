@@ -312,7 +312,7 @@ const projectList = [
   {
     name: 'Scrapy',
     imageSrc:
-      'https://blog-media.scrapinghub.com/production/wp-content/uploads/2016/10/06054611/Scrapy-300x300.png',
+      'https://github.com/scrapy/scrapy/blob/master/artwork/scrapy-logo.jpg',
     projectLink: 'https://github.com/scrapy/scrapy/contribute',
     description:
       'Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ',
