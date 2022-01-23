@@ -1150,6 +1150,27 @@ const projectList = [
     projectLink: 'https://github.com/codenameone/CodenameOne',
     description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
     tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
+  },
+  {
+    name: 'SymPy',
+    imageSrc: 'https://www.sympy.org/static/images/logo.png',
+    projectLink: 'https://github.com/sympy/sympy',
+    description: 'A computer algebra system written in pure Python',
+    tags: ['Python', 'Science', 'Math', 'Computer-Algebra']
+  },
+  {
+    name: 'Pytorch',
+    imageSrc: 'https://github.com/pytorch/pytorch/raw/master/docs/source/_static/img/pytorch-logo-dark.png',
+    projectLink: 'https://github.com/pytorch/pytorch',
+    description: 'PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.',
+    tags: ['Python', 'Machine-Learning', 'Deep-Learning', 'Neural-Network',]
+  },
+  {
+    name: 'Yarn',
+    imageSrc: 'https://github.com/yarnpkg/assets/raw/master/yarn-kitten-full.png?raw=true',
+    projectLink: 'https://github.com/yarnpkg/yarn',
+    description: 'Yarn is a JavaScript package manager created by Facebook that doubles as a project manager.',
+    tags: ['JavaScript', 'Package-Manager', 'Node', 'NPM',]
   }
 ];
 export default projectList;
