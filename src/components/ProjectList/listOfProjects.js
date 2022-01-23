@@ -1170,7 +1170,7 @@ const projectList = [
     imageSrc: 'https://github.com/yarnpkg/assets/raw/master/yarn-kitten-full.png?raw=true',
     projectLink: 'https://github.com/yarnpkg/yarn',
     description: 'Yarn is a JavaScript package manager created by Facebook that doubles as a project manager.',
-    tags: ['JavaScript', 'Package-Manager', 'Node', 'NPM',]
+    tags: ['JavaScript', 'Package-Manager', 'NodeJS', 'NPM',]
   }
 ];
 export default projectList;
