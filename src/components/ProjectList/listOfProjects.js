@@ -35,7 +35,7 @@ const projectList = [
   {
     name: 'React Native',
     imageSrc:
-      'https://github.com/facebook/react-native/blob/master/Libraries/NewAppScreen/components/logo.png?raw=true',
+      'https://raw.githubusercontent.com/facebook/react-native/main/Libraries/NewAppScreen/components/logo.png',
     projectLink: 'https://github.com/facebook/react-native/contribute',
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
