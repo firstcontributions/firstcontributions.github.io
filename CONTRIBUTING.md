@@ -1,3 +1,7 @@
+## Difference between Git and Github
+
+Git is an open-source tool developers install locally to control versions of their source code. Github on the other hand is an online service to which developers who use Git can connect and upload or download resources.
+
 ## Fork this repository
 
 Fork this repo by clicking on the fork button on the top of this page.
