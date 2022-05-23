@@ -1,7 +1,7 @@
 const projectList = [
   {
     name: 'Reseter.css',
-    imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/89676471?s=88&v=4',
     projectLink: 'https://github.com/krishdevdb/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
@@ -398,7 +398,7 @@ const projectList = [
   {
     name: 'Public Lab',
     imageSrc:
-      'https://publiclab.org/system/images/photos/000/023/444/large/Screenshot_20180204-101546_2.png',
+      'https://code.publiclab.org/images/Boots-ground-02.png',
     projectLink: 'https://publiclab.github.io/community-toolbox/#r=all',
     description:
       'PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈',
@@ -1038,7 +1038,7 @@ const projectList = [
   },
   {
     name: 'SimplQ',
-    imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/64396572?s=88&v=4',
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description:
       'Modern and fully web based queue management solution for crowded businesses.',
