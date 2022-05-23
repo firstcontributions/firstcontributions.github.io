@@ -398,7 +398,7 @@ const projectList = [
   {
     name: 'Public Lab',
     imageSrc:
-      'https://publiclab.org/system/images/photos/000/023/444/large/Screenshot_20180204-101546_2.png',
+      'https://code.publiclab.org/images/Boots-ground-02.png',
     projectLink: 'https://publiclab.github.io/community-toolbox/#r=all',
     description:
       'PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈',
