@@ -1150,6 +1150,13 @@ const projectList = [
     projectLink: 'https://github.com/codenameone/CodenameOne',
     description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
     tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
+  },
+  {
+    name: 'Pytest',
+    imageSrc: 'https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg',
+    projectLink: 'https://github.com/pytest-dev/pytest',
+    description: 'The pytest framework makes it easy to write small tests, yet scales to support complex functional testing',
+    tags: ['Python','Testing']
   }
 ];
 export default projectList;
