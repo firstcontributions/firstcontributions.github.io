@@ -201,15 +201,6 @@ const projectList = [
     tags: ['Clojure', 'Automation'],
   },
   {
-    name: 'Brackets',
-    imageSrc:
-      'https://github.com/adobe/brackets/raw/gh-pages/images/brackets_128.png?raw=true',
-    projectLink: 'https://github.com/adobe/brackets/contribute',
-    description:
-      'An open source code editor for the web, written in JavaScript, HTML and CSS.',
-    tags: ['Editor', 'Windows', 'Linux', 'MacOS'],
-  },
-  {
     name: 'Webpack',
     imageSrc: 'https://avatars3.githubusercontent.com/u/2105791?v=3&s=100',
     projectLink: 'https://github.com/webpack/webpack/contribute',
