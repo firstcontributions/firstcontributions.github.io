@@ -1,8 +1,8 @@
 const projectList = [
   {
     name: 'Reseter.css',
-    imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
-    projectLink: 'https://github.com/krishdevdb/reseter.css',
+    imageSrc: 'https://github.com/resetercss/reseter.css/blob/main/logo.png',
+    projectLink: 'https://github.com/resetercss/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
   },
@@ -35,7 +35,7 @@ const projectList = [
   {
     name: 'React Native',
     imageSrc:
-      'https://github.com/facebook/react-native/blob/master/Libraries/NewAppScreen/components/logo.png?raw=true',
+      'https://github.com/facebook/react-native/blob/main/Libraries/NewAppScreen/components/logo.png?raw=true',
     projectLink: 'https://github.com/facebook/react-native/contribute',
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
@@ -201,15 +201,6 @@ const projectList = [
     tags: ['Clojure', 'Automation'],
   },
   {
-    name: 'Brackets',
-    imageSrc:
-      'https://github.com/adobe/brackets/raw/gh-pages/images/brackets_128.png?raw=true',
-    projectLink: 'https://github.com/adobe/brackets/contribute',
-    description:
-      'An open source code editor for the web, written in JavaScript, HTML and CSS.',
-    tags: ['Editor', 'Windows', 'Linux', 'MacOS'],
-  },
-  {
     name: 'Webpack',
     imageSrc: 'https://avatars3.githubusercontent.com/u/2105791?v=3&s=100',
     projectLink: 'https://github.com/webpack/webpack/contribute',
@@ -282,23 +273,6 @@ const projectList = [
     projectLink: 'https://github.com/freeCodeCamp/mail-for-good/contribute',
     description: 'An open source email campaign management tool.',
     tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
-  },
-  {
-    name: 'Hyper',
-    imageSrc:
-      'https://camo.githubusercontent.com/847ee74c9984736cc7027686e0a965073b34c9b85677d019111855503fdf869c/68747470733a2f2f6173736574732e7a6569742e636f2f696d6167652f75706c6f61642f76313534393732333834362f7265706f7369746f726965732f68797065722f68797065722d332d7265706f2d62616e6e65722e706e67',
-    projectLink: 'https://github.com/vercel/hyper/contribute',
-    description: 'JS/HTML/CSS Terminal',
-    tags: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'Typescript',
-      'linux',
-      'macos',
-      'terminal',
-    ],
   },
   {
     name: 'Visual Studio Code',
@@ -601,7 +575,15 @@ const projectList = [
       'https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png',
     projectLink: 'https://github.com/zeit/hyper/contribute',
     description: 'A terminal built on web technologies',
-    tags: ['html', 'javascript', 'css', 'react', 'terminal'],
+    tags: ['HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Typescript',
+      'linux',
+      'macos',
+      'terminal'
+    ],
   },
   {
     name: 'Kap',
