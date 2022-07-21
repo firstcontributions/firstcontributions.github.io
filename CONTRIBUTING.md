@@ -18,7 +18,7 @@ For example:
 ```
 git clone https://github.com/this-is-you/firstcontributions.github.io.git
 ```
-where `this-is-you` is your GitHub username.
+where AmHackish is your GitHub username.
 Here you're copying the contents of your firstcontributions.github.io repository on GitHub to your computer.
 
 ## Running The Project
