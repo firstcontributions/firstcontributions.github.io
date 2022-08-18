@@ -270,7 +270,7 @@ const projectList = [
   {
     name: 'Mail For Good',
     imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
-    projectLink: 'https://github.com/freeCodeCamp/mail-for-good/contribute',
+    projectLink: 'https://github.com/freeCodeCamp/mail-for-good/issues',
     description: 'An open source email campaign management tool.',
     tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
   },
