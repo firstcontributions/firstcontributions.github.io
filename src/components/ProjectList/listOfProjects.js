@@ -715,7 +715,7 @@ const projectList = [
   },
   {
     name: 'ClickHouse',
-    imageSrc: 'https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/website/images/logo.png',
+    imageSrc: 'https://github.com/ClickHouse/clickhouse-presentations/raw/master/images/logo-400x240.png',
     projectLink: 'https://github.com/ClickHouse/ClickHouse/contribute',
     description: 'Column-oriented database management system that allows generating analytical data reports in real time.',
     tags: ['C++', 'C++20', 'cpp', 'Linux', 'DBMS', 'OLAP', 'Analytics', 'SQL', 'Big Data', 'Distributed Database', 'MPP'],
