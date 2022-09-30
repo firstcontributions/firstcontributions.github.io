@@ -366,8 +366,8 @@ const projectList = [
     imageSrc:
       'https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png',
     projectLink: 'https://github.com/oppia/oppia/contribute',
-    description: 'Tool for collaboratively building interactive lessons.',
-    tags: ['Python', 'Javascript', 'Css', 'Html', 'Shell'],
+    description: 'Oppia is an open-source project whose aim is to empower learners across the globe by providing access to high-quality, engaging education. We envision a society in which access to high-quality education is a human right rather than a privilege.',
+    tags: ['Python', 'Typescript', 'Angular'],
   },
   {
     name: 'Public Lab',
