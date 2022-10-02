@@ -1,7 +1,7 @@
 const projectList = [
   {
     name: 'Reseter.css',
-    imageSrc: 'https://github.com/resetercss/reseter.css/blob/main/logo.png',
+    imageSrc: 'https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png',
     projectLink: 'https://github.com/resetercss/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
@@ -286,7 +286,7 @@ const projectList = [
   {
     name: 'Scrapy',
     imageSrc:
-      'https://blog-media.scrapinghub.com/production/wp-content/uploads/2016/10/06054611/Scrapy-300x300.png',
+      'https://camo.githubusercontent.com/40d00cefb120a829517e503658aaf6c987d5f9cc6be5e2e35fb20bd63bdbceb5/68747470733a2f2f7363726170792e6f72672f696d672f7363726170796c6f676f2e706e67',
     projectLink: 'https://github.com/scrapy/scrapy/contribute',
     description:
       'Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ',
@@ -439,7 +439,7 @@ const projectList = [
   {
     name: 'css-protips',
     imageSrc:
-      'https://camo.githubusercontent.com/9b290de6835cf807aaa81bb6a7cfdf3835636f8c/68747470733a2f2f7261776769742e636f6d2f416c6c5468696e6773536d697474792f6373732d70726f746970732f6d61737465722f6d656469612f6c6f676f2e737667',
+      'https://raw.githubusercontent.com/AllThingsSmitty/css-protips/fc4c12dfcdfb26c43a09bc2176525637c3c38268/assets/img/bulb.svg',
     projectLink: 'https://github.com/AllThingsSmitty/css-protips/contribute',
     description: 'Simple but useful tips to improve your CSS skills.',
     tags: ['CSS', 'tips', 'guide', 'simple', 'useful'],
@@ -919,7 +919,7 @@ const projectList = [
   {
     name: 'ClickHouse',
     imageSrc:
-      'https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/website/images/logo.png',
+      'https://github.com/ClickHouse/clickhouse-presentations/raw/master/images/logo-400x240.png',
     projectLink: 'https://github.com/ClickHouse/ClickHouse/contribute',
     description:
       'Column-oriented database management system that allows generating analytical data reports in real time.',
