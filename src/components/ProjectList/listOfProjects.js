@@ -1,10 +1,18 @@
 const projectList = [
   {
     name: 'Reseter.css',
-    imageSrc: 'https://github.com/krishdevdb/reseter.css/raw/master/logo.png',
-    projectLink: 'https://github.com/krishdevdb/reseter.css',
+    imageSrc: 'https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png',
+    projectLink: 'https://github.com/resetercss/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
+  },
+
+  {
+    name: 'CircuitVerse',
+    imageSrc: 'https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png',
+    projectLink: 'https://github.com/CircuitVerse',
+    description: 'CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.',
+    tags: ['html', 'css', 'sass','javascript', 'ruby on rails']
   },
   {
     name: 'MoveIt',
@@ -35,7 +43,7 @@ const projectList = [
   {
     name: 'React Native',
     imageSrc:
-      'https://github.com/facebook/react-native/blob/master/Libraries/NewAppScreen/components/logo.png?raw=true',
+      'https://github.com/facebook/react-native/blob/main/Libraries/NewAppScreen/components/logo.png?raw=true',
     projectLink: 'https://github.com/facebook/react-native/contribute',
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
@@ -201,15 +209,6 @@ const projectList = [
     tags: ['Clojure', 'Automation'],
   },
   {
-    name: 'Brackets',
-    imageSrc:
-      'https://github.com/adobe/brackets/raw/gh-pages/images/brackets_128.png?raw=true',
-    projectLink: 'https://github.com/adobe/brackets/contribute',
-    description:
-      'An open source code editor for the web, written in JavaScript, HTML and CSS.',
-    tags: ['Editor', 'Windows', 'Linux', 'MacOS'],
-  },
-  {
     name: 'Webpack',
     imageSrc: 'https://avatars3.githubusercontent.com/u/2105791?v=3&s=100',
     projectLink: 'https://github.com/webpack/webpack/contribute',
@@ -277,30 +276,6 @@ const projectList = [
     tags: ['GitHub', 'Tutorial'],
   },
   {
-    name: 'Mail For Good',
-    imageSrc: 'https://avatars0.githubusercontent.com/u/9892522?v=3&s=100',
-    projectLink: 'https://github.com/freeCodeCamp/mail-for-good/contribute',
-    description: 'An open source email campaign management tool.',
-    tags: ['Nodejs', 'JavaScript', 'Email-Campaigns'],
-  },
-  {
-    name: 'Hyper',
-    imageSrc:
-      'https://camo.githubusercontent.com/847ee74c9984736cc7027686e0a965073b34c9b85677d019111855503fdf869c/68747470733a2f2f6173736574732e7a6569742e636f2f696d6167652f75706c6f61642f76313534393732333834362f7265706f7369746f726965732f68797065722f68797065722d332d7265706f2d62616e6e65722e706e67',
-    projectLink: 'https://github.com/vercel/hyper/contribute',
-    description: 'JS/HTML/CSS Terminal',
-    tags: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'Typescript',
-      'linux',
-      'macos',
-      'terminal',
-    ],
-  },
-  {
     name: 'Visual Studio Code',
     imageSrc:
       'https://camo.githubusercontent.com/a7f6e01cc208b478047eade76755f46cf1098c05/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f322f32642f56697375616c5f53747564696f5f436f64655f312e31385f69636f6e2e737667',
@@ -312,7 +287,7 @@ const projectList = [
   {
     name: 'Scrapy',
     imageSrc:
-      'https://blog-media.scrapinghub.com/production/wp-content/uploads/2016/10/06054611/Scrapy-300x300.png',
+      'https://camo.githubusercontent.com/40d00cefb120a829517e503658aaf6c987d5f9cc6be5e2e35fb20bd63bdbceb5/68747470733a2f2f7363726170792e6f72672f696d672f7363726170796c6f676f2e706e67',
     projectLink: 'https://github.com/scrapy/scrapy/contribute',
     description:
       'Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ',
@@ -392,8 +367,8 @@ const projectList = [
     imageSrc:
       'https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png',
     projectLink: 'https://github.com/oppia/oppia/contribute',
-    description: 'Tool for collaboratively building interactive lessons.',
-    tags: ['Python', 'Javascript', 'Css', 'Html', 'Shell'],
+    description: 'Oppia is an open-source project whose aim is to empower learners across the globe by providing access to high-quality, engaging education. We envision a society in which access to high-quality education is a human right rather than a privilege.',
+    tags: ['Python', 'Typescript', 'Angular'],
   },
   {
     name: 'Public Lab',
@@ -465,7 +440,7 @@ const projectList = [
   {
     name: 'css-protips',
     imageSrc:
-      'https://camo.githubusercontent.com/9b290de6835cf807aaa81bb6a7cfdf3835636f8c/68747470733a2f2f7261776769742e636f6d2f416c6c5468696e6773536d697474792f6373732d70726f746970732f6d61737465722f6d656469612f6c6f676f2e737667',
+      'https://raw.githubusercontent.com/AllThingsSmitty/css-protips/fc4c12dfcdfb26c43a09bc2176525637c3c38268/assets/img/bulb.svg',
     projectLink: 'https://github.com/AllThingsSmitty/css-protips/contribute',
     description: 'Simple but useful tips to improve your CSS skills.',
     tags: ['CSS', 'tips', 'guide', 'simple', 'useful'],
@@ -601,7 +576,15 @@ const projectList = [
       'https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png',
     projectLink: 'https://github.com/zeit/hyper/contribute',
     description: 'A terminal built on web technologies',
-    tags: ['html', 'javascript', 'css', 'react', 'terminal'],
+    tags: ['HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Typescript',
+      'linux',
+      'macos',
+      'terminal'
+    ],
   },
   {
     name: 'Kap',
@@ -937,7 +920,7 @@ const projectList = [
   {
     name: 'ClickHouse',
     imageSrc:
-      'https://raw.githubusercontent.com/ClickHouse/ClickHouse/master/website/images/logo.png',
+      'https://github.com/ClickHouse/clickhouse-presentations/raw/master/images/logo-400x240.png',
     projectLink: 'https://github.com/ClickHouse/ClickHouse/contribute',
     description:
       'Column-oriented database management system that allows generating analytical data reports in real time.',
@@ -1150,6 +1133,34 @@ const projectList = [
     projectLink: 'https://github.com/codenameone/CodenameOne',
     description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
     tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
+  },
+  {
+    name: 'SymPy',
+    imageSrc: 'https://www.sympy.org/static/images/logo.png',
+    projectLink: 'https://github.com/sympy/sympy',
+    description: 'A computer algebra system written in pure Python',
+    tags: ['Python', 'Science', 'Math', 'Computer-Algebra']
+  },
+  {
+    name: 'Pytorch',
+    imageSrc: 'https://github.com/pytorch/pytorch/raw/master/docs/source/_static/img/pytorch-logo-dark.png',
+    projectLink: 'https://github.com/pytorch/pytorch',
+    description: 'PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.',
+    tags: ['Python', 'Machine-Learning', 'Deep-Learning', 'Neural-Network',]
+  },
+  {
+    name: 'Yarn',
+    imageSrc: 'https://github.com/yarnpkg/assets/raw/master/yarn-kitten-full.png?raw=true',
+    projectLink: 'https://github.com/yarnpkg/yarn',
+    description: 'Yarn is a JavaScript package manager created by Facebook that doubles as a project manager.',
+    tags: ['JavaScript', 'Package-Manager', 'NodeJS', 'NPM',]
+    },
+  {
+    name: 'Scribe - Language Keyboards',
+    imageSrc: 'https://raw.githubusercontent.com/scribe-org/Organization/main/logo/ScribeAppLogo.png',
+    projectLink: 'https://github.com/scribe-org/Scribe-iOS',
+    description: 'Keyboards for language learners with translation, verb conjugation and more!',
+    tags: ['iOS', 'Swift', 'Productivity', 'Good First Issue', 'Beginner']
   }
 ];
 export default projectList;
