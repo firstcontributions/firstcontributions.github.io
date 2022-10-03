@@ -1132,6 +1132,13 @@ const projectList = [
     projectLink: 'https://github.com/codenameone/CodenameOne',
     description: 'Cross-platform mobile app development framework for Java & Kotlin developers',
     tags: ['Cross-Platform', 'OpenSource', 'Java', 'Kotlin', 'Android', 'iOS', 'Framework']
+  },
+    {
+    name: 'Scribe - Language Keyboards',
+    imageSrc: 'https://raw.githubusercontent.com/scribe-org/Organization/main/logo/ScribeAppLogo.png',
+    projectLink: 'https://github.com/scribe-org/Scribe-iOS',
+    description: 'Keyboards for language learners with translation, verb conjugation and more!',
+    tags: ['iOS', 'Swift', 'Productivity', 'Good First Issue', 'Beginner']
   }
 ];
 export default projectList;
