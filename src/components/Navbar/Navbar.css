@@ -19,10 +19,10 @@
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #72B1E4;
+    color: #f2f2f2;
     border-radius: 25px;
-    border: #ddd;
+    border: #72B1E4;
     block-size: auto;
     display: inline;
 }
