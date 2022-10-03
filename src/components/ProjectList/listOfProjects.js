@@ -1127,7 +1127,14 @@ const projectList = [
     description: 'Minimalistic, powerful and extremely customizable Zsh prompt',
     tags: ['Shell', 'Zsh', 'Prompt', 'Productivity']
   },
-    {
+  {
+    name: 'tldr',
+    imageSrc: 'https://raw.githubusercontent.com/tldr-pages/tldr/main/images/banner.png',
+    projectLink: 'https://github.com/tldr-pages/tldr',
+    description: 'Collaborative cheatsheets for console commands',
+    tags: ['Markdown', 'Docs', 'Beginner']
+  },
+  {
     name: 'Codename One',
     imageSrc: 'https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png',
     projectLink: 'https://github.com/codenameone/CodenameOne',
