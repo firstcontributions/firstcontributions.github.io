@@ -1168,6 +1168,13 @@ const projectList = [
     projectLink: 'https://github.com/scribe-org/Scribe-iOS',
     description: 'Keyboards for language learners with translation, verb conjugation and more!',
     tags: ['iOS', 'Swift', 'Productivity', 'Good First Issue', 'Beginner']
+  },
+  {
+    name: 'mindsdb',
+    imageSrc: 'https://raw.githubusercontent.com/mindsdb/mindsdb_native/stable/assets/MindsDBColorPurp%403x.png',
+    projectLink: 'https://github.com/mindsdb/mindsdb',
+    description: 'MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.',
+    tags: ['Database', 'MySQL', 'Machine Learning', 'Open Source', 'Productivity']
   }
 ];
 export default projectList;
