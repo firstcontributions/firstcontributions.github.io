@@ -1175,6 +1175,13 @@ const projectList = [
     projectLink: 'https://github.com/mindsdb/mindsdb',
     description: 'MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.',
     tags: ['Database', 'MySQL', 'Machine Learning', 'Open Source', 'Productivity']
+  },
+  {
+    name: 'The Algorithms',
+    imageSrc: 'https://avatars.githubusercontent.com/u/20487725?s=200&v=4',
+    projectLink: 'https://github.com/TheAlgorithms',
+    description: 'Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language.',
+    tags: ['Data Stuctures', 'Open Source', 'C', 'C++', 'Java', 'Python', 'Productivity', 'Learning']
   }
 ];
 export default projectList;
