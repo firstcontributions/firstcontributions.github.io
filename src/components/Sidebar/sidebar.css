@@ -1,0 +1,13 @@
+.sidebar {
+	padding-right: 1rem;
+	border-right: 1px solid #292929;
+	width: 15vw;
+	height: 86vh;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo-main {
+	width: 13rem;
+}
