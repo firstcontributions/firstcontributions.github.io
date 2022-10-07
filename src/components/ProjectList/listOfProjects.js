@@ -1006,13 +1006,6 @@ const projectList = [
     tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS'],
   },
   {
-    name: 'CodeTrophs',
-    imageSrc: 'https://avatars.githubusercontent.com/u/62751673?s=200&v=4',
-    projectLink: 'https://github.com/CodeTrophs',
-    description: 'Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.',
-    tags: ['React', 'Chat', 'Javascript', 'Beginner', 'NodeJS', 'NextJS', 'Python', 'ML/AI', 'OpenSource'],
-  },
-  {
     name: 'Zulip',
     imageSrc: 'https://avatars0.githubusercontent.com/u/4921959?s=200&v=4',
     projectLink: 'https://github.com/zulip/zulip/contribute',
