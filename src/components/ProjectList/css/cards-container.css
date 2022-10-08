@@ -1,14 +1,21 @@
-.containerLayout{
-  background: #f7f7fc;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1vw;
-  overflow: hidden;
+.containerLayout {
+	background: #fafafa;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+	justify-content: flex-start;
+	padding: 37px 37px 0px 37px;
+}
+
+@media screen and (max-width: 900px) {
+	.containerLayout {
+		gap: 2rem;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .containerLayout{
-    padding: 15px;
-  }
+	.containerLayout {
+		padding: 15px;
+		gap: 1rem;
+	}
 }
