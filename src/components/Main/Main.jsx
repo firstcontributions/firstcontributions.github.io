@@ -9,7 +9,7 @@ export default function Main() {
 	return (
 		<main className="main">
 			<div className="App-header">
-				<h1>Make your first open source contribution in 5 minutes</h1>
+				<h1>Make Your First Open Source Contribution In 5 Minutes</h1>
 			</div>
 			<LinkButton />
 			<CardsContainer />
