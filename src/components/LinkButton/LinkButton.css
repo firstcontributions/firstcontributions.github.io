@@ -32,24 +32,34 @@
 	justify-content: center;
 	flex-direction: column;
 	margin-bottom: 2rem;
+	gap: 5rem;
 }
+
+.scroll-text {
+	transform: rotate(-90deg);
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 13px;
+	cursor: pointer;
+}
+
 .Scroll-Down {
 	cursor: pointer;
 	position: relative;
-	animation: swing alternate 0.5s infinite;
+	animation: swing alternate 700ms infinite cubic-bezier(0.7, 0, 0.3, 1) 0ms;
 }
-.Scroll-Down:active {
-	opacity: 0.75;
-}
+
 .Scroll-Down-Wrapper {
 	padding: 1vw;
 	padding-bottom: 1.75vw;
 }
+
 @keyframes swing {
 	from {
-		top: -0.5rem;
+		transform: translateX(-1rem);
 	}
+
 	to {
-		top: 1rem;
+		transform: translateX(0rem);
 	}
 }

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./LinkButton.css";
-import scrollDown from "./scroll-down.svg";
 
 class LinkButton extends Component {
 	render() {
@@ -12,9 +11,10 @@ class LinkButton extends Component {
 				>
 					<span> Get started </span>
 				</a>
+
 				<div className="Scroll-Down-Wrapper">
-					<img
-						className="Scroll-Down"
+					<div
+						className="scroll-text"
 						onClick={() => {
 							window.scrollBy({
 								top: window.innerHeight - 80,
@@ -22,11 +22,9 @@ class LinkButton extends Component {
 								behavior: "smooth",
 							});
 						}}
-						src={scrollDown}
-						alt="Scroll Down!"
-						width="64"
-						height="64"
-					/>
+					>
+						<i class="fa-solid fa-arrow-left-long Scroll-Down"></i> Scroll
+					</div>
 				</div>
 			</div>
 		);
