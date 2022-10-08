@@ -1,5 +1,11 @@
 .main {
-	margin-left: 17.6rem;
+	margin-left: 20%;
+}
+
+@media screen and (max-width: 750px) {
+	.main {
+		margin-left: 0;
+	}
 }
 
 .header {

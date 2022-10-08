@@ -1,0 +1,27 @@
+.mobile-nav {
+	display: flex;
+	justify-content: flex-start;
+	padding: 20px;
+	display: none;
+}
+
+.ham-icon {
+	z-index: 10;
+	font-size: 30px;
+	transition: all 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.rotate-ham {
+	transform: rotate(270deg);
+}
+
+.logo-nav {
+	margin: 0 auto;
+	width: 10rem;
+}
+
+@media screen and (max-width: 750px) {
+	.mobile-nav {
+		display: flex;
+	}
+}

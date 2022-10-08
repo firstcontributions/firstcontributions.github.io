@@ -4,6 +4,29 @@
 	display: flex;
 	gap: 2rem;
 	padding: 50px;
+	position: relative;
+}
+
+.Scroll-Up-Wrapper {
+	position: absolute;
+	right: -1rem;
+	bottom: 7rem;
+	transform: rotate(180deg);
+	word-spacing: 0.5rem;
+}
+
+@media screen and (max-width: 750px) {
+	.App {
+		padding: 0 20px 20px 20px;
+	}
+
+	.App-header > h1 {
+		font-size: 2em;
+	}
+
+	.Scroll-Up-Wrapper {
+		right: -2.5rem;
+	}
 }
 
 .App-header {

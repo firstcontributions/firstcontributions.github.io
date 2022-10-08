@@ -7,6 +7,26 @@
 	display: flex;
 	flex-direction: column;
 	gap: 80px;
+	transition: all 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+@media screen and (max-width: 750px) {
+	.sidebar {
+		transform: translateX(-150%);
+		width: 35vw;
+		padding: 80px 1rem 30px 0px;
+		height: 83vh;
+		background: #fff;
+		z-index: 5;
+	}
+
+	.heading-nav {
+		font-size: 1em;
+	}
+}
+
+.sidebar-show {
+	transform: translateX(0);
 }
 
 .sidebar a {
@@ -15,7 +35,7 @@
 }
 
 .logo-main {
-	width: 13rem;
+	width: 100%;
 }
 
 .top-nav {

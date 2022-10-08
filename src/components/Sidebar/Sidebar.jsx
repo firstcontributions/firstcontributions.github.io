@@ -12,9 +12,9 @@ const facebookLink =
 const LinkedinLink =
 	"https://www.linkedin.com/shareArticle?mini=true&url=https://goo.gl/66Axwe&title=First%20Contributions%20&summary=A%20project%20to%20help%20beginners%20get%20started%20with%20contributing%20to%20open%20source&source=https://roshanjossey.github.io";
 
-export default function Sidebar() {
+export default function Sidebar({ modal, setModal }) {
 	return (
-		<div className="sidebar">
+		<div className={`sidebar ${modal ? "sidebar-show" : null}`}>
 			<img src={Logo} alt="logo" className="logo-main" />
 
 			<div className="top-nav">
