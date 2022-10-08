@@ -4,7 +4,6 @@ import "./main.css";
 
 import LinkButton from "../LinkButton/LinkButton";
 import CardsContainer from "../ProjectList/CardsContainer";
-import SocialShare from "../SocialShare/SocialShare";
 
 export default function Main() {
 	return (
@@ -14,7 +13,6 @@ export default function Main() {
 			</div>
 			<LinkButton />
 			<CardsContainer />
-			<SocialShare />
 		</main>
 	);
 }
