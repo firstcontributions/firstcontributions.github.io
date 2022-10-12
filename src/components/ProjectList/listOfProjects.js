@@ -1159,6 +1159,13 @@ const projectList = [
     projectLink: 'https://github.com/mindsdb/mindsdb',
     description: 'MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.',
     tags: ['Database', 'MySQL', 'Machine Learning', 'Open Source', 'Productivity']
+  },
+  {
+    name: 'Osu!',
+    imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Osu%21_Logo_2016.svg',
+    projectLink: 'https://github.com/ppy/osu',
+    description: 'Osu! is a free-to-play rhythm game primarily developed by the community.',
+    tags: ['Video Game', 'C#' , 'Music']
   }
 ];
 export default projectList;
