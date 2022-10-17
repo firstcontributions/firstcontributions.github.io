@@ -9,7 +9,7 @@ const projectList = [
 
   {
     name: 'CircuitVerse',
-    imageSrc: 'https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png',
+    imageSrc: 'https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/master/app/assets/images/CircuitVerse.png',
     projectLink: 'https://github.com/CircuitVerse',
     description: 'CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.',
     tags: ['html', 'css', 'sass','javascript', 'ruby on rails']
@@ -957,7 +957,7 @@ const projectList = [
   {
     name: 'Leapcode',
     imageSrc: 'https://avatars1.githubusercontent.com/u/66108516?s=200&v=4',
-    projectLink: 'https://github.com/Leapcode-Open/leapcode-frontend/issues',
+    projectLink: 'https://github.com/Leapcode-Open/leapcode-frontend',
     description:
       'Leapcode is an online community & platform that motivates and rewards first-time open source contributors to get started.',
     tags: ['Javascript', 'React', 'Gatsby'],
@@ -1014,7 +1014,7 @@ const projectList = [
   },
   {
     name: 'SimplQ',
-    imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
+    imageSrc: 'https://raw.githubusercontent.com/SimplQ/simplQ-frontend/master/simplq/public/images/Simple-Q-144x144.png',
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description:
       'Modern and fully web based queue management solution for crowded businesses.',
