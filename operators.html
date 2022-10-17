@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+    <script>
+        
+
+    function logical(){
+        var a=10;
+        var b=20;
+        document.write(a>=10 && a<=20);
+        document.write(a>=10 || a<=20);
+        document.write(!(a>=10));
+    }
+    function assignment(){
+        var a=23;
+        var b=10;
+        document.write(a+=b);
+        document.write(a-=b);
+        document.write(a*=b);
+        document.write(a/=b);
+        document.write(a%=b);
+        document.write(a**=b);
+    }
+    
+    function aa(){
+            var a= 10;
+            var b=20;
+            document.write(x+y);
+            document.write(x-y);
+            document.write(x*y);
+            document.write(x/y);
+            document.write(x%y);
+            document.write(x++);
+            document.write(x--);
+            document.write(x**y);
+             }
+    function comparison(){
+        var a=10;
+        var b=10;
+        document.write(a==b);
+        document.write(a===b);
+        document.write(a!=b);
+        document.write(a!==b);
+        document.write(a>b);
+        document.write(a<b);
+        document.write(a>=b);
+        document.write(a<=b);
+    }
+    function bitwise(){
+        var a=4;
+        var b= 5;
+        document.write(a&b);
+        document.write(a|b);
+        document.write(a^b);
+        document.write(~a);
+        document.write(a>>2);
+        document.write(a<<2);
+        document.write(a>>>2);
+    }
+    function ternary(){
+        var a=10;
+        var b=5;
+        if(a>b){
+            document.write("a is greater");
+        }
+        if(a<b){
+            document.write("a is not greater than b");
+        }
+        else{
+            document.write("a is greater");
+        }
+    }
+    function a(){
+
+        
+        let roll=10;
+        if(isNaN(Number(roll))){
+            document.write("Roll:-10");
+        }
+        else{
+            document.write("Roll:-Not found");
+        }}
+    </script>
+    <style>
+        .container{
+            height: 750px;
+            width: 1390px;
+            border: 2px solid black;
+        }
+        .box1{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 30px;
+            margin-top: 25px;
+        }
+        .box2{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 500px;
+            margin-top: -100px;
+        }
+        .box3{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 1000px;
+            margin-top: -100px;
+        }
+        .box4{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 30px;
+            margin-top: 80px;
+        }
+        .box5{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 500px;
+            margin-top:-100px;
+        }
+        .box6{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 1000px;
+            margin-top: -100px;
+        }
+        .box7{
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 30px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1 style="text-align: center;">Arithmetic</h1>
+            <input type="button" onclick="aa()">
+            <input type="button" onclick="aa()">
+        </div>
+        <div class="box2">
+            <h1 style="text-align: center;">Logical</h1>
+            <input type="button" onclick="logical()">
+        </div>
+        <div class="box3">
+            <h1 style="text-align: center;">Assignment</h1>
+            <input type="button" onclick="assignment()">
+        </div>
+        <div class="box4">
+            <h1 style="text-align: center;">Comparison</h1>
+            <input type="button" onclick="comparison()">
+        </div>
+        <div class="box5">
+            <h1 style="text-align: center;">Bitwise</h1>
+            <input type="button" onclick="bitwise()">
+        </div>
+        <div class="box6">
+            <h1 style="text-align: center;">Ternary</h1>
+            <input type="button" onclick="ternary()">
+        </div>
+        <div class="box7">
+            <h1 style="text-align: center;">isNaN</h1>
+            <input type="button" onclick="a()">
+        </div>
+    </div>
+</body>
+</html>
