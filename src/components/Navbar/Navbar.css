@@ -1,19 +1,19 @@
 .topnav {
-    background-color:#007EE5;
+    background-color:#98d4ff;
     overflow: hidden;
-    text-align: right;
+    text-align: center;
 }
-@media (max-width: 700px) {
+@media (min-width: 750px) {
     .topnav {
-        text-align: center;
+        text-align: right;
     }
 }
 
 .topnav a {
     display: inline-block;
-    color: #f2f2f2;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px 15px;
+    padding: 20px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -21,10 +21,9 @@
 .topnav a:hover {
     background-color: #72B1E4;
     color: #f2f2f2;
-    border-radius: 25px;
+    border-radius: 10px;
     border: #72B1E4;
-    block-size: auto;
-    display: inline;
+    
 }
 
 .topnav a.active {
@@ -32,10 +31,32 @@
     color: white;
 }
 
+@media(min-width: 1200px) and (max-width: 1280px){
 .logo{
-    margin-top: 10px;
-    width: 70px;
-    vertical-align:middle;
-    height: 50px;
-    display: inline-block;
+
+margin: 10px;
+width: 80px;
+vertical-align:middle;
+height: 40px;
+display: inline-block;
+}
+}
+
+@media(min-width: 950px) and (max-width: 1199px){
+.logo{
+margin: 10px;
+width: 50px;
+vertical-align:middle;
+height: 50px;
+display: inline-block;
+}
+}
+@media(min-width: 398px) and (max-width: 949px){
+.logo{
+margin: 3px;
+width: 20px;
+vertical-align:middle;
+height: 50px;
+display: inline-block;
+}
 }
