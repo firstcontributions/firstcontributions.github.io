@@ -1166,6 +1166,13 @@ const projectList = [
     projectLink: 'https://github.com/ppy/osu',
     description: 'Osu! is a free-to-play rhythm game primarily developed by the community.',
     tags: ['Video Game', 'C#' , 'Music']
+  },
+  {
+    name: 'Salt',
+    imageSrc: 'https://gitlab.com/saltstack/open/salt-branding-guide/-/raw/master/logos/SaltProject_altlogo_teal.png',
+    projectLink: 'https://github.com/saltstack/salt',
+    description: 'Salt is the world’s fastest, most intelligent and scalable automation engine.',
+    tags: ['Python', 'Shell', 'Automation']
   }
 ];
 export default projectList;
