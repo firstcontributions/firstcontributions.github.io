@@ -41,4 +41,5 @@ After installation, run:
 yarn start
 ```
 Now you can open your cloned project at ` http://localhost:3000/
+- [Tejal Tatiwar](https://tejaltatiwar.github.io/tejaltatiwarwebsite/)
 `
