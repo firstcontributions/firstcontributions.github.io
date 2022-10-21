@@ -1173,6 +1173,14 @@ const projectList = [
     projectLink: 'https://github.com/saltstack/salt',
     description: 'Salt is the world’s fastest, most intelligent and scalable automation engine.',
     tags: ['Python', 'Shell', 'Automation']
-  }
+  },
+  {
+    name: 'aprenda-go-com-testes',
+    imageSrc: 'https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
+    githubLink:
+      'https://github.com/larien/aprenda-go-com-testes',
+    description: 'learn easily and quickly',
+    tags: ['go']
+  },
 ];
 export default projectList;
