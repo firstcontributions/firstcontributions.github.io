@@ -1168,6 +1168,13 @@ const projectList = [
     tags: ['Video Game', 'C#' , 'Music']
   },
   {
+    name: 'Salt',
+    imageSrc: 'https://gitlab.com/saltstack/open/salt-branding-guide/-/raw/master/logos/SaltProject_altlogo_teal.png',
+    projectLink: 'https://github.com/saltstack/salt',
+    description: 'Salt is the world’s fastest, most intelligent and scalable automation engine.',
+    tags: ['Python', 'Shell', 'Automation']
+  },
+  {
     name: 'aprenda-go-com-testes',
     imageSrc: 'https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
     githubLink:
