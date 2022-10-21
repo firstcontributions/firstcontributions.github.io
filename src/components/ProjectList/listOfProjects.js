@@ -1166,6 +1166,14 @@ const projectList = [
     projectLink: 'https://github.com/ppy/osu',
     description: 'Osu! is a free-to-play rhythm game primarily developed by the community.',
     tags: ['Video Game', 'C#' , 'Music']
-  }
+  },
+  {
+    name: 'aprenda-go-com-testes',
+    imageSrc: 'https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
+    githubLink:
+      'https://github.com/larien/aprenda-go-com-testes',
+    description: 'learn easily and quickly',
+    tags: ['go']
+  },
 ];
 export default projectList;
