@@ -1,0 +1,29 @@
+
+.Scroll-Up {
+    cursor: pointer;
+    position: relative;
+    animation: swing alternate 0.5s infinite;
+}
+
+.Scroll-Up:active {
+    opacity: 0.75;
+}
+
+.Scroll-Up-Wrapper {
+    padding: 1vw;
+    padding-bottom: 1.75vw;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes swing {
+    from {
+        top: -0.5rem;
+    }
+
+    to {
+        top: 1rem;
+    }
+}
