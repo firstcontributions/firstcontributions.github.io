@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(135deg, rgba(85, 2, 110, 0.733), rgba(132, 214, 247, 0.568), rgba(90, 6, 247, 0.651));
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}    
+.boxed{
+    width: 480px;
+    height: 775px;
+    margin: auto;
+    background-color: rgba(240, 243, 247, 0.842);
+    border-radius: 5px;
+    border: 2px solid rgb(44, 44, 44);
+}
+.login-box{
+    width: 480px;
+    height: 330px;
+    margin: auto;
+    background-color: rgba(246, 246, 248, 0.842);
+    border-radius: 5px;
+    border: 2px solid rgb(49, 49, 49);
+}
+h1{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+form{
+    width: 423px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    width: 439px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(49, 5, 105);
+    color: whitesmoke;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para2 a{
+    color: rgb(122, 59, 163);
+}
+.terms{
+    text-align: left;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-inline: 5px;
+    font-size: 20px;
+}
+.priv{
+    text-align: left;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-inline: 5px;
+    font-size: 20px;
+}

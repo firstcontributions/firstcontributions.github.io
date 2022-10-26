@@ -13,6 +13,7 @@ const Navbar = () => {
               <span>Slack</span>
           </a>
           <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">
+            
               <img  src={youtube} className="logo" alt="youtube logo" />
               <span>Youtube</span>    
           </a>
