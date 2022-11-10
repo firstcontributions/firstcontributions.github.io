@@ -2,7 +2,7 @@ const projectList = [
    {
     name: 'Ancient Beast',
     imageSrc: 'https://raw.githubusercontent.com/FreezingMoon/AncientBeast-Website/master/favicon.png',
-    projectLink: 'https://github.com/FreezingMoon/AncientBeast',
+    projectLink: 'https://github.com/FreezingMoon/AncientBeast/labels/easy',
     description: 'Match-based eSport where you duel others by materializing and controlling a squad of creatures.',
     tags: ['JavaScript', 'TypeScript', 'Node.js', 'Web App', 'Video Game', 'OpenSource', 'Mentored', 'Web', 'Web Development']
   },
