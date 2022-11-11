@@ -1154,7 +1154,7 @@ const projectList = [
     },
   {
     name: 'Scribe - Language Keyboards',
-    imageSrc: 'https://raw.githubusercontent.com/scribe-org/Organization/main/logo/ScribeAppLogo.png',
+    imageSrc: 'https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png',
     projectLink: 'https://github.com/scribe-org/Scribe-iOS',
     description: 'Keyboards for language learners with translation, verb conjugation and more!',
     tags: ['iOS', 'Swift', 'Productivity', 'Good First Issue', 'Beginner']
