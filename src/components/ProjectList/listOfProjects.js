@@ -1,4 +1,11 @@
 const projectList = [
+   {
+    name: 'Ancient Beast',
+    imageSrc: 'https://raw.githubusercontent.com/FreezingMoon/AncientBeast-Website/master/favicon.png',
+    projectLink: 'https://github.com/FreezingMoon/AncientBeast/labels/easy',
+    description: 'Match-based eSport where you duel others by materializing and controlling a squad of creatures.',
+    tags: ['JavaScript', 'TypeScript', 'Node.js', 'Web App', 'Video Game', 'OpenSource', 'Mentored', 'Web', 'Web Development']
+  },
   {
     name: 'Reseter.css',
     imageSrc: 'https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png',
@@ -6,7 +13,6 @@ const projectList = [
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
   },
-
   {
     name: 'CircuitVerse',
     imageSrc: 'https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png',
