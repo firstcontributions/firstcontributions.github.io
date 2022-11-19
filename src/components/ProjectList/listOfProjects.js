@@ -15,7 +15,7 @@ const projectList = [
   },
   {
     name: 'CircuitVerse',
-    imageSrc: 'https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png',
+    imageSrc: 'https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/master/app/assets/images/CircuitVerse.png',
     projectLink: 'https://github.com/CircuitVerse',
     description: 'CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.',
     tags: ['html', 'css', 'sass','javascript', 'ruby on rails']
@@ -1182,7 +1182,7 @@ const projectList = [
   },
   {
     name: 'aprenda-go-com-testes',
-    imageSrc: 'https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
+    imageSrc: 'https://raw.githubusercontent.com/larien/aprenda-go-com-testes/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
     githubLink:
       'https://github.com/larien/aprenda-go-com-testes',
     description: 'learn easily and quickly',
