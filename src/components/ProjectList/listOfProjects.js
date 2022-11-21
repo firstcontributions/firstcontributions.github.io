@@ -1188,5 +1188,12 @@ const projectList = [
     description: 'learn easily and quickly',
     tags: ['go']
   },
+  {
+    name: 'Daml',
+    imageSrc: 'https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png',
+    projectLink: 'https://github.com/digital-asset/daml/contribute',
+    description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
+    tags: ['Scala','Haskell']
+  },
 ];
 export default projectList;
