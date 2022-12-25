@@ -1197,3 +1197,4 @@ const projectList = [
   },
 ];
 export default projectList;
+[George Lynch](https://github.com/georgelynch)
