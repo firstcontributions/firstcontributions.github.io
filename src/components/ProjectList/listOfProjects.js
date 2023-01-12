@@ -1020,7 +1020,7 @@ const projectList = [
   },
   {
     name: 'SimplQ',
-    imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/64396572?s=200&v=4',
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description:
       'Modern and fully web based queue management solution for crowded businesses.',
