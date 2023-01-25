@@ -21,6 +21,8 @@ git clone https://github.com/<github_username>/firstcontributions.github.io.git
 where `<github_username>` is your GitHub username.
 Here you're copying the contents of your firstcontributions.github.io repository on GitHub to your computer.
 
+Ifeanyi Michael Iheme
+
 ## Running The Project
 You should have [yarn](https://yarnpkg.com/en/docs/install) and [node](https://nodejs.org/en/download/) to run the project locally.
 
