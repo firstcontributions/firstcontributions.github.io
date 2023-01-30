@@ -1195,5 +1195,12 @@ const projectList = [
     description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
     tags: ['Scala','Haskell']
   },
+  {
+    name: 'activist',
+    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logo/activistLogoRounded.png',
+    projectLink: 'https://github.com/activist-org/activist',
+    description: 'An open-source, nonprofit activism network',
+    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript']
+  }
 ];
 export default projectList;
