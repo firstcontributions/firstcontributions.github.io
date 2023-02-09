@@ -1195,5 +1195,12 @@ const projectList = [
     description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
     tags: ['Scala','Haskell']
   },
+  {
+    name:'matplotlib',
+    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    projectLink:'https://github.com/matplotlib/matplotlib',
+    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
+    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+  }
 ];
 export default projectList;
