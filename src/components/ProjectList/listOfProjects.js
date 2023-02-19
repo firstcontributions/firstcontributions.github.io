@@ -19,6 +19,15 @@ const projectList = [
     ],
   },
   {
+    name: "Signal-Android",
+    imageSrc:
+      "https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png",
+    projectLink: "https://github.com/signalapp/Signal-Android",
+    description:
+      "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
+    tags: ["java", "kotlin", "Python", "css", "handlebars"],
+  },
+  {
     name: "Reseter.css",
     imageSrc:
       "https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png",
