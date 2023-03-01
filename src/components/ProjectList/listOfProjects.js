@@ -1195,5 +1195,19 @@ const projectList = [
     description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
     tags: ['Scala','Haskell']
   },
+  {
+    name: 'Roc Droid',
+    imageSrc: 'https://gavv.net/articles/roc-0.2/roc_droid.png',
+    projectLink:
+      'https://github.com/roc-streaming/roc-droid',
+    description: 'Android app for real-time audio streaming using Roc Toolkit',
+    tags: [
+      'Kotlin',
+      'Android',
+      'Audio',
+      'Streaming',
+      'Networking',
+    ],
+  },
 ];
 export default projectList;
