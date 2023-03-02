@@ -1195,5 +1195,12 @@ const projectList = [
     description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
     tags: ['Scala','Haskell']
   },
+  {
+    name: 'Servo',
+    imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
+    projectLink: 'https://github.com/digital-asset/daml/contribute',
+    description: 'A browser engine designed for applications including embedded use.',
+    tags: ['Rust,Browser,Servo']
+  },
 ];
 export default projectList;
