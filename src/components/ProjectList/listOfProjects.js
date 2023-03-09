@@ -1027,11 +1027,11 @@ const projectList = [
     tags: ['OpenSource', 'React', 'Javascript', 'Beginner', 'Productivity'],
   },
   {
-    name: 'Phpmyadmin',
+    name: 'PhpMyAdmin',
     imageSrc:
-      'https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png',
+      'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
     projectLink: 'https://www.phpmyadmin.net/contribute/',
-    description: 'A web interface for MySQL and MariaDB.',
+    description: 'Handle the administration of MySQL over the web, supports wide range of operations on MySQL and MariaDB.',
     tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   },
   {
