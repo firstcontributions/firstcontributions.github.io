@@ -419,22 +419,6 @@ const projectList = [
     tags: ['Python', 'API', 'HTTP', 'Web', 'Decentralisation'],
   },
   {
-    name: 'atom',
-    imageSrc:
-      'https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png',
-    projectLink: 'https://github.com/atom/atom/contribute',
-    description: 'A customizable text editor built on electron.',
-    tags: [
-      'Atom',
-      'Editor',
-      'Javascript',
-      'Electron',
-      'Windows',
-      'Linux',
-      'Macos',
-    ],
-  },
-  {
     name: 'OpenGenus',
     imageSrc:
       'https://raw.githubusercontent.com/notnerb/FamilySite/master/logo.png',
