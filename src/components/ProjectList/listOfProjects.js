@@ -723,7 +723,7 @@ const projectList = [
     name: 'Roc Toolkit',
     imageSrc: 'https://roc-streaming.org/icon.png',
     projectLink:
-      'https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted',
+      'https://github.com/roc-streaming/roc-toolkit',
     description: 'A toolkit for real-time audio streaming over the network',
     tags: [
       'C++',
