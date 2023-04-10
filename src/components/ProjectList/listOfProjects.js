@@ -1,5 +1,5 @@
 const projectList = [
-   {
+  {
     name: 'Ancient Beast',
     imageSrc: 'https://raw.githubusercontent.com/FreezingMoon/AncientBeast-Website/master/favicon.png',
     projectLink: 'https://github.com/FreezingMoon/AncientBeast/labels/easy',
@@ -8,17 +8,17 @@ const projectList = [
   },
   {
     name: 'Reseter.css',
-    imageSrc: 'https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/122237139?s=200&v=4',
     projectLink: 'https://github.com/resetercss/reseter.css',
     description: 'Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser\'s stylesheet for a better cross-browser experience.',
     tags: ['css', 'sass', 'scss', 'less', 'stylus']
   },
   {
     name: 'CircuitVerse',
-    imageSrc: 'https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png',
+    imageSrc: 'https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/master/app/assets/images/cvlogo.svg',
     projectLink: 'https://github.com/CircuitVerse',
     description: 'CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.',
-    tags: ['html', 'css', 'sass','javascript', 'ruby on rails']
+    tags: ['html', 'css', 'sass', 'javascript', 'ruby on rails']
   },
   {
     name: 'MoveIt',
@@ -48,8 +48,7 @@ const projectList = [
   },
   {
     name: 'React Native',
-    imageSrc:
-      'https://github.com/facebook/react-native/blob/main/Libraries/NewAppScreen/components/logo.png?raw=true',
+    imageSrc: 'https://reactnative.dev/img/tiny_logo.png',
     projectLink: 'https://github.com/facebook/react-native/contribute',
     description: 'A framework for building native apps with React.',
     tags: ['JavaScript', 'React', 'React Native', 'Mobile App'],
@@ -68,7 +67,7 @@ const projectList = [
     imageSrc: 'https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913759/noticon/rewwujgq5wuw2qohwta9.png',
     projectLink: 'https://github.com/mongodb/mongo/blob/master/CONTRIBUTING.rst',
     description: 'MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.',
-    tags: ['NOSQL','Database']
+    tags: ['NOSQL', 'Database']
   },
   {
     name: 'Darktable',
@@ -1020,7 +1019,7 @@ const projectList = [
   },
   {
     name: 'SimplQ',
-    imageSrc: 'https://www.simplq.me/images/Simple-Q.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/64396572?s=200&v=4',
     projectLink: 'https://github.com/SimplQ/simplQ-frontend#contributing',
     description:
       'Modern and fully web based queue management solution for crowded businesses.',
@@ -1028,8 +1027,7 @@ const projectList = [
   },
   {
     name: 'Phpmyadmin',
-    imageSrc:
-      'https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png',
+    imageSrc: 'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
     projectLink: 'https://www.phpmyadmin.net/contribute/',
     description: 'A web interface for MySQL and MariaDB.',
     tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
@@ -1151,7 +1149,7 @@ const projectList = [
     projectLink: 'https://github.com/yarnpkg/yarn',
     description: 'Yarn is a JavaScript package manager created by Facebook that doubles as a project manager.',
     tags: ['JavaScript', 'Package-Manager', 'NodeJS', 'NPM',]
-    },
+  },
   {
     name: 'Scribe - Language Keyboards',
     imageSrc: 'https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png',
@@ -1171,7 +1169,7 @@ const projectList = [
     imageSrc: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Osu%21_Logo_2016.svg',
     projectLink: 'https://github.com/ppy/osu',
     description: 'Osu! is a free-to-play rhythm game primarily developed by the community.',
-    tags: ['Video Game', 'C#' , 'Music']
+    tags: ['Video Game', 'C#', 'Music']
   },
   {
     name: 'Salt',
@@ -1182,9 +1180,8 @@ const projectList = [
   },
   {
     name: 'aprenda-go-com-testes',
-    imageSrc: 'https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
-    githubLink:
-      'https://github.com/larien/aprenda-go-com-testes',
+    imageSrc: 'https://github.com/larien/aprenda-go-com-testes/raw/main/.gitbook/assets/red-green-blue-gophers-smaller.png',
+    githubLink: 'https://github.com/larien/aprenda-go-com-testes',
     description: 'learn easily and quickly',
     tags: ['go']
   },
@@ -1193,11 +1190,11 @@ const projectList = [
     imageSrc: 'https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png',
     projectLink: 'https://github.com/digital-asset/daml/contribute',
     description: 'Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.',
-    tags: ['Scala','Haskell']
+    tags: ['Scala', 'Haskell']
   },
   {
     name: 'Servo',
-    imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
+    imageSrc: 'https://avatars.githubusercontent.com/u/46327217?s=200&v=4',
     projectLink: 'https://github.com/digital-asset/daml/contribute',
     description: 'A browser engine designed for applications including embedded use.',
     tags: ['Rust,Browser,Servo']
