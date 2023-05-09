@@ -33,7 +33,7 @@ const projectList = [
       "Mentored",
       "Web",
       "Web Development",
-    ]
+    ],
   },
   {
     name: "Reseter.css",
