@@ -1292,5 +1292,31 @@ const projectList = [
     description: 'A browser engine designed for applications including embedded use.',
     tags: ['Rust,Browser,Servo']
   },
+  {
+    name: 'react-server',
+    imageSrc: 'https://avatars.githubusercontent.com/u/6288468?s=200&v=4',
+    githubLink:
+      'https://github.com/redfin/react-server',
+    description: 'React framework with server render for blazing fast page load and seamless transitions between pages in the browser.',
+    tags: ["JavaScript",
+           "SCSS",
+           "CSS",
+           "Sass",
+           "Shell",
+           "Dockerfile",
+           "Less",
+           "Web Development"]
+  },
+   {
+    name: 'video.js',
+    imageSrc: 'https://avatars.githubusercontent.com/u/3287189?s=200&v=4',
+    githubLink:
+      'https://github.com/videojs/video.js',
+    description: 'A web video player built from the ground up for an HTML5 world.',
+    tags: ["JavaScript",
+           "SCSS",
+           "html",
+           "Web Development"]
+  },
 ];
 export default projectList;
