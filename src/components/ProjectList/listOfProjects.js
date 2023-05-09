@@ -1,4 +1,21 @@
 const projectList = [
+  
+  {
+    name: "appsmith",
+    imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
+    projectLink: "https://github.com/appsmithorg/appsmith",
+    description: "Drag & Drop internal tool builder",
+    tags: ["UI", "Database", "Editor"]
+  },
+
+  {
+    name: "altair",
+    imageSrc: "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
+    projectLink: "https://github.com/altair-graphql/altair",
+    description: "A beautiful feature-rich GraphQL Client for all platforms.",
+    tags: ["GraphQL", "React", "Typescript"]
+  },
+
   {
     name: "Ancient Beast",
     imageSrc:
@@ -16,7 +33,7 @@ const projectList = [
       "Mentored",
       "Web",
       "Web Development",
-    ],
+    ]
   },
   {
     name: "Reseter.css",
