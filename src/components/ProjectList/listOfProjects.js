@@ -19,10 +19,10 @@ const projectList = [
     ],
   },
   {
-    name: "Reseter.css",
+    name: "Gardevoir",
     imageSrc:
-      "https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png",
-    projectLink: "https://github.com/resetercss/reseter.css",
+      "https://avatars.githubusercontent.com/u/122237139?s=200&v=4",
+    projectLink: "https://github.com/krshoss/gardevoir",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
     tags: ["css", "sass", "scss", "less", "stylus"],
@@ -30,7 +30,7 @@ const projectList = [
   {
     name: "CircuitVerse",
     imageSrc:
-      "https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png",
+      "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
