@@ -1309,5 +1309,12 @@ const projectList = [
     description: 'A browser engine designed for applications including embedded use.',
     tags: ['Rust,Browser,Servo']
   },
+  {
+    name: 'Rocket.Chat',
+    imageSrc: 'https://avatars.githubusercontent.com/u/12508788?s=200&v=4',
+    githubLink: 'https://github.com/RocketChat/Rocket.Chat',
+    description: 'Rocket.Chat is an open-source fully customizable communications platform developed in JavaScript for organizations with high standards of data protection.',
+    tags: ['javascript','slack','chat','real-time','mit','meteor','webrtc']
+  },
 ];
 export default projectList;
