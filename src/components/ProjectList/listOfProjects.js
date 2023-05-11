@@ -1309,5 +1309,12 @@ const projectList = [
     description: 'A browser engine designed for applications including embedded use.',
     tags: ['Rust,Browser,Servo']
   },
+  {
+    name: 'activist',
+    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logo/activistLogoRounded.png',
+    projectLink: 'https://github.com/activist-org/activist',
+    description: 'An open-source, nonprofit activism network',
+    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript']
+  }
 ];
 export default projectList;
