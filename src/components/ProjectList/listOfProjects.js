@@ -1315,6 +1315,19 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'An open-source, nonprofit activism network',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript']
+  },
+  {
+    name: 'Roc Droid',
+    imageSrc: 'https://gavv.net/articles/roc-0.2/roc_droid.png',
+    projectLink: 'https://github.com/roc-streaming/roc-droid',
+    description: 'Android app for real-time audio streaming using Roc Toolkit',
+    tags: [
+      'Kotlin',
+      'Android',
+      'Audio',
+      'Streaming',
+      'Networking',
+    ],
   }
 ];
 export default projectList;
