@@ -1310,11 +1310,11 @@ const projectList = [
     tags: ['Rust,Browser,Servo']
   },
   {
-    name: 'activist',
-    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logo/activistLogoRounded.png',
+    name: 'activist.org',
+    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png',
     projectLink: 'https://github.com/activist-org/activist',
-    description: 'An open-source, nonprofit activism network',
-    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript']
+    description: 'Open-source, nonprofit activism platform',
+    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
   }
 ];
 export default projectList;
