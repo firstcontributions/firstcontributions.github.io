@@ -47,7 +47,7 @@ const projectList = [
   {
     name: "CircuitVerse",
     imageSrc:
-      "https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png",
+      "https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/master/app/assets/images/CircuitVerse.png",
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
