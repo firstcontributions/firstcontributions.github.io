@@ -13,3 +13,15 @@ You can find the most recent version of this guide [here](https://github.com/fac
 yarn
 yarn start
 ```
+
+```
+Using NPM package manager
+npm 
+npm start
+```
+    
+```
+using pnpm package manager
+pnpm
+pnpm start
+```
