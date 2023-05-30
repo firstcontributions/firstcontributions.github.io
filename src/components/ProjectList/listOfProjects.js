@@ -1170,6 +1170,21 @@ const projectList = [
     tags: ["JavaScript", "OpenSource", "Beginner", "SVG", "NodeJS"],
   },
   {
+    name: "treeio",
+    imageSrc:"https://github.com/treeio/treeio/blob/2.0/static/mobile/images/logo.png",
+     projectLink: "https://github.com/treeio/treeio",
+    description: "Business Managment platform",
+    tags: ["Python","Django"],
+  },
+  {
+    name: "PhotoPrism",
+    imageSrc:"https://github.com/photoprism/photoprism/blob/develop/assets/static/icons/logo.svg"
+      ,projectLink: "https://github.com/photoprism/photoprism",
+    description: "AI-Powered Photos App for the Decentralized Web",
+    tags: ["Golang", "MachineLearning", "ai", "photography", "tensorflow","google-photos","private-cloud"],
+  },
+  
+  {
     name: "Eclipse JKube",
     imageSrc:
       "https://github.com/eclipse/jkube/raw/master/media/JKube-Logo-final-square-color.png",
