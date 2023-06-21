@@ -20,7 +20,7 @@ const Card = ({
 
   return (
     <div className="Card-Container">
-      <a className="Card-Real-Link" href={projectLink}>
+      <a className="Card-Real-Link" href={projectLink} target="_blank" rel="noopener noreferrer">
         <div className="Card-Header">
           <img
             className="Project-Logo"
