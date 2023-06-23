@@ -36,7 +36,7 @@ Then install the required Dependencies using:
 
 *For installation using node:
 
-npm install.
+npm install
 
 *For conflict dependency error:
 use npm install --force.
