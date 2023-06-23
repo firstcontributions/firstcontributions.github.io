@@ -34,7 +34,16 @@ Then install the required Dependencies using:
  yarn install
 ```
 
-*If you run into a dependencies issue, try removing `node_modules`.*
+*For installation using node:
+
+npm install.
+
+*For conflict dependency error:
+use npm install --force.
+
+*After installation:
+run npm start
+
 
 After installation, run:
 ```
