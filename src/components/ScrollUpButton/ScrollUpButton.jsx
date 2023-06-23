@@ -15,11 +15,21 @@ export default function ScrollUpButton() {
        },[])
 
        const scrollUpFn = ()=> window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    return (
-         currentYPos >= offsetHeight ? <div className="Scroll-Up-Wrapper">
-            <img className="Scroll-Up"
-                onClick={scrollUpFn}
-                src={scrollUp} alt="Scroll Up!" width="64" height="64" />
-        </div>:<></>
+       return (
+        <div>
+            {currentYPos >= offsetHeight ? (
+                <div className="Scroll-Up-Wrapper">
+                    <img
+                        className="Scroll-Up"
+                        onClick={scrollUpFn}
+                        src={scrollUp}
+                        alt="Scroll Up!"
+                        width="64"
+                        height="64"
+                    />
+                </div>
+            ) : null}
+        </div>
     )
+    
 }
