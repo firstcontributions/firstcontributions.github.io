@@ -10,7 +10,7 @@
 }
 .Project-Logo {
   width: 45%;
-  height: 40%;
+  height: auto;
   margin-top: 5%;
 }
 .Card-Body {
@@ -49,6 +49,8 @@
   color: black;
 }
 .Card-Real-Link:link {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: black;
   margin: 0 auto;
@@ -63,8 +65,16 @@
 }
 .Card-Link {
   position: relative;
-  padding: 10px;
+  padding: 15px;
   color: #0f3cef;
+  background: transparent;
+  transition: .5s;
+  margin-top: auto;
+  border-top: rgba(0, 0, 0, 0.12) 1px solid;
+}
+.Card-Link:hover {
+  color: whitesmoke;
+  background: #0f3cef;
 }
 .Card-Title {
   margin-top: 6%;

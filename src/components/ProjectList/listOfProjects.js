@@ -1,17 +1,5 @@
 const projectList = [
   {
-    name: 'MoveIt',
-    imageSrc: 'https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67',
-    projectLink: 'https://github.com/ros-planning/moveit',
-    description: 'Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.',
-    tags: ['c++', 'python', 'robotics', 'open source', 'motion planning'],
-  }, {
-    name: 'Jina',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/60539444?s=200&v=4',
-    projectLink: 'https://github.com/jina-ai/jina',
-    description: 'An easier way to build neural search on the cloud. An AI-powered search framework, empowering developers to create cross-/multi-modal search systems',
-    tags: ['Python', 'Machine Learning', 'Web App', 'Deep Learning', 'NLP'],
-  }, {
     name: 'React',
     imageSrc: 'https://camo.githubusercontent.com/22045498095171997ccf6a9554672519b9f67898/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f72656163742e737667',
     projectLink: 'https://github.com/facebook/react/contribute',
@@ -473,8 +461,8 @@ const projectList = [
   },
   {
     name: 'ifme',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/23299450?s=200',
-    projectLink: 'https://github.com/ifmeorg/ifme',
+    imageSrc: 'https://raw.githubusercontent.com/ifmeorg/ifme/master/public/logo_512.png',
+    projectLink: 'https://github.com/ifmeorg/ifme/contribute',
     description: 'A community for mental health experiences',
     tags: ['ruby-on-rails', 'javascript', 'react']
   },
@@ -550,7 +538,7 @@ const projectList = [
   },
   {
     name: 'Light Table',
-    imageSrc: 'https://avatars1.githubusercontent.com/u/5877010?s=200',
+    imageSrc: 'http://lighttable.com/images/logo.png',
     projectLink: 'https://github.com/LightTable',
     description: 'Light Table is a next generation code editor that connects you to your creation with instant feedback. Light Table is very customizable and can display anything a Chromium browser can.',
     tags: ['clojurescript', 'ide', 'editor', 'clojure', 'lighttable', 'clojure-development']
@@ -669,7 +657,7 @@ const projectList = [
   },
   {
     name: 'Game of Life',
-    imageSrc: 'https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4',
+    imageSrc: 'https://raw.githubusercontent.com/TroyTae/game-of-life/master/.github/images/favicon.gif',
     projectLink: 'https://github.com/TroyTae/game-of-life/contribute',
     description: 'Conway\'s game of life web version!',
     tags: ['Javascript', 'Typescript', 'Good First Issue'],
@@ -729,6 +717,20 @@ const projectList = [
     projectLink: 'https://github.com/zulip/zulip/contribute',
     description: 'Powerful Open Source Group Chat',
     tags: ['OpenSource', 'Chat', 'Javascript', 'Beginner', 'Python'],
+  },
+  {
+    name : 'pavlos',
+    imageSrc : 'https://raw.githubusercontent.com/Narasimha1997/pavlos/master/logo/logo.png',
+    projectLink : 'https://github.com/Narasimha1997/MarvinOS/issues',
+    description : 'Pavlos is a clone of docker with minimilistic features, a great place for learning container technology.',
+    tags : ['OpenSource', 'golang', 'go', 'Beginner', 'containers', 'security', 'networking', 'deployment', 'linux']
+  },
+  {
+    name : 'Marvin.OS',
+    imageSrc : 'https://raw.githubusercontent.com/Narasimha1997/MarvinOS/master/logo/logo.png',
+    projectLink : 'https://github.com/Narasimha1997/MarvinOS/issues',
+    description : 'A hobby operating system built from scratch using C and Assembly',
+    tags : ['OpenSource', 'osdev', 'c', 'hobby-kernel', 'assembly', 'x86_64']
   }
 ];
 export default projectList;
