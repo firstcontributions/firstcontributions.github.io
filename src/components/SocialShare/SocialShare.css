@@ -28,6 +28,11 @@
   background: #4b4949;
   border: solid white 4px;
 }
+
+.icon-card:hover{
+  opacity: 0.3;
+}
+
 @media (max-width: 700px) {
   .icon-card {
     border: none;
