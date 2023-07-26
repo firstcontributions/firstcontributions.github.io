@@ -19,7 +19,7 @@
 }
 
 .topnav a:hover {
-    background-color: #72B1E4;
+    background-color: #558fbe;
     color: #f2f2f2;
     border-radius: 25px;
     border: #72B1E4;
@@ -28,7 +28,7 @@
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #ffffff;
     color: white;
 }
 
