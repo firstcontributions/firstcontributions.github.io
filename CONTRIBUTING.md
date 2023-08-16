@@ -33,7 +33,7 @@ Then install the required Dependencies using:
 ```
  yarn install
 ```
-
+-[wasimuddin md](https://github.com/mdwasim74)
 *If you run into a dependencies issue, try removing `node_modules`.*
 
 After installation, run:
