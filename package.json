@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "sw-precache-config.js",
+  "author": "Abhi",
+  "license": "ISC"
 }

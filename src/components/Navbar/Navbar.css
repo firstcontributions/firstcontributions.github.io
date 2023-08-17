@@ -1,41 +1,94 @@
 .topnav {
-    background-color:#007EE5;
-    overflow: hidden;
-    text-align: right;
+  background-color: #007ee5;
+  overflow: hidden;
+  text-align: right;
 }
 @media (max-width: 700px) {
-    .topnav {
-        text-align: center;
-    }
+  .topnav {
+text-align: center;
+  }
+}
+
+section nav{
+  position: relative;
+  width: 630px;
+  margin: 50px auto;
+}
+nav {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  width: 160px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  border: 1px dashed rgba(255, 255, 255, 0);
+  color: #fff;
+  padding: 0px 0 0px 0;
+  margin: -1px -5px -1px -1px;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+nav ul li:hover {
+  margin-left: 0%;
+  background-color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.5);
+}
+nav ul {
+  border: 1px solid #fff;
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  z-index: 100;
+}
+nav div {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  background: #fff;
+  width: 162px;
+  height: 80px;
+  z-index: 99;
+}
+.active {
+  color: rgba(55, 186, 177, 1);
 }
 
 .topnav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 15px;
-    text-decoration: none;
-    font-size: 20px;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .topnav a:hover {
-    background-color: #72B1E4;
-    color: #f2f2f2;
-    border-radius: 25px;
-    border: #72B1E4;
-    block-size: auto;
-    display: inline;
+  background-color: #72b1e4;
+  color: #f2f2f2;
+  border-radius: 25px;
+  border: #72b1e4;
+  block-size: auto;
+  display: inline;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
 
-.logo{
-    margin-top: 10px;
-    width: 70px;
-    vertical-align:middle;
-    height: 50px;
-    display: inline-block;
+.logo {
+  margin-top: 10px;
+  width: 70px;
+  vertical-align: middle;
+  height: 50px;
+  display: inline-block;
 }
