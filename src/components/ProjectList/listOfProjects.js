@@ -1310,6 +1310,13 @@ const projectList = [
     tags: ['Rust,Browser,Servo']
   },
   {
+    name:'matplotlib',
+    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    projectLink:'https://github.com/matplotlib/matplotlib',
+    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
+    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+  },
+  {
     name: 'activist.org',
     imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png',
     projectLink: 'https://github.com/activist-org/activist',
