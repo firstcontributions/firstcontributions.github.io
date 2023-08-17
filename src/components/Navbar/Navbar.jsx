@@ -8,7 +8,7 @@ import github from './github.svg';
 const Navbar = () => {
   return (
       <div className="topnav">
-          <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA"  target="_blank" rel="noopener noreferrer">
+          <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w"  target="_blank" rel="noopener noreferrer">
               <img src={slack} className="logo" alt="slack logo" />
               <span>Slack</span>
           </a>
