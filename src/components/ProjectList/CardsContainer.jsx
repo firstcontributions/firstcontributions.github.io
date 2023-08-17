@@ -128,7 +128,9 @@ export default class CardsContainer extends React.Component {
               onChange={this.handleSelectChange}
               options={this.filterOptions}
               multi={true}
-              placeholder='Filter'
+              placeholder={<div className='filter-placeholder-text' style={{color: "#757575"}}>Filter</div>}
+              aria-labelledby='Filter'
+              style={{borderColor: "#DCDCDC"}}
             />
           </div>
         </div>
