@@ -22,7 +22,7 @@ const Navbar = () => {
           </a>
           <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">
               <img  src={github} className="logo" alt="github logo" />
-              Github
+              <span>GitHub</span>
           </a>
       </div>
   );
