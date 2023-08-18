@@ -27,7 +27,7 @@ const Card = ({
             alt="the framework or language that the project is build upon"
             src={logoLink}
           />
-          <p style={{fontSize: 20}} className="Card-Title">{name}</p>
+          <p className="Card-Title">{name}</p>
         </div>
         <div className="Card-Body">
           <div className="Card-Tag">{tags}</div>

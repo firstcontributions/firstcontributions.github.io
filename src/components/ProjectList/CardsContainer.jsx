@@ -128,9 +128,8 @@ export default class CardsContainer extends React.Component {
               onChange={this.handleSelectChange}
               options={this.filterOptions}
               multi={true}
-              placeholder={<div className='filter-placeholder-text' style={{color: "#757575"}}>Filter</div>}
+              placeholder={<div className='filter-placeholder-text'>Filter</div>}
               aria-labelledby='tag-selector-container'
-              style={{borderColor: "#DCDCDC"}}
             />
           </div>
         </div>
@@ -144,6 +143,7 @@ export default class CardsContainer extends React.Component {
                 projectLink={item.projectLink}
                 description={item.description}
                 tags={item.tags}
+                className='testing-testing'
               />
             );
           })}
