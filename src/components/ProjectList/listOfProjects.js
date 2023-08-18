@@ -1070,10 +1070,10 @@ const projectList = [
   {
     name: "Phpmyadmin",
     imageSrc:
-      "https://raw.githubusercontent.com/phpmyadmin/phpmyadmin/master/themes/original/img/logo_right.png",
-    projectLink: "https://www.phpmyadmin.net/contribute/",
-    description: "A web interface for MySQL and MariaDB.",
-    tags: ["OpenSource", "Mariadb", "Mysql", "HTML", "PHP", "Javascript"],
+      'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
+    projectLink: 'https://www.phpmyadmin.net/contribute/',
+    description: 'A web interface for MySQL and MariaDB.',
+    tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   },
   {
     name: "Litefy",
@@ -1308,6 +1308,13 @@ const projectList = [
     projectLink: 'https://github.com/digital-asset/daml/contribute',
     description: 'A browser engine designed for applications including embedded use.',
     tags: ['Rust,Browser,Servo']
+  },
+  {
+    name:'matplotlib',
+    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    projectLink:'https://github.com/matplotlib/matplotlib',
+    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
+    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
   },
   {
     name: 'activist.org',
