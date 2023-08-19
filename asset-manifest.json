@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccd622b4.css",
-    "main.js": "/static/js/main.5d67e4be.js",
+    "main.css": "/static/css/main.2852f874.css",
+    "main.js": "/static/js/main.4adefcd6.js",
     "static/media/slack.svg": "/static/media/slack.467b83a4e3ed3a6ab9afaadcb75bda99.svg",
     "static/media/github.svg": "/static/media/github.c5776142efc7db145a306307e2b13759.svg",
     "static/media/scroll-down.svg": "/static/media/scroll-down.61897565034fa44e01e59b117a06a187.svg",
     "static/media/twitter.svg": "/static/media/twitter.5934561556351196a0f54f2538271ea7.svg",
-    "static/media/scroll-up.svg": "/static/media/scroll-up.f4b245c1d19fee61ffb361a13b7f74b8.svg",
+    "static/media/scroll-up.svg": "/static/media/scroll-up.d5d8fa2f65b5a126098d6ae87d202d3a.svg",
     "index.html": "/index.html",
     "static/media/youtube.svg": "/static/media/youtube.197f27341e65a0f994bd06624de13e55.svg",
-    "main.ccd622b4.css.map": "/static/css/main.ccd622b4.css.map",
-    "main.5d67e4be.js.map": "/static/js/main.5d67e4be.js.map"
+    "main.2852f874.css.map": "/static/css/main.2852f874.css.map",
+    "main.4adefcd6.js.map": "/static/js/main.4adefcd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccd622b4.css",
-    "static/js/main.5d67e4be.js"
+    "static/css/main.2852f874.css",
+    "static/js/main.4adefcd6.js"
   ]
 }
