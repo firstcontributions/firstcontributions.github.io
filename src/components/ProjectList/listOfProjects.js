@@ -178,6 +178,13 @@ const projectList = [
     tags: ["Python", "data science", "data analysis", "math", "Module"],
   },
   {
+    name: "Pug",
+    imageSrc: "https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg",
+    projectLink: "https://github.com/pugjs/pug",
+    description: "Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
+    tags: ["JavaScript", "HTML", "NodeJS", "Template-Engine"],
+  },
+  {
     name: "Elasticsearch",
     imageSrc: "https://avatars2.githubusercontent.com/u/6764390?v=3&s=100",
     projectLink: "https://github.com/elastic/elasticsearch/contribute",
