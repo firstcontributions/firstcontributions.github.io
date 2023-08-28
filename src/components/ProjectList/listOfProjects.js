@@ -1322,6 +1322,78 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'Open-source, nonprofit activism platform',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
-  }
+  },
+  {
+    name: "filebrowser",
+    imageSrc:
+      "https://github.com/filebrowser/filebrowser/blob/master/frontend/public/img/icons/mstile-144x144.png?raw=true",
+    projectLink: "https://github.com/filebrowser/filebrowser",
+    description: "📂 Web File Browser",
+    tags: [
+      "vue.js",
+      "file manager",
+      "Go",
+      "browser",
+      "Windows",
+      "Linux",
+      "Macos",
+    ],
+  },
+  {
+    name: "UR Cache Cleaner",
+    imageSrc:
+      "https://github.com/vinugawade/ur-cache-cleaner/raw/master/assets/images/logo-transparent.png",
+    projectLink: "https://github.com/vinugawade/ur-cache-cleaner",
+    description: "UR Cache Cleaner is a helpful VS Code extension designed specifically for clearing cache in your Drupal project. Please keep in mind that this extension is currently built for Linux and Mac OS only.",
+    tags: [
+      "VSCode",
+      "Cache",
+      "Javascript",
+      "Drupal",
+      "Extension",
+      "Drush",
+      "NodeJS",
+      "Linux",
+      "Macos",
+      "UR",
+    ],
+  },
+  {
+    name: "UR Drupal Development Extension Pack",
+    imageSrc:
+      "https://github.com/vinugawade/ur-drupal-ext-pack/raw/master/assets/images/druplicon-deadpool.png",
+    projectLink: "https://github.com/vinugawade/ur-drupal-ext-pack",
+    description: "Collection of useful VSCode extensions to help in Drupal development.",
+    tags: [
+      "VSCode",
+      "Collection",
+      "Json",
+      "Drupal",
+      "Extension-pack",
+      "Utility",
+      "Linux",
+      "Windows",
+      "Macos",
+      "UR",
+    ],
+  },
+  {
+    name: "S-PHP",
+    imageSrc:
+      "https://github.com/vinugawade/s-php/blob/master/Logo.png?raw=true",
+    projectLink: "https://github.com/vinugawade/s-php",
+    description: "Easily switch PHP versions on Linux.",
+    tags: [
+      "PHP",
+      "Apache2",
+      "Bash",
+      "Shell",
+      "tool",
+      "Command",
+      "Utility",
+      "Linux",
+      "UR",
+    ],
+  },
 ];
 export default projectList;
