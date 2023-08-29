@@ -122,16 +122,7 @@ const projectList = [
     description: "Quickly ramp up in new programming languages!",
     tags: ["Ruby", "Exercises", "CLI", "Web App"],
   },
-  {
-    name: "React Testing Library",
-    imageSrc:
-      "https://raw.githubusercontent.com/testing-library/react-testing-library/master/other/goat.png",
-    projectLink:
-      "https://github.com/testing-library/react-testing-library/blob/master/CONTRIBUTING.md",
-    description:
-      "Simple and complete React DOM testing utilities that encourage good testing practices.",
-    tags: ["Unit testing", "JavaScript", "React", "React Native"],
-  },
+
   {
     name: "Gauge",
     imageSrc:
@@ -373,15 +364,7 @@ const projectList = [
     description: 'Python Koans is a port of Edgecase\'s "Ruby Koans".',
     tags: ["Python", "Exercises", "CLI", "Web App"],
   },
-  {
-    name: "Scala Exercises",
-    imageSrc: "https://avatars1.githubusercontent.com/u/17570897?s=200&v=4",
-    projectLink:
-      "https://github.com/scala-exercises/scala-exercises/contribute",
-    description:
-      "Scala Exercises is an Open Source project for learning different technologies based in the Scala Programming Language.",
-    tags: ["Scala", "Exercises", "Functional Programming"],
-  },
+
   {
     name: "CodeWorkout",
     imageSrc: "https://i.imgur.com/ZsSiCqi.png",
@@ -442,14 +425,7 @@ const projectList = [
       "Controls and orchestrates missions between autonomous vehicles and DAV users.",
     tags: ["Javascript", "Docker", "Thrift", "Good First Issue"],
   },
-  {
-    name: "DuckDuckGo",
-    imageSrc: "https://avatars3.githubusercontent.com/u/342708?s=200&v=4",
-    projectLink:
-      "https://github.com/duckduckgo/duckduckgo-privacy-extension/contribute",
-    description: "The search engine that doesn't track you!",
-    tags: ["Javascript", "Perl", "Python", "Privacy"],
-  },
+
   {
     name: "Kinto",
     imageSrc: "https://avatars2.githubusercontent.com/u/13413813?s=200&v=4",
@@ -458,31 +434,8 @@ const projectList = [
       "A generic JSON document store with sharing and synchronisation capabilities.",
     tags: ["Python", "API", "HTTP", "Web", "Decentralisation"],
   },
-  {
-    name: "atom",
-    imageSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png",
-    projectLink: "https://github.com/atom/atom/",
-    description: "A customizable text editor built on electron.",
-    tags: [
-      "Atom",
-      "Editor",
-      "Javascript",
-      "Electron",
-      "Windows",
-      "Linux",
-      "Macos",
-    ],
-  },
-  {
-    name: "OpenGenus",
-    imageSrc:
-      "https://raw.githubusercontent.com/notnerb/FamilySite/master/logo.png",
-    projectLink: "https://github.com/OpenGenus/Join_OpenGenus/contribute",
-    description:
-      "A positive open-source community working to bring essential programming knowledge offline.",
-    tags: ["C++", "Python", "Java", "Good First Issue"],
-  },
+ 
+
   {
     name: "css-protips",
     imageSrc:
@@ -593,15 +546,7 @@ const projectList = [
       "A multi-user Hub, spawns, manages, and proxies multiple instances of the single-user Jupyter notebook server.",
     tags: ["Proxy Server", "Python", "REST API"],
   },
-  {
-    name: "Allenai",
-    imageSrc:
-      "https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png",
-    projectLink: "https://github.com/allenai/allennlp/contribute",
-    description:
-      "conducts high-impact research and engineering to tackle key problems in artificial intelligence.",
-    tags: ["Artificial Intelligence", "Python", "NLP"],
-  },
+  
   {
     name: "Qute Browser",
     imageSrc: "https://avatars1.githubusercontent.com/u/21955151?s=200&v=4",
@@ -633,13 +578,7 @@ const projectList = [
       "terminal",
     ],
   },
-  {
-    name: "Kap",
-    imageSrc: "https://avatars3.githubusercontent.com/u/16321113?s=200&v=4",
-    projectLink: "https://github.com/wulkano/kap/contribute",
-    description: "An open-source screen recorder built with web technology",
-    tags: ["electron", "javascript", "mac", "oss", "screencast"],
-  },
+  
   {
     name: "Ember.js",
     imageSrc: "https://avatars0.githubusercontent.com/u/1253363?s=200&v=4",
@@ -800,22 +739,7 @@ const projectList = [
       "clojure-development",
     ],
   },
-  {
-    name: "Dragula",
-    imageSrc: "https://bevacqua.github.io/dragula/resources/icon.svg",
-    projectLink: "https://github.com/bevacqua/dragula",
-    description:
-      "Dragula provides the easiest possible API to make drag and drop a breeze in your applications.",
-    tags: [
-      "Javascript",
-      "front-end",
-      "drag-and-drop",
-      "vanilla",
-      "drag-drop",
-      "dragging",
-      "component",
-    ],
-  },
+ 
   {
     name: "Moby",
     imageSrc:
@@ -833,14 +757,7 @@ const projectList = [
       "NoSQL data store using the seastar framework, compatible with Apache Cassandra",
     tags: ["nosql", "cpp", "cassandra"],
   },
-  {
-    name: "OSRM (Open Source Routing Machine)",
-    imageSrc: "https://avatars2.githubusercontent.com/u/8207060?s=200&v=4",
-    projectLink: "https://github.com/Project-OSRM/osrm-backend",
-    description:
-      "High performance routing engine written in C++14 designed to run on OpenStreetMap data",
-    tags: ["osrm", "routing-engine", "cpp", "openstreetmap"],
-  },
+ 
   {
     name: "Laravel",
     imageSrc: "https://avatars3.githubusercontent.com/u/958072?s=200&v=4",
@@ -912,41 +829,8 @@ const projectList = [
     description: "Capture-The-Flag Scoreboard & CTF Event Running Software",
     tags: ["ctf", "ctf-scoreboard", "ctf-platform", "JavaScript"],
   },
-  {
-    name: "Airform",
-    imageSrc: "https://avatars1.githubusercontent.com/u/24883621",
-    projectLink: "https://github.com/airform/airform/contribute",
-    description: "Functional HTML forms for Front-End Developers.",
-    tags: [
-      "airform",
-      "serverless",
-      "sendmail",
-      "mailer",
-      "html-forms",
-      "forms",
-      "smtp",
-      "sendgrid",
-      "mailchimp",
-      "mailgun",
-    ],
-  },
-  {
-    name: "Milligram",
-    imageSrc: "https://avatars0.githubusercontent.com/u/16243913",
-    projectLink: "https://github.com/milligram/milligram/contribute",
-    description: "A minimalist CSS framework.",
-    tags: [
-      "milligram",
-      "css",
-      "html",
-      "framework",
-      "css-framework",
-      "design",
-      "minimalist",
-      "flexbox",
-      "amp",
-    ],
-  },
+  
+
   {
     name: "Gatsby",
     imageSrc:
@@ -985,14 +869,7 @@ const projectList = [
       "MPP",
     ],
   },
-  {
-    name: "Game of Life",
-    imageSrc:
-      "https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4",
-    projectLink: "https://github.com/TroyTae/game-of-life/contribute",
-    description: "Conway's game of life web version!",
-    tags: ["Javascript", "Typescript", "Good First Issue"],
-  },
+
   {
     name: "Mattermost",
     imageSrc:
@@ -1009,15 +886,7 @@ const projectList = [
       "Leapcode is an online community & platform that motivates and rewards first-time open source contributors to get started.",
     tags: ["Javascript", "React", "Gatsby"],
   },
-  {
-    name: "Markdown Dungeon",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines",
-    description:
-      "This is an example that how to use Markdown creating a dungeon.",
-    tags: ["Markdown", "React", "Gatsby", "Good First Issue", "Beginner"],
-  },
+ 
   {
     name: "Ansible",
     imageSrc: "https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
@@ -1075,14 +944,7 @@ const projectList = [
     description: 'A web interface for MySQL and MariaDB.',
     tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
   },
-  {
-    name: "Litefy",
-    imageSrc:
-      "https://raw.githubusercontent.com/mathkruger/litefy/master/src/assets/logo.png",
-    projectLink: "https://github.com/mathkruger/litefy/contribute",
-    description: "A lighweight Spotify client for low-end devices",
-    tags: ["OpenSource", "Angular", "HTML", "CSS", "Javascript", "Typescript"],
-  },
+ 
   {
     name: "Navy Linux",
     imageSrc:
@@ -1152,23 +1014,8 @@ const projectList = [
       "Jigsaw is an incubator within Google that uses technology to address geopolitical issues.",
     tags: ["Go", "TypeScript", "c", "Shell", "Python"],
   },
-  {
-    name: "Idea Hub",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/ideahub#contribution-guidelines",
-    description:
-      "A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀",
-    tags: ["Hub", "ideas", "Project List", "Good First Issue", "Beginner"],
-  },
-  {
-    name: "Simple Icons",
-    imageSrc:
-      "https://raw.githubusercontent.com/simple-icons/simple-icons-website/master/public/images/og.png",
-    projectLink: "https://github.com/simple-icons/simple-icons/contribute",
-    description: "SVG icons for popular brands",
-    tags: ["JavaScript", "OpenSource", "Beginner", "SVG", "NodeJS"],
-  },
+ 
+
   {
     name: "Eclipse JKube",
     imageSrc:
@@ -1201,23 +1048,7 @@ const projectList = [
     description: "Collaborative cheatsheets for console commands",
     tags: ["Markdown", "Docs", "Beginner"],
   },
-  {
-    name: "Codename One",
-    imageSrc:
-      "https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png",
-    projectLink: "https://github.com/codenameone/CodenameOne",
-    description:
-      "Cross-platform mobile app development framework for Java & Kotlin developers",
-    tags: [
-      "Cross-Platform",
-      "OpenSource",
-      "Java",
-      "Kotlin",
-      "Android",
-      "iOS",
-      "Framework",
-    ],
-  },
+ 
   {
     name: "SymPy",
     imageSrc: "https://www.sympy.org/static/images/logo.png",
@@ -1252,21 +1083,7 @@ const projectList = [
       "Keyboards for language learners with translation, verb conjugation and more!",
     tags: ["iOS", "Swift", "Productivity", "Good First Issue", "Beginner"],
   },
-  {
-    name: "mindsdb",
-    imageSrc:
-      "https://raw.githubusercontent.com/mindsdb/mindsdb_native/stable/assets/MindsDBColorPurp%403x.png",
-    projectLink: "https://github.com/mindsdb/mindsdb",
-    description:
-      "MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.",
-    tags: [
-      "Database",
-      "MySQL",
-      "Machine Learning",
-      "Open Source",
-      "Productivity",
-    ],
-  },
+ 
   {
     name: "Osu!",
     imageSrc:
@@ -1285,23 +1102,8 @@ const projectList = [
       "Salt is the world’s fastest, most intelligent and scalable automation engine.",
     tags: ["Python", "Shell", "Automation"],
   },
-  {
-    name: "aprenda-go-com-testes",
-    imageSrc:
-      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
-    githubLink: "https://github.com/larien/aprenda-go-com-testes",
-    description: "learn easily and quickly",
-    tags: ["go"],
-  },
-  {
-    name: "Daml",
-    imageSrc:
-      "https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png",
-    projectLink: "https://github.com/digital-asset/daml/contribute",
-    description:
-      "Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.",
-    tags: ["Scala", "Haskell"],
-  },
+
+ 
   {
     name: 'Servo',
     imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
