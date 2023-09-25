@@ -555,6 +555,14 @@ const projectList = [
       "Ethereum is a decentralized platform that runs smart contracts applications.",
     tags: ["Go", "C++", "Solidity", "Python", "Shell", "Java"],
   },
+    {
+    name: "openSUSE",
+    imageSrc: "https://avatars.githubusercontent.com/u/623819?s=200&v=4",
+    projectLink: "https://github.com/search?o=desc&q=org%3Aopensuse++&s=created&type=Issues&state=open",
+    description:
+      "For desktop, server, and everything in between.",
+    tags: ["Rust", "C++", "Ruby", "Python", "Perl", "Shell", "HTML"],
+  },
   {
     name: "Rust Lang Nursery",
     imageSrc: "https://avatars2.githubusercontent.com/u/14631425?s=200&v=4",
