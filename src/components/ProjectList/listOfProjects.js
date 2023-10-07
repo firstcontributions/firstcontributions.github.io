@@ -1,5 +1,5 @@
 const projectList = [
-  
+
   {
     name: "appsmith",
     imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
@@ -986,14 +986,6 @@ const projectList = [
     ],
   },
   {
-    name: "Game of Life",
-    imageSrc:
-      "https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4",
-    projectLink: "https://github.com/TroyTae/game-of-life/contribute",
-    description: "Conway's game of life web version!",
-    tags: ["Javascript", "Typescript", "Good First Issue"],
-  },
-  {
     name: "Mattermost",
     imageSrc:
       "https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png",
@@ -1310,11 +1302,11 @@ const projectList = [
     tags: ['Rust,Browser,Servo']
   },
   {
-    name:'matplotlib',
-    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
-    projectLink:'https://github.com/matplotlib/matplotlib',
-    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+    name: 'matplotlib',
+    imageSrc: 'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    projectLink: 'https://github.com/matplotlib/matplotlib',
+    description: 'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
+    tags: ['python', 'gtk', 'data-science', 'qt', 'data-visualization', 'tk', 'matplotlib', 'plotting', 'hacktoberfest', 'wx']
   },
   {
     name: 'activist.org',
