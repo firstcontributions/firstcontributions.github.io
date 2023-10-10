@@ -1,41 +1,54 @@
 .topnav {
-    background-color: #0054B5;
-    overflow: hidden;
-    text-align: right;
+  background-color: #0054b5;
+  overflow: hidden;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  margin: 6px 6px;
 }
 @media (max-width: 700px) {
-    .topnav {
-        text-align: center;
-    }
+  .topnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1;
+    height: 60px;
+  }
+  .topnav a {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .topnav .logo {
+    width: 24px;
+  }
 }
 
 .topnav a {
-    display: inline-block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 15px;
-    text-decoration: none;
-    font-size: 20px;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .topnav a:hover {
-    background-color: #72B1E4;
-    color: #f2f2f2;
-    border-radius: 25px;
-    border: #72B1E4;
-    block-size: auto;
-    display: inline;
+  background-color: #72b1e4;
+  color: #f2f2f2;
+  border-radius: 25px;
+  border: #72b1e4;
+  block-size: auto;
+  display: inline;
 }
 
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
 
-.logo{
-    margin-top: 10px;
-    width: 70px;
-    vertical-align:middle;
-    height: 50px;
-    display: inline-block;
+.logo {
+  width: 64px;
+  vertical-align: middle;
+  display: inline-block;
 }
