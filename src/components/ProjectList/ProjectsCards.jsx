@@ -23,7 +23,7 @@ const Card = ({
       <a className="Card-Real-Link" href={projectLink} target='blank'>
         <div className="Card-Header">
           <img
-            className="Project-Logo"
+            className="Project-Logo mx-auto"
             alt="the framework or language that the project is build upon"
             src={logoLink}
           />
