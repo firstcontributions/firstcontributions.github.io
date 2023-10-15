@@ -2,20 +2,20 @@
   padding: 10px 15px;
   text-decoration: none;
   margin: 20px auto;
-
   overflow: hidden;
-
   border-width: 0;
-  border-radius: 2px;
+  border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-
-  background-color:  #0A680D;
-  color: #fff;
-
+  background-color: #f9f9f9;
+  color: #050505;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
   margin-bottom: 0 !important;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .LinkButton:hover {
