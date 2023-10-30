@@ -1322,6 +1322,15 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'Open-source, nonprofit activism platform',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
+  },
+  {
+    name: "NEXT JS Authentication",
+    imageSrc:
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--9LpsSXK7--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dty27jq1tnn4pqo412me.jpeg",
+    projectLink: "https://github.com/sumanjeet0012/Next-JS",
+    description:
+      "This authentication system enables user signup and login functionality. User data is persisted in a MongoDB database, Email verification occurs within 24 hours of signup using Mailtrap for sending emails. Cookies store session IDs for authenticated users and middlewares restrict access to authorized pages only.",
+    tags: ["NEXT JS", "UI", "Web App","Mongo DB"],
   }
 ];
 export default projectList;
