@@ -2,6 +2,7 @@
   /* height: 500px; */
   background-color: #0054B5;
   text-align: center;
+  font-family: monospace;
   display: flex;
   justify-content: center;
   flex-direction: column;
