@@ -8,6 +8,13 @@ const projectList = [
     tags: ["UI", "Database", "Editor"]
   },
 
+   {
+    name: "Hamilton",
+    imageSrc: "https://github.com/DAGWorks-Inc/hamilton/assets/2328071/feb6abaa-b6d5-4271-a320-0ae4a18d8aa7",
+    projectLink: "https://github.com/dagworks-inc/hamilton",
+    description: "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
+    tags: ["DAG", "ETL", "Python", "data-science", "machine-learning", "pandas", "orchestration", "data-engineering", "data-analysis", "software-engineering", "feature-engineering", "dataframe", "lineage", "featurization", "pipeline", "mlops", "llmops"]
+  },
   {
     name: "altair",
     imageSrc: "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
