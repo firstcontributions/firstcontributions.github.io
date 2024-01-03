@@ -17,6 +17,14 @@ const projectList = [
   },
 
   {
+    name :"Leaflet",
+    imageSrc: "https://github.com/Leaflet/Leaflet/blob/main/src/images/logo.svg ",
+    projectLink: "https://github.com/Leaflet/Leaflet",
+    description: "Leading open-source JavaScript library for mobile-friendly interactive maps. ",
+    tags:["Javascript", "maps","plugins","css","api"]
+  },
+
+  {
     name: "Ancient Beast",
     imageSrc:
       "https://raw.githubusercontent.com/FreezingMoon/AncientBeast-Website/master/favicon.png",
