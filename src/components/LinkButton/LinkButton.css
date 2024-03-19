@@ -9,8 +9,10 @@
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 
-  background-color:  #0A680D;
-  color: #fff;
+  background-color:  #fff;
+  color: #0054B5;
+  border-radius: 5px;
+  border: solid 2px #fff;
 
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -19,7 +21,9 @@
 }
 
 .LinkButton:hover {
-  background-color: #26a65b;
+  background-color: #0054B5;
+  border: solid 2px #fff;
+  color: #fff;
 }
 
 .LinkButton > span {
