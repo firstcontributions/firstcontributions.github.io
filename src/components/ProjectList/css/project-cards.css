@@ -1,6 +1,7 @@
 * {
   /* border: 1px solid red; */
 }
+
 .Card-Header {
   position: relative;
   font-weight: bold;
@@ -8,15 +9,18 @@
   padding: 2%;
   line-height: 18px;
 }
+
 .Project-Logo {
   width: 45%;
   height: auto;
   margin-top: 5%;
 }
+
 .Card-Body {
   position: relative;
   background: white;
 }
+
 .Card-Container {
   overflow: hidden;
   width: 16%;
@@ -28,10 +32,12 @@
   transition: box-shadow 0.1s ease-in-out;
   background-color: #fff;
 }
+
 @media (max-width: 700px) {
   .Card-Container {
     width: 100%;
   }
+
   .Card-Real-Link {
     width: 100%;
   }
@@ -40,14 +46,17 @@
 .Card-Container:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
 }
+
 .Card-Real-Link:hover {
   text-decoration: none;
   color: black;
 }
+
 .Card-Real-Link:visited {
   text-decoration: none;
   color: black;
 }
+
 .Card-Real-Link:link {
   display: flex;
   flex-direction: column;
@@ -55,14 +64,17 @@
   color: black;
   margin: 0 auto;
 }
+
 .Card-Real-Link:active {
   text-decoration: none;
   color: black;
 }
+
 .Card-Description {
   position: relative;
   padding: 5%;
 }
+
 .Card-Link {
   position: relative;
   padding: 15px;
@@ -72,15 +84,18 @@
   margin-top: auto;
   border-top: rgba(0, 0, 0, 0.12) 1px solid;
 }
+
 .Card-Link:hover {
   color: whitesmoke;
   background: #0f3cef;
 }
+
 .Card-Title {
   margin-top: 6%;
   height: 10%;
   font-size: 20px;
 }
+
 .Card-Link-Style {
   margin-left: 10%;
 }
@@ -88,14 +103,14 @@
 .Card-Tag div {
   display: inline-block;
   background-color: #c8e1f9;
-  padding: 5px;
-  border-radius: 12px;
+  padding: 5px 7px;
+  border-radius: 8px;
   margin: 10px 10px;
   vertical-align: middle;
 }
 
 .Card-Tag p {
   margin: 3px 0;
-  font-size: 13px;
+  font-size: 13.6px;
   text-transform: capitalize;
 }
