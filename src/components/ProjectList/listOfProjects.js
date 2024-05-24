@@ -1,5 +1,5 @@
 const projectList = [
-  
+
   {
     name: "appsmith",
     imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
@@ -466,22 +466,6 @@ const projectList = [
     description:
       "A generic JSON document store with sharing and synchronisation capabilities.",
     tags: ["Python", "API", "HTTP", "Web", "Decentralisation"],
-  },
-  {
-    name: "atom",
-    imageSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/e/e2/Atom_1.0_icon.png",
-    projectLink: "https://github.com/atom/atom/",
-    description: "A customizable text editor built on electron.",
-    tags: [
-      "Atom",
-      "Editor",
-      "Javascript",
-      "Electron",
-      "Windows",
-      "Linux",
-      "Macos",
-    ],
   },
   {
     name: "OpenGenus",
@@ -1319,11 +1303,11 @@ const projectList = [
     tags: ['Rust,Browser,Servo']
   },
   {
-    name:'matplotlib',
-    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
-    projectLink:'https://github.com/matplotlib/matplotlib',
-    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+    name: 'matplotlib',
+    imageSrc: 'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    projectLink: 'https://github.com/matplotlib/matplotlib',
+    description: 'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
+    tags: ['python', 'gtk', 'data-science', 'qt', 'data-visualization', 'tk', 'matplotlib', 'plotting', 'hacktoberfest', 'wx']
   },
   {
     name: 'activist.org',
