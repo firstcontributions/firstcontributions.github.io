@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import slack from './slack.svg';
 import youtube from './youtube.svg';
-import twitter  from './twitter.svg';
+import x from './x.svg';
 import github from './github.svg';
 
 const Navbar = () => {
@@ -16,9 +16,9 @@ const Navbar = () => {
               <img  src={youtube} className="logo" alt="youtube logo" />
               <span>Youtube</span>    
           </a>
-          <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">
-              <img   src={twitter} className="logo" alt="twitter logo" />
-              <span>Twitter</span>
+          <a href="https://x.com/1stContribution" target="_blank" rel="noopener noreferrer">
+              <img   src={x} className="logo" alt="x logo" />
+              <span>X</span>
           </a>
           <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">
               <img  src={github} className="logo" alt="github logo" />

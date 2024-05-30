@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import TwitterCard from './Twitter';
+import XCard from './X';
 
 it('renders a project card', () => {
   const tree = renderer.create(
-    <TwitterCard/>
+    <XCard/>
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
