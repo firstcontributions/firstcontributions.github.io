@@ -5,9 +5,22 @@
 }
 @media (max-width: 700px) {
     .topnav {
-        text-align: center;
+        display : flex;
+        gap: 4px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
     }
 }
+
+@media (max-width : 400px) {
+    .topnav{
+        flex-wrap: wrap;
+    }
+}
+
 
 .topnav a {
     display: inline-block;
