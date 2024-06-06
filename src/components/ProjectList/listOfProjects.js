@@ -1316,7 +1316,7 @@ const projectList = [
     imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
     projectLink: 'https://github.com/servo/servo/contribute',
     description: 'A browser engine designed for applications including embedded use.',
-    tags: ['Rust,Browser,Servo']
+    tags: ['Rust', 'Browser', 'Servo']
   },
   {
     name:'matplotlib',
