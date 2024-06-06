@@ -332,7 +332,7 @@ const projectList = [
   {
     name: "Visual Studio Code",
     imageSrc:
-      "https://camo.githubusercontent.com/2c31ce5d3dbd1dafe9c6ee590f0674c9bd7d2af56aca0a1192b33643b6783179/68747470733a2f2f636f64652e76697375616c73747564696f2e636f6d2f6173736574732f696d616765732f636f64652d737461626c652e706e67",
+      "https://code.visualstudio.com/assets/images/code-stable.png",
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
