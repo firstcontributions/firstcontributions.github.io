@@ -1058,7 +1058,7 @@ const projectList = [
     projectLink:
       "https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue",
     description:
-      "Chat app in end-to-end enctypted environment without registration",
+      "Chat app in end-to-end encrypted environment without registration",
     tags: ["React", "Chat", "Javascript", "Beginner", "NodeJS"],
   },
   {
@@ -1167,7 +1167,7 @@ const projectList = [
     projectLink:
       "https://github.com/MakeContributions/ideahub#contribution-guidelines",
     description:
-      "A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀",
+      "A collection of ideas and projects that contain from beginner to advanced 🎯🚀",
     tags: ["Hub", "ideas", "Project List", "Good First Issue", "Beginner"],
   },
   {
