@@ -173,7 +173,7 @@ const projectList = [
   {
     name: "Numpy",
     imageSrc:
-      "https://camo.githubusercontent.com/b310fd3c9c5f7da5de0911b77d201408b76b8a58/68747470733a2f2f696d616765732e706c6f742e6c792f706c6f746c792d646f63756d656e746174696f6e2f7468756d626e61696c2f6e756d70792d6c6f676f2e6a7067",
+      "https://numpy.org/images/logo.svg",
     projectLink: "https://github.com/numpy/numpy/contribute",
     description: "Scientific computing with Python!",
     tags: ["Python", "Math", "Module", "Docs"],
