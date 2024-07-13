@@ -41,7 +41,7 @@ const projectList = [
       "https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png",
     projectLink: "https://github.com/signalapp/Signal-Android",
     description:
-      "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
+      "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connect. Signal’s advance privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
     tags: ["java", "kotlin", "Python", "css", "handlebars"],
   },
   {
@@ -50,7 +50,7 @@ const projectList = [
       "https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png",
     projectLink: "https://github.com/resetercss/reseter.css",
     description:
-      "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
+      "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the pre-made styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
     tags: ["css", "sass", "scss", "less", "stylus"],
   },
   {
@@ -288,7 +288,7 @@ const projectList = [
     name: "Neovim",
     imageSrc: "https://avatars0.githubusercontent.com/u/6471485?v=3&s=100",
     projectLink: "https://github.com/neovim/neovim/contribute",
-    description: "Vim-fork focused on extensibility and usability.",
+    description: "Vim-fork focus on extensibility and usability.",
     tags: ["Editor", "API", "Cross-Platform", "Vim"],
   },
   {
@@ -847,7 +847,7 @@ const projectList = [
     imageSrc: "https://avatars2.githubusercontent.com/u/8207060?s=200&v=4",
     projectLink: "https://github.com/Project-OSRM/osrm-backend",
     description:
-      "High performance routing engine written in C++14 designed to run on OpenStreetMap data",
+      "High performance routing engine written in C++14 design to run on OpenStreetMap data",
     tags: ["osrm", "routing-engine", "cpp", "openstreetmap"],
   },
   {
@@ -1058,7 +1058,7 @@ const projectList = [
     projectLink:
       "https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue",
     description:
-      "Chat app in end-to-end enctypted environment without registration",
+      "Chat app in end-to-end encrypted environment without registration",
     tags: ["React", "Chat", "Javascript", "Beginner", "NodeJS"],
   },
   {
