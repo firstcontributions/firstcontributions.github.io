@@ -13,7 +13,8 @@
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 15px;
+    margin: 20px 0;
+    padding: 0 15px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -23,8 +24,8 @@
     color: #f2f2f2;
     border-radius: 25px;
     border: #72B1E4;
-    block-size: auto;
-    display: inline;
+    /* block-size: auto; */
+    /* display: inline; */
 }
 
 .topnav a.active {
