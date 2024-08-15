@@ -1,19 +1,20 @@
 const projectList = [
-  
   {
     name: "appsmith",
-    imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
     projectLink: "https://github.com/appsmithorg/appsmith",
     description: "Drag & Drop internal tool builder",
-    tags: ["UI", "Database", "Editor"]
+    tags: ["UI", "Database", "Editor"],
   },
 
   {
     name: "altair",
-    imageSrc: "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
     projectLink: "https://github.com/altair-graphql/altair",
     description: "A beautiful feature-rich GraphQL Client for all platforms.",
-    tags: ["GraphQL", "React", "Typescript"]
+    tags: ["GraphQL", "React", "Typescript"],
   },
 
   {
@@ -1078,11 +1079,10 @@ const projectList = [
   },
   {
     name: "Phpmyadmin",
-    imageSrc:
-      'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
-    projectLink: 'https://www.phpmyadmin.net/contribute/',
-    description: 'A web interface for MySQL and MariaDB.',
-    tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
+    imageSrc: "https://avatars.githubusercontent.com/u/1351977?s=200&v=4",
+    projectLink: "https://www.phpmyadmin.net/contribute/",
+    description: "A web interface for MySQL and MariaDB.",
+    tags: ["OpenSource", "Mariadb", "Mysql", "HTML", "PHP", "Javascript"],
   },
   {
     name: "Litefy",
@@ -1297,8 +1297,8 @@ const projectList = [
   {
     name: "aprenda-go-com-testes",
     imageSrc:
-      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
-    githubLink: "https://github.com/larien/aprenda-go-com-testes",
+      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png?raw=true",
+    projectLink: "https://github.com/larien/aprenda-go-com-testes",
     description: "learn easily and quickly",
     tags: ["go"],
   },
@@ -1312,25 +1312,50 @@ const projectList = [
     tags: ["Scala", "Haskell"],
   },
   {
-    name: 'Servo',
-    imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
-    projectLink: 'https://github.com/digital-asset/daml/contribute',
-    description: 'A browser engine designed for applications including embedded use.',
-    tags: ['Rust,Browser,Servo']
+    name: "Servo",
+    imageSrc:
+      "https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns",
+    projectLink: "https://github.com/digital-asset/daml/contribute",
+    description:
+      "A browser engine designed for applications including embedded use.",
+    tags: ["Rust,Browser,Servo"],
   },
   {
-    name:'matplotlib',
-    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
-    projectLink:'https://github.com/matplotlib/matplotlib',
-    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+    name: "matplotlib",
+    imageSrc:
+      "https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg",
+    projectLink: "https://github.com/matplotlib/matplotlib",
+    description:
+      "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    tags: [
+      "python",
+      "gtk",
+      "data-science",
+      "qt",
+      "data-visualization",
+      "tk",
+      "matplotlib",
+      "plotting",
+      "hacktoberfest",
+      "wx",
+    ],
   },
   {
-    name: 'activist.org',
-    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png',
-    projectLink: 'https://github.com/activist-org/activist',
-    description: 'Open-source, nonprofit activism platform',
-    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
-  }
+    name: "activist.org",
+    imageSrc:
+      "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
+    projectLink: "https://github.com/activist-org/activist",
+    description: "Open-source, nonprofit activism platform",
+    tags: [
+      "Nuxt",
+      "Vue",
+      "Activism",
+      "Good First Issue",
+      "Javascript",
+      "TypeScript",
+      "Django",
+      "Python",
+    ],
+  },
 ];
 export default projectList;
