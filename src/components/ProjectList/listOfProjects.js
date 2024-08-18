@@ -1331,6 +1331,13 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'Open-source, nonprofit activism platform',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
+  },
+  {
+    name: 'Crossword Puzzle Generator',
+    imageSrc: 'https://github.com/m0nt4ld0/crucigrama/blob/main/images/icons8-crossword-64.png?raw=true',
+    projectLink: 'https://github.com/m0nt4ld0/crucigrama',
+    description: 'Generador de crucigramas - Crossword puzzle generator - Good first issue',
+    tags: ['javascript', 'community', 'contribution', 'crossword-puzzle', 'contributions-welcome', 'good-first-issue', 'begginer-friendly', 'begginer']
   }
 ];
 export default projectList;
