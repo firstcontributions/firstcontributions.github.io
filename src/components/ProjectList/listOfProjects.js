@@ -1331,6 +1331,51 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'Open-source, nonprofit activism platform',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
+  },
+  {
+    name: 'gradle.org',
+    imageSrc: 'https://avatars.githubusercontent.com/u/124156?s=200&v=4',
+    projectLink: 'https://github.com/gradle/gradle',
+    description: 'Adaptable, fast automation for all',
+    tags: [
+      'Build Tool',
+      'Good First Issue',
+      'Gradle',
+      'Gradle-bt',
+      'Groovy',
+      'Hacktoberfest',
+      'Java',
+      'Kotlin',
+    ]
+  },
+  {
+    name: 'signoz.io',
+    imageSrc: 'https://avatars.githubusercontent.com/u/76905799?s=200&v=4',
+    projectLink: 'https://github.com/SigNoz/signoz',
+    description:
+      'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥. 👉 Open source Application Performance Monitoring (APM) & Observability tool',
+    tags: [
+      'APM',
+      'Application Monitoring',
+      'Distributed Tracing',
+      'Go',
+      'Good First Issue',
+      'Jaeger',
+      'Log',
+      'Logs',
+      'Metrics',
+      'Monitoring',
+      'Next.js',
+      'Observability',
+      'Open Source',
+      'Open Telemetry',
+      'Prometheus',
+      'React',
+      'React.js',
+      'Self Hosted',
+      'Tracing',
+      'Typescript',
+    ]
   }
 ];
 export default projectList;
