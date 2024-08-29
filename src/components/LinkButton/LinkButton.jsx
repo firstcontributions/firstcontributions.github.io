@@ -13,7 +13,20 @@ class LinkButton extends Component {
           <span> Get started </span>
         </a>
         <div className="Scroll-Down-Wrapper">
-          <img className="Scroll-Down" onClick={() => { window.scrollBy({ top: window.innerHeight - 80, left: 0, behavior: "smooth" }); }} src={scrollDown} alt="Scroll Down!" width="64" height="64" />
+          <img
+            className="Scroll-Down"
+            onClick={() => {
+              window.scrollBy({
+                top: window.innerHeight - 80,
+                left: 0,
+                behavior: "smooth",
+              });
+            }}
+            src={scrollDown}
+            alt="Scroll Down!"
+            width="64"
+            height="64"
+          />
         </div>
       </div>
     );

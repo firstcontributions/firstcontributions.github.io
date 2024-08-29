@@ -1,0 +1,29 @@
+/* Style the container of the select input */
+.react-select-container {
+    width: 300px;
+  }
+  
+  /* Style the control (input) part of the select */
+  .react-select__control {
+    border-color: #007bff;
+    box-shadow: none;
+    border-radius: 4px;
+  }
+  
+  /* Style the menu (dropdown list) */
+  .react-select__menu {
+    z-index: 9999;
+  }
+  
+  /* Style the options in the menu */
+  .react-select__option {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  /* Style the selected option */
+  .react-select__option--is-selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
