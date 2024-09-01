@@ -1,13 +1,13 @@
 import React from 'react';
+import './custom-react-select.css';
 import Select from 'react-select';
-import each from 'lodash/each'
+import each from 'lodash/each';
 
 import Card from './ProjectsCards';
 import projectList from './listOfProjects';
 
 import './css/cards-container.css';
 import './css/search.css';
-import 'react-select/dist/react-select.css';
 
 export default class CardsContainer extends React.Component {
   constructor(props) {
@@ -60,7 +60,7 @@ export default class CardsContainer extends React.Component {
       const valueList = [];
 
       value.map(v => {
-        return valueList.push(v.value)
+        return valueList.push(v.value);
       });
 
       each(projectList, (project) => {
@@ -117,9 +117,9 @@ export default class CardsContainer extends React.Component {
 
     return (
       <div>
-        <div id='container'>
-          <div className='inputContainer'>
-            <input id='search' type='text' name='search' placeholder='Search...' onChange={this.handleChange} aria-label='Search'/>
+        <div id="container">
+          <div className="inputContainer">
+            <input id="search" type="text" name="search" placeholder="Search..." onChange={this.handleChange} aria-label="Search"/>
           </div>
           <div id="tag-selector-container" className='inputContainer'>
             <Select
