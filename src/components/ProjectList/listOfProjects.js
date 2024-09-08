@@ -9,7 +9,7 @@ const projectList = [
   },
   {
     name: "DakFood",
-    imageSrc: "https://www.bing.com/ck/a?!&&p=1656970d9f0e4a08JmltdHM9MTcyNTY2NzIwMCZpZ3VpZD0wN2JmNTFhMy0yZTMyLTY4NjgtMjdjYi00NTUwMmYzNDY5ZTUmaW5zaWQ9NTU0NA&ptn=3&ver=2&hsh=3&fclid=07bf51a3-2e32-6868-27cb-45502f3469e5&u=a1L2ltYWdlcy9zZWFyY2g_cT1kYWtzaCUyMG1laHRhJTIwbmFtZSUyMGltYWdlJkZPUk09SVFGUkJBJmlkPUJEMEQ5NTYzQ0Q3NUQ5RDQ5RDMzMUI2QjFGOTM4MDk1QTEyRjJGQ0Y&ntb=1",
+    imageSrc: "https://th.bing.com/th?id=OIP.Pux9Tu5x68kgjJRP2hZSBgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&dpr=1.3&pid=3.1&rm=2",
     projectLink: "https://github.com/dakshmehta007/MERN-PROJECTS/tree/5b43900fdb12ababe22feafc8a6bca43c5c5d954",
     description: "A food order app develop by Daksh Mehta",
     tags: ["MERN","Backend","Frontend"]
