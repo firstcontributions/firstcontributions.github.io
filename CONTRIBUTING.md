@@ -13,7 +13,7 @@ git clone "url you just copied (url of the forked repo)"
 ```
 where "url you just copied" (without the quote marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-
+Katiauzin
 For example:
 ```
 git clone https://github.com/<github_username>/firstcontributions.github.io.git
