@@ -588,6 +588,13 @@ const projectList = [
     tags: ["Open Source", "Software", "JAVA", "Android"],
   },
   {
+   name: "Bokeh",
+   imageSrc: "https://avatars.githubusercontent.com/u/8440965?s=200&v=4",
+   projectLink: "https://github.com/bokeh",
+   description: "Interactive Data Visualization in the browser, from Python",
+   tags:["Javascript", "Python", "Jupiter", "visualization"]
+  },
+  {
     name: "Sugar Labs",
     imageSrc: "https://avatars3.githubusercontent.com/u/3996398?s=280&v=4",
     projectLink: "https://github.com/sugarlabs",
