@@ -1,19 +1,20 @@
 const projectList = [
-  
   {
     name: "appsmith",
-    imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
     projectLink: "https://github.com/appsmithorg/appsmith",
     description: "Drag & Drop internal tool builder",
-    tags: ["UI", "Database", "Editor"]
+    tags: ["UI", "Database", "Editor"],
   },
 
   {
     name: "altair",
-    imageSrc: "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
     projectLink: "https://github.com/altair-graphql/altair",
     description: "A beautiful feature-rich GraphQL Client for all platforms.",
-    tags: ["GraphQL", "React", "Typescript"]
+    tags: ["GraphQL", "React", "Typescript"],
   },
 
   {
@@ -37,9 +38,7 @@ const projectList = [
   },
   {
     name: "Signal-Android",
-    imageSrc:
-      "https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png",
-    projectLink: "https://github.com/signalapp/Signal-Android",
+    imageSrc: "https://signal.org/assets/images/header/logo.png",
     description:
       "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
     tags: ["java", "kotlin", "Python", "css", "handlebars"],
@@ -47,7 +46,7 @@ const projectList = [
   {
     name: "Reseter.css",
     imageSrc:
-      "https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png",
+      "https://raw.githubusercontent.com/kkrishguptaa/reseter.css/main/.github/assets/gardevoir.png",
     projectLink: "https://github.com/resetercss/reseter.css",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
@@ -56,7 +55,7 @@ const projectList = [
   {
     name: "CircuitVerse",
     imageSrc:
-      "https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png",
+      "https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/6362a9eb4a9fd6b5391c8e4ef0e3b82525e722de/app/assets/images/cvlogo.svg",
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
@@ -65,7 +64,7 @@ const projectList = [
   {
     name: "MoveIt",
     imageSrc:
-      "https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67",
+      "https://camo.githubusercontent.com/8a314e1fa2bdd2950b772151b2cf8a851b2c3f4a280712ea985dc046596819fe/687474703a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67",
     projectLink: "https://github.com/ros-planning/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
@@ -90,8 +89,7 @@ const projectList = [
   },
   {
     name: "React Native",
-    imageSrc:
-      "https://github.com/facebook/react-native/blob/main/Libraries/NewAppScreen/components/logo.png?raw=true",
+    imageSrc: "https://img.icons8.com/?size=256&id=58811&format=png",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
     tags: ["JavaScript", "React", "React Native", "Mobile App"],
@@ -172,16 +170,14 @@ const projectList = [
   },
   {
     name: "Numpy",
-    imageSrc:
-      "https://camo.githubusercontent.com/b310fd3c9c5f7da5de0911b77d201408b76b8a58/68747470733a2f2f696d616765732e706c6f742e6c792f706c6f746c792d646f63756d656e746174696f6e2f7468756d626e61696c2f6e756d70792d6c6f676f2e6a7067",
+    imageSrc: "https://numpy.org/images/logo.svg",
     projectLink: "https://github.com/numpy/numpy/contribute",
     description: "Scientific computing with Python!",
     tags: ["Python", "Math", "Module", "Docs"],
   },
   {
     name: "pandas",
-    imageSrc:
-      "https://camo.githubusercontent.com/981d48e57e23a4907cebc4eb481799b5882595ea978261f22a3e131dcd6ebee6/68747470733a2f2f70616e6461732e7079646174612e6f72672f7374617469632f696d672f70616e6461732e737667",
+    imageSrc: "https://icon.icepanel.io/Technology/svg/Pandas.svg",
     projectLink: "https://github.com/pandas-dev/pandas/contribute",
     description: "pandas: powerful Python data analysis toolkit",
     tags: ["Python", "data science", "data analysis", "math", "Module"],
@@ -257,7 +253,7 @@ const projectList = [
   {
     name: "Leiningen",
     imageSrc:
-      "https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067",
+      "https://github.com/technomancy/leiningen/blob/github/resources/leiningen.png",
     projectLink: "https://github.com/technomancy/leiningen/contribute",
     description: "Automate Clojure projects without setting your hair on fire.",
     tags: ["Clojure", "Automation"],
@@ -331,8 +327,7 @@ const projectList = [
   },
   {
     name: "Visual Studio Code",
-    imageSrc:
-      "https://camo.githubusercontent.com/a7f6e01cc208b478047eade76755f46cf1098c05/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f322f32642f56697375616c5f53747564696f5f436f64655f312e31385f69636f6e2e737667",
+    imageSrc: "https://code.visualstudio.com/assets/images/code-stable.png",
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
@@ -428,7 +423,7 @@ const projectList = [
   {
     name: "Public Lab",
     imageSrc:
-      "https://publiclab.org/system/images/photos/000/023/444/large/Screenshot_20180204-101546_2.png",
+      "https://raw.githubusercontent.com/SimplQ/simplQ-frontend/refs/heads/master/simplq/public/images/Simple-Q.png",
     projectLink: "https://publiclab.github.io/community-toolbox/#r=all",
     description:
       "PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈",
@@ -746,8 +741,7 @@ const projectList = [
   },
   {
     name: "Tensorflow",
-    imageSrc:
-      "https://camo.githubusercontent.com/0905c7d634421f8aa4ab3ddf19a582572df568e1/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67",
+    imageSrc: "https://img.icons8.com/?size=256&id=n3QRpDA7KZ7P&format=png",
     projectLink: "https://github.com/tensorflow/tensorflow/contribute",
     description:
       "A Machine Learning library in Python for implementing Machine Learning and Deep Learning models",
@@ -771,7 +765,7 @@ const projectList = [
   },
   {
     name: "Roc Toolkit",
-    imageSrc: "https://roc-streaming.org/icon.png",
+    imageSrc: "https://roc-streaming.org/logo.png",
     projectLink:
       "https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted",
     description: "A toolkit for real-time audio streaming over the network",
@@ -788,7 +782,7 @@ const projectList = [
   },
   {
     name: "Conda",
-    imageSrc: "https://conda.io/en/latest/_images/conda_logo.svg",
+    imageSrc: "https://www.svgrepo.com/show/373523/conda.svg",
     projectLink: "https://github.com/conda",
     description:
       "Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
@@ -959,7 +953,7 @@ const projectList = [
   {
     name: "Gatsby",
     imageSrc:
-      "https://camo.githubusercontent.com/b0972dd62bbf6ee0e28ed0ebceb48427a481568caeeb639066b23c754f0c60e5/68747470733a2f2f7777772e6761747362796a732e636f6d2f4761747362792d4d6f6e6f6772616d2e737667",
+      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/gatsby-js-icon.png",
     projectLink: "https://github.com/gatsbyjs/gatsby/contribute",
     description:
       "A free and open source framework based on React that helps developers build blazing fast websites and apps.",
@@ -1070,7 +1064,8 @@ const projectList = [
   },
   {
     name: "SimplQ",
-    imageSrc: "https://www.simplq.me/images/Simple-Q.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/SimplQ/simplQ-frontend/refs/heads/master/simplq/public/images/Simple-Q.png",
     projectLink: "https://github.com/SimplQ/simplQ-frontend#contributing",
     description:
       "Modern and fully web based queue management solution for crowded businesses.",
@@ -1078,11 +1073,10 @@ const projectList = [
   },
   {
     name: "Phpmyadmin",
-    imageSrc:
-      'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
-    projectLink: 'https://www.phpmyadmin.net/contribute/',
-    description: 'A web interface for MySQL and MariaDB.',
-    tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
+    imageSrc: "https://avatars.githubusercontent.com/u/1351977?s=200&v=4",
+    projectLink: "https://www.phpmyadmin.net/contribute/",
+    description: "A web interface for MySQL and MariaDB.",
+    tags: ["OpenSource", "Mariadb", "Mysql", "HTML", "PHP", "Javascript"],
   },
   {
     name: "Litefy",
@@ -1236,8 +1230,7 @@ const projectList = [
   },
   {
     name: "Pytorch",
-    imageSrc:
-      "https://github.com/pytorch/pytorch/raw/master/docs/source/_static/img/pytorch-logo-dark.png",
+    imageSrc: "https://img.icons8.com/?size=256&id=jH4BpkMnRrU5&format=png",
     projectLink: "https://github.com/pytorch/pytorch",
     description:
       "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
@@ -1297,40 +1290,62 @@ const projectList = [
   {
     name: "aprenda-go-com-testes",
     imageSrc:
-      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
+      "https://larien.gitbook.io/~gitbook/image?url=https%3A%2F%2F2676728847-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fspaces%252F-Lia9CiG1cfWmh7Adpdu%252Favatar.png%3Fgeneration%3D1562087895192974%26alt%3Dmedia&width=32&dpr=1&quality=100&sign=9c2ab176&sv=1",
     githubLink: "https://github.com/larien/aprenda-go-com-testes",
     description: "learn easily and quickly",
     tags: ["go"],
   },
   {
     name: "Daml",
-    imageSrc:
-      "https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png",
-    projectLink: "https://github.com/digital-asset/daml/contribute",
+    imageSrc: "https://docs.daml.com/_static/images/Daml_Logo_Blue.svg",
     description:
       "Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.",
     tags: ["Scala", "Haskell"],
   },
   {
-    name: 'Servo',
-    imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
-    projectLink: 'https://github.com/digital-asset/daml/contribute',
-    description: 'A browser engine designed for applications including embedded use.',
-    tags: ['Rust,Browser,Servo']
+    name: "Servo",
+    imageSrc:
+      "https://raw.githubusercontent.com/servo/servo/c00c6e728ddb82d6cb646eb924a73c4b43a798a4/resources/servo.svg",
+    projectLink: "https://github.com/digital-asset/daml/contribute",
+    description:
+      "A browser engine designed for applications including embedded use.",
+    tags: ["Rust,Browser,Servo"],
   },
   {
-    name:'matplotlib',
-    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
-    projectLink:'https://github.com/matplotlib/matplotlib',
-    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
+    name: "matplotlib",
+    imageSrc: "https://icon.icepanel.io/Technology/svg/Matplotlib.svg",
+    projectLink: "https://github.com/matplotlib/matplotlib",
+    description:
+      "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    tags: [
+      "python",
+      "gtk",
+      "data-science",
+      "qt",
+      "data-visualization",
+      "tk",
+      "matplotlib",
+      "plotting",
+      "hacktoberfest",
+      "wx",
+    ],
   },
   {
-    name: 'activist.org',
-    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png',
-    projectLink: 'https://github.com/activist-org/activist',
-    description: 'Open-source, nonprofit activism platform',
-    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
-  }
+    name: "activist.org",
+    imageSrc:
+      "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
+    projectLink: "https://github.com/activist-org/activist",
+    description: "Open-source, nonprofit activism platform",
+    tags: [
+      "Nuxt",
+      "Vue",
+      "Activism",
+      "Good First Issue",
+      "Javascript",
+      "TypeScript",
+      "Django",
+      "Python",
+    ],
+  },
 ];
 export default projectList;
