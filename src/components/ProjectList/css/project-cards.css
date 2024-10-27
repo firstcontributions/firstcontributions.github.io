@@ -1,90 +1,115 @@
+/* General Styles */
 * {
+  /* Uncomment for debugging borders */
   /* border: 1px solid red; */
+  box-sizing: border-box; /* Ensures consistent padding and border sizing */
 }
+
+/* Card Header */
 .Card-Header {
   position: relative;
   font-weight: bold;
-  background: white;
+  background-color: white;
   padding: 2%;
   line-height: 18px;
 }
+
+/* Project Logo */
 .Project-Logo {
-  width: 45%;
+  width: 45%; /* Maintains a flexible width */
   height: auto;
   margin-top: 5%;
 }
+
+/* Card Body */
 .Card-Body {
   position: relative;
-  background: white;
+  background-color: white;
 }
+
+/* Card Container */
 .Card-Container {
   overflow: hidden;
-  width: 16%;
+  width: 16%; /* Keeps card size responsive */
   min-width: 225px;
   display: flex;
+  flex-direction: column; /* Ensures card elements stack vertically */
   margin: 1.5vw;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
-  -webkit-transition: box-shadow 0.1s ease-in-out;
   transition: box-shadow 0.1s ease-in-out;
   background-color: #fff;
 }
+
 @media (max-width: 700px) {
   .Card-Container {
-    width: 100%;
+    width: 100%; /* Makes card full width on smaller screens */
   }
   .Card-Real-Link {
-    width: 100%;
+    width: 100%; /* Ensures links are full width on smaller screens */
   }
 }
 
+/* Card Hover Effect */
 .Card-Container:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
 }
-.Card-Real-Link:hover {
-  text-decoration: none;
-  color: black;
-}
-.Card-Real-Link:visited {
-  text-decoration: none;
-  color: black;
-}
-.Card-Real-Link:link {
+
+/* Link Styles */
+.Card-Real-Link {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   color: black;
   margin: 0 auto;
 }
+
+.Card-Real-Link:visited,
+.Card-Real-Link:link,
 .Card-Real-Link:active {
   text-decoration: none;
   color: black;
 }
+
+.Card-Real-Link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Card Description */
 .Card-Description {
   position: relative;
   padding: 5%;
 }
+
+/* Card Link */
 .Card-Link {
   position: relative;
   padding: 15px;
   color: #0f3cef;
   background: transparent;
-  transition: .5s;
+  transition: 0.5s;
   margin-top: auto;
-  border-top: rgba(0, 0, 0, 0.12) 1px solid;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
 }
+
 .Card-Link:hover {
   color: whitesmoke;
   background: #0f3cef;
 }
+
+/* Card Title */
 .Card-Title {
   margin-top: 6%;
-  height: 10%;
   font-size: 20px;
+  height: auto; /* Removes fixed height for better responsiveness */
 }
+
+/* Card Link Style */
 .Card-Link-Style {
   margin-left: 10%;
 }
 
+/* Card Tags */
 .Card-Tag div {
   display: inline-block;
   background-color: #c8e1f9;
