@@ -14,6 +14,15 @@
   line-height: 18px;
 }
 
+/* Image Wrapper */
+.Image-Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the loader */
+  align-items: center; /* Center the loader */
+  height: 200px; /* Adjust based on your design */
+}
+
 /* Project Logo */
 .Project-Logo {
   width: 45%; /* Maintains a flexible width */
@@ -123,4 +132,19 @@
   margin: 3px 0;
   font-size: 13px;
   text-transform: capitalize;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 60px; /* Size of the loader */
+  height: 60px; /* Size of the loader */
+  animation: spin 2s linear infinite; /* Animation */
+  margin: auto; /* Center it */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
