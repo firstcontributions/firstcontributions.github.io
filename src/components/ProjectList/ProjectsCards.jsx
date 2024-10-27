@@ -1,5 +1,9 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import { BounceLoader } from "react-spinners"; // Import BounceLoader
+=======
+import { BarLoader } from "react-spinners"; // Import a loader like BarLoader
+>>>>>>> 65b3ced727330eef1749d4feb7e1871fa25c823e
 import "./css/project-cards.css";
 
 const Card = ({ projectLink, logoLink, name, description, tags: propsTags }) => {
@@ -21,11 +25,19 @@ const Card = ({ projectLink, logoLink, name, description, tags: propsTags }) => 
 
   return (
     <div className="Card-Container">
+<<<<<<< HEAD
       <a className="Card-Real-Link" href={projectLink} target="_blank" rel="noopener noreferrer">
         <div className="Card-Header">
           <div className="Image-Wrapper">
             {/* Show BounceLoader while the image is loading */}
             {loading && <BounceLoader color={"#123abc"} loading={loading} size={60} />} {/* Adjust size as needed */}
+=======
+      <a className="Card-Real-Link" href={projectLink} target="blank">
+        <div className="Card-Header">
+          <div className="Image-Wrapper">
+            {/* Show spinner while the image is loading */}
+            {loading && <BarLoader color={"#123abc"} loading={loading} />}
+>>>>>>> 65b3ced727330eef1749d4feb7e1871fa25c823e
             
             {/* Image element with onLoad handler */}
             <img
