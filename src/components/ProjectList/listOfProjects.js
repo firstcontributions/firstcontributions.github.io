@@ -47,7 +47,7 @@ const projectList = [
   {
     name: "Reseter.css",
     imageSrc:
-      "https://raw.githubusercontent.com/resetercss/reseter.css/main/logo.png",
+      "https://raw.githubusercontent.com/kkrishguptaa/reseter.css/main/.github/assets/gardevoir.png",
     projectLink: "https://github.com/resetercss/reseter.css",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
@@ -91,7 +91,7 @@ const projectList = [
   {
     name: "React Native",
     imageSrc:
-      "https://github.com/facebook/react-native/blob/main/Libraries/NewAppScreen/components/logo.png?raw=true",
+      "https://raw.githubusercontent.com/facebook/react/57768ef90bdb0110c7b9266185a8f6446934b331/fixtures/dom/public/react-logo.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
     tags: ["JavaScript", "React", "React Native", "Mobile App"],
@@ -332,7 +332,7 @@ const projectList = [
   {
     name: "Visual Studio Code",
     imageSrc:
-      "https://camo.githubusercontent.com/a7f6e01cc208b478047eade76755f46cf1098c05/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f322f32642f56697375616c5f53747564696f5f436f64655f312e31385f69636f6e2e737667",
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
@@ -747,7 +747,7 @@ const projectList = [
   {
     name: "Tensorflow",
     imageSrc:
-      "https://camo.githubusercontent.com/0905c7d634421f8aa4ab3ddf19a582572df568e1/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f736f6369616c2e706e67",
+      "https://camo.githubusercontent.com/fe5ced87b3ae4c3c7c36fbeff02c3e0f99edae2dd1dd9d7b58195115788760ad/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67",
     projectLink: "https://github.com/tensorflow/tensorflow/contribute",
     description:
       "A Machine Learning library in Python for implementing Machine Learning and Deep Learning models",
@@ -1237,7 +1237,7 @@ const projectList = [
   {
     name: "Pytorch",
     imageSrc:
-      "https://github.com/pytorch/pytorch/raw/master/docs/source/_static/img/pytorch-logo-dark.png",
+      "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png",
     projectLink: "https://github.com/pytorch/pytorch",
     description:
       "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
@@ -1297,7 +1297,7 @@ const projectList = [
   {
     name: "aprenda-go-com-testes",
     imageSrc:
-      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
+      "https://larien.gitbook.io/~gitbook/image?url=https%3A%2F%2F2763912287-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-Lia9CiG1cfWmh7Adpdu%252F-Lia9TbxTuAr7XbyNb3I%252F-Lia9ambvvlPGkPz-Q7f%252Fred-green-blue-gophers-smaller.png%3Fgeneration%3D1561860928341453%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=a08c5e35&sv=1",
     githubLink: "https://github.com/larien/aprenda-go-com-testes",
     description: "learn easily and quickly",
     tags: ["go"],
@@ -1320,7 +1320,7 @@ const projectList = [
   },
   {
     name:'matplotlib',
-    imageSrc:'https://github.com/matplotlib/matplotlib/blob/main/doc/_static/matplotlib-icon.svg',
+    imageSrc:'https://camo.githubusercontent.com/3eed28e026e4e0220f99e2f4c8a517fcb3a30a1b944c528efc9533ff7840435f/68747470733a2f2f6d6174706c6f746c69622e6f72672f5f7374617469632f6c6f676f322e737667',
     projectLink:'https://github.com/matplotlib/matplotlib',
     description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
     tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
