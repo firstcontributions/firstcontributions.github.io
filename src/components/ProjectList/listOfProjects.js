@@ -274,8 +274,8 @@ const projectList = [
     name: "Babel",
     imageSrc: "https://avatars2.githubusercontent.com/u/9637642?v=3&s=100",
     projectLink: "https://github.com/babel/babel/contribute",
-    description: "Babel is a compiler for writing next generation JavaScript.",
-    tags: ["es2015", "JavaScript", "Compiler"],
+    description: "Babel is a complier for writing next generation JavaScript.",
+    tags: ["es2015", "JavaScript", "Complier"],
   },
   {
     name: "Pouchdb",
