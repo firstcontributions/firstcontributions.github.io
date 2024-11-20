@@ -1297,15 +1297,14 @@ const projectList = [
   {
     name: "aprenda-go-com-testes",
     imageSrc:
-      "https://github.com/larien/aprenda-go-com-testes/blob/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
-    githubLink: "https://github.com/larien/aprenda-go-com-testes",
-    description: "learn easily and quickly",
+      "",
+    projectLink: "https://github.com/larien/aprenda-go-com-testes",
+    description: "learn quick and easy",
     tags: ["go"],
   },
   {
     name: "Daml",
-    imageSrc:
-      "https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png",
+    imageSrc:"https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png",
     projectLink: "https://github.com/digital-asset/daml/contribute",
     description:
       "Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.",
