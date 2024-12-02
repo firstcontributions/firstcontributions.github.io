@@ -8,6 +8,8 @@ import projectList from './listOfProjects';
 import './css/cards-container.css';
 import './css/search.css';
 import 'react-select/dist/react-select.css';
+import search from "./search-icon.svg";
+import filter from "./filter-icon.svg";
 
 export default class CardsContainer extends React.Component {
   constructor(props) {
@@ -118,10 +120,12 @@ export default class CardsContainer extends React.Component {
     return (
       <div>
         <div id='container'>
-          <div className='inputContainer'>
+          <div className='inputContainer search-container'>
             <input id='search' type='text' name='search' placeholder='Search...' onChange={this.handleChange} aria-label='Search'/>
+            <img className="icon" src={search} alt="Search Icon" />
           </div>
           <div id="tag-selector-container" className='inputContainer'>
+            <img className="icon" src={filter} alt="Search Icon" />
             <Select
               name='tag-selector'
               value={this.state.value}
