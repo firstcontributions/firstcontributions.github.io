@@ -144,7 +144,7 @@ const projectList = [
   {
     name: "Gauge",
     imageSrc:
-      "https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4",
+      "https://history-day-by-day.com/wp-content/uploads/2016/12/ruga.jpg",
     projectLink: "https://github.com/getgauge/gauge/contribute",
     description: "A free and open source test automation framework",
     tags: ["Golang", "Automation", "command line", "testing"],
