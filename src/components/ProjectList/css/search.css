@@ -1,4 +1,6 @@
- display: flex;
+#container {
+  background: #f7f7fc;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px;
