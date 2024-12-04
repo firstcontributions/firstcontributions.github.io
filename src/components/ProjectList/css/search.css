@@ -25,6 +25,14 @@
    margin-top: 40px;
 }
 
+div.errorMessage {
+  color: #FFF;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 500px) {
   .inputContainer {
     width: 45%;
