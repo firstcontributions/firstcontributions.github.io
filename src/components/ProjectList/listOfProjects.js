@@ -38,7 +38,7 @@ const projectList = [
   {
     name: "Signal-Android",
     imageSrc:
-      "https://signal.org/assets/header/logo-f7ef605fe417d5520d38d546b3b774b4261c75220b9904da4d8b2ffc19a761ff.png",
+      "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
     projectLink: "https://github.com/signalapp/Signal-Android",
     description:
       "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
@@ -56,7 +56,7 @@ const projectList = [
   {
     name: "CircuitVerse",
     imageSrc:
-      "https://github.com/CircuitVerse/CircuitVerse/blob/master/app/assets/images/CircuitVerse.png",
+      "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
@@ -65,7 +65,7 @@ const projectList = [
   {
     name: "MoveIt",
     imageSrc:
-      "https://camo.githubusercontent.com/8dc96fd1c0547dcf77efe1b4fa579dd628bc4069b91cdb401b56da570064b115/68747470733a2f2f6d6f766569742e726f732e6f72672f6173736574732f6c6f676f2f6d6f766569745f6c6f676f2d626c61636b2e706e67",
+      "https://avatars.githubusercontent.com/u/4408844?s=200&v=4",
     projectLink: "https://github.com/ros-planning/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
@@ -91,7 +91,7 @@ const projectList = [
   {
     name: "React Native",
     imageSrc:
-      "https://raw.githubusercontent.com/facebook/react/57768ef90bdb0110c7b9266185a8f6446934b331/fixtures/dom/public/react-logo.svg",
+      "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
     tags: ["JavaScript", "React", "React Native", "Mobile App"],
@@ -173,7 +173,7 @@ const projectList = [
   {
     name: "Numpy",
     imageSrc:
-      "https://camo.githubusercontent.com/b310fd3c9c5f7da5de0911b77d201408b76b8a58/68747470733a2f2f696d616765732e706c6f742e6c792f706c6f746c792d646f63756d656e746174696f6e2f7468756d626e61696c2f6e756d70792d6c6f676f2e6a7067",
+      "https://avatars.githubusercontent.com/u/288276?s=200&v=4",
     projectLink: "https://github.com/numpy/numpy/contribute",
     description: "Scientific computing with Python!",
     tags: ["Python", "Math", "Module", "Docs"],
@@ -181,7 +181,7 @@ const projectList = [
   {
     name: "pandas",
     imageSrc:
-      "https://camo.githubusercontent.com/981d48e57e23a4907cebc4eb481799b5882595ea978261f22a3e131dcd6ebee6/68747470733a2f2f70616e6461732e7079646174612e6f72672f7374617469632f696d672f70616e6461732e737667",
+      "https://avatars.githubusercontent.com/u/21206976?s=200&v=4",
     projectLink: "https://github.com/pandas-dev/pandas/contribute",
     description: "pandas: powerful Python data analysis toolkit",
     tags: ["Python", "data science", "data analysis", "math", "Module"],
@@ -257,7 +257,7 @@ const projectList = [
   {
     name: "Leiningen",
     imageSrc:
-      "https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067",
+      "https://leiningen.org/img/leiningen.jpg",
     projectLink: "https://github.com/technomancy/leiningen/contribute",
     description: "Automate Clojure projects without setting your hair on fire.",
     tags: ["Clojure", "Automation"],
@@ -315,7 +315,7 @@ const projectList = [
   },
   {
     name: "Semantic-UI-React",
-    imageSrc: "https://avatars1.githubusercontent.com/u/5796209?s=200&v=4",
+    imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
     description: "The official Semantic-UI-React integration.",
     tags: ["React", "Library", "Component", "Front-End"],
@@ -332,7 +332,7 @@ const projectList = [
   {
     name: "Visual Studio Code",
     imageSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+      "https://www.svgrepo.com/show/452129/vs-code.svg",
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
@@ -341,7 +341,7 @@ const projectList = [
   {
     name: "Scrapy",
     imageSrc:
-      "https://camo.githubusercontent.com/40d00cefb120a829517e503658aaf6c987d5f9cc6be5e2e35fb20bd63bdbceb5/68747470733a2f2f7363726170792e6f72672f696d672f7363726170796c6f676f2e706e67",
+      "https://avatars.githubusercontent.com/u/733635?s=200&v=4",
     projectLink: "https://github.com/scrapy/scrapy/contribute",
     description:
       "Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ",
@@ -428,7 +428,7 @@ const projectList = [
   {
     name: "Public Lab",
     imageSrc:
-      "https://publiclab.org/system/images/photos/000/023/444/large/Screenshot_20180204-101546_2.png",
+      "https://code.publiclab.org/images/Boots-ground-02.png",
     projectLink: "https://publiclab.github.io/community-toolbox/#r=all",
     description:
       "PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈",
@@ -543,7 +543,7 @@ const projectList = [
   {
     name: "styled-system",
     imageSrc:
-      "https://camo.githubusercontent.com/8b3dc6438530a7240e952b187e40bd8380090f64/68747470733a2f2f7374796c65642d73797374656d2e636f6d2f6c6f676f2e737667",
+      "https://avatars.githubusercontent.com/u/47362392?s=200&v=4",
     projectLink: "https://github.com/styled-system/styled-system/contribute",
     description: "Style props for rapid UI development",
     tags: ["ui", "css-in-js", "design-systems", "style-props", "theming"],
@@ -586,6 +586,13 @@ const projectList = [
     description:
       "Free and open-source set of tools for collecting data in challenging environments.",
     tags: ["Open Source", "Software", "JAVA", "Android"],
+  },
+  {
+   name: "Bokeh",
+   imageSrc: "https://avatars.githubusercontent.com/u/8440965?s=200&v=4",
+   projectLink: "https://github.com/bokeh",
+   description: "Interactive Data Visualization in the browser, from Python",
+   tags:["Javascript", "Python", "Jupiter", "visualization"]
   },
   {
     name: "Sugar Labs",
@@ -747,7 +754,7 @@ const projectList = [
   {
     name: "Tensorflow",
     imageSrc:
-      "https://camo.githubusercontent.com/fe5ced87b3ae4c3c7c36fbeff02c3e0f99edae2dd1dd9d7b58195115788760ad/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f74665f6c6f676f5f686f72697a6f6e74616c2e706e67",
+      "https://avatars.githubusercontent.com/u/15658638?s=200&v=4",
     projectLink: "https://github.com/tensorflow/tensorflow/contribute",
     description:
       "A Machine Learning library in Python for implementing Machine Learning and Deep Learning models",
@@ -771,7 +778,7 @@ const projectList = [
   },
   {
     name: "Roc Toolkit",
-    imageSrc: "https://roc-streaming.org/icon.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/16302098?s=200&v=4",
     projectLink:
       "https://github.com/roc-streaming/roc-toolkit/labels/help%20wanted",
     description: "A toolkit for real-time audio streaming over the network",
@@ -788,7 +795,7 @@ const projectList = [
   },
   {
     name: "Conda",
-    imageSrc: "https://conda.io/en/latest/_images/conda_logo.svg",
+    imageSrc: "https://avatars.githubusercontent.com/u/6392739?s=200&v=4",
     projectLink: "https://github.com/conda",
     description:
       "Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs, but it can package and distribute software for any language.",
@@ -959,7 +966,7 @@ const projectList = [
   {
     name: "Gatsby",
     imageSrc:
-      "https://camo.githubusercontent.com/b0972dd62bbf6ee0e28ed0ebceb48427a481568caeeb639066b23c754f0c60e5/68747470733a2f2f7777772e6761747362796a732e636f6d2f4761747362792d4d6f6e6f6772616d2e737667",
+      "https://avatars.githubusercontent.com/u/12551863?s=200&v=4",
     projectLink: "https://github.com/gatsbyjs/gatsby/contribute",
     description:
       "A free and open source framework based on React that helps developers build blazing fast websites and apps.",
@@ -1058,7 +1065,7 @@ const projectList = [
     projectLink:
       "https://github.com/muke1908/chat-e2ee/labels/good%20first%20issue",
     description:
-      "Chat app in end-to-end enctypted environment without registration",
+      "Chat app in end-to-end encrypted environment without registration",
     tags: ["React", "Chat", "Javascript", "Beginner", "NodeJS"],
   },
   {
@@ -1070,7 +1077,7 @@ const projectList = [
   },
   {
     name: "SimplQ",
-    imageSrc: "https://www.simplq.me/images/Simple-Q.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/64396572?s=200&v=4",
     projectLink: "https://github.com/SimplQ/simplQ-frontend#contributing",
     description:
       "Modern and fully web based queue management solution for crowded businesses.",
@@ -1167,7 +1174,7 @@ const projectList = [
     projectLink:
       "https://github.com/MakeContributions/ideahub#contribution-guidelines",
     description:
-      "A collection of ideas and projects that contain from beginner to advance :octocat: 🎯🚀",
+      "A collection of ideas and projects that contain from beginner to advanced 🎯🚀",
     tags: ["Hub", "ideas", "Project List", "Good First Issue", "Beginner"],
   },
   {
@@ -1237,7 +1244,7 @@ const projectList = [
   {
     name: "Pytorch",
     imageSrc:
-      "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png",
+      "https://avatars.githubusercontent.com/u/21003710?s=200&v=4",
     projectLink: "https://github.com/pytorch/pytorch",
     description:
       "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
@@ -1253,13 +1260,22 @@ const projectList = [
     tags: ["JavaScript", "Package-Manager", "NodeJS", "NPM"],
   },
   {
-    name: "Scribe - Language Keyboards",
+    name: "Scribe-iOS",
     imageSrc:
       "https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png",
     projectLink: "https://github.com/scribe-org/Scribe-iOS",
     description:
-      "Keyboards for language learners with translation, verb conjugation and more!",
-    tags: ["iOS", "Swift", "Productivity", "Good First Issue", "Beginner"],
+      "iOS keyboards for language learners with translation, verb conjugation and more!",
+    tags: ["iOS", "Swift", "Education", "Good First Issue", "Beginner"],
+  },
+  {
+    name: "Scribe-Android",
+    imageSrc:
+      "https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png",
+    projectLink: "https://github.com/scribe-org/Scribe-Android",
+    description:
+      "Android keyboards for language learners with translation, verb conjugation and more!",
+    tags: ["Android", "Kotlin", "Education", "Good First Issue", "Beginner"],
   },
   {
     name: "mindsdb",
@@ -1296,16 +1312,18 @@ const projectList = [
   },
   {
     name: "aprenda-go-com-testes",
+    projectLink: "https://github.com/larien/aprenda-go-com-testes",
     imageSrc:
-      "https://larien.gitbook.io/~gitbook/image?url=https%3A%2F%2F2763912287-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-legacy-files%2Fo%2Fassets%252F-Lia9CiG1cfWmh7Adpdu%252F-Lia9TbxTuAr7XbyNb3I%252F-Lia9ambvvlPGkPz-Q7f%252Fred-green-blue-gophers-smaller.png%3Fgeneration%3D1561860928341453%26alt%3Dmedia&width=400&dpr=2&quality=100&sign=a08c5e35&sv=1",
-    githubLink: "https://github.com/larien/aprenda-go-com-testes",
-    description: "learn easily and quickly",
+      "https://raw.githubusercontent.com/larien/aprenda-go-com-testes/refs/heads/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
+    projectLink: "https://github.com/cassio645/aprenda-go-com-testes",
+    description:
+      "learn easily and quickly",
     tags: ["go"],
   },
   {
     name: "Daml",
     imageSrc:
-      "https://raw.githubusercontent.com/digital-asset/daml/main/daml-logo.png",
+      "https://avatars.githubusercontent.com/u/46327217?s=200&v=4",
     projectLink: "https://github.com/digital-asset/daml/contribute",
     description:
       "Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.",
@@ -1313,14 +1331,14 @@ const projectList = [
   },
   {
     name: 'Servo',
-    imageSrc: 'https://raw.githubusercontent.com/servo/servo/master/resources/servo.icns',
+    imageSrc: 'https://avatars.githubusercontent.com/u/2566135?s=200&v=4',
     projectLink: 'https://github.com/digital-asset/daml/contribute',
     description: 'A browser engine designed for applications including embedded use.',
-    tags: ['Rust,Browser,Servo']
+    tags: ['Rust','Browser','Servo']
   },
   {
     name:'matplotlib',
-    imageSrc:'https://camo.githubusercontent.com/3eed28e026e4e0220f99e2f4c8a517fcb3a30a1b944c528efc9533ff7840435f/68747470733a2f2f6d6174706c6f746c69622e6f72672f5f7374617469632f6c6f676f322e737667',
+    imageSrc:'https://avatars.githubusercontent.com/u/215947?s=200&v=4',
     projectLink:'https://github.com/matplotlib/matplotlib',
     description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
     tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
@@ -1331,6 +1349,51 @@ const projectList = [
     projectLink: 'https://github.com/activist-org/activist',
     description: 'Open-source, nonprofit activism platform',
     tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
+  },
+  {
+    name: 'gradle.org',
+    imageSrc: 'https://avatars.githubusercontent.com/u/124156?s=200&v=4',
+    projectLink: 'https://github.com/gradle/gradle',
+    description: 'Adaptable, fast automation for all',
+    tags: [
+      'Build Tool',
+      'Good First Issue',
+      'Gradle',
+      'Gradle-bt',
+      'Groovy',
+      'Hacktoberfest',
+      'Java',
+      'Kotlin',
+    ]
+  },
+  {
+    name: 'signoz.io',
+    imageSrc: 'https://avatars.githubusercontent.com/u/76905799?s=200&v=4',
+    projectLink: 'https://github.com/SigNoz/signoz',
+    description:
+      'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥. 👉 Open source Application Performance Monitoring (APM) & Observability tool',
+    tags: [
+      'APM',
+      'Application Monitoring',
+      'Distributed Tracing',
+      'Go',
+      'Good First Issue',
+      'Jaeger',
+      'Log',
+      'Logs',
+      'Metrics',
+      'Monitoring',
+      'Next.js',
+      'Observability',
+      'Open Source',
+      'Open Telemetry',
+      'Prometheus',
+      'React',
+      'React.js',
+      'Self Hosted',
+      'Tracing',
+      'Typescript',
+    ]
   }
 ];
 export default projectList;
