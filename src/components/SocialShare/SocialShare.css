@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  background: #4b4949;
+  background: #0a0a0a;
 }
 
 #social-share > h2 {
@@ -21,12 +21,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90px;
-  height: 90px;
-  margin: 1.1em;
-  border-radius: 2px;
+  width: 52px;
+  height: 52px;
+  margin: .7em;
+  border-radius: 4px;
   background: #4b4949;
-  border: solid white 4px;
+  border: solid white 1px;
 }
 
 .icon-card:hover{
