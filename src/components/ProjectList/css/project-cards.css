@@ -7,11 +7,19 @@
   background: white;
   padding: 2%;
   line-height: 18px;
+  height: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .Project-Logo {
-  width: 45%;
+  width: 60px;
   height: auto;
   margin-top: 5%;
+  border-radius: 8px;
+  display: block;
+  max-height: 100px;
 }
 .Card-Body {
   position: relative;
@@ -22,11 +30,14 @@
   width: 16%;
   min-width: 225px;
   display: flex;
-  margin: 1.5vw;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
-  -webkit-transition: box-shadow 0.1s ease-in-out;
+  margin: .5vw;
+  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  -webkit-transition: box-shadow 0.1s ease-in-out; */
   transition: box-shadow 0.1s ease-in-out;
   background-color: #fff;
+  border: 1px solid #1f293740;
+  border-radius: 8px;
+  padding: 8px;
 }
 @media (max-width: 700px) {
   .Card-Container {
@@ -38,7 +49,7 @@
 }
 
 .Card-Container:hover {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+  box-shadow: rgba(0, 0, 0, 0.053) 0px 3px 10px, rgba(0, 0, 0, 0.066) 0px 3px 10px;
 }
 .Card-Real-Link:hover {
   text-decoration: none;
@@ -62,6 +73,26 @@
 .Card-Description {
   position: relative;
   padding: 5%;
+  max-height: 180px;
+  overflow: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.Card-Description::-webkit-scrollbar {
+  width: 6px; 
+}
+
+.Card-Description::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+}
+
+.Card-Description::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+.Card-Description::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
 }
 .Card-Link {
   position: relative;
@@ -74,7 +105,8 @@
 }
 .Card-Link:hover {
   color: whitesmoke;
-  background: #0f3cef;
+  background: #3b82f6;
+  border-radius: 8px;
 }
 .Card-Title {
   margin-top: 6%;
@@ -85,12 +117,20 @@
   margin-left: 10%;
 }
 
+.Card-Tag{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .Card-Tag div {
   display: inline-block;
-  background-color: #c8e1f9;
-  padding: 5px;
-  border-radius: 12px;
-  margin: 10px 10px;
+  background-color: #0f3cef33;
+  padding: .3rem .65rem;
+  border-radius: 8px;
+  border: 1px solid #42404047;
   vertical-align: middle;
 }
 
