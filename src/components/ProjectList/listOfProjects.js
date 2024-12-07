@@ -1,5 +1,5 @@
 const projectList = [
-  
+
   {
     name: "appsmith",
     imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
@@ -1015,14 +1015,6 @@ const projectList = [
       "Distributed Database",
       "MPP",
     ],
-  },
-  {
-    name: "Game of Life",
-    imageSrc:
-      "https://avatars0.githubusercontent.com/u/20078201?s=460&u=3e17a0f93f3c87b4dcef5671b623519229a5c4fb&v=4",
-    projectLink: "https://github.com/TroyTae/game-of-life/contribute",
-    description: "Conway's game of life web version!",
-    tags: ["Javascript", "Typescript", "Good First Issue"],
   },
   {
     name: "Mattermost",
