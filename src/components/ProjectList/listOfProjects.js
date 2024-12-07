@@ -1253,13 +1253,22 @@ const projectList = [
     tags: ["JavaScript", "Package-Manager", "NodeJS", "NPM"],
   },
   {
-    name: "Scribe - Language Keyboards",
+    name: "Scribe-iOS",
     imageSrc:
       "https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png",
     projectLink: "https://github.com/scribe-org/Scribe-iOS",
     description:
-      "Keyboards for language learners with translation, verb conjugation and more!",
-    tags: ["iOS", "Swift", "Productivity", "Good First Issue", "Beginner"],
+      "iOS keyboards for language learners with translation, verb conjugation and more!",
+    tags: ["iOS", "Swift", "Education", "Good First Issue", "Beginner"],
+  },
+  {
+    name: "Scribe-Android",
+    imageSrc:
+      "https://raw.githubusercontent.com/scribe-org/Organization/main/icon/ScribeIcon1024Rounded.png",
+    projectLink: "https://github.com/scribe-org/Scribe-Android",
+    description:
+      "Android keyboards for language learners with translation, verb conjugation and more!",
+    tags: ["Android", "Kotlin", "Education", "Good First Issue", "Beginner"],
   },
   {
     name: "mindsdb",
