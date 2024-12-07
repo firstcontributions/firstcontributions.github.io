@@ -315,7 +315,7 @@ const projectList = [
   },
   {
     name: "Semantic-UI-React",
-    imageSrc: "https://avatars1.githubusercontent.com/u/5796209?s=200&v=4",
+    imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
     description: "The official Semantic-UI-React integration.",
     tags: ["React", "Library", "Component", "Front-End"],
