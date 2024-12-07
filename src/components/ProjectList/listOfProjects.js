@@ -1298,9 +1298,10 @@ const projectList = [
     name: "aprenda-go-com-testes",
     projectLink: "https://github.com/larien/aprenda-go-com-testes",
     imageSrc:
-       "https://raw.githubusercontent.com/larien/aprenda-go-com-testes/refs/heads/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
+      "https://raw.githubusercontent.com/larien/aprenda-go-com-testes/refs/heads/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
     projectLink: "https://github.com/cassio645/aprenda-go-com-testes",
-    description: "learn easily and quickly",
+    description:
+      "learn easily and quickly",
     tags: ["go"],
   },
   {
