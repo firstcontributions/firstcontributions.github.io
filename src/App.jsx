@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
         <Navbar />
         <div className="App-header">
-            <h1>Make your first open source contribution in 5 minutes</h1>
+            <h1>Make your first <br/> open source <span>contribution</span> <br/> in 5 minutes</h1>
         </div>
         <ScrollUpButton />
         <LinkButton />
