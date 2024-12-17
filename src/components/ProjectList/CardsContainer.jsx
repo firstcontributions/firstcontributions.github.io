@@ -143,7 +143,6 @@ export default class CardsContainer extends React.Component {
                 projectLink={item.projectLink}
                 description={item.description}
                 tags={item.tags}
-                className='testing-testing'
               />
             );
           })}
