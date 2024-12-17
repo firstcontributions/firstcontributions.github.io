@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/project-cards.css";
+import defaultLogo from './default.png';
 
 const Card = ({
   projectLink,
@@ -26,6 +27,9 @@ const Card = ({
             className="Project-Logo"
             alt="the framework or language that the project is build upon"
             src={logoLink}
+            onError={(e) => {
+              e.target.src = defaultLogo;
+            }}
           />
           <p className="Card-Title">{name}</p>
         </div>
