@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/project-cards.css";
+import defaultLogo from './default.png';
 
 const Card = ({
   projectLink,
@@ -20,14 +21,17 @@ const Card = ({
 
   return (
     <div className="Card-Container">
-      <a className="Card-Real-Link" href={projectLink}>
+      <a className="Card-Real-Link" href={projectLink} target='blank'>
         <div className="Card-Header">
           <img
             className="Project-Logo"
             alt="the framework or language that the project is build upon"
             src={logoLink}
+            onError={(e) => {
+              e.target.src = defaultLogo;
+            }}
           />
-          <h3 className="Card-Title">{name}</h3>
+          <p className="Card-Title">{name}</p>
         </div>
         <div className="Card-Body">
           <div className="Card-Tag">{tags}</div>

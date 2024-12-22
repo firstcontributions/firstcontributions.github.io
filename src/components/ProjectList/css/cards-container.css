@@ -7,6 +7,10 @@
   overflow: hidden;
 }
 
+.filter-placeholder-text {
+  color: #757575;
+}
+
 @media screen and (max-width: 500px) {
   .containerLayout{
     padding: 15px;

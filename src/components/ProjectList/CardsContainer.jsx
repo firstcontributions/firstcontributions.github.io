@@ -119,16 +119,17 @@ export default class CardsContainer extends React.Component {
       <div>
         <div id='container'>
           <div className='inputContainer'>
-            <input id='search' type='text' name='search' placeholder='Search...' onChange={this.handleChange} />
+            <input id='search' type='text' name='search' placeholder='Search...' onChange={this.handleChange} aria-label='Search'/>
           </div>
-          <div className='inputContainer'>
+          <div id="tag-selector-container" className='inputContainer'>
             <Select
               name='tag-selector'
               value={this.state.value}
               onChange={this.handleSelectChange}
               options={this.filterOptions}
               multi={true}
-              placeholder='Filter'
+              placeholder={<div className='filter-placeholder-text'>Filter</div>}
+              aria-labelledby='tag-selector-container'
             />
           </div>
         </div>
@@ -142,6 +143,7 @@ export default class CardsContainer extends React.Component {
                 projectLink={item.projectLink}
                 description={item.description}
                 tags={item.tags}
+                className='testing-testing'
               />
             );
           })}

@@ -1,15 +1,15 @@
 .LinkButton {
-  padding: 10px 15px;
+  padding: 16px 20px;
   text-decoration: none;
   margin: 20px auto;
 
   overflow: hidden;
 
   border-width: 0;
-  border-radius: 2px;
+  border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 
-  background-color: #2ecc71;
+  background-color:  #2563eb;
   color: #fff;
 
   -webkit-transition: background-color 0.3s;
@@ -19,7 +19,7 @@
 }
 
 .LinkButton:hover {
-  background-color: #26a65b;
+  background-color: #3b82f6;
 }
 
 .LinkButton > span {
