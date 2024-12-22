@@ -5,7 +5,7 @@
   "homepage": "https://firstcontributions.github.io/",
   "devDependencies": {
     "enzyme": "^3.0.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^15.0.0",
     "sw-precache": "^5.2.0"
