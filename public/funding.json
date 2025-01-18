@@ -4,11 +4,11 @@
     "type": "organisation",
     "role": "owner",
     "name": "firstcontributions",
-    "email": "firstcontributions@gmail.com",
+    "email": "kumarashishashish@gmail.com",
     "phone": "",
     "description": "Improve accessibility with enhanced documentation tailored for beginners and create opportunities for first-time contributors to get involved. Focus on building great software while inspiring a thriving, collaborative community around open source projects.",
     "webpageUrl": {
-      "url": "https://firstcontributions.github.io/"
+      "url": "https://github.com/Software566/"
     }
   },
   "projects": [
@@ -17,11 +17,11 @@
       "name": "First contributions",
       "description": "Help beginners learn how to contribute to open-source projects. It provides a simple and beginner-friendly way for users to understand the contribution workflow using Git and GitHub. We've had over 90,000 users since we started in 2016",
       "webpageUrl": {
-        "url": "https://firstcontributions.github.io/",
+        "url": "https://github.com/Software566/",
         "wellKnown": ""
       },
       "repositoryUrl": {
-        "url": "https://github.com/firstcontributions/first-contributions",
+        "url": "https://github.com/Software566",
         "wellKnown": ""
       },
       "licenses": ["spdx:MIT"],
@@ -39,7 +39,7 @@
       {
         "guid": "github-sponsors",
         "type": "payment-provider",
-        "address": "https://github.com/sponsors/firstcontributions",
+        "address": "https://github.com/Software566",
         "description": "Uses open collective"
       }
     ],
@@ -49,7 +49,7 @@
         "status": "active",
         "name": "Maintainer compensation",
         "description": "This will compensate the effort of one maintainer working part-time on the projects.",
-        "amount": 30000,
+        "amount": 40000,
         "currency": "USD",
         "frequency": "yearly",
         "channels": ["opencollective", "github-sponsors"]
@@ -68,15 +68,15 @@
     "history": [
       {
         "year": 2024,
-        "income": 3,
+        "income": 4,
         "expenses": 0,
         "taxes": 0,
         "currency": "USD",
         "description": ""
       },
       {
-        "year": 2023,
-        "income": 5,
+        "year": 2025,
+        "income": 6,
         "expenses": 0,
         "taxes": 0,
         "currency": "USD",

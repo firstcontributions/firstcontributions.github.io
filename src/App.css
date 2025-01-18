@@ -9,12 +9,12 @@
 
 .App-header {
   padding: 20px;
-  color: white;
+  color: blue;
 }
 
 .App-header > h1 {
   /* padding-top: 6%; */
-  font-size: 5.1rem;
+  font-size: 7.1rem;
   letter-spacing: -0.05em;
   font-weight: 700;
 }
