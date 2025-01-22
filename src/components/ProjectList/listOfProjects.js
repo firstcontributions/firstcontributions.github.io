@@ -1379,6 +1379,13 @@ const projectList = [
     ]
   },
   {
+    name : 'PyDo',
+    imageSrc : 'https://pypi.org/static/images/logo-small.8998e9d1.svg',
+    projectLink:'https://github.com/digitalocean/pydo',
+    tags:['Python','API','DigitalOcean','Hacktoberfest']
+
+  },
+  {
     name: 'signoz.io',
     imageSrc: 'https://avatars.githubusercontent.com/u/76905799?s=200&v=4',
     projectLink: 'https://github.com/SigNoz/signoz',
