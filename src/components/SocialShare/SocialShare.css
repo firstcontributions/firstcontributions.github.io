@@ -1,41 +1,85 @@
-#social-share {
+.fc-footer {
+  background: #0d1117; /* GitHub dark theme */
+  color: #c9d1d9;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1em;
-  background: #0a0a0a;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
-#social-share > h2 {
-  display: block;
-  color: rgb(255, 255, 255);
-  margin-right: .25em;
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
 }
 
-#social-shares-container {
+.footer-section h2,
+.footer-section h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  color: #58a6ff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #1f6feb;
+}
+
+.social-icons {
   display: flex;
-  max-width: 100%;
+  gap: 15px;
 }
 
-.icon-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  margin: .7em;
-  border-radius: 4px;
-  background: #4b4949;
-  border: solid white 1px;
+.social-icons a {
+  color: #58a6ff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
 }
 
-.icon-card:hover{
-  opacity: 0.3;
+.social-icons a:hover {
+  color: #1f6feb;
+  transform: scale(1.2);
 }
 
-@media (max-width: 700px) {
-  .icon-card {
-    border: none;
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #30363d;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+  .social-icons {
+      justify-content: center;
   }
 }
-
