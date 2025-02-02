@@ -17,39 +17,109 @@
   transition: background-color 0.3s;
   margin-bottom: 0 !important;
 }
-
-.LinkButton:hover {
-  background-color: #3b82f6;
-}
-
-.LinkButton > span {
-  font-size: 1.1em;
-  letter-spacing: 0.05em;
-}
-.LinkButton-Wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.Scroll-Down {
+.get-started-btn {
+  display: inline-block;
+  background-color: #58a6ff; /* Soft blue color */
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px; /* Rounded corners */
+  transition: all 0.3s ease;
+  text-align: center;
   cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.get-started-btn:hover {
+  background-color: #1f6feb; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom-in effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.get-started-btn:active {
+  transform: scale(1); /* Reset scale on click */
+}
+
+.get-started-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom:40px;
+}
+ /* Container for centering the button */
+.get-started-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Advanced Get Started Button Styles */
+.get-started-btn {
+  display: inline-block;
+  background-color: #1f6feb; /* Blue color for the button */
+  color: #fff;
+  padding: 18px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   position: relative;
-  animation: swing alternate 0.5s infinite;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  letter-spacing: 1px;
 }
-.Scroll-Down:active {
-  opacity: 0.75;
+
+/* Glowing Neon Effect */
+.get-started-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: -1;
 }
-.Scroll-Down-Wrapper {
-  padding: 1vw;
-  padding-bottom: 1.75vw;
+
+/* Hover Effect with glowing */
+.get-started-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  animation: glowing 1.5s infinite alternate;
 }
-@keyframes swing {
-  from {
-    top: -0.5rem;
+
+/* Glowing Animation */
+@keyframes glowing {
+  0% {
+      text-shadow: 0 0 5px #1f6feb, 0 0 10px #1f6feb, 0 0 15px #1f6feb;
   }
-  to {
-    top: 1rem;
+  50% {
+      text-shadow: 0 0 20px #58a6ff, 0 0 30px #58a6ff, 0 0 40px #58a6ff;
   }
+  100% {
+      text-shadow: 0 0 5px #1f6feb, 0 0 10px #1f6feb, 0 0 15px #1f6feb;
+  }
+}
+
+/* Hover effect for the button's pseudo-element */
+.get-started-btn:hover::before {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(0.5);
+}
+
+/* Click effect */
+.get-started-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: none;
 }

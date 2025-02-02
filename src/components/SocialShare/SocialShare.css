@@ -52,6 +52,7 @@
 .social-icons {
   display: flex;
   gap: 15px;
+  justify-content: space-evenly;
 }
 
 .social-icons a {
