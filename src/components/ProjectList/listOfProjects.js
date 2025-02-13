@@ -1,26 +1,54 @@
 const projectList = [
-
+  {
+    name: "Qute Browser",
+    imageSrc: "https://avatars1.githubusercontent.com/u/21955151?s=200&v=4",
+    githubLink: "https://github.com/qutebrowser/qutebrowser",
+    description: "A keyboard-driven, vim-like browser based on PyQt5",
+    tags: ["Python", "Qt", "pyqt5", "Vim", "Browser", "qtWebEngine", "web"],
+  },
   {
     name: "appsmith",
-    imageSrc: "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
     projectLink: "https://github.com/appsmithorg/appsmith",
     description: "Drag & Drop internal tool builder",
-    tags: ["UI", "Database", "Editor"]
+    tags: ["UI", "Database", "Editor"],
   },
 
-   {
+  {
     name: "Hamilton",
-    imageSrc: "https://github.com/DAGWorks-Inc/hamilton/assets/2328071/feb6abaa-b6d5-4271-a320-0ae4a18d8aa7",
+    imageSrc:
+      "https://github.com/DAGWorks-Inc/hamilton/assets/2328071/feb6abaa-b6d5-4271-a320-0ae4a18d8aa7",
     projectLink: "https://github.com/dagworks-inc/hamilton",
-    description: "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
-    tags: ["DAG", "ETL", "Python", "data-science", "machine-learning", "pandas", "orchestration", "data-engineering", "data-analysis", "software-engineering", "feature-engineering", "dataframe", "lineage", "featurization", "pipeline", "mlops", "llmops"]
+    description:
+      "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
+    tags: [
+      "DAG",
+      "ETL",
+      "Python",
+      "data-science",
+      "machine-learning",
+      "pandas",
+      "orchestration",
+      "data-engineering",
+      "data-analysis",
+      "software-engineering",
+      "feature-engineering",
+      "dataframe",
+      "lineage",
+      "featurization",
+      "pipeline",
+      "mlops",
+      "llmops",
+    ],
   },
   {
     name: "altair",
-    imageSrc: "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
+    imageSrc:
+      "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
     projectLink: "https://github.com/altair-graphql/altair",
     description: "A beautiful feature-rich GraphQL Client for all platforms.",
-    tags: ["GraphQL", "React", "Typescript"]
+    tags: ["GraphQL", "React", "Typescript"],
   },
 
   {
@@ -44,8 +72,7 @@ const projectList = [
   },
   {
     name: "Signal-Android",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
     projectLink: "https://github.com/signalapp/Signal-Android",
     description:
       "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
@@ -62,8 +89,7 @@ const projectList = [
   },
   {
     name: "CircuitVerse",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
@@ -71,8 +97,7 @@ const projectList = [
   },
   {
     name: "MoveIt",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/4408844?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/4408844?s=200&v=4",
     projectLink: "https://github.com/ros-planning/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
@@ -97,8 +122,7 @@ const projectList = [
   },
   {
     name: "React Native",
-    imageSrc:
-      "https://reactnative.dev/img/header_logo.svg",
+    imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
     tags: ["JavaScript", "React", "React Native", "Mobile App"],
@@ -179,25 +203,25 @@ const projectList = [
   },
   {
     name: "Numpy",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/288276?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/288276?s=200&v=4",
     projectLink: "https://github.com/numpy/numpy/contribute",
     description: "Scientific computing with Python!",
     tags: ["Python", "Math", "Module", "Docs"],
   },
   {
     name: "pandas",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/21206976?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/21206976?s=200&v=4",
     projectLink: "https://github.com/pandas-dev/pandas/contribute",
     description: "pandas: powerful Python data analysis toolkit",
     tags: ["Python", "data science", "data analysis", "math", "Module"],
   },
   {
     name: "Pug",
-    imageSrc: "https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg",
+    imageSrc:
+      "https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg",
     projectLink: "https://github.com/pugjs/pug",
-    description: "Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
+    description:
+      "Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
     tags: ["JavaScript", "HTML", "NodeJS", "Template-Engine"],
   },
   {
@@ -270,8 +294,7 @@ const projectList = [
   },
   {
     name: "Leiningen",
-    imageSrc:
-      "https://leiningen.org/img/leiningen.jpg",
+    imageSrc: "https://leiningen.org/img/leiningen.jpg",
     projectLink: "https://github.com/technomancy/leiningen/contribute",
     description: "Automate Clojure projects without setting your hair on fire.",
     tags: ["Clojure", "Automation"],
@@ -345,8 +368,7 @@ const projectList = [
   },
   {
     name: "Visual Studio Code",
-    imageSrc:
-      "https://www.svgrepo.com/show/452129/vs-code.svg",
+    imageSrc: "https://www.svgrepo.com/show/452129/vs-code.svg",
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
@@ -354,8 +376,7 @@ const projectList = [
   },
   {
     name: "Scrapy",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/733635?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/733635?s=200&v=4",
     projectLink: "https://github.com/scrapy/scrapy/contribute",
     description:
       "Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ",
@@ -441,8 +462,7 @@ const projectList = [
   },
   {
     name: "Public Lab",
-    imageSrc:
-      "https://code.publiclab.org/images/Boots-ground-02.png",
+    imageSrc: "https://code.publiclab.org/images/Boots-ground-02.png",
     projectLink: "https://publiclab.github.io/community-toolbox/#r=all",
     description:
       "PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈",
@@ -540,8 +560,7 @@ const projectList = [
   },
   {
     name: "styled-system",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/47362392?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/47362392?s=200&v=4",
     projectLink: "https://github.com/styled-system/styled-system/contribute",
     description: "Style props for rapid UI development",
     tags: ["ui", "css-in-js", "design-systems", "style-props", "theming"],
@@ -562,12 +581,12 @@ const projectList = [
       "Ethereum is a decentralized platform that runs smart contracts applications.",
     tags: ["Go", "C++", "Solidity", "Python", "Shell", "Java"],
   },
-    {
+  {
     name: "openSUSE",
     imageSrc: "https://avatars.githubusercontent.com/u/623819?s=200&v=4",
-    projectLink: "https://github.com/search?o=desc&q=org%3Aopensuse++&s=created&type=Issues&state=open",
-    description:
-      "For desktop, server, and everything in between.",
+    projectLink:
+      "https://github.com/search?o=desc&q=org%3Aopensuse++&s=created&type=Issues&state=open",
+    description: "For desktop, server, and everything in between.",
     tags: ["Rust", "C++", "Ruby", "Python", "Perl", "Shell", "HTML"],
   },
   {
@@ -594,11 +613,11 @@ const projectList = [
     tags: ["Open Source", "Software", "JAVA", "Android"],
   },
   {
-   name: "Bokeh",
-   imageSrc: "https://avatars.githubusercontent.com/u/8440965?s=200&v=4",
-   projectLink: "https://github.com/bokeh",
-   description: "Interactive Data Visualization in the browser, from Python",
-   tags:["Javascript", "Python", "Jupiter", "visualization"]
+    name: "Bokeh",
+    imageSrc: "https://avatars.githubusercontent.com/u/8440965?s=200&v=4",
+    projectLink: "https://github.com/bokeh",
+    description: "Interactive Data Visualization in the browser, from Python",
+    tags: ["Javascript", "Python", "Jupiter", "visualization"],
   },
   {
     name: "Sugar Labs",
@@ -695,9 +714,9 @@ const projectList = [
     tags: ["javascript", "html", "css", "tutorial"],
   },
   {
-    name: 'PRoot',
-    imageSrc: 'https://avatars2.githubusercontent.com/u/12125707',
-    projectLink: 'https://github.com/proot-me/proot',
+    name: "PRoot",
+    imageSrc: "https://avatars2.githubusercontent.com/u/12125707",
+    projectLink: "https://github.com/proot-me/proot",
     description:
       "chroot, mount --bind, and binfmt_misc without privilege/setup for Linux ",
     tags: ["chroot-environment", "userland-exec", "rootfs", "chroot", "c"],
@@ -759,8 +778,7 @@ const projectList = [
   },
   {
     name: "Tensorflow",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/15658638?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/15658638?s=200&v=4",
     projectLink: "https://github.com/tensorflow/tensorflow/contribute",
     description:
       "A Machine Learning library in Python for implementing Machine Learning and Deep Learning models",
@@ -971,8 +989,7 @@ const projectList = [
   },
   {
     name: "Gatsby",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/12551863?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/12551863?s=200&v=4",
     projectLink: "https://github.com/gatsbyjs/gatsby/contribute",
     description:
       "A free and open source framework based on React that helps developers build blazing fast websites and apps.",
@@ -1083,11 +1100,10 @@ const projectList = [
   },
   {
     name: "Phpmyadmin",
-    imageSrc:
-      'https://avatars.githubusercontent.com/u/1351977?s=200&v=4',
-    projectLink: 'https://www.phpmyadmin.net/contribute/',
-    description: 'A web interface for MySQL and MariaDB.',
-    tags: ['OpenSource', 'Mariadb', 'Mysql', 'HTML', 'PHP', 'Javascript'],
+    imageSrc: "https://avatars.githubusercontent.com/u/1351977?s=200&v=4",
+    projectLink: "https://www.phpmyadmin.net/contribute/",
+    description: "A web interface for MySQL and MariaDB.",
+    tags: ["OpenSource", "Mariadb", "Mysql", "HTML", "PHP", "Javascript"],
   },
   {
     name: "Litefy",
@@ -1241,8 +1257,7 @@ const projectList = [
   },
   {
     name: "Pytorch",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/21003710?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/21003710?s=200&v=4",
     projectLink: "https://github.com/pytorch/pytorch",
     description:
       "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
@@ -1314,98 +1329,132 @@ const projectList = [
     imageSrc:
       "https://raw.githubusercontent.com/larien/aprenda-go-com-testes/refs/heads/main/.gitbook/assets/red-green-blue-gophers-smaller.png",
     projectLink: "https://github.com/cassio645/aprenda-go-com-testes",
-    description:
-      "learn easily and quickly",
+    description: "learn easily and quickly",
     tags: ["go"],
   },
   {
     name: "Daml",
-    imageSrc:
-      "https://avatars.githubusercontent.com/u/46327217?s=200&v=4",
+    imageSrc: "https://avatars.githubusercontent.com/u/46327217?s=200&v=4",
     projectLink: "https://github.com/digital-asset/daml/contribute",
     description:
       "Daml is an open-source smart contract language for building future-proof distributed applications on a safe, privacy-aware runtime.",
     tags: ["Scala", "Haskell"],
   },
   {
-    name: 'Servo',
-    imageSrc: 'https://avatars.githubusercontent.com/u/2566135?s=200&v=4',
-    projectLink: 'https://github.com/digital-asset/daml/contribute',
-    description: 'A browser engine designed for applications including embedded use.',
-    tags: ['Rust','Browser','Servo']
-  },
-  {
-    name: 'matplotlib',
-    imageSrc: 'https://camo.githubusercontent.com/109927a15915074d15313889468aa9aa688de3b9e38cc4359a01f665d351114e/68747470733a2f2f6d6174706c6f746c69622e6f72672f5f7374617469632f6c6f676f322e737667',
-    projectLink: 'https://github.com/matplotlib/matplotlib',
-    description: 'A comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags: ['Python, Data Visualization, Plotting']
-  },
-  {
-    name:'matplotlib',
-    imageSrc:'https://avatars.githubusercontent.com/u/215947?s=200&v=4',
-    projectLink:'https://github.com/matplotlib/matplotlib',
-    description:'Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.',
-    tags:['python','gtk','data-science','qt','data-visualization','tk','matplotlib','plotting','hacktoberfest','wx']
-  },
-  {
-    name: 'activist.org',
-    imageSrc: 'https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png',
-    projectLink: 'https://github.com/activist-org/activist',
-    description: 'Open-source, nonprofit activism platform',
-    tags: ['Nuxt', 'Vue', 'Activism', 'Good First Issue', 'Javascript', 'TypeScript', 'Django', 'Python']
-  },
-  {
-    name: 'Crossword Puzzle Generator',
-    imageSrc: 'https://github.com/m0nt4ld0/crucigrama/blob/main/images/icons8-crossword-64.png?raw=true',
-    projectLink: 'https://github.com/m0nt4ld0/crucigrama',
-    description: 'Generador de crucigramas - Crossword puzzle generator - Good first issue',
-    tags: ['javascript', 'community', 'contribution', 'crossword-puzzle', 'contributions-welcome', 'good-first-issue', 'begginer-friendly', 'begginer']
-  },
-  {
-    name: 'gradle.org',
-    imageSrc: 'https://avatars.githubusercontent.com/u/124156?s=200&v=4',
-    projectLink: 'https://github.com/gradle/gradle',
-    description: 'Adaptable, fast automation for all',
-    tags: [
-      'Build Tool',
-      'Good First Issue',
-      'Gradle',
-      'Gradle-bt',
-      'Groovy',
-      'Hacktoberfest',
-      'Java',
-      'Kotlin',
-    ]
-  },
-  {
-    name: 'signoz.io',
-    imageSrc: 'https://avatars.githubusercontent.com/u/76905799?s=200&v=4',
-    projectLink: 'https://github.com/SigNoz/signoz',
+    name: "Servo",
+    imageSrc: "https://avatars.githubusercontent.com/u/2566135?s=200&v=4",
+    projectLink: "https://github.com/digital-asset/daml/contribute",
     description:
-      'SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥. 👉 Open source Application Performance Monitoring (APM) & Observability tool',
+      "A browser engine designed for applications including embedded use.",
+    tags: ["Rust", "Browser", "Servo"],
+  },
+  {
+    name: "matplotlib",
+    imageSrc:
+      "https://camo.githubusercontent.com/109927a15915074d15313889468aa9aa688de3b9e38cc4359a01f665d351114e/68747470733a2f2f6d6174706c6f746c69622e6f72672f5f7374617469632f6c6f676f322e737667",
+    projectLink: "https://github.com/matplotlib/matplotlib",
+    description:
+      "A comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    tags: ["Python, Data Visualization, Plotting"],
+  },
+  {
+    name: "matplotlib",
+    imageSrc: "https://avatars.githubusercontent.com/u/215947?s=200&v=4",
+    projectLink: "https://github.com/matplotlib/matplotlib",
+    description:
+      "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
     tags: [
-      'APM',
-      'Application Monitoring',
-      'Distributed Tracing',
-      'Go',
-      'Good First Issue',
-      'Jaeger',
-      'Log',
-      'Logs',
-      'Metrics',
-      'Monitoring',
-      'Next.js',
-      'Observability',
-      'Open Source',
-      'Open Telemetry',
-      'Prometheus',
-      'React',
-      'React.js',
-      'Self Hosted',
-      'Tracing',
-      'Typescript',
-    ]
-  }
+      "python",
+      "gtk",
+      "data-science",
+      "qt",
+      "data-visualization",
+      "tk",
+      "matplotlib",
+      "plotting",
+      "hacktoberfest",
+      "wx",
+    ],
+  },
+  {
+    name: "activist.org",
+    imageSrc:
+      "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
+    projectLink: "https://github.com/activist-org/activist",
+    description: "Open-source, nonprofit activism platform",
+    tags: [
+      "Nuxt",
+      "Vue",
+      "Activism",
+      "Good First Issue",
+      "Javascript",
+      "TypeScript",
+      "Django",
+      "Python",
+    ],
+  },
+  {
+    name: "Crossword Puzzle Generator",
+    imageSrc:
+      "https://github.com/m0nt4ld0/crucigrama/blob/main/images/icons8-crossword-64.png?raw=true",
+    projectLink: "https://github.com/m0nt4ld0/crucigrama",
+    description:
+      "Generador de crucigramas - Crossword puzzle generator - Good first issue",
+    tags: [
+      "javascript",
+      "community",
+      "contribution",
+      "crossword-puzzle",
+      "contributions-welcome",
+      "good-first-issue",
+      "begginer-friendly",
+      "begginer",
+    ],
+  },
+  {
+    name: "gradle.org",
+    imageSrc: "https://avatars.githubusercontent.com/u/124156?s=200&v=4",
+    projectLink: "https://github.com/gradle/gradle",
+    description: "Adaptable, fast automation for all",
+    tags: [
+      "Build Tool",
+      "Good First Issue",
+      "Gradle",
+      "Gradle-bt",
+      "Groovy",
+      "Hacktoberfest",
+      "Java",
+      "Kotlin",
+    ],
+  },
+  {
+    name: "signoz.io",
+    imageSrc: "https://avatars.githubusercontent.com/u/76905799?s=200&v=4",
+    projectLink: "https://github.com/SigNoz/signoz",
+    description:
+      "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-source alternative to DataDog, NewRelic, etc. 🔥 🖥. 👉 Open source Application Performance Monitoring (APM) & Observability tool",
+    tags: [
+      "APM",
+      "Application Monitoring",
+      "Distributed Tracing",
+      "Go",
+      "Good First Issue",
+      "Jaeger",
+      "Log",
+      "Logs",
+      "Metrics",
+      "Monitoring",
+      "Next.js",
+      "Observability",
+      "Open Source",
+      "Open Telemetry",
+      "Prometheus",
+      "React",
+      "React.js",
+      "Self Hosted",
+      "Tracing",
+      "Typescript",
+    ],
+  },
 ];
 export default projectList;
