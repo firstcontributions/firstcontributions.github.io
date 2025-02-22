@@ -7,7 +7,6 @@ import projectList from './listOfProjects';
 
 import './css/cards-container.css';
 import './css/search.css';
-import 'react-select/dist/react-select.css';
 
 export default class CardsContainer extends React.Component {
   constructor(props) {
