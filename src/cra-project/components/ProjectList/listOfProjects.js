@@ -109,7 +109,7 @@ const projectList = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
     projectLink: "https://github.com/microsoft/TypeScript",
     description:
-      "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
+      "TypeScript is a superset of JavaScript designed for building large-scale applications. It introduces optional static typing, enhancing code quality and tooling support. TypeScript compiles into clean, standards-compliant JavaScript, making it compatible with any browser, host, or operating system",
     tags: ["TypeScript", "JavaScript"],
   },
   {
