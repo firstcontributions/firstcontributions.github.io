@@ -1,12 +1,12 @@
-import React from 'react';
-import Select from 'react-select';
-import each from 'lodash/each'
+import React from "react";
+import Select from "react-select";
+import each from "lodash/each";
 
-import Card from './ProjectsCards';
-import projectList from './listOfProjects';
+import Card from "./ProjectsCards";
+import projectList from "./listOfProjects";
 
-import './css/cards-container.css';
-import './css/search.css';
+import "./css/cards-container.css";
+import "./css/search.css";
 
 export default class CardsContainer extends React.Component {
   constructor(props) {
@@ -14,81 +14,69 @@ export default class CardsContainer extends React.Component {
 
     this.state = {
       value: [],
-      filterList: this.sortArrayRandom(projectList)
-    }
+      filterList: this.sortArrayRandom(projectList),
+    };
 
     this.setTags = new Set();
     this.filterOptions = [];
     this.valueList = [];
 
     for (let i = 0; i < projectList.length; i++) {
-
       if (projectList[i].tags) {
-
-        projectList[i].tags.forEach(tag => {
-
-          projectList[i].tags.sort()
-          this.setTags.add(tag.toLowerCase())
-        })
+        projectList[i].tags.forEach((tag) => {
+          projectList[i].tags.sort();
+          this.setTags.add(tag.toLowerCase());
+        });
       }
     }
 
-    this.setTags.forEach(v => this.filterOptions.push({ value: v, label: v }));
+    this.setTags.forEach((v) =>
+      this.filterOptions.push({ value: v, label: v })
+    );
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleSelectChange(value) {
-
-    this.value = value;
-    this.setState({ value });
-    this.handleFilterListUpdate(value);
+  handleSelectChange(selectedOptions) {
+    const valueArray = Array.isArray(selectedOptions)
+      ? selectedOptions
+      : [selectedOptions];
+    this.setState({ value: valueArray });
+    this.handleFilterListUpdate(valueArray);
   }
 
   handleFilterListUpdate(value) {
+    let updatedList = [...projectList];
 
-    let updatedList = [];
-
-    // If no filters
-    if ((!value || value.length === 0) && (!this.inputValue || this.inputValue.length === 0)) {
+    if (
+      (!value || value.length === 0) &&
+      (!this.inputValue || this.inputValue.length === 0)
+    ) {
       return this.setState({ filterList: this.sortArrayRandom(projectList) });
     }
 
     // If tags filter applied
-    if (value && value.length > 0) {
-      const valueList = [];
+    if (value.length > 0) {
+      const valueList = value.map((v) => v.value.toLowerCase());
 
-      value.map(v => {
-        return valueList.push(v.value)
-      });
-
-      each(projectList, (project) => {
-
-        if (!project.tags) return;
-
-        let lowerCaseTags = project.tags.map(v => v.toLowerCase())
-        if (valueList.every(v => lowerCaseTags.includes(v))) {
-
-          updatedList.push(project);
-        }
-      })
+      updatedList = updatedList.filter(
+        (project) =>
+          project.tags &&
+          project.tags.some((tag) => valueList.includes(tag.toLowerCase()))
+      );
     }
 
     // If search input value is not empty
-    if (this.inputValue && this.inputValue.length > 0) {
+    if (this.inputValue && this.inputValue.trim().length > 0) {
+      const searchTerm = this.inputValue.toLowerCase();
 
-      const searchedList = []
-      each(((updatedList.length > 0) ? updatedList : projectList), (project) => {
-
-        if (project.name.toLowerCase().includes(this.inputValue)
-          || project.description.toLowerCase().includes(this.inputValue)
-          || project.tags.toString().toLowerCase().includes(this.inputValue)) {
-
-          searchedList.push(project)
-        }
-      });
-
-      updatedList = searchedList;
+      updatedList = updatedList.filter(
+        (project) =>
+          project.name.toLowerCase().includes(searchTerm) ||
+          project.description.toLowerCase().includes(searchTerm) ||
+          (project.tags &&
+            project.tags.some((tag) => tag.toLowerCase().includes(searchTerm)))
+      );
     }
 
     this.setState({ filterList: updatedList });
@@ -96,43 +84,50 @@ export default class CardsContainer extends React.Component {
 
   // Search input handler
   handleChange(event) {
-
     this.inputValue = event.currentTarget.value;
 
     this.inputValue = this.inputValue.trim();
     this.inputValue = this.inputValue.toLowerCase();
 
-    this.handleFilterListUpdate(this.value)
+    this.handleFilterListUpdate(this.value);
   }
 
-  sortArrayRandom(array){
-    if(Array.isArray(array)){
-      return array.sort(()=>0.5-Math.random())
+  sortArrayRandom(array) {
+    if (Array.isArray(array)) {
+      return array.sort(() => 0.5 - Math.random());
     }
-    return array
+    return array;
   }
 
   render() {
-
     return (
       <div>
-        <div id='container'>
-          <div className='inputContainer'>
-            <input id='search' type='text' name='search' placeholder='Search...' onChange={this.handleChange} aria-label='Search'/>
+        <div id="container">
+          <div className="inputContainer">
+            <input
+              id="search"
+              type="text"
+              name="search"
+              placeholder="Search..."
+              onChange={this.handleChange}
+              aria-label="Search"
+            />
           </div>
-          <div id="tag-selector-container" className='inputContainer'>
+          <div id="tag-selector-container" className="inputContainer">
             <Select
-              name='tag-selector'
+              name="tag-selector"
               value={this.state.value}
               onChange={this.handleSelectChange}
               options={this.filterOptions}
-              multi={true}
-              placeholder={<div className='filter-placeholder-text'>Filter</div>}
-              aria-labelledby='tag-selector-container'
+              isMulti={true}
+              placeholder={
+                <div className="filter-placeholder-text">Filter</div>
+              }
+              aria-labelledby="tag-selector-container"
             />
           </div>
         </div>
-        <section id='project-list' className='containerLayout'>
+        <section id="project-list" className="containerLayout">
           {this.state.filterList.map((item, key) => {
             return (
               <Card
@@ -142,7 +137,7 @@ export default class CardsContainer extends React.Component {
                 projectLink={item.projectLink}
                 description={item.description}
                 tags={item.tags}
-                className='testing-testing'
+                className="testing-testing"
               />
             );
           })}
