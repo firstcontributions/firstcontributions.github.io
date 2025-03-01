@@ -12,6 +12,11 @@
   color: white;
 }
 
+.App-header a {
+  text-decoration: unset;
+  color: unset;
+}
+
 .App-header > h1 {
   /* padding-top: 6%; */
   font-size: 5.1rem;

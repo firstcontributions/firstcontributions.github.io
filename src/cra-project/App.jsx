@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App">
         <div className="App-header">
-            <h1>Make your first <br/> open source <span>contribution</span> <br/> in 5 minutes</h1>
+            <h1>Make your first <br/> <a href="https://firstcontributions.github.io/contribute-to-opensource"> open source <span>contribution</span> </a> <br/> in 5 minutes</h1>
         </div>
         <LinkButton />
         <CardsContainer />
