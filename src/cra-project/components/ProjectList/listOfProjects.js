@@ -1,5 +1,14 @@
 const projectList = [
   {
+    name: "Awesome",
+    imageSrc: "https://raw.githubusercontent.com/sindresorhus/awesome/7ac2054d73d003f2a4d7b3235c5d235975238eb0/media/logo.svg", 
+    projectLink: "https://github.com/sindresorhus/awesome",
+    description: "Awesome is a curated list of awesome lists. Lists about all kinds of interesting topics.",
+    tags: ["awesome", "curated", "resources", "lists", "open-source"]
+  },
+  
+  
+  {
     name: "appsmith",
     imageSrc:
       "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
