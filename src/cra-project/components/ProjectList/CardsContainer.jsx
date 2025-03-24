@@ -15,6 +15,7 @@ export default class CardsContainer extends React.Component {
     this.state = {
       value: [],
       filterList: this.sortArrayRandom(projectList),
+      hydrated: false
     };
 
     this.setTags = new Set();
@@ -99,8 +100,13 @@ export default class CardsContainer extends React.Component {
     return array;
   }
 
+  // Triggers re-render after mount to remove hydration errors caused by sortArrayRandom
+  componentDidMount() {
+    this.setState({ hydrated: true})
+  }
+
   render() {
-    return (
+    return this.state.hydrated && (
       <div>
         <div id="container">
           <div className="inputContainer">
@@ -124,6 +130,7 @@ export default class CardsContainer extends React.Component {
                 <div className="filter-placeholder-text">Filter</div>
               }
               aria-labelledby="tag-selector-container"
+              instanceId="tag-selector"
             />
           </div>
         </div>
