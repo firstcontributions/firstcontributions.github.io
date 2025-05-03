@@ -85,12 +85,8 @@ export default class CardsContainer extends React.Component {
 
   // Search input handler
   handleChange(event) {
-    this.inputValue = event.currentTarget.value;
-
-    this.inputValue = this.inputValue.trim();
-    this.inputValue = this.inputValue.toLowerCase();
-
-    this.handleFilterListUpdate(this.value);
+    this.inputValue = event.target.value.trim().toLowerCase(); 
+    this.handleFilterListUpdate(this.state.value); 
   }
 
   sortArrayRandom(array) {
