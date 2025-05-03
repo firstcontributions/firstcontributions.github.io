@@ -89,6 +89,20 @@ export default class CardsContainer extends React.Component {
     this.handleFilterListUpdate(this.state.value); 
   }
 
+  //debounce functionality in searh
+  // handleChange(event) {
+  //   const newInput = event.target.value.trim().toLowerCase();
+  //   this.inputValue = newInput;
+  
+  //   // 🔁 Clear the previous debounce timer if still waiting
+  //   if (this.debounceTimeout) clearTimeout(this.debounceTimeout);
+  
+  //   // ⏳ Set a new debounce timer (300ms) 
+  //   this.debounceTimeout = setTimeout(() => {
+  //     this.handleFilterListUpdate(this.state.value); // 🔍 Run filtering logic
+  //   }, 300); // ⏱️ Delay (in milliseconds)
+  // }
+
   sortArrayRandom(array) {
     if (Array.isArray(array)) {
       return array.sort(() => 0.5 - Math.random());
