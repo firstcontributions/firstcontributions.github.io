@@ -131,6 +131,12 @@ export default class CardsContainer extends React.Component {
               }
               aria-labelledby="tag-selector-container"
               instanceId="tag-selector"
+              styles={{
+                clearIndicator: (base, state) => ({
+                  ...base,
+                  cursor: 'pointer'
+                })
+              }}
             />
           </div>
         </div>
