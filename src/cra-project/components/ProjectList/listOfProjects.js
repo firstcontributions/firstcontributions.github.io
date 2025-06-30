@@ -1380,7 +1380,7 @@ const projectList = [
   {
     name: "Crossword Puzzle Generator",
     imageSrc:
-      "https://github.com/m0nt4ld0/crucigrama/blob/main/images/icons8-crossword-64.png?raw=true",
+      "https://github.com/m0nt4ld0/crucigrama/blob/main/public/images/icons8-crossword-64.png?raw=true",
     projectLink: "https://github.com/m0nt4ld0/crucigrama",
     description:
       "Generador de crucigramas - Crossword puzzle generator - Good first issue",
@@ -1391,8 +1391,8 @@ const projectList = [
       "crossword-puzzle",
       "contributions-welcome",
       "good-first-issue",
-      "begginer-friendly",
-      "begginer",
+      "beginner-friendly",
+      "beginner",
     ],
   },
   {
