@@ -14,6 +14,7 @@ export default class CardsContainer extends React.Component {
 
     this.state = {
       value: [],
+      inputValue: "",
       filterList: this.sortArrayRandom(projectList),
       hydrated: false
     };
@@ -42,8 +43,9 @@ export default class CardsContainer extends React.Component {
     const valueArray = Array.isArray(selectedOptions)
       ? selectedOptions
       : [selectedOptions];
-    this.setState({ value: valueArray });
-    this.handleFilterListUpdate(valueArray);
+    this.setState({ value: valueArray }, () => {
+      this.handleFilterListUpdate(valueArray);
+    });
   }
 
   handleFilterListUpdate(value) {
@@ -51,12 +53,11 @@ export default class CardsContainer extends React.Component {
 
     if (
       (!value || value.length === 0) &&
-      (!this.inputValue || this.inputValue.length === 0)
+      (!this.state.inputValue || this.state.inputValue.length === 0)
     ) {
       return this.setState({ filterList: this.sortArrayRandom(projectList) });
     }
-
-    // If tags filter applied
+  // If tags filter applied
     if (value.length > 0) {
       const valueList = value.map((v) => v.value.toLowerCase());
 
@@ -66,10 +67,9 @@ export default class CardsContainer extends React.Component {
           project.tags.some((tag) => valueList.includes(tag.toLowerCase()))
       );
     }
-
-    // If search input value is not empty
-    if (this.inputValue && this.inputValue.trim().length > 0) {
-      const searchTerm = this.inputValue.toLowerCase();
+// If search input value is not empty
+    if (this.state.inputValue && this.state.inputValue.trim().length > 0) {
+      const searchTerm = this.state.inputValue;
 
       updatedList = updatedList.filter(
         (project) =>
@@ -82,15 +82,14 @@ export default class CardsContainer extends React.Component {
 
     this.setState({ filterList: updatedList });
   }
+// Search input handler
 
-  // Search input handler
   handleChange(event) {
-    this.inputValue = event.currentTarget.value;
-
-    this.inputValue = this.inputValue.trim();
-    this.inputValue = this.inputValue.toLowerCase();
-
-    this.handleFilterListUpdate(this.value);
+    const newValue = event.currentTarget.value;
+    this.setState(
+      { inputValue: newValue.toLowerCase() },
+      () => this.handleFilterListUpdate(this.state.value)
+    );
   }
 
   sortArrayRandom(array) {
@@ -99,57 +98,78 @@ export default class CardsContainer extends React.Component {
     }
     return array;
   }
-
-  // Triggers re-render after mount to remove hydration errors caused by sortArrayRandom
+ // Triggers re-render after mount to remove hydration errors caused by sortArrayRandom
   componentDidMount() {
-    this.setState({ hydrated: true})
+    this.setState({ hydrated: true });
   }
 
   render() {
-    return this.state.hydrated && (
-      <div>
-        <div id="container">
-          <div className="inputContainer">
-            <input
-              id="search"
-              type="text"
-              name="search"
-              placeholder="Search..."
-              onChange={this.handleChange}
-              aria-label="Search"
-            />
-          </div>
-          <div id="tag-selector-container" className="inputContainer">
-            <Select
-              name="tag-selector"
-              value={this.state.value}
-              onChange={this.handleSelectChange}
-              options={this.filterOptions}
-              isMulti={true}
-              placeholder={
-                <div className="filter-placeholder-text">Filter</div>
-              }
-              aria-labelledby="tag-selector-container"
-              instanceId="tag-selector"
-            />
-          </div>
-        </div>
-        <section id="project-list" className="containerLayout">
-          {this.state.filterList.map((item, key) => {
-            return (
-              <Card
-                key={key}
-                name={item.name}
-                logoLink={item.imageSrc}
-                projectLink={item.projectLink}
-                description={item.description}
-                tags={item.tags}
-                className="testing-testing"
+    return (
+      this.state.hydrated && (
+        <div>
+          <div id="container">
+            <div className="inputContainer" style={{ boxShadow: "0 2px 6px rgba(0, 0, 0, 0.15)" }}>
+              <input
+                id="search"
+                type="text"
+                name="search"
+                placeholder="Search..."
+                onChange={this.handleChange}
+                value={this.state.inputValue}
+                aria-label="Search"
+                style={{ boxShadow: "0 2px 6px rgba(0, 0, 0, 0.15)" }}
               />
-            );
-          })}
-        </section>
-      </div>
+            </div>
+            <div id="tag-selector-container" className="inputContainer" style={{ boxShadow: "0 2px 6px rgba(0, 0, 0, 0.15)" }}>
+              <Select
+                name="tag-selector"
+                value={this.state.value}
+                onChange={this.handleSelectChange}
+                options={this.filterOptions}
+                isMulti={true}
+                placeholder={
+                  <div className="filter-placeholder-text">Filter</div>
+                }
+                aria-labelledby="tag-selector-container"
+                instanceId="tag-selector"
+              />
+            </div>
+          </div>
+          <section id="project-list" className="containerLayout">
+            {this.state.filterList.length > 0 ? (
+              this.state.filterList.map((item, key) => {
+                return (
+                  <Card
+                    key={key}
+                    name={item.name}
+                    logoLink={item.imageSrc}
+                    projectLink={item.projectLink}
+                    description={item.description}
+                    tags={item.tags}
+                    className="testing-testing"
+                  />
+                );
+              })
+            ) : (
+              <div
+                style={{
+                  backgroundColor: "#ffe0e0",
+                  color: "#b00020",
+                  padding: "1rem 0px",
+                  borderRadius: "0px",
+                  textAlign:"center",
+                  marginTop: "2rem",
+                  width: "100%",
+                  fontWeight:"bold",
+                  letterSpacing:"1px"
+                }}
+              >
+                No results found for your search.
+              </div>
+            )}
+          </section>
+        </div>
+      )
     );
   }
 }
