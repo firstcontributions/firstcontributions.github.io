@@ -1,28 +1,31 @@
 #container {
-  background: #f7f7fc;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 #search {
   padding-left: 10px;
-  border: none;
   border-radius: 3px;
   width: 100%;
   height: 32px;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
-  border: 1px solid #DCDCDC;
+  border: 2px solid #DCDCDC;
+  background-color: transparent;
+  color: white;
+  font-family: monospace;
 }
 
-#search:hover,#search:focus {
-  border: 1px #0f3cef solid ;
+#search:hover,
+#search:focus {
+  cursor: pointer;
 }
 
 .inputContainer {
-   width: 47%;
-   margin-top: 40px;
+  width: 47%;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 500px) {

@@ -1,18 +1,18 @@
-.containerLayout{
-  background: #f7f7fc;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1vw;
-  overflow: hidden;
+.containerLayout {
+    background: #f7f7fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+    overflow: hidden;
 }
 
 .filter-placeholder-text {
-  color: #757575;
+    color: #757575;
 }
 
 @media screen and (max-width: 500px) {
-  .containerLayout{
-    padding: 15px;
-  }
+    .containerLayout {
+        padding: 15px;
+    }
 }

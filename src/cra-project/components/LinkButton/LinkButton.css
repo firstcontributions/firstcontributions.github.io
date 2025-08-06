@@ -2,30 +2,26 @@
   padding: 16px 20px;
   text-decoration: none;
   margin: 20px auto;
-
   overflow: hidden;
-
   border-width: 0;
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-
-  background-color:  #2563eb;
+  border: 2px solid white;
   color: #fff;
-
-  -webkit-transition: background-color 0.3s;
-  -moz-transition: background-color 0.3s;
-  transition: background-color 0.3s;
   margin-bottom: 0 !important;
+  font-size: large;
 }
 
 .LinkButton:hover {
-  background-color: #3b82f6;
+  background-color: white;
+  color: black;
 }
 
-.LinkButton > span {
+.LinkButton>span {
   font-size: 1.1em;
   letter-spacing: 0.05em;
 }
+
 .LinkButton-Wrapper {
   display: flex;
   align-items: center;
@@ -33,22 +29,27 @@
   flex-direction: column;
   margin-bottom: 2rem;
 }
+
 .Scroll-Down {
   cursor: pointer;
   position: relative;
   animation: swing alternate 0.5s infinite;
 }
+
 .Scroll-Down:active {
   opacity: 0.75;
 }
+
 .Scroll-Down-Wrapper {
   padding: 1vw;
   padding-bottom: 1.75vw;
 }
+
 @keyframes swing {
   from {
     top: -0.5rem;
   }
+
   to {
     top: 1rem;
   }
