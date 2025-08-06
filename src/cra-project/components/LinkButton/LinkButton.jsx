@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import "./LinkButton.css";
-import scrollDown from "./scroll-down.svg";
-
 class LinkButton extends Component {
   render() {
     return (
