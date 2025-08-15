@@ -4,8 +4,9 @@
 .Card-Header {
   position: relative;
   font-weight: bold;
-  background: white;
+  background: rgb(50, 50, 50);
   padding: 2%;
+  color: white;
   line-height: 18px;
   height: 140px;
     display: flex;
@@ -23,21 +24,28 @@
 }
 .Card-Body {
   position: relative;
-  background: white;
+  color: white;
+  background: rgba(49, 49, 49, 0);
+  height: 220px; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .Card-Container {
   overflow: hidden;
   width: 16%;
   min-width: 225px;
-  display: flex;
+  display: flexbox;
   margin: .5vw;
-  /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
-  -webkit-transition: box-shadow 0.1s ease-in-out; */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  -webkit-transition: box-shadow 0.1s ease-in-out;
   transition: box-shadow 0.1s ease-in-out;
-  background-color: #fff;
-  border: 1px solid #1f293740;
+  background-color: rgb(50, 50, 50);
+  border: 2px solid #4577bd;
   border-radius: 8px;
   padding: 8px;
+   box-shadow: 0px 6px 12px rgba(238, 238, 238, 0.774);
 }
 @media (max-width: 700px) {
   .Card-Container {
@@ -73,10 +81,13 @@
 .Card-Description {
   position: relative;
   padding: 5%;
-  max-height: 180px;
-  overflow: auto;
+  max-height: 120px;
+  overflow: hidden;
   margin-top: 16px;
   margin-bottom: 16px;
+  overflow-y: auto;
+   overflow-x: auto;
+  text-overflow: ellipsis;
 }
 .Card-Description::-webkit-scrollbar {
   width: 6px; 
@@ -97,11 +108,13 @@
 .Card-Link {
   position: relative;
   padding: 15px;
-  color: #0f3cef;
+  color: #f2f4ff;
   background: transparent;
   transition: .5s;
   margin-top: auto;
-  border-top: rgba(0, 0, 0, 0.12) 1px solid;
+  border-top: rgb(255, 249, 249) 1px solid;
+  border: 2px solid #6a86f8; 
+  border-radius: 8px;
 }
 .Card-Link:hover {
   color: whitesmoke;

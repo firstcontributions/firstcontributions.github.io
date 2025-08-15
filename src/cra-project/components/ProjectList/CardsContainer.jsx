@@ -39,6 +39,7 @@ export default class CardsContainer extends React.Component {
   }
 
   handleSelectChange(selectedOptions) {
+    console.log(selectedOptions)
     const valueArray = Array.isArray(selectedOptions)
       ? selectedOptions
       : [selectedOptions];
@@ -48,28 +49,20 @@ export default class CardsContainer extends React.Component {
 
   handleFilterListUpdate(value) {
     let updatedList = [...projectList];
-
-    if (
+    console.log("the values in handlefilter : "+value);
+    /* if (
       (!value || value.length === 0) &&
       (!this.inputValue || this.inputValue.length === 0)
     ) {
       return this.setState({ filterList: this.sortArrayRandom(projectList) });
-    }
+    } */
 
     // If tags filter applied
-    if (value.length > 0) {
-      const valueList = value.map((v) => v.value.toLowerCase());
-
-      updatedList = updatedList.filter(
-        (project) =>
-          project.tags &&
-          project.tags.some((tag) => valueList.includes(tag.toLowerCase()))
-      );
-    }
-
+    //if(!value) return this.setState({ filterList: this.sortArrayRandom(projectList) });
+    
     // If search input value is not empty
-    if (this.inputValue && this.inputValue.trim().length > 0) {
-      const searchTerm = this.inputValue.toLowerCase();
+    if (!Array.isArray(value) && value && value.length>0) {
+      const searchTerm = value.toLowerCase();
 
       updatedList = updatedList.filter(
         (project) =>
@@ -80,6 +73,17 @@ export default class CardsContainer extends React.Component {
       );
     }
 
+    if (Array.isArray(value) && value.length>0) {
+       
+      const valueList = value.map((v) => v.value.toLowerCase());
+
+      updatedList = updatedList.filter(
+        (project) =>
+          project.tags &&
+          project.tags.some((tag) => valueList.includes(tag.toLowerCase()))
+      );
+    }
+    updatedList = updatedList.length <=0 ? this.sortArrayRandom(projectList) : updatedList;
     this.setState({ filterList: updatedList });
   }
 
@@ -89,8 +93,8 @@ export default class CardsContainer extends React.Component {
 
     this.inputValue = this.inputValue.trim();
     this.inputValue = this.inputValue.toLowerCase();
-
-    this.handleFilterListUpdate(this.value);
+    console.log(this.inputValue);
+    this.handleFilterListUpdate(this.inputValue);
   }
 
   sortArrayRandom(array) {
