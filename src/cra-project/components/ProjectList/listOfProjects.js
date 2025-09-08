@@ -270,14 +270,6 @@ const projectList = [
     tags: ["Shell", "Linux", "MacOS", "Windows", "*BSD"],
   },
   {
-    name: "Coala",
-    imageSrc: "https://avatars2.githubusercontent.com/u/10620750?v=3&s=100",
-    projectLink: "https://coala.io/newcomer",
-    description:
-      "Unified command-line interface for linting and fixing all your code.",
-    tags: ["UX", "Linter", "Python"],
-  },
-  {
     name: "Moment",
     imageSrc: "https://avatars2.githubusercontent.com/u/4129662?v=3&s=100",
     projectLink: "https://github.com/moment/moment/contribute",
@@ -430,7 +422,7 @@ const projectList = [
   {
     name: "TEAMMATES",
     imageSrc:
-      "https://www.google-melange.com/archive/gsoc/2015/orgs/teammates/logo-200.png",
+      "./public/teammates.png",
     projectLink: "https://github.com/TEAMMATES/teammates/contribute",
     description:
       "An online feedback management system for students and teachers",
@@ -442,7 +434,7 @@ const projectList = [
     projectLink: "https://github.com/electron/electron/contribute",
     description:
       "Build cross platform desktop apps with JavaScript, HTML, and CSS!",
-    tags: ["JavaScript", "Electron", "Css", "Html", "Chrome", "Nodejs", "V8"],
+    tags: ["JavaScript", "Electron", "CSS", "Html", "Chrome", "Nodejs", "V8"],
   },
   {
     name: "Oppia",
@@ -455,7 +447,7 @@ const projectList = [
   },
   {
     name: "Public Lab",
-    imageSrc: "https://code.publiclab.org/images/Boots-ground-02.png",
+    imageSrc: "./public/public-lab.png",
     projectLink: "https://publiclab.github.io/community-toolbox/#r=all",
     description:
       "PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈",
@@ -1117,7 +1109,7 @@ const projectList = [
   },
   {
     name: "DSA",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
+    imageSrc: "./public/dsa-logo.png",
     projectLink: "https://github.com/MakeContributions/DSA",
     description: "Data structure and Algorithm (DSA) contributions",
     tags: [
@@ -1134,7 +1126,7 @@ const projectList = [
   {
     name: "Jest",
     imageSrc:
-      "https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png",
+      "./public/dsa-logo.png",
     projectLink: "https://github.com/facebook/jest/contribute",
     description: "Delightful JavaScript Testing",
     tags: [
