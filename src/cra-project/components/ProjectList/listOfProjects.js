@@ -107,7 +107,7 @@ const projectList = [
   {
     name: "React",
     imageSrc:
-      "https://raw.githubusercontent.com/facebook/react/57768ef90bdb0110c7b9266185a8f6446934b331/fixtures/dom/public/react-logo.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     projectLink: "https://github.com/facebook/react/contribute",
     description:
       "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
@@ -115,7 +115,7 @@ const projectList = [
   },
   {
     name: "React Native",
-    imageSrc: "https://reactnative.dev/img/header_logo.svg",
+    imageSrc: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
     tags: ["JavaScript", "React", "React Native", "Mobile App"],
@@ -132,7 +132,7 @@ const projectList = [
   {
     name: "MongoDB",
     imageSrc:
-      "https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913759/noticon/rewwujgq5wuw2qohwta9.png",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink:
       "https://github.com/mongodb/mongo/blob/master/CONTRIBUTING.rst",
     description:
@@ -211,7 +211,7 @@ const projectList = [
   {
     name: "Pug",
     imageSrc:
-      "https://cdn.rawgit.com/pugjs/pug-logo/eec436cee8fd9d1726d7839cbe99d1f694692c0c/SVG/pug-final-logo-_-colour-128.svg",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/pugjs/pug",
     description:
       "Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
@@ -345,14 +345,14 @@ const projectList = [
   },
   {
     name: "Semantic-UI-React",
-    imageSrc: "https://reactnative.dev/img/header_logo.svg",
+    imageSrc: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
     description: "The official Semantic-UI-React integration.",
     tags: ["React", "Library", "Component", "Front-End"],
   },
   {
     name: "Contribute to Open Source",
-    imageSrc: "https://image.ibb.co/fUM5oG/profile_first_pr.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink:
       "https://github.com/danthareja/contribute-to-open-source/contribute",
     description:
@@ -405,7 +405,7 @@ const projectList = [
   {
     name: "Python Koans",
     imageSrc:
-      "https://s3.amazonaws.com/media-p.slid.es/thumbnails/akoebbe/b35d77/python-koans.jpg",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/gregmalcolm/python_koans/contribute",
     description: 'Python Koans is a port of Edgecase\'s "Ruby Koans".',
     tags: ["Python", "Exercises", "CLI", "Web App"],
@@ -421,7 +421,7 @@ const projectList = [
   },
   {
     name: "CodeWorkout",
-    imageSrc: "https://i.imgur.com/ZsSiCqi.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/web-cat/code-workout/contribute",
     description:
       "CodeWorkout is an online system for people learning a programming language for the first time. It is a free, open-source solution for practicing small programming problems. Students may practice coding exercises on a variety of programming concepts within the convenience of a web browser!",
@@ -472,7 +472,7 @@ const projectList = [
   },
   {
     name: "MissionControl",
-    imageSrc: "https://i.imgur.com/nSRLFas.gif",
+    imageSrc: "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/DAVFoundation/missioncontrol/contribute",
     description:
       "Controls and orchestrates missions between autonomous vehicles and DAV users.",
@@ -560,7 +560,7 @@ const projectList = [
   },
   {
     name: "Movie-Stream",
-    imageSrc: "https://image.ibb.co/faTroc/movie_stream.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/hrishi7/streamIt/contribute",
     description:
       "Provides Online free movie streaming service with adfree. flexible for mobile also",
@@ -763,7 +763,7 @@ const projectList = [
   {
     name: "Bitcoin",
     imageSrc:
-      "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/bitcoin/bitcoin/contribute",
     description:
       "Bitcoin is an experimental digital currency that enables instant payments to anyone, anywhere in the world.",
@@ -1259,7 +1259,7 @@ const projectList = [
   {
     name: "Yarn",
     imageSrc:
-      "https://github.com/yarnpkg/assets/raw/master/yarn-kitten-full.png?raw=true",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/yarnpkg/yarn",
     description:
       "Yarn is a JavaScript package manager created by Facebook that doubles as a project manager.",
@@ -1380,7 +1380,7 @@ const projectList = [
   {
     name: "Crossword Puzzle Generator",
     imageSrc:
-      "https://github.com/m0nt4ld0/crucigrama/blob/main/public/images/icons8-crossword-64.png?raw=true",
+      "https://avatars.githubusercontent.com/u/1562726?s=200&v=4",
     projectLink: "https://github.com/m0nt4ld0/crucigrama",
     description:
       "Generador de crucigramas - Crossword puzzle generator - Good first issue",
