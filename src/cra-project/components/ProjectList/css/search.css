@@ -1,33 +1,568 @@
 #container {
-  background: #f7f7fc;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 32px;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-radius: 24px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: visible;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  margin-bottom: 10px;
+  
+}
+
+#container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border-radius: 24px;
+  pointer-events: none;
+}
+
+.search-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
+  display: block;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}
+
+.search-wrapper {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #search {
-  padding-left: 10px;
-  border: none;
-  border-radius: 3px;
   width: 100%;
-  height: 32px;
-  font-size: 15px;
-  text-align: center;
-  border: 1px solid #DCDCDC;
+  height: 56px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  color: #374151;
+  outline: none;
+  flex: 1;
 }
 
-#search:hover,#search:focus {
-  border: 1px #0f3cef solid ;
+#search::placeholder {
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+.search-input-container:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.search-input-container:focus-within {
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2), 0 12px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 1);
+}
+
+.search-icon {
+  color: #667eea;
+  font-size: 20px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.search-input-container:focus-within .search-icon {
+  color: #764ba2;
+  transform: scale(1.1);
+}
+
+.clear-button {
+  background: rgba(102, 126, 234, 0.1);
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 16px;
+  flex-shrink: 0;
+}
+
+.clear-button:hover {
+  color: white;
+  background: #667eea;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.clear-button.visible {
+  display: flex;
 }
 
 .inputContainer {
-   width: 47%;
-   margin-top: 40px;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+.filter-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.filter-label {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
+  display: block;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}
+
+.filter-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  z-index: 1000;
+  overflow: visible;
+}
+
+/* React Select Custom Styling */
+.react-select-container {
+  width: 100%;
+}
+
+.react-select__control {
+  min-height: 56px !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 16px !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  cursor: pointer !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.react-select__control:hover {
+  border-color: rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+.react-select__control--is-focused {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2), 0 12px 40px rgba(0, 0, 0, 0.15) !important;
+  transform: translateY(-2px) !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.react-select__value-container {
+  padding: 12px 20px !important;
+}
+
+.react-select__placeholder {
+  color: #9ca3af !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+
+.react-select__input-container {
+  color: #374151 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.react-select__multi-value {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-radius: 12px !important;
+  margin: 4px !important;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3) !important;
+}
+
+.react-select__multi-value__label {
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 6px 12px !important;
+}
+
+.react-select__multi-value__remove {
+  color: white !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 0 12px 12px 0 !important;
+  padding: 6px 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.react-select__multi-value__remove:hover {
+  background: rgba(255, 255, 255, 0.4) !important;
+  color: white !important;
+  transform: scale(1.1) !important;
+}
+
+.react-select__indicator-separator {
+  background-color: rgba(102, 126, 234, 0.2) !important;
+}
+
+.react-select__dropdown-indicator {
+  color: #667eea !important;
+  transition: all 0.3s ease !important;
+  padding: 8px !important;
+}
+
+.react-select__control--is-focused .react-select__dropdown-indicator {
+  color: #764ba2 !important;
+  transform: rotate(180deg) scale(1.1) !important;
+}
+
+.react-select__menu {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 2px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+  margin-top: 8px !important;
+  z-index: 9999 !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.react-select__menu-list {
+  padding: 12px !important;
+  max-height: 200px !important;
+  overflow-y: auto !important;
+}
+
+/* Ensure the dropdown is visible */
+.react-select-container {
+  position: relative !important;
+}
+
+.react-select__control {
+  position: relative !important;
+}
+
+.react-select__menu {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.react-select__option {
+  padding: 14px 18px !important;
+  border-radius: 12px !important;
+  margin: 4px 0 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.react-select__option--is-focused {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%) !important;
+  color: #667eea !important;
+  transform: translateX(4px) !important;
+}
+
+.react-select__option--is-selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3) !important;
+}
+
+.react-select__option--is-selected:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%) !important;
+  transform: translateX(4px) !important;
+}
+
+/* Filter placeholder styling */
+.filter-placeholder-text {
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-placeholder-text::before {
+  content: "🏷️";
+  font-size: 18px;
+}
+
+/* No results state */
+.no-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 16px;
+  margin: 40px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.no-results-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+
+.no-results h3 {
+  color: #374151;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.no-results p {
+  color: #6b7280;
+  font-size: 16px;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.clear-filters-btn {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
+}
+
+.clear-filters-btn:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
+}
+
+.clear-filters-btn:active {
+  transform: translateY(0);
+}
+
+/* Search suggestions (for future enhancement) */
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-suggestion {
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.search-suggestion:hover {
+  background: #f8fafc;
+}
+
+.search-suggestion:last-child {
+  border-bottom: none;
+}
+
+/* Loading state for search */
+.search-loading {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #e2e8f0;
+  border-top: 2px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: translateY(-50%) rotate(0deg); }
+  100% { transform: translateY(-50%) rotate(360deg); }
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    gap: 16px;
+    padding: 24px 16px;
+  }
+  
+  .search-section {
+    width: 100%;
+  }
+  
+  .search-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  
   .inputContainer {
-    width: 45%;
-    margin-top: 40px;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .filter-section {
+    width: 100%;
+  }
+  
+  #search {
+    height: 44px;
+    font-size: 15px;
+    padding: 10px 14px 10px 44px;
+  }
+  
+  .search-icon {
+    font-size: 18px;
+    left: 14px;
+  }
+  
+  .react-select__control {
+    min-height: 44px !important;
+  }
+  
+  .react-select__value-container {
+    padding: 6px 12px !important;
+  }
+  
+  .react-select__placeholder {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container {
+    padding: 20px 12px;
+    border-radius: 12px;
+    gap: 12px;
+  }
+  
+  .search-section {
+    width: 100%;
+  }
+  
+  .search-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .inputContainer {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .filter-section {
+    width: 100%;
+  }
+  
+  #search {
+    height: 40px;
+    font-size: 14px;
+    padding: 8px 12px 8px 40px;
+  }
+  
+  .search-icon {
+    font-size: 16px;
+    left: 12px;
+  }
+  
+  .react-select__control {
+    min-height: 40px !important;
+  }
+  
+  .react-select__value-container {
+    padding: 4px 8px !important;
+  }
+  
+  .react-select__placeholder {
+    font-size: 14px !important;
+  }
+  
+  .react-select__multi-value__label {
+    font-size: 12px !important;
+    padding: 2px 6px !important;
+  }
+  
+  .react-select__option {
+    padding: 8px 12px !important;
+    font-size: 13px !important;
   }
 }

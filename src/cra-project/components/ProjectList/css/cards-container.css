@@ -4,7 +4,9 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 1vw;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
 .filter-placeholder-text {
