@@ -28,7 +28,9 @@ Change to the repository directory on your computer (if you are not already ther
 ```
 cd firstcontributions.github.io
 ```
-
+```
+cd - Change Directory
+```
 Then install the required Dependencies using:
 ```
  yarn install
