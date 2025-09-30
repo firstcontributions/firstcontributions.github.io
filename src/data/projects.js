@@ -15,25 +15,7 @@ export const projectList = [
     projectLink: "https://github.com/dagworks-inc/hamilton",
     description:
       "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
-    tags: [
-      "DAG",
-      "ETL",
-      "Python",
-      "data-science",
-      "machine-learning",
-      "pandas",
-      "orchestration",
-      "data-engineering",
-      "data-analysis",
-      "software-engineering",
-      "feature-engineering",
-      "dataframe",
-      "lineage",
-      "featurization",
-      "pipeline",
-      "mlops",
-      "llmops",
-    ],
+    tags: ["Python", "Data Science", "Machine Learning", "ETL", "DAG"],
   },
   {
     name: "altair",
@@ -41,7 +23,7 @@ export const projectList = [
       "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
     projectLink: "https://github.com/altair-graphql/altair",
     description: "A beautiful feature-rich GraphQL Client for all platforms.",
-    tags: ["GraphQL", "React", "Typescript"],
+    tags: ["GraphQL", "React", "TypeScript"],
   },
 
   {
@@ -51,17 +33,7 @@ export const projectList = [
     projectLink: "https://github.com/FreezingMoon/AncientBeast/labels/easy",
     description:
       "Match-based eSport where you duel others by materializing and controlling a squad of creatures.",
-    tags: [
-      "JavaScript",
-      "TypeScript",
-      "Node.js",
-      "Web App",
-      "Video Game",
-      "OpenSource",
-      "Mentored",
-      "Web",
-      "Web Development",
-    ],
+    tags: ["JavaScript", "TypeScript", "Node.js", "Web App", "Video Game"],
   },
   {
     name: "Signal-Android",
@@ -69,7 +41,7 @@ export const projectList = [
     projectLink: "https://github.com/signalapp/Signal-Android",
     description:
       "Signal uses your phone's data connection (WiFi/3G/4G/5G) to communicate securely. Millions of people use Signal every day for free and instantaneous communication anywhere in the world. Send and receive high-fidelity messages, participate in HD voice/video calls, and explore a growing set of new features that help you stay connected. Signal’s advanced privacy-preserving technology is always enabled, so you can focus on sharing the moments that matter with the people who matter to you.",
-    tags: ["java", "kotlin", "Python", "css", "handlebars"],
+    tags: ["Java", "Kotlin", "Python", "CSS", "Handlebars"],
   },
   {
     name: "Reseter.css",
@@ -78,7 +50,7 @@ export const projectList = [
     projectLink: "https://github.com/resetercss/reseter.css",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
-    tags: ["css", "sass", "scss", "less", "stylus"],
+    tags: ["CSS", "Sass", "SCSS", "Less", "Stylus"],
   },
   {
     name: "CircuitVerse",
@@ -86,7 +58,7 @@ export const projectList = [
     projectLink: "https://github.com/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
-    tags: ["html", "css", "sass", "javascript", "ruby on rails"],
+    tags: ["HTML", "CSS", "Sass", "JavaScript", "Ruby on Rails"],
   },
   {
     name: "MoveIt",
@@ -94,7 +66,7 @@ export const projectList = [
     projectLink: "https://github.com/ros-planning/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
-    tags: ["c++", "python", "robotics", "open source", "motion planning"],
+    tags: ["C++", "Python", "Robotics", "Motion Planning"],
   },
   {
     name: "Jina",
@@ -102,7 +74,7 @@ export const projectList = [
     projectLink: "https://github.com/jina-ai/jina",
     description:
       "An easier way to build neural search on the cloud. An AI-powered search framework, empowering developers to create cross-/multi-modal search systems",
-    tags: ["Python", "Machine Learning", "Web App", "Deep Learning", "NLP"],
+    tags: ["Python", "Machine Learning", "Deep Learning", "NLP"],
   },
   {
     name: "React",
@@ -111,14 +83,14 @@ export const projectList = [
     projectLink: "https://github.com/facebook/react/contribute",
     description:
       "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
-    tags: ["JavaScript", "UI", "Web App"],
+    tags: ["JavaScript", "React", "UI"],
   },
   {
     name: "React Native",
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
-    tags: ["JavaScript", "React", "React Native", "Mobile App"],
+    tags: ["JavaScript", "React", "React Native", "Mobile"],
   },
   {
     name: "Typescript",
@@ -137,7 +109,7 @@ export const projectList = [
       "https://github.com/mongodb/mongo/blob/master/CONTRIBUTING.rst",
     description:
       "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.",
-    tags: ["NOSQL", "Database"],
+    tags: ["NoSQL", "Database"],
   },
   {
     name: "Darktable",
@@ -153,7 +125,7 @@ export const projectList = [
     imageSrc: "https://avatars2.githubusercontent.com/u/5624255?v=3&s=100",
     projectLink: "https://github.com/exercism/exercism/contribute",
     description: "Quickly ramp up in new programming languages!",
-    tags: ["Ruby", "Exercises", "CLI", "Web App"],
+    tags: ["Ruby", "Education", "CLI", "Web App"],
   },
   {
     name: "React Testing Library",
@@ -163,7 +135,7 @@ export const projectList = [
       "https://github.com/testing-library/react-testing-library/blob/master/CONTRIBUTING.md",
     description:
       "Simple and complete React DOM testing utilities that encourage good testing practices.",
-    tags: ["Unit testing", "JavaScript", "React", "React Native"],
+    tags: ["Testing", "JavaScript", "React"],
   },
   {
     name: "Gauge",
@@ -171,42 +143,42 @@ export const projectList = [
       "https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4",
     projectLink: "https://github.com/getgauge/gauge/contribute",
     description: "A free and open source test automation framework",
-    tags: ["Golang", "Automation", "command line", "testing"],
+    tags: ["Go", "Automation", "CLI", "Testing"],
   },
   {
     name: "Habitat",
     imageSrc: "https://avatars1.githubusercontent.com/u/18171698?v=3&s=100",
     projectLink: "https://github.com/habitat-sh/habitat/contribute",
     description: "Modern applications with built-in automation.",
-    tags: ["Docs", "Front-End", "Rust", "MultiOS"],
+    tags: ["Documentation", "Frontend", "Rust", "DevOps"],
   },
   {
     name: "Scikit-learn",
     imageSrc: "https://avatars0.githubusercontent.com/u/365630?v=3&s=100",
     projectLink: "https://github.com/scikit-learn/scikit-learn/contribute",
     description: "Machine learning in Python!",
-    tags: ["Python", "Machine Learning", "Math"],
+    tags: ["Python", "Machine Learning", "Data Science"],
   },
   {
     name: "AVA",
     imageSrc: "https://avatars0.githubusercontent.com/u/8527916?v=3&s=100",
     projectLink: "https://github.com/avajs/ava/contribute",
     description: "The Futuristic JavaScript test runner!",
-    tags: ["JavaScript", "Tests", "Docs", "Babel"],
+    tags: ["JavaScript", "Testing", "Babel"],
   },
   {
     name: "Numpy",
     imageSrc: "https://avatars.githubusercontent.com/u/288276?s=200&v=4",
     projectLink: "https://github.com/numpy/numpy/contribute",
     description: "Scientific computing with Python!",
-    tags: ["Python", "Math", "Module", "Docs"],
+    tags: ["Python", "Data Science", "Math"],
   },
   {
     name: "pandas",
     imageSrc: "https://avatars.githubusercontent.com/u/21206976?s=200&v=4",
     projectLink: "https://github.com/pandas-dev/pandas/contribute",
     description: "pandas: powerful Python data analysis toolkit",
-    tags: ["Python", "data science", "data analysis", "math", "Module"],
+    tags: ["Python", "Data Science", "Data Analysis"],
   },
   {
     name: "Pug",
@@ -215,28 +187,28 @@ export const projectList = [
     projectLink: "https://github.com/pugjs/pug",
     description:
       "Pug is a high-performance template engine heavily influenced by Haml and implemented with JavaScript for Node.js and browsers.",
-    tags: ["JavaScript", "HTML", "NodeJS", "Template-Engine"],
+    tags: ["JavaScript", "HTML", "Node.js", "Template Engine"],
   },
   {
     name: "Elasticsearch",
     imageSrc: "https://avatars2.githubusercontent.com/u/6764390?v=3&s=100",
     projectLink: "https://github.com/elastic/elasticsearch/contribute",
     description: "Open Source, Distributed, RESTful Search Engine.",
-    tags: ["REST", "Docs", "Java", "Lucene"],
+    tags: ["Java", "Search", "Database", "REST"],
   },
   {
     name: "Homebrew",
     imageSrc: "https://avatars2.githubusercontent.com/u/1503512?v=3&s=100",
     projectLink: "https://github.com/Homebrew/brew/contribute",
     description: "The missing package manager for macOS.",
-    tags: ["MacOS", "Ruby", "C++"],
+    tags: ["macOS", "Ruby", "C++", "Package Manager"],
   },
   {
     name: "Rust",
     imageSrc: "https://avatars1.githubusercontent.com/u/5430905?v=3&s=100",
     projectLink: "https://github.com/rust-lang/rust/contribute",
     description: "A safe, concurrent, practical language!",
-    tags: ["Rust", "Compiler", "Mentored", "Parser"],
+    tags: ["Rust", "Compiler", "Systems Programming"],
   },
   {
     name: "Vuejs",
@@ -244,7 +216,7 @@ export const projectList = [
     projectLink: "https://github.com/vuejs/vue/contribute",
     description:
       "A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-    tags: ["JavaScript", "UI", "Front-End"],
+    tags: ["JavaScript", "Vue.js", "Frontend"],
   },
   {
     name: "Suave",
@@ -252,7 +224,7 @@ export const projectList = [
     projectLink: "https://github.com/SuaveIO/suave/contribute",
     description:
       "Simple web development F# library to manipulate route flow and task composition.",
-    tags: ["F#", "WebDev", "Library"],
+    tags: ["F#", "Web Development", "Library"],
   },
   {
     name: "OpenRA",
@@ -260,14 +232,14 @@ export const projectList = [
     projectLink: "https://github.com/OpenRA/OpenRA/contribute",
     description:
       "Open Source real-time strategy game engine for early Westwood games.",
-    tags: ["AI", "C#", "SDL", "OpenGL"],
+    tags: ["C#", "Game Development", "OpenGL"],
   },
   {
     name: "PowerShell",
     imageSrc: "https://avatars0.githubusercontent.com/u/11524380?v=3&s=100",
     projectLink: "https://github.com/powershell/powershell/contribute",
     description: "PowerShell for every system.",
-    tags: ["Shell", "Linux", "MacOS", "Windows", "*BSD"],
+    tags: ["PowerShell", "Shell", "Cross Platform"],
   },
   {
     name: "Coala",
@@ -275,7 +247,7 @@ export const projectList = [
     projectLink: "https://coala.io/newcomer",
     description:
       "Unified command-line interface for linting and fixing all your code.",
-    tags: ["UX", "Linter", "Python"],
+    tags: ["Python", "Linting", "Code Quality"],
   },
   {
     name: "Moment",
@@ -283,14 +255,14 @@ export const projectList = [
     projectLink: "https://github.com/moment/moment/contribute",
     description:
       "Parse, validate, manipulate, and display dates in JavaScript.",
-    tags: ["JavaScript", "Front-End", "Meta"],
+    tags: ["JavaScript", "Date", "Library"],
   },
   {
     name: "Leiningen",
     imageSrc: "https://leiningen.org/img/leiningen.jpg",
     projectLink: "https://github.com/technomancy/leiningen/contribute",
     description: "Automate Clojure projects without setting your hair on fire.",
-    tags: ["Clojure", "Automation"],
+    tags: ["Clojure", "Build Tool", "Automation"],
   },
   {
     name: "Webpack",
@@ -298,28 +270,28 @@ export const projectList = [
     projectLink: "https://github.com/webpack/webpack/contribute",
     description:
       "A bundler for JavaScript and friends. Packs many modules into a few bundled assets.",
-    tags: ["Bundler", "JavaScript", "Compiler", "Loader"],
+    tags: ["JavaScript", "Bundler", "Build Tool"],
   },
   {
     name: "Babel",
     imageSrc: "https://avatars2.githubusercontent.com/u/9637642?v=3&s=100",
     projectLink: "https://github.com/babel/babel/contribute",
     description: "Babel is a compiler for writing next generation JavaScript.",
-    tags: ["es2015", "JavaScript", "Compiler"],
+    tags: ["JavaScript", "Compiler", "Transpiler"],
   },
   {
     name: "Pouchdb",
     imageSrc: "https://avatars3.githubusercontent.com/u/3406112?v=3&s=100",
     projectLink: "https://github.com/pouchdb/pouchdb/contribute",
     description: "A pocket-sized database.",
-    tags: ["JavaScript", "Node.js", "CouchDB"],
+    tags: ["JavaScript", "Node.js", "Database"],
   },
   {
     name: "Neovim",
     imageSrc: "https://avatars0.githubusercontent.com/u/6471485?v=3&s=100",
     projectLink: "https://github.com/neovim/neovim/contribute",
     description: "Vim-fork focused on extensibility and usability.",
-    tags: ["Editor", "API", "Cross-Platform", "Vim"],
+    tags: ["Vim", "Editor", "Cross Platform"],
   },
   {
     name: "Hoodie",
@@ -327,28 +299,28 @@ export const projectList = [
       "https://hoodiehq.github.io/hoodie-css/src/content_img/animals/low-profile-dog-1.png",
     projectLink: "https://github.com/hoodiehq/hoodie/contribute",
     description: "The Offline First JavaScript Backend.",
-    tags: ["JavaScript", "Node.js", "Web development", "User-Friendly"],
+    tags: ["JavaScript", "Node.js", "Web Development"],
   },
   {
     name: "freeCodeCamp",
     imageSrc: "https://avatars0.githubusercontent.com/u/9892522?v=3&s=100",
     projectLink: "https://github.com/freeCodeCamp/freeCodeCamp/contribute",
     description: "Open Source codebase and curriculum.",
-    tags: ["Learn", "Education", "Non-Profit", "Certification"],
+    tags: ["JavaScript", "Education", "Web Development"],
   },
   {
     name: "Node.js",
     imageSrc: "https://avatars1.githubusercontent.com/u/9950313?v=3&s=100",
     projectLink: "https://github.com/nodejs/node/contribute",
     description: "Node.js JavaScript runtime.",
-    tags: ["JavaScript", "HTML", "CSS"],
+    tags: ["JavaScript", "Node.js", "Runtime"],
   },
   {
     name: "Semantic-UI-React",
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
     description: "The official Semantic-UI-React integration.",
-    tags: ["React", "Library", "Component", "Front-End"],
+    tags: ["React", "UI Library", "Components"],
   },
   {
     name: "Contribute to Open Source",
@@ -357,7 +329,7 @@ export const projectList = [
       "https://github.com/danthareja/contribute-to-open-source/contribute",
     description:
       "Learn GitHub's pull request process by contributing code in a fun simulation project.",
-    tags: ["GitHub", "Tutorial"],
+    tags: ["GitHub", "Tutorial", "Education"],
   },
   {
     name: "Visual Studio Code",
@@ -365,7 +337,7 @@ export const projectList = [
     projectLink: "https://github.com/Microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
-    tags: ["TypeScript", "Text-Editor", "Electron"],
+    tags: ["TypeScript", "Editor", "Electron"],
   },
   {
     name: "Scrapy",
@@ -373,7 +345,7 @@ export const projectList = [
     projectLink: "https://github.com/scrapy/scrapy/contribute",
     description:
       "Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. ",
-    tags: ["Python", "Module", "Data-Mining", "Automated-Testing"],
+    tags: ["Python", "Web Scraping", "Data Mining"],
   },
   {
     name: "Angular",
@@ -391,7 +363,7 @@ export const projectList = [
       "https://github.com/styleguidist/react-styleguidist/contribute",
     description:
       "React Styleguidist is a component development environment with hot reloaded dev server and a living style guide that you can share with your team. It lists component propTypes and shows live, editable usage examples based on Markdown files.",
-    tags: ["JavaScript", "UI"],
+    tags: ["JavaScript", "React", "Documentation"],
   },
   {
     name: "Flutter",
@@ -400,7 +372,7 @@ export const projectList = [
     projectLink: "https://github.com/flutter/flutter/contribute",
     description:
       "Flutter makes it easy and fast to build beautiful apps for mobile and beyond.",
-    tags: ["Dart", "Android", "iOS", "UI", "Cross-platform"],
+    tags: ["Dart", "Mobile", "Cross Platform"],
   },
   {
     name: "Python Koans",
@@ -408,7 +380,7 @@ export const projectList = [
       "https://s3.amazonaws.com/media-p.slid.es/thumbnails/akoebbe/b35d77/python-koans.jpg",
     projectLink: "https://github.com/gregmalcolm/python_koans/contribute",
     description: 'Python Koans is a port of Edgecase\'s "Ruby Koans".',
-    tags: ["Python", "Exercises", "CLI", "Web App"],
+    tags: ["Python", "Education", "CLI"],
   },
   {
     name: "Scala Exercises",
@@ -417,7 +389,7 @@ export const projectList = [
       "https://github.com/scala-exercises/scala-exercises/contribute",
     description:
       "Scala Exercises is an Open Source project for learning different technologies based in the Scala Programming Language.",
-    tags: ["Scala", "Exercises", "Functional Programming"],
+    tags: ["Scala", "Education", "Functional Programming"],
   },
   {
     name: "CodeWorkout",
@@ -425,7 +397,7 @@ export const projectList = [
     projectLink: "https://github.com/web-cat/code-workout/contribute",
     description:
       "CodeWorkout is an online system for people learning a programming language for the first time. It is a free, open-source solution for practicing small programming problems. Students may practice coding exercises on a variety of programming concepts within the convenience of a web browser!",
-    tags: ["Java", "Ruby", "Python", "Exercises"],
+    tags: ["Java", "Ruby", "Python", "Education"],
   },
   {
     name: "TEAMMATES",
@@ -434,7 +406,7 @@ export const projectList = [
     projectLink: "https://github.com/TEAMMATES/teammates/contribute",
     description:
       "An online feedback management system for students and teachers",
-    tags: ["Java", "Javascript", "HTML", "Web App"],
+    tags: ["Java", "JavaScript", "Web Development"],
   },
   {
     name: "electron",
@@ -442,7 +414,7 @@ export const projectList = [
     projectLink: "https://github.com/electron/electron/contribute",
     description:
       "Build cross platform desktop apps with JavaScript, HTML, and CSS!",
-    tags: ["JavaScript", "Electron", "Css", "Html", "Chrome", "Nodejs", "V8"],
+    tags: ["JavaScript", "Electron", "Desktop", "Cross Platform"],
   },
   {
     name: "Oppia",
@@ -451,7 +423,7 @@ export const projectList = [
     projectLink: "https://github.com/oppia/oppia/contribute",
     description:
       "Oppia is an open-source project whose aim is to empower learners across the globe by providing access to high-quality, engaging education. We envision a society in which access to high-quality education is a human right rather than a privilege.",
-    tags: ["Python", "Typescript", "Angular"],
+    tags: ["Python", "TypeScript", "Angular"],
   },
   {
     name: "Public Lab",

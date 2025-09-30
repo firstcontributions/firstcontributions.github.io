@@ -38,31 +38,107 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   ))}
 </section>
 
-<!-- Client-side JavaScript disabled to preserve server-side rendering -->
+<script>
+  // Get all projects data from the server-rendered content
+  const projectList = Array.from(document.querySelectorAll('.Card-Container')).map(card => {
+    const link = card.querySelector('.Card-Real-Link');
+    const title = card.querySelector('.Card-Title');
+    const description = card.querySelector('.Card-Description p');
+    const tags = Array.from(card.querySelectorAll('.Card-Tag p')).map(tag => tag.textContent);
+    const logo = card.querySelector('.Project-Logo');
+    
+    return {
+      name: title?.textContent || '',
+      projectLink: link?.href || '',
+      description: description?.textContent || '',
+      tags: tags,
+      imageSrc: logo?.src || '',
+      element: card // Keep reference to original element
+    };
+  });
+
+  // Initialize variables
+  let filteredProjects = [...projectList];
+  let searchValue = '';
+  let selectedTags = [];
+
+  // DOM elements
+  const searchInput = document.getElementById('search');
+  const tagSelector = document.getElementById('tag-selector');
+  const projectListContainer = document.getElementById('project-list');
+
+  // Filter projects function
+  function filterProjects() {
+    let filtered = [...projectList];
+
+    // Filter by search term
+    if (searchValue.trim()) {
+      const searchTerm = searchValue.toLowerCase();
+      filtered = filtered.filter(project =>
+        project.name.toLowerCase().includes(searchTerm) ||
+        project.description.toLowerCase().includes(searchTerm) ||
+        (project.tags && project.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+      );
+    }
+
+    // Filter by tags
+    if (selectedTags.length > 0) {
+      filtered = filtered.filter(project =>
+        project.tags && project.tags.some(tag => 
+          selectedTags.includes(tag.toLowerCase())
+        )
+      );
+    }
+
+    filteredProjects = filtered;
+    
+    // Hide/show cards instead of re-rendering
+    projectList.forEach(project => {
+      const isVisible = filteredProjects.includes(project);
+      project.element.style.display = isVisible ? 'block' : 'none';
+    });
+  }
+
+  // Event listeners
+  searchInput.addEventListener('input', (e) => {
+    searchValue = e.target.value;
+    filterProjects();
+  });
+
+  tagSelector.addEventListener('change', (e) => {
+    selectedTags = e.target.value ? [e.target.value] : [];
+    filterProjects();
+  });
+
+  // Initial filter (show all)
+  filterProjects();
+</script>
 
 <style>
   #container {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 4rem;
+    margin: 2rem 0 3rem 0;
+    padding: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
   }
 
   .inputContainer {
     flex: 1;
-    min-width: 200px;
+    min-width: 250px;
   }
 
   #search {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.25rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
     font-size: 1rem;
     backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
   }
 
   #search::placeholder {
@@ -77,13 +153,14 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 
   #tag-selector {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 1rem 1.25rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
+    border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
     font-size: 1rem;
     backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
   }
 
   #tag-selector:focus {
@@ -107,11 +184,24 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   @media (max-width: 768px) {
     #container {
       flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+      margin: 1rem 0 2rem 0;
+    }
+    
+    .inputContainer {
+      min-width: unset;
+    }
+    
+    #search, #tag-selector {
+      padding: 0.875rem 1rem;
+      font-size: 0.95rem;
     }
     
     .containerLayout {
       grid-template-columns: 1fr;
       gap: 1rem;
+      padding: 0 0.5rem;
     }
   }
 </style>
