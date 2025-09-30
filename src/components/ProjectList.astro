@@ -1,0 +1,117 @@
+---
+import ProjectCard from './ProjectCard.astro';
+import { projectList } from '../data/projects.js';
+
+// Get all unique tags for filtering
+const allTags = [...new Set(projectList.flatMap(project => project.tags || []))].sort();
+---
+
+<div id="container">
+  <div class="inputContainer">
+    <input
+      id="search"
+      type="text"
+      name="search"
+      placeholder="Search..."
+      aria-label="Search"
+    />
+  </div>
+  <div id="tag-selector-container" class="inputContainer">
+    <select id="tag-selector" aria-labelledby="tag-selector-container">
+      <option value="">Filter by tags</option>
+      {allTags.map(tag => (
+        <option value={tag.toLowerCase()}>{tag}</option>
+      ))}
+    </select>
+  </div>
+</div>
+
+<section id="project-list" class="containerLayout">
+  {projectList.map((item) => (
+    <ProjectCard
+      name={item.name}
+      logoLink={item.imageSrc}
+      projectLink={item.projectLink}
+      description={item.description}
+      tags={item.tags}
+    />
+  ))}
+</section>
+
+<!-- Client-side JavaScript disabled to preserve server-side rendering -->
+
+<style>
+  #container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .inputContainer {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  #search {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    backdrop-filter: blur(10px);
+  }
+
+  #search::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  #search:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+  }
+
+  #tag-selector {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    backdrop-filter: blur(10px);
+  }
+
+  #tag-selector:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+  }
+
+  #tag-selector option {
+    background: #1a1a1a;
+    color: white;
+  }
+
+  .containerLayout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  @media (max-width: 768px) {
+    #container {
+      flex-direction: column;
+    }
+    
+    .containerLayout {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+</style>

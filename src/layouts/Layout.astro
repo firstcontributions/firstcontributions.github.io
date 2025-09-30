@@ -1,11 +1,33 @@
+---
+export interface Props {
+	title?: string;
+	description?: string;
+}
+
+const { title = "First Contributions", description = "Make your first open source contribution in 5 minutes" } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<meta name="description" content={description} />
+		<title>{title}</title>
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://firstcontributions.github.io/" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://firstcontributions.github.io/" />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
 	</head>
 	<body>
 		<slot />
@@ -18,5 +40,14 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		background-color: #0a0a0a;
+		color: white;
+	}
+	
+	* {
+		box-sizing: border-box;
 	}
 </style>
