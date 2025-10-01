@@ -1,5 +1,41 @@
 export const projectList = [
   {
+    name: "activist.org",
+    imageSrc:
+      "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
+    projectLink: "https://github.com/activist-org/activist",
+    description: "Open-source, nonprofit activism platform",
+    loadIssues: true,
+    tags: [
+      "Nuxt",
+      "Vue",
+      "Activism",
+      "Good First Issue",
+      "Javascript",
+      "TypeScript",
+      "Django",
+      "Python",
+    ],
+  },
+  {
+    name: "CircuitVerse",
+    imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
+    projectLink: "https://github.com/CircuitVerse/CircuitVerse",
+    description:
+      "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
+    loadIssues: true,
+    tags: ["HTML", "CSS", "Sass", "JavaScript", "Ruby on Rails"],
+  },
+  {
+    name: "Opensourcedesign",
+    imageSrc: "https://avatars3.githubusercontent.com/u/4183553?s=200&v=4",
+    projectLink:
+      "https://github.com/opensourcedesign/opensourcedesign.github.io/contribute",
+    description: "Source code of the website opensourcedesign.net",
+    loadIssues: true,
+    tags: ["design", "opensourcedesign", "open-source", "open-source-design"],
+  },
+  {
     name: "appsmith",
     imageSrc:
       "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
@@ -51,14 +87,6 @@ export const projectList = [
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
     tags: ["CSS", "Sass", "SCSS", "Less", "Stylus"],
-  },
-  {
-    name: "CircuitVerse",
-    imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
-    projectLink: "https://github.com/CircuitVerse",
-    description:
-      "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
-    tags: ["HTML", "CSS", "Sass", "JavaScript", "Ruby on Rails"],
   },
   {
     name: "MoveIt",
@@ -653,14 +681,6 @@ export const projectList = [
     description:
       "A JavaScript framework for creating ambitious web applications",
     tags: ["ember", "javascript", "javascript-framework"],
-  },
-  {
-    name: "Opensourcedesign",
-    imageSrc: "https://avatars3.githubusercontent.com/u/4183553?s=200&v=4",
-    projectLink:
-      "https://github.com/opensourcedesign/opensourcedesign.github.io/contribute",
-    description: "Source code of the website opensourcedesign.net",
-    tags: ["design", "opensourcedesign", "open-source", "open-source-design"],
   },
   {
     name: "ifme",
@@ -1330,23 +1350,6 @@ export const projectList = [
       "plotting",
       "hacktoberfest",
       "wx",
-    ],
-  },
-  {
-    name: "activist.org",
-    imageSrc:
-      "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
-    projectLink: "https://github.com/activist-org/activist",
-    description: "Open-source, nonprofit activism platform",
-    tags: [
-      "Nuxt",
-      "Vue",
-      "Activism",
-      "Good First Issue",
-      "Javascript",
-      "TypeScript",
-      "Django",
-      "Python",
     ],
   },
   {

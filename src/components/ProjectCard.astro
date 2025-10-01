@@ -5,9 +5,10 @@ export interface Props {
   name: string;
   description: string;
   tags?: string[];
+  loadIssues?: boolean;
 }
 
-const { projectLink, logoLink, name, description, tags = [] } = Astro.props;
+const { projectLink, logoLink, name, description, tags = [], loadIssues = false } = Astro.props;
 ---
 
 <div class="Card-Container">
@@ -34,6 +35,15 @@ const { projectLink, logoLink, name, description, tags = [] } = Astro.props;
       <div class="Card-Description">
         <p>{description}</p>
       </div>
+      {loadIssues && (
+        <div class="Card-Issues" id={`issues-${name.replace(/\s+/g, '-').toLowerCase()}`}>
+          <div class="Issues-Skeleton">
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+            <div class="skeleton-line"></div>
+          </div>
+        </div>
+      )}
     </div>
     <div class="Card-Link">Go to Project</div>
   </a>
@@ -47,7 +57,8 @@ const { projectLink, logoLink, name, description, tags = [] } = Astro.props;
     border: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
     transition: all 0.3s ease;
-    height: 100%;
+    height: auto;
+    min-height: 200px;
   }
 
   .Card-Container:hover {
@@ -123,6 +134,102 @@ const { projectLink, logoLink, name, description, tags = [] } = Astro.props;
     margin: 0;
   }
 
+  .Card-Issues {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .Issues-Skeleton {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .skeleton-line {
+    height: 12px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.1) 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+    border-radius: 6px;
+  }
+
+  .skeleton-line:nth-child(1) {
+    width: 100%;
+  }
+
+  .skeleton-line:nth-child(2) {
+    width: 80%;
+  }
+
+  .skeleton-line:nth-child(3) {
+    width: 60%;
+  }
+
+  @keyframes skeleton-loading {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  .Issue-Item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .Issue-Item:last-child {
+    border-bottom: none;
+  }
+
+  .Issue-Title {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 0.25rem 0;
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .Issue-Link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .Issue-Link:hover {
+    color: #a5b4fc;
+  }
+
+  .Issue-Labels {
+    display: flex;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+    margin-top: 0.25rem;
+  }
+
+  .Issue-Label {
+    font-size: 0.7rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+
+  .Issue-Label.good-first-issue {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+  }
+
+  .Issue-Label.help-wanted {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+  }
+
   .Card-Link {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -151,3 +258,94 @@ const { projectLink, logoLink, name, description, tags = [] } = Astro.props;
     }
   }
 </style>
+
+{loadIssues && (
+  <script>
+    // Extract repository info from project link
+    const projectLink = '{projectLink}';
+    const projectName = '{name}';
+    const issuesContainerId = `issues-${projectName.replace(/\s+/g, '-').toLowerCase()}`;
+    
+    // Extract owner/repo from GitHub URL
+    function extractRepoInfo(url) {
+      const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)/);
+      if (match) {
+        return {
+          owner: match[1],
+          repo: match[2].replace(/\/$/, '') // Remove trailing slash
+        };
+      }
+      return null;
+    }
+    
+    // Fetch issues from GitHub API
+    async function fetchIssues(owner, repo) {
+      try {
+        const labels = ['good-first-issue', 'help-wanted'];
+        const promises = labels.map(label => 
+          fetch(`https://api.github.com/repos/${owner}/${repo}/issues?labels=${label}&state=open&per_page=10`)
+            .then(res => res.json())
+            .catch(() => [])
+        );
+        
+        const [goodFirstIssues, helpWantedIssues] = await Promise.all(promises);
+        
+        // Combine and prioritize good-first-issue
+        const allIssues = [
+          ...goodFirstIssues.map(issue => ({ ...issue, priority: 'good-first-issue' })),
+          ...helpWantedIssues.map(issue => ({ ...issue, priority: 'help-wanted' }))
+        ];
+        
+        // Remove duplicates and sort by priority
+        const uniqueIssues = allIssues.filter((issue, index, self) => 
+          index === self.findIndex(i => i.id === issue.id)
+        );
+        
+        // Sort: good-first-issue first, then help-wanted
+        uniqueIssues.sort((a, b) => {
+          if (a.priority === 'good-first-issue' && b.priority !== 'good-first-issue') return -1;
+          if (a.priority !== 'good-first-issue' && b.priority === 'good-first-issue') return 1;
+          return 0;
+        });
+        
+        return uniqueIssues.slice(0, 3); // Show only 3 issues
+      } catch (error) {
+        console.error('Error fetching issues:', error);
+        return [];
+      }
+    }
+    
+    // Render issues in the container
+    function renderIssues(issues, containerId) {
+      const container = document.getElementById(containerId);
+      if (!container) return;
+      
+      if (issues.length === 0) {
+        container.innerHTML = '<div class="no-issues">No issues found</div>';
+        return;
+      }
+      
+      const issuesHTML = issues.map(issue => `
+        <div class="Issue-Item">
+          <a href="${issue.html_url}" target="_blank" class="Issue-Link">
+            <div class="Issue-Title">${issue.title}</div>
+            <div class="Issue-Labels">
+              <span class="Issue-Label ${issue.priority}">${issue.priority}</span>
+            </div>
+          </a>
+        </div>
+      `).join('');
+      
+      container.innerHTML = issuesHTML;
+    }
+    
+    // Initialize issue loading
+    document.addEventListener('DOMContentLoaded', async () => {
+      const repoInfo = extractRepoInfo(projectLink);
+      if (repoInfo) {
+        const issues = await fetchIssues(repoInfo.owner, repoInfo.repo);
+        renderIssues(issues, issuesContainerId);
+      }
+    });
+  </script>
+)}
