@@ -15,3 +15,6 @@ build
 npm-debug.log
 package-lock.json
 yarn-error.log
+
+# astro build
+dist
