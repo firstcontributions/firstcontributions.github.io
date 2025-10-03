@@ -32,32 +32,53 @@ async function fetchIssues(owner: string, repo: string) {
       headers['Authorization'] = `Bearer ${githubToken}`;
     }
     
-    // Try a single request with both labels first
-    const labels = 'good first issue,help wanted';
-    const encodedLabels = encodeURIComponent(labels);
-    const url = `https://api.github.com/repos/${owner}/${repo}/issues?labels=${encodedLabels}&state=open&per_page=10&sort=updated`;
+    // Try multiple requests for different label combinations
+    const labelCombinations = [
+      'good first issue,help wanted',  // Both labels
+      'good first issue',              // Just good first issue
+      'help wanted'                    // Just help wanted
+    ];
     
-    const response = await fetch(url, { headers });
+    let allIssues: any[] = [];
     
-    if (response.status === 403) {
-      return [];
-    }
-    
-    if (!response.ok) {
-      if (response.status === 404) {
+    for (const labels of labelCombinations) {
+      const encodedLabels = encodeURIComponent(labels);
+      const url = `https://api.github.com/repos/${owner}/${repo}/issues?labels=${encodedLabels}&state=open&per_page=10&sort=updated`;
+      
+      const response = await fetch(url, { headers });
+      
+      if (response.status === 403) {
         return [];
       }
-      throw new Error(`GitHub API responded with status: ${response.status}`);
+      
+      if (!response.ok) {
+        if (response.status === 404) {
+          continue; // Try next combination
+        }
+        continue; // Try next combination
+      }
+      
+      const issues = await response.json();
+      
+      allIssues = [...allIssues, ...issues];
+      
+      // If we found issues, break to avoid duplicates
+      if (issues.length > 0) {
+        break;
+      }
     }
     
-    const issues = await response.json();
+    // Remove duplicates based on issue number
+    const uniqueIssues = allIssues.filter((issue, index, self) => 
+      index === self.findIndex(i => i.number === issue.number)
+    );
     
-    if (issues.length === 0) {
+    if (uniqueIssues.length === 0) {
       return [];
     }
     
     // Process and prioritize issues
-    const processedIssues = issues.map((issue: any) => {
+    const processedIssues = uniqueIssues.map((issue: any) => {
       const hasGoodFirstIssue = issue.labels.some((label: any) => 
         label.name.toLowerCase().includes('good first issue') ||
         label.name.toLowerCase().includes('good-first-issue')
@@ -94,7 +115,6 @@ if (repoInfo) {
 <div class="Card-Issues">
   <div class="Issues-Header">
     <h4 class="Issues-Title">Open Issues</h4>
-    <span class="Issues-Count">{issues.length}</span>
   </div>
   
   {issues.length > 0 ? (
@@ -120,9 +140,9 @@ if (repoInfo) {
     </div>
   ) : (
     <div class="no-issues">
-      <div class="no-issues-icon">🔍</div>
-      <div class="no-issues-text">No issues found</div>
-      <div class="no-issues-subtext">Try checking back later</div>
+      <div class="no-issues-icon">🎉</div>
+      <div class="no-issues-text">No beginner-friendly issues</div>
+      <div class="no-issues-subtext">All good first issues and help wanted tasks are currently taken! Check back later for new opportunities.</div>
     </div>
   )}
 </div>

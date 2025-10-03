@@ -36,6 +36,24 @@ export const projectList = [
     tags: ["design", "opensourcedesign", "open-source", "open-source-design"],
   },
   {
+    name: "Open Source Diversity",
+    imageSrc: "https://avatars1.githubusercontent.com/u/31018274?s=200&v=4",
+    projectLink:
+      "https://github.com/opensourcediversity/opensourcediversity.org/contribute",
+    description:
+      "For more diversity & inclusion in free & open source software communities 😊",
+    tags: [
+      "javascript",
+      "html",
+      "css",
+      "diversity",
+      "inclusion",
+      "🎉",
+      "web",
+      "community",
+    ],
+  },
+  {
     name: "appsmith",
     imageSrc:
       "https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_white.png",
@@ -278,21 +296,6 @@ export const projectList = [
     tags: ["Python", "Linting", "Code Quality"],
   },
   {
-    name: "Moment",
-    imageSrc: "https://avatars2.githubusercontent.com/u/4129662?v=3&s=100",
-    projectLink: "https://github.com/moment/moment/contribute",
-    description:
-      "Parse, validate, manipulate, and display dates in JavaScript.",
-    tags: ["JavaScript", "Date", "Library"],
-  },
-  {
-    name: "Leiningen",
-    imageSrc: "https://leiningen.org/img/leiningen.jpg",
-    projectLink: "https://github.com/technomancy/leiningen/contribute",
-    description: "Automate Clojure projects without setting your hair on fire.",
-    tags: ["Clojure", "Build Tool", "Automation"],
-  },
-  {
     name: "Webpack",
     imageSrc: "https://avatars3.githubusercontent.com/u/2105791?v=3&s=100",
     projectLink: "https://github.com/webpack/webpack/contribute",
@@ -320,14 +323,6 @@ export const projectList = [
     projectLink: "https://github.com/neovim/neovim/contribute",
     description: "Vim-fork focused on extensibility and usability.",
     tags: ["Vim", "Editor", "Cross Platform"],
-  },
-  {
-    name: "Hoodie",
-    imageSrc:
-      "https://hoodiehq.github.io/hoodie-css/src/content_img/animals/low-profile-dog-1.png",
-    projectLink: "https://github.com/hoodiehq/hoodie/contribute",
-    description: "The Offline First JavaScript Backend.",
-    tags: ["JavaScript", "Node.js", "Web Development"],
   },
   {
     name: "freeCodeCamp",
