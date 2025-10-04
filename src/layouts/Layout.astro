@@ -2,9 +2,20 @@
 export interface Props {
 	title?: string;
 	description?: string;
+	keywords?: string;
+	image?: string;
+	url?: string;
+	type?: string;
 }
 
-const { title = "First Contributions", description = "Make your first open source contribution in 5 minutes" } = Astro.props;
+const { 
+	title = "First Contributions - Make Your First Open Source Contribution in 5 Minutes", 
+	description = "Learn how to make your first open source contribution in just 5 minutes. Step-by-step guide for beginners with beginner-friendly projects and resources.",
+	keywords = "open source, github, contribute to open source, beginner programmer, first contribution, git, pull request, coding, software development, programming, learn to code",
+	image = "https://firstcontributions.github.io/og-image.svg",
+	url = "https://firstcontributions.github.io/",
+	type = "website"
+} = Astro.props;
 ---
 
 <!doctype html>
@@ -26,21 +37,74 @@ const { title = "First Contributions", description = "Make your first open sourc
 		<meta name="msapplication-TileImage" content="/mstile-150x150.png" />
 		<meta name="theme-color" content="#667eea" />
 		
+		<!-- Web App Manifest -->
+		<link rel="manifest" href="/manifest.json" />
+		
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
+		<meta name="keywords" content={keywords} />
+		<meta name="author" content="First Contributions" />
+		<meta name="robots" content="index, follow" />
 		<title>{title}</title>
 		
+		<!-- Canonical URL -->
+		<link rel="canonical" href={url} />
+		
 		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://firstcontributions.github.io/" />
+		<meta property="og:type" content={type} />
+		<meta property="og:url" content={url} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="First Contributions" />
 		
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content="https://firstcontributions.github.io/" />
+		<meta property="twitter:url" content={url} />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content={image} />
+		<meta property="twitter:creator" content="@firstcontrib" />
+		<meta property="twitter:site" content="@firstcontrib" />
+		
+		<!-- Structured Data / Schema.org -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "First Contributions",
+			"description": "Learn how to make your first open source contribution in just 5 minutes. Step-by-step guide for beginners with beginner-friendly projects and resources.",
+			"url": "https://firstcontributions.github.io/",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://firstcontributions.github.io/?q={search_term_string}",
+				"query-input": "required name=search_term_string"
+			},
+			"publisher": {
+				"@type": "Organization",
+				"name": "First Contributions",
+				"url": "https://firstcontributions.github.io/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://firstcontributions.github.io/favicon.svg"
+				}
+			},
+			"mainEntity": {
+				"@type": "EducationalResource",
+				"name": "How to Make Your First Open Source Contribution",
+				"description": "A comprehensive guide for beginners to start contributing to open source projects",
+				"educationalLevel": "beginner",
+				"learningResourceType": "tutorial",
+				"teaches": ["Git", "GitHub", "Open Source", "Programming", "Software Development"],
+				"audience": {
+					"@type": "EducationalAudience",
+					"educationalRole": "student"
+				}
+			}
+		}
+		</script>
 	</head>
 	<body>
 		<slot />
