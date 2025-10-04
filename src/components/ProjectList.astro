@@ -28,16 +28,14 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 
 <section id="project-list" class="containerLayout">
   {projectList.map((item) => (
-    <div class="masonry-item">
-      <ProjectCard
-        name={item.name}
-        logoLink={item.imageSrc}
-        projectLink={item.projectLink}
-        description={item.description}
-        tags={item.tags}
-        loadIssues={item.loadIssues}
-      />
-    </div>
+    <ProjectCard
+      name={item.name}
+      logoLink={item.imageSrc}
+      projectLink={item.projectLink}
+      description={item.description}
+      tags={item.tags}
+      loadIssues={item.loadIssues}
+    />
   ))}
 </section>
 
@@ -116,51 +114,8 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   // Initial filter (show all)
   filterProjects();
 
-  // Masonry layout function
-  function initMasonry() {
-    const container = document.getElementById('project-list');
-    const items = Array.from(container.querySelectorAll('.masonry-item'));
-    
-    if (items.length === 0) return;
-    
-    // Reset positioning
-    items.forEach(item => {
-      item.style.position = 'absolute';
-      item.style.top = '0';
-      item.style.left = '0';
-    });
-    
-    // Calculate positions
-    const containerWidth = container.offsetWidth;
-    const gap = 24; // 1.5rem = 24px
-    const itemWidth = (containerWidth - 2 * gap) / 3; // 3 columns
-    
-    const columns = [0, 0, 0]; // Track height of each column
-    
-    items.forEach((item, index) => {
-      const columnIndex = index % 3; // Fill by rows (0, 1, 2, 0, 1, 2...)
-      const x = columnIndex * (itemWidth + gap);
-      const y = columns[columnIndex];
-      
-      item.style.position = 'absolute';
-      item.style.left = x + 'px';
-      item.style.top = y + 'px';
-      item.style.width = itemWidth + 'px';
-      
-      // Update column height
-      columns[columnIndex] += item.offsetHeight + gap;
-    });
-    
-    // Set container height
-    container.style.height = Math.max(...columns) + 'px';
-  }
-  
-  // Initialize masonry on load and resize
-  window.addEventListener('load', initMasonry);
-  window.addEventListener('resize', initMasonry);
-  
-  // Re-initialize masonry after issues load
-  setTimeout(initMasonry, 2000); // Wait for issues to load
+  // No JavaScript needed for masonry layout anymore!
+  // CSS Grid handles the masonry layout automatically
 </script>
 
 <style>
@@ -224,15 +179,12 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   }
 
   .containerLayout {
-    position: relative;
+    columns: 3;
+    column-gap: 1.5rem;
     padding: 2rem 1rem;
+    break-inside: avoid;
   }
 
-  .masonry-item {
-    position: absolute;
-    width: calc(33.333% - 1rem);
-    min-width: 300px;
-  }
 
   @media (max-width: 768px) {
     #container {
@@ -252,15 +204,10 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     }
     
     .containerLayout {
+      columns: 1;
+      column-gap: 1rem;
       padding: 1rem 0.5rem;
     }
 
-    .masonry-item {
-      position: relative !important;
-      width: 100% !important;
-      min-width: unset !important;
-      top: auto !important;
-      left: auto !important;
-    }
   }
 </style>
