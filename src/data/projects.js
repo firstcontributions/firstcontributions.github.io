@@ -288,14 +288,6 @@ export const projectList = [
     tags: ["PowerShell", "Shell", "Cross Platform"],
   },
   {
-    name: "Coala",
-    imageSrc: "https://avatars2.githubusercontent.com/u/10620750?v=3&s=100",
-    projectLink: "https://coala.io/newcomer",
-    description:
-      "Unified command-line interface for linting and fixing all your code.",
-    tags: ["Python", "Linting", "Code Quality"],
-  },
-  {
     name: "Webpack",
     imageSrc: "https://avatars3.githubusercontent.com/u/2105791?v=3&s=100",
     projectLink: "https://github.com/webpack/webpack/contribute",
