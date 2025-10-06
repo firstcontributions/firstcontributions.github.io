@@ -37,8 +37,8 @@ import SocialShare from './SocialShare.astro';
   }
 
   .App-header a {
-    text-decoration: unset;
-    color: unset;
+    text-decoration: none;
+    color: inherit;
   }
 
   .App-header > h1 {
@@ -50,10 +50,24 @@ import SocialShare from './SocialShare.astro';
   }
 
   .App-header > h1 span {
-    background: linear-gradient(to right, #60a5fa, #1d4ed8);
+    background: linear-gradient(90deg, #60a5fa, #1d4ed8, #60a5fa);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    animation: gradientShift 4s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 
   @media (max-width: 700px) {
