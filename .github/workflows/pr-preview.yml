@@ -12,9 +12,10 @@ on:
 concurrency: preview-${{ github.ref }}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+  pull-requests: write
 
 jobs:
   deploy-preview:
