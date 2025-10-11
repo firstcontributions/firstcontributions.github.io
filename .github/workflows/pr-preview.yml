@@ -11,6 +11,11 @@ on:
 
 concurrency: preview-${{ github.ref }}
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
