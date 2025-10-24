@@ -417,7 +417,7 @@ export const projectList = [
   {
     name: "TEAMMATES",
     imageSrc:
-      "https://www.google-melange.com/archive/gsoc/2015/orgs/teammates/logo-200.png",
+      "https://avatars.githubusercontent.com/u/7374810?v=4",
     projectLink: "https://github.com/TEAMMATES/teammates/contribute",
     description:
       "An online feedback management system for students and teachers",
