@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://firstcontributions.github.io/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
