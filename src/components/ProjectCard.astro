@@ -14,7 +14,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+ 
     <div class="Card-Header">
       <img
         class="Project-Logo"
@@ -41,10 +41,11 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
-      <span>Go to Project</span>
-    </div>
-  </a>
+    <a class="Card-Real-Link" href={projectLink} target="_blank">
+      <div class="Card-Link">
+        <span>Go to Project 1</span>
+      </div>
+    </a>
 </div>
 
 <style>
