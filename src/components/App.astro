@@ -5,8 +5,14 @@ import ProjectList from './ProjectList.astro';
 import SocialShare from './SocialShare.astro';
 ---
 
-<div class="App">
+<div class="App" id="app">
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" onclick="toggleTheme()">
+    Toggle
+  </button>
+
   <Navbar />
+
   <div class="App-header">
     <h1>
       Make your first <br/> 
@@ -16,24 +22,80 @@ import SocialShare from './SocialShare.astro';
       <br/> in 5 minutes
     </h1>
   </div>
+
   <LinkButton />
   <ProjectList />
   <SocialShare />
 </div>
 
+<script>
+  const app = document.getElementById('app');
+  const toggleBtn = document.querySelector('.theme-toggle');
+
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    app.setAttribute('data-theme', savedTheme);
+    toggleBtn.textContent =
+      savedTheme === 'dark' ? 'Dark' : 'Light';
+  }
+
+  function toggleTheme() {
+    const currentTheme =
+      app.getAttribute('data-theme') || 'dark';
+
+    const nextTheme =
+      currentTheme === 'dark' ? 'light' : 'dark';
+
+    app.setAttribute('data-theme', nextTheme);
+    localStorage.setItem('theme', nextTheme);
+    toggleBtn.textContent =
+      nextTheme === 'dark' ? 'Dark' : 'Light';
+  }
+</script>
+
 <style>
   .App {
-    background-color: #0a0a0a;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    --bg-color: #0a0a0a;
+    --text-color: #ffffff;
+    --accent: #60a5fa;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .App[data-theme="light"] {
+    --bg-color: #f9fafb;
+    --text-color: #111827;
+    --accent: #2563eb;
+  }
+
+  .theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    background: transparent;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .theme-toggle:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
   }
 
   .App-header {
     padding: 20px;
-    color: white;
   }
 
   .App-header a {
@@ -43,38 +105,33 @@ import SocialShare from './SocialShare.astro';
 
   .App-header > h1 {
     font-size: 5.1rem;
-    letter-spacing: -0.05em;
     font-weight: 700;
-    margin: 0 0 20px 0;
+    letter-spacing: -0.05em;
     line-height: 1.2;
   }
 
   .App-header > h1 span {
-    background: linear-gradient(90deg, #60a5fa, #1d4ed8, #60a5fa);
+    background: linear-gradient(
+      90deg,
+      var(--accent),
+      #1d4ed8,
+      var(--accent)
+    );
     background-size: 200% 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     animation: gradientShift 4s ease infinite;
   }
 
   @keyframes gradientShift {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 
   @media (max-width: 700px) {
     .App-header > h1 {
       font-size: 3.1rem;
-      letter-spacing: -0.05em;
-      font-weight: 700;
     }
   }
 
