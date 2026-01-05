@@ -14,18 +14,24 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
-    <div class="Card-Header">
-      <img
-        class="Project-Logo"
-        alt="the framework or language that the project is build upon"
-        src={logoLink}
-        onerror="this.src='/default.png'"
-        width="60"
-        height="60"
-      />
-      <p class="Card-Title">{name}</p>
-    </div>
+  {/* FIX: Changed from <a> to <div>. This acts as the layout wrapper but is not a link itself. */}
+  <div class="Card-Real-Link">
+    
+    {/* FIX: Wrapped the Header in its own specific link */}
+    <a href={projectLink} target="_blank" class="Card-Header-Link">
+      <div class="Card-Header">
+        <img
+          class="Project-Logo"
+          alt="the framework or language that the project is build upon"
+          src={logoLink}
+          onerror="this.src='/default.png'"
+          width="60"
+          height="60"
+        />
+        <p class="Card-Title">{name}</p>
+      </div>
+    </a>
+
     <div class="Card-Body">
       <div class="Card-Tag">
         {tags.map((tag) => (
@@ -37,17 +43,29 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
       <div class="Card-Description">
         <p>{description}</p>
       </div>
+      
+      {/* Issues load here safely now because they are not inside another <a> tag */}
       {loadIssues && (
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
+
+    {/* FIX: Changed the Button container from <div> to <a> so it is clickable */}
+    <a class="Card-Link" href={projectLink} target="_blank">
       <span>Go to Project</span>
-    </div>
-  </a>
+    </a>
+
+  </div>
 </div>
 
 <style>
+  /* FIX: Added this class to ensure the Header link has no underline/color change */
+  .Card-Header-Link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
   .Card-Container {
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(20px);
@@ -87,6 +105,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
   }
 
   .Card-Real-Link {
+    /* Kept this class for layout, but it is applied to a <div> now */
     display: block;
     text-decoration: none;
     color: inherit;
@@ -155,7 +174,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     margin: 0;
   }
 
-
+  /* This class is now applied to an <a> tag */
   .Card-Link {
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
     backdrop-filter: blur(20px);
@@ -170,6 +189,8 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    text-decoration: none; /* FIX: Added to remove underline from the button link */
+    display: block; /* FIX: Added to ensure it behaves like a block inside the flex container */
   }
 
   .Card-Link::before {
@@ -219,4 +240,3 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     }
   }
 </style>
-
