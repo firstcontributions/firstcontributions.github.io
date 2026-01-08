@@ -26,6 +26,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
       />
       <p class="Card-Title">{name}</p>
     </div>
+    </a>
     <div class="Card-Body">
       <div class="Card-Tag">
         {tags.map((tag) => (
@@ -41,10 +42,9 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
-      <span>Go to Project</span>
-    </div>
-  </a>
+   <a class="Card-Link" href={projectLink} target="_blank" style="text-decoration: none;"> 
+   <span>Go to Project</span>
+    </a>
 </div>
 
 <style>
@@ -59,7 +59,8 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     height: auto;
     min-height: 200px;
     margin-bottom: 1.5rem;
-    position: relative;
+    display:flex;
+    flex-direction:column;
   }
 
   .Card-Container::before {
@@ -157,6 +158,9 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 
 
   .Card-Link {
+    display:block;
+    width:100%;
+    text-align:center;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
