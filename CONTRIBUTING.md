@@ -33,7 +33,9 @@ Then install the required Dependencies using:
 ```
  yarn install
 ```
-
+```
+NAzia Samreen
+````````````
 *If you run into a dependencies issue, try removing `node_modules`.*
 
 After installation, run:
