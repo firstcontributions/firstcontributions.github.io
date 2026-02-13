@@ -1001,7 +1001,7 @@ export const projectList = [
     imageSrc:
       "https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png",
     projectLink: "https://github.com/mattermost/mattermost-server/contribute",
-    description: "Open source Slack-alternative for DevOps teams",
+    description: "Open source-alternative for DevOps teams",
     tags: ["Go", "Javascript", "React", "React Native"],
   },
   {
