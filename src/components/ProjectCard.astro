@@ -13,7 +13,7 @@ export interface Props {
 const { projectLink, logoLink, name, description, tags = [], loadIssues = false } = Astro.props;
 ---
 
-<div class="Card-Container">
+<div class="Card-Link">
   <a class="Card-Real-Link" href={projectLink} target="_blank">
     <div class="Card-Header">
       <img
@@ -44,7 +44,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     <div class="Card-Link">
       <span>Go to Project</span>
     </div>
-  </a>
+  
 </div>
 
 <style>
