@@ -14,7 +14,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+  <div class="Card-Real-Link">
     <div class="Card-Header">
       <img
         class="Project-Logo"
@@ -41,10 +41,10 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
+    <a class="Card-Link" href={projectLink} target="_blank" rel="noopener noreferrer">
       <span>Go to Project</span>
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <style>
@@ -157,6 +157,9 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 
 
   .Card-Link {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
