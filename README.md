@@ -60,3 +60,5 @@ pnpm build
 - **TypeScript**: Type safety
 - **GitHub API**: Live issue data
 - **CSS**: Modern styling with glassmorphism effects
+
+Contributed by Sneha 🚀
