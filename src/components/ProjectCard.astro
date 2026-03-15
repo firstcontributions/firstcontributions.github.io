@@ -14,7 +14,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+  <div class="Card-Real-Content">
     <div class="Card-Header">
       <img
         class="Project-Logo"
@@ -41,10 +41,10 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
+    <a class="Card-Link" href={projectLink} target="_blank" rel="noopener noreferrer">
       <span>Go to Project</span>
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <style>
@@ -86,15 +86,13 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     background: rgba(255, 255, 255, 0.12);
   }
 
-  .Card-Real-Link {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    height: 100%;
+  .Card-Real-Content {
     display: flex;
     flex-direction: column;
+    height: 100%;
     position: relative;
     z-index: 1;
+    color: inherit;
   }
 
   .Card-Header {
@@ -170,6 +168,8 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    display: block;
   }
 
   .Card-Link::before {
