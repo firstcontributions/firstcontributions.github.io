@@ -4,17 +4,23 @@ A website to help people make their first open source contribution.
 
 ## Features
 
-- **Project Discovery**: Browse open source projects suitable for beginners
-- **Issue Integration**: View "good first issue" and "help wanted" issues directly from GitHub
-- **Bento Layout**: Modern, responsive card layout with varying heights
-- **Real-time Data**: Fetches live issue data from GitHub repositories
+* **Project Discovery**: Explore beginner-friendly open source projects
+* **Issue Integration**: View "good first issue" and "help wanted" issues directly from GitHub
+* **Bento Layout**: Modern, responsive card layout with varying heights
+* **Real-time Data**: Fetches live issue data from GitHub repositories
+
+## How It Works
+
+* The application fetches repositories suitable for beginners
+* It retrieves "good first issue" and "help wanted" issues using the GitHub API
+* Displays them in a responsive bento-style layout
 
 ## Setup
 
 ### Prerequisites
 
-- Node.js 18+
-- npm or pnpm
+* Node.js 18+
+* npm or pnpm
 
 ### Installation
 
@@ -29,7 +35,7 @@ pnpm install
 To enable live issue fetching, you'll need a GitHub Personal Access Token:
 
 1. Go to [GitHub Settings > Personal Access Tokens](https://github.com/settings/tokens)
-2. Generate a new token (no special permissions needed)
+2. Generate a new token (no special permissions required for public repositories)
 3. Create a `.env` file in the project root:
 
 ```env
@@ -56,7 +62,20 @@ pnpm build
 
 ## Tech Stack
 
-- **Astro**: Static site generator
-- **TypeScript**: Type safety
-- **GitHub API**: Live issue data
-- **CSS**: Modern styling with glassmorphism effects
+* **Astro**: Static site generator
+* **TypeScript**: Type safety
+* **GitHub API**: Live issue data
+* **CSS**: Modern styling with glassmorphism effects
+
+## Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+## Screenshots
+
+(Add screenshots of the UI here)
