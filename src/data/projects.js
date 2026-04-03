@@ -18,6 +18,15 @@ export const projectList = [
     ],
   },
   {
+    name: "Focus Blocker",
+    imageSrc:
+      "https://raw.githubusercontent.com/afnan0304/FocusBlocker/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+    projectLink: "https://github.com/afnan0304/focusblocker",
+    description: "Can't focus - Keep the distractors away only on your android. Android based app to block distracting apps from stealing your time and monitor your usage and limit it to a certain time.",
+    loadIssues: false,
+    tags: ["Kotlin"],
+  },
+  {
     name: "CircuitVerse",
     imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse/CircuitVerse",
