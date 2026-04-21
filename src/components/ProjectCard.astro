@@ -14,37 +14,37 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
-    <div class="Card-Header">
-      <img
-        class="Project-Logo"
-        alt="the framework or language that the project is build upon"
-        src={logoLink}
-        onerror="this.src='/default.png'"
-        width="60"
-        height="60"
-      />
-      <p class="Card-Title">{name}</p>
+  <div class="Card-Header">
+    <img
+      class="Project-Logo"
+      alt="the framework or language that the project is build upon"
+      src={logoLink}
+      onerror="this.src='/default.png'"
+      width="60"
+      height="60"
+    />
+    <p class="Card-Title">{name}</p>
+  </div>
+  <div class="Card-Body">
+    <div class="Card-Tag">
+      {tags.map((tag) => (
+        <div key={tag}>
+          <p>{tag}</p>
+        </div>
+      ))}
     </div>
-    <div class="Card-Body">
-      <div class="Card-Tag">
-        {tags.map((tag) => (
-          <div key={tag}>
-            <p>{tag}</p>
-          </div>
-        ))}
-      </div>
-      <div class="Card-Description">
-        <p>{description}</p>
-      </div>
-      {loadIssues && (
-        <IssueList projectLink={projectLink} projectName={name} />
-      )}
+    <div class="Card-Description">
+      <p>{description}</p>
     </div>
-    <div class="Card-Link">
+    {loadIssues && (
+      <IssueList projectLink={projectLink} projectName={name} />
+    )}
+  </div>
+  <div class="Card-Link">
+    <a href={projectLink} target="_blank">
       <span>Go to Project</span>
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <style>
@@ -170,6 +170,13 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+  }
+  .Card-Link a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
   }
 
   .Card-Link::before {
