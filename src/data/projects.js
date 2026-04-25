@@ -5,7 +5,7 @@ export const projectList = [
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
     projectLink: "https://github.com/activist-org/activist",
     description: "Open-source, nonprofit activism platform",
-    loadIssues: true,
+    loadIssues: false,
     tags: [
       "Nuxt",
       "Vue",
@@ -23,23 +23,23 @@ export const projectList = [
     projectLink: "https://github.com/CircuitVerse/CircuitVerse",
     description:
       "CircuitVerse is a free, open-source platform which allows users to construct digital logic circuits online. We also offer the Interactive Book which teaches users on the fundamentals of modern, digital circuits.",
-    loadIssues: true,
+    loadIssues: false,
     tags: ["HTML", "CSS", "Sass", "JavaScript", "Ruby on Rails"],
   },
   {
     name: "Opensourcedesign",
     imageSrc: "https://avatars3.githubusercontent.com/u/4183553?s=200&v=4",
     projectLink:
-      "https://github.com/opensourcedesign/opensourcedesign.github.io/contribute",
+      "https://github.com/opensourcedesign/opensourcedesign.github.io",
     description: "Source code of the website opensourcedesign.net",
-    loadIssues: true,
+    loadIssues: false,
     tags: ["design", "opensourcedesign", "open-source", "open-source-design"],
   },
   {
     name: "Open Source Diversity",
     imageSrc: "https://avatars1.githubusercontent.com/u/31018274?s=200&v=4",
     projectLink:
-      "https://github.com/opensourcediversity/opensourcediversity.org/contribute",
+      "https://github.com/opensourcediversity/opensourcediversity.org",
     description:
       "For more diversity & inclusion in free & open source software communities 😊",
     tags: [
