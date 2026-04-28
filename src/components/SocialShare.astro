@@ -52,9 +52,10 @@
 
   #social-share h2 {
     font-size: 2rem;
-    color: white;
+    color: var(--text-primary);
     margin-bottom: 2rem;
     font-weight: 600;
+    transition: color 0.3s ease;
   }
 
   #social-shares-container {
@@ -74,9 +75,21 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-decoration: none;
-    color: white;
+    color: var(--text-primary);
     transition: all 0.3s ease;
     min-width: 200px;
+  }
+
+  :global(.dark) .social-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  :global:not(.dark) .social-card {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: black;
   }
 
   .social-card:hover {

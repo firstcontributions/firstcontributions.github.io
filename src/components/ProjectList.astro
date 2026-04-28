@@ -139,14 +139,30 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
-    color: white;
+    color: var(--text-primary);
     font-size: 1rem;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
   }
 
+  :global(.dark) #search {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  :global:not(.dark) #search {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+
   #search::placeholder {
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  :global:not(.dark) #search::placeholder {
+    color: rgba(0, 0, 0, 0.4);
   }
 
   #search:focus {
@@ -161,21 +177,32 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
-    color: white;
+    color: var(--text-primary);
     font-size: 1rem;
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
   }
 
-  #tag-selector:focus {
-    outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+  :global(.dark) #tag-selector {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  :global:not(.dark) #tag-selector {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: black;
   }
 
   #tag-selector option {
     background: #1a1a1a;
     color: white;
+  }
+
+  :global:not(.dark) #tag-selector option {
+    background: white;
+    color: black;
   }
 
   .containerLayout {

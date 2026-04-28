@@ -60,6 +60,20 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     min-height: 200px;
     margin-bottom: 1.5rem;
     position: relative;
+    color: var(--text-primary);
+  }
+
+  :global(.dark) .Card-Container {
+    background: rgba(31, 41, 55, 0.6);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  :global(.dark) .Card-Container:hover {
+    background: rgba(31, 41, 55, 0.8);
+  }
+
+  :global:not(.dark) .Card-Container {
+    color: #000;
   }
 
   .Card-Container::before {
@@ -101,6 +115,15 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     padding: 1.5rem 1.5rem 1rem;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: border-color 0.3s ease;
+  }
+
+  :global(.dark) .Card-Header {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  :global:not(.dark) .Card-Header {
+    border-bottom-color: rgba(0, 0, 0, 0.1);
   }
 
   .Project-Logo {
@@ -116,7 +139,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
   .Card-Title {
     font-size: 1.2rem;
     font-weight: 600;
-    color: white;
+    color: var(--text-primary);
     margin: 0;
   }
 
@@ -140,7 +163,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     padding: 0.25rem 0.5rem;
     border-radius: 12px;
     font-size: 0.8rem;
-    margin: 0;
+    margin:var(--text-secondary
     border: 1px solid rgba(102, 126, 234, 0.3);
   }
 

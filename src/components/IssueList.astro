@@ -152,6 +152,15 @@ if (repoInfo) {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    transition: border-color 0.3s ease;
+  }
+
+  :global(.dark) .Card-Issues {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  :global:not(.dark) .Card-Issues {
+    border-top-color: rgba(0, 0, 0, 0.1);
   }
 
   .Issues-Header {
@@ -164,7 +173,7 @@ if (repoInfo) {
   .Issues-Title {
     font-size: 0.9rem;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
     margin: 0;
   }
 
@@ -193,26 +202,26 @@ if (repoInfo) {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     text-decoration: none;
-    color: inherit;
+    color: var(--text-primary);
     transition: all 0.2s ease;
     gap: 0.75rem;
+  }
+
+  :global(.dark) .Issue-Card {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  :global:not(.dark) .Issue-Card {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.1);
   }
 
   .Issue-Card:hover {
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(102, 126, 234, 0.3);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
-
-  .Issue-Content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .Issue-Title {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.95);
+    box-shavar(--text-primary);
     margin: 0 0 0.5rem 0;
     line-height: 1.4;
     display: -webkit-box;
@@ -226,6 +235,25 @@ if (repoInfo) {
     display: flex;
     gap: 0.75rem;
     align-items: center;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+  }
+
+  .Issue-Number {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.125rem 0.375rem;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    transition: background-color 0.3s ease;
+  }
+
+  :global(.dark) .Issue-Number {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  :global:not(.dark) .Issue-Number {
+    background: rgba(0, 0, 0, 0.1)er;
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.6);
   }
@@ -264,25 +292,14 @@ if (repoInfo) {
   }
 
   .Issue-Label.help-wanted {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
-    color: #60a5fa;
-    border: 1px solid rgba(59, 130, 246, 0.3);
-    box-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
-  }
-
-  .no-issues {
-    text-align: center;
-    padding: 2rem 1rem;
-    color: rgba(255, 255, 255, 0.6);
-  }
-
-  .no-issues-icon {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-    opacity: 0.7;
+    backgrovar(--text-secondary);
   }
 
   .no-issues-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary)t {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 0.25rem;
