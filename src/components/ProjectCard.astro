@@ -14,18 +14,20 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
-    <div class="Card-Header">
-      <img
-        class="Project-Logo"
-        alt="the framework or language that the project is build upon"
-        src={logoLink}
-        onerror="this.src='/default.png'"
-        width="60"
-        height="60"
-      />
-      <p class="Card-Title">{name}</p>
-    </div>
+  <div class="Card-Content">
+    <a class="Card-Header-Link" href={projectLink} target="_blank">
+      <div class="Card-Header">
+        <img
+          class="Project-Logo"
+          alt="the framework or language that the project is build upon"
+          src={logoLink}
+          onerror="this.src='/default.png'"
+          width="60"
+          height="60"
+        />
+        <p class="Card-Title">{name}</p>
+      </div>
+    </a>
     <div class="Card-Body">
       <div class="Card-Tag">
         {tags.map((tag) => (
@@ -41,10 +43,10 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
+    <a class="Card-Link" href={projectLink} target="_blank">
       <span>Go to Project</span>
-    </div>
-  </a>
+    </a>
+  </div>
 </div>
 
 <style>
@@ -86,15 +88,23 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     background: rgba(255, 255, 255, 0.12);
   }
 
-  .Card-Real-Link {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    height: 100%;
+  .Card-Content {
     display: flex;
     flex-direction: column;
+    height: 100%;
     position: relative;
     z-index: 1;
+  }
+
+  .Card-Header-Link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: opacity 0.2s ease;
+  }
+
+  .Card-Header-Link:hover {
+    opacity: 0.9;
   }
 
   .Card-Header {
@@ -170,6 +180,9 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
   }
 
   .Card-Link::before {
