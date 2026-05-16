@@ -615,15 +615,6 @@ export const projectList = [
     tags: ["Proxy Server", "Python", "REST API"],
   },
   {
-    name: "Allenai",
-    imageSrc:
-      "https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png",
-    projectLink: "https://github.com/allenai/allennlp/contribute",
-    description:
-      "conducts high-impact research and engineering to tackle key problems in artificial intelligence.",
-    tags: ["Artificial Intelligence", "Python", "NLP"],
-  },
-  {
     name: "Qute Browser",
     imageSrc: "https://avatars1.githubusercontent.com/u/21955151?s=200&v=4",
     projectLink: "https://github.com/qutebrowser/qutebrowser/contribute",
@@ -675,15 +666,6 @@ export const projectList = [
     projectLink: "https://github.com/ifmeorg/ifme",
     description: "A community for mental health experiences",
     tags: ["ruby-on-rails", "javascript", "react"],
-  },
-  {
-    name: "Rebus",
-    imageSrc:
-      "https://raw.githubusercontent.com/ollelauribostrom/rebus/master/logo.png",
-    projectLink: "https://github.com/ollelauribostrom/rebus/contribute",
-    description:
-      "Helping new developers take their first steps as open source contributors by developing a simple rebus game together",
-    tags: ["javascript", "html", "css", "tutorial"],
   },
   {
     name: "PRoot",
@@ -1005,23 +987,6 @@ export const projectList = [
     tags: ["Go", "Javascript", "React", "React Native"],
   },
   {
-    name: "Leapcode",
-    imageSrc: "https://avatars1.githubusercontent.com/u/66108516?s=200&v=4",
-    projectLink: "https://github.com/Leapcode-Open/leapcode-frontend/issues",
-    description:
-      "Leapcode is an online community & platform that motivates and rewards first-time open source contributors to get started.",
-    tags: ["Javascript", "React", "Gatsby"],
-  },
-  {
-    name: "Markdown Dungeon",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines",
-    description:
-      "This is an example that how to use Markdown creating a dungeon.",
-    tags: ["Markdown", "React", "Gatsby", "Good First Issue", "Beginner"],
-  },
-  {
     name: "Ansible",
     imageSrc: "https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
     projectLink: "https://docs.ansible.com/ansible/latest/community/index.html",
@@ -1037,13 +1002,6 @@ export const projectList = [
     description:
       "Lets Git started in the world of opensource, starting in the Zero To Mastery opensource playground. Especially designed for education and practical experience purposes.",
     tags: ["Markdown", "Beginner"],
-  },
-  {
-    name: "CSS-Art",
-    imageSrc: "https://avatars2.githubusercontent.com/u/35373879?s=200&v=4",
-    projectLink: "https://github.com/zero-to-mastery/CSS-Art#instructions",
-    description: "General Edition - A CSS art challenge, for all skill levels.",
-    tags: ["CSS", "HTML", "Javascript", "Beginner"],
   },
   {
     name: "Chat-e2ee",
@@ -1095,22 +1053,6 @@ export const projectList = [
     tags: ["Shell", "Python", "HTML", "Ruby", "Puppet"],
   },
   {
-    name: "DSA",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink: "https://github.com/MakeContributions/DSA",
-    description: "Data structure and Algorithm (DSA) contributions",
-    tags: [
-      "OpenSource",
-      "Javascript",
-      "C#",
-      "C",
-      "C++",
-      "Python",
-      "Beginner",
-      "DSA",
-    ],
-  },
-  {
     name: "Jest",
     imageSrc:
       "https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png",
@@ -1153,15 +1095,6 @@ export const projectList = [
     description:
       "Jigsaw is an incubator within Google that uses technology to address geopolitical issues.",
     tags: ["Go", "TypeScript", "c", "Shell", "Python"],
-  },
-  {
-    name: "Idea Hub",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/ideahub#contribution-guidelines",
-    description:
-      "A collection of ideas and projects that contain from beginner to advanced 🎯🚀",
-    tags: ["Hub", "ideas", "Project List", "Good First Issue", "Beginner"],
   },
   {
     name: "Simple Icons",
