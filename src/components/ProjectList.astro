@@ -22,7 +22,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
       type="text"
       name="search"
       placeholder="Search..."
-      aria-label="Search"
+      aria-label="Search projects"
     />
   </div>
   <div id="tag-selector-container" class="inputContainer">
@@ -36,7 +36,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
       <path d="M7 12h10"></path>
       <path d="M10 19h4"></path>
     </svg>
-    <select id="tag-selector" aria-labelledby="tag-selector-container">
+    <select id="tag-selector" aria-label="Filter projects by tag">
       <option value="">Filter by tags</option>
       {allTags.map(tag => (
         <option value={tag.toLowerCase()}>{tag}</option>
