@@ -1438,6 +1438,21 @@ export const projectList = [
     tags: ["Go", "Static Site Generator", "Web"],
   },
   {
+    name: "Responsively App",
+    imageSrc: "https://avatars.githubusercontent.com/u/69102126?s=200&v=4",
+    projectLink: "https://github.com/responsively-org/responsively-app/contribute",
+    description:
+      "A modified web browser that helps developers build responsive web apps faster.",
+    tags: [
+      "TypeScript",
+      "React",
+      "Electron",
+      "Developer Tools",
+      "Responsive Web Design",
+      "Good First Issue",
+    ],
+  },
+  {
     name: "Mattermost",
     imageSrc: "https://avatars.githubusercontent.com/u/9131861?s=200&v=4",
     projectLink: "https://github.com/mattermost/mattermost",
