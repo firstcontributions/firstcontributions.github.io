@@ -1,4 +1,10 @@
 ---
+const title = "How to Contribute to Open Source: A Complete Guide for Beginners";
+const description =
+  "Learn how to contribute to open source with this beginner-friendly guide. Discover the benefits, steps, and best practices for making your first contribution.";
+const pageUrl = "https://firstcontributions.github.io/contribute-to-opensource";
+const imageUrl = "https://firstcontributions.github.io/og-image.svg";
+const iconUrl = "https://firstcontributions.github.io/favicon.svg";
 ---
 
 <html>
@@ -8,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>
-    How to Contribute to Open Source: A Complete Guide for Beginners
+    {title}
   </title>
   <meta
     name="title"
-    content="How to Contribute to Open Source: A Complete Guide for Beginners"
+    content={title}
   />
   <meta
     name="description"
-    content="Learn how to contribute to open source with this beginner-friendly guide. Discover the benefits, steps, and best practices for making your first contribution."
+    content={description}
   />
   <meta name="author" content="sudo !!" />
   <meta
@@ -27,51 +33,51 @@
   <meta property="og:type" content="article" />
   <meta
     property="og:url"
-    content="https://firstcontributions.github.io/contribute-to-opensource"
+    content={pageUrl}
   />
   <meta
     property="og:title"
-    content="How to Contribute to Open Source: A Complete Guide for Beginners"
+    content={title}
   />
   <meta
     property="og:description"
-    content="Learn how to contribute to open source with this beginner-friendly guide. Discover the benefits, steps, and best practices for making your first contribution."
+    content={description}
   />
   <meta
     property="og:image"
-    content="https://firstcontributions.github.io/assets/preview-image.jpg"
+    content={imageUrl}
   />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta
     property="twitter:url"
-    content="https://firstcontributions.github.io/contribute-to-opensource"
+    content={pageUrl}
   />
   <meta
     property="twitter:title"
-    content="How to Contribute to Open Source: A Complete Guide for Beginners"
+    content={title}
   />
   <meta
     name="twitter:description"
-    content="Learn how to contribute to open source with this beginner-friendly guide. Discover the benefits, steps, and best practices for making your first contribution."
+    content={description}
   />
   <meta
     property="twitter:image"
-    content="https://firstcontributions.github.io/assets/preview-image.jpg"
+    content={imageUrl}
   />
 
   <!-- Canonical URL -->
-  <meta
+  <link
     rel="canonical"
-    href="https://firstcontributions.github.io/contribute-to-opensource"
+    href={pageUrl}
   />
 
   <!-- Favicon -->
   <link
     rel="icon"
-    type="image/png"
-    href="https://firstcontributions.github.io/assets/first-contributions-logo.svg"
+    type="image/svg+xml"
+    href={iconUrl}
   />
   <link
     rel="stylesheet"
@@ -84,8 +90,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "How to Contribute to Open Source: A Complete Guide for Beginners",
-      "description": "Learn how to start contributing to open source projects with this comprehensive guide. Perfect for beginners, including step-by-step instructions, best practices, and expert tips.Learn how to contribute to open source with this beginner-friendly guide. Discover the benefits, steps, and best practices for making your first contribution.",
-      "image": "https://firstcontributions.github.io/assets/preview-image.jpg",
+      "description": "Learn how to start contributing to open source projects with this comprehensive guide. Perfect for beginners, including step-by-step instructions, best practices, and expert tips.",
+      "image": "https://firstcontributions.github.io/og-image.svg",
       "author": {
         "@type": "Person",
         "name": "sudo !!"
@@ -95,7 +101,7 @@
         "name": "First contributions",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://firstcontributions.github.io/assets/first-contributions-logo.svg"
+          "url": "https://firstcontributions.github.io/favicon.svg"
         }
       },
       "datePublished": "2025-02-01",
