@@ -131,7 +131,7 @@ if (repoInfo) {
             </div>
           </div>
           <div class="Issue-Labels">
-            <span class="Issue-Label {issue.priority === 'good first issue' ? 'good-first-issue' : 'help-wanted'}">
+            <span class={`Issue-Label ${issue.priority === 'good first issue' ? 'good-first-issue' : 'help-wanted'}`}>
               {issue.priority === 'good first issue' ? 'Good First Issue' : 'Help Wanted'}
             </span>
           </div>
