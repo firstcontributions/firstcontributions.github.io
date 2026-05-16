@@ -8,6 +8,15 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 
 <div id="container">
   <div class="inputContainer">
+    <svg
+      class="inputIcon"
+      aria-hidden="true"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="m16 16 4 4"></path>
+    </svg>
     <input
       id="search"
       type="text"
@@ -17,6 +26,16 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     />
   </div>
   <div id="tag-selector-container" class="inputContainer">
+    <svg
+      class="inputIcon"
+      aria-hidden="true"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path d="M4 5h16"></path>
+      <path d="M7 12h10"></path>
+      <path d="M10 19h4"></path>
+    </svg>
     <select id="tag-selector" aria-labelledby="tag-selector-container">
       <option value="">Filter by tags</option>
       {allTags.map(tag => (
@@ -131,11 +150,29 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   .inputContainer {
     flex: 1;
     min-width: 250px;
+    position: relative;
+  }
+
+  .inputIcon {
+    width: 1.125rem;
+    height: 1.125rem;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.68);
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    pointer-events: none;
+    z-index: 1;
   }
 
   #search {
     width: 100%;
-    padding: 1rem 1.25rem;
+    padding: 1rem 1.25rem 1rem 3rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -157,7 +194,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 
   #tag-selector {
     width: 100%;
-    padding: 1rem 1.25rem;
+    padding: 1rem 1.25rem 1rem 3rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
@@ -198,8 +235,12 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
       min-width: unset;
     }
     
+    .inputIcon {
+      left: 0.875rem;
+    }
+
     #search, #tag-selector {
-      padding: 0.875rem 1rem;
+      padding: 0.875rem 1rem 0.875rem 2.75rem;
       font-size: 0.95rem;
     }
     
