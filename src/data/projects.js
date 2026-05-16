@@ -139,9 +139,8 @@ export const projectList = [
     tags: ["JavaScript", "React", "React Native", "Mobile"],
   },
   {
-    name: "Typescript",
-    imageSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    name: "TypeScript",
+    imageSrc: "https://www.typescriptlang.org/icons/icon-512x512.png",
     projectLink: "https://github.com/microsoft/TypeScript",
     description:
       "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
@@ -1130,8 +1129,7 @@ export const projectList = [
   },
   {
     name: "Codename One",
-    imageSrc:
-      "https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/2353641?v=4",
     projectLink: "https://github.com/codenameone/CodenameOne",
     description:
       "Cross-platform mobile app development framework for Java & Kotlin developers",
