@@ -632,7 +632,7 @@ export const projectList = [
     name: "Hyper",
     imageSrc:
       "https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png",
-    projectLink: "https://github.com/zeit/hyper/contribute",
+    projectLink: "https://github.com/vercel/hyper/contribute",
     description: "A terminal built on web technologies",
     tags: [
       "HTML",
