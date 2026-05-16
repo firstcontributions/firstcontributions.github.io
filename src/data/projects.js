@@ -282,7 +282,7 @@ export const projectList = [
   {
     name: "PowerShell",
     imageSrc: "https://avatars0.githubusercontent.com/u/11524380?v=3&s=100",
-    projectLink: "https://github.com/powershell/powershell/contribute",
+    projectLink: "https://github.com/PowerShell/PowerShell/contribute",
     description: "PowerShell for every system.",
     tags: ["PowerShell", "Shell", "Cross Platform"],
   },
@@ -348,7 +348,7 @@ export const projectList = [
   {
     name: "Visual Studio Code",
     imageSrc: "https://www.svgrepo.com/show/452129/vs-code.svg",
-    projectLink: "https://github.com/Microsoft/vscode/contribute",
+    projectLink: "https://github.com/microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     tags: ["TypeScript", "Editor", "Electron"],
@@ -647,7 +647,7 @@ export const projectList = [
   {
     name: "Kap",
     imageSrc: "https://avatars3.githubusercontent.com/u/16321113?s=200&v=4",
-    projectLink: "https://github.com/wulkano/kap/contribute",
+    projectLink: "https://github.com/wulkano/Kap/contribute",
     description: "An open-source screen recorder built with web technology",
     tags: ["electron", "javascript", "mac", "oss", "screencast"],
   },
@@ -1020,8 +1020,8 @@ export const projectList = [
   {
     name: "Jest",
     imageSrc:
-      "https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png",
-    projectLink: "https://github.com/facebook/jest/contribute",
+      "https://raw.githubusercontent.com/jestjs/jest/main/website/static/img/jest-readme-headline.png",
+    projectLink: "https://github.com/jestjs/jest/contribute",
     description: "Delightful JavaScript Testing",
     tags: [
       "OpenSource",
