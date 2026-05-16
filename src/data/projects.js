@@ -371,6 +371,15 @@ export const projectList = [
     tags: ["Angular", "TypeScript", "JavaScript"],
   },
   {
+    name: "Storybook",
+    imageSrc: "https://avatars.githubusercontent.com/u/22632046?v=4",
+    projectLink: "https://github.com/storybookjs/storybook/contribute",
+    description:
+      "Storybook is a workshop for building, documenting, and testing UI components in isolation.",
+    loadIssues: true,
+    tags: ["TypeScript", "JavaScript", "UI", "Components", "Documentation"],
+  },
+  {
     name: "React Styleguidist",
     imageSrc:
       "https://d3vv6lp55qjaqc.cloudfront.net/items/061f0A2n1B0H3p0T1p1f/react-styleguidist-logo.png",
@@ -1401,6 +1410,15 @@ export const projectList = [
       "Tracing",
       "Typescript",
     ],
+  },
+  {
+    name: "Grafana",
+    imageSrc: "https://avatars.githubusercontent.com/u/7195757?v=4",
+    projectLink: "https://github.com/grafana/grafana/contribute",
+    description:
+      "Grafana is an open and composable observability platform for visualizing metrics, logs, traces, and dashboards.",
+    loadIssues: true,
+    tags: ["TypeScript", "Go", "Observability", "Monitoring", "Dashboard"],
   },
   {
     name: "MeiliSearch",
