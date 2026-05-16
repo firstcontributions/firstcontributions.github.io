@@ -66,7 +66,7 @@ export const projectList = [
     name: "Hamilton",
     imageSrc:
       "https://github.com/DAGWorks-Inc/hamilton/assets/2328071/feb6abaa-b6d5-4271-a320-0ae4a18d8aa7",
-    projectLink: "https://github.com/dagworks-inc/hamilton",
+    projectLink: "https://github.com/apache/hamilton",
     description:
       "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
     tags: ["Python", "Data Science", "Machine Learning", "ETL", "DAG"],
@@ -101,7 +101,7 @@ export const projectList = [
     name: "Reseter.css",
     imageSrc:
       "https://raw.githubusercontent.com/kkrishguptaa/reseter.css/main/.github/assets/gardevoir.png",
-    projectLink: "https://github.com/resetercss/reseter.css",
+    projectLink: "https://github.com/kkrishguptaa/reseter.css",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
     tags: ["CSS", "Sass", "SCSS", "Less", "Stylus"],
@@ -109,7 +109,7 @@ export const projectList = [
   {
     name: "MoveIt",
     imageSrc: "https://avatars.githubusercontent.com/u/4408844?s=200&v=4",
-    projectLink: "https://github.com/ros-planning/moveit",
+    projectLink: "https://github.com/moveit/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
     tags: ["C++", "Python", "Robotics", "Motion Planning"],
@@ -117,7 +117,7 @@ export const projectList = [
   {
     name: "Jina",
     imageSrc: "https://avatars1.githubusercontent.com/u/60539444?s=200&v=4",
-    projectLink: "https://github.com/jina-ai/jina",
+    projectLink: "https://github.com/jina-ai/serve",
     description:
       "An easier way to build neural search on the cloud. An AI-powered search framework, empowering developers to create cross-/multi-modal search systems",
     tags: ["Python", "Machine Learning", "Deep Learning", "NLP"],
@@ -139,9 +139,8 @@ export const projectList = [
     tags: ["JavaScript", "React", "React Native", "Mobile"],
   },
   {
-    name: "Typescript",
-    imageSrc:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    name: "TypeScript",
+    imageSrc: "https://www.typescriptlang.org/icons/icon-512x512.png",
     projectLink: "https://github.com/microsoft/TypeScript",
     description:
       "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
@@ -283,7 +282,7 @@ export const projectList = [
   {
     name: "PowerShell",
     imageSrc: "https://avatars0.githubusercontent.com/u/11524380?v=3&s=100",
-    projectLink: "https://github.com/powershell/powershell/contribute",
+    projectLink: "https://github.com/PowerShell/PowerShell/contribute",
     description: "PowerShell for every system.",
     tags: ["PowerShell", "Shell", "Cross Platform"],
   },
@@ -303,9 +302,9 @@ export const projectList = [
     tags: ["JavaScript", "Compiler", "Transpiler"],
   },
   {
-    name: "Pouchdb",
+    name: "PouchDB",
     imageSrc: "https://avatars3.githubusercontent.com/u/3406112?v=3&s=100",
-    projectLink: "https://github.com/pouchdb/pouchdb/contribute",
+    projectLink: "https://github.com/apache/pouchdb/contribute",
     description: "A pocket-sized database.",
     tags: ["JavaScript", "Node.js", "Database"],
   },
@@ -349,7 +348,7 @@ export const projectList = [
   {
     name: "Visual Studio Code",
     imageSrc: "https://www.svgrepo.com/show/452129/vs-code.svg",
-    projectLink: "https://github.com/Microsoft/vscode/contribute",
+    projectLink: "https://github.com/microsoft/vscode/contribute",
     description:
       "VS Code is a new type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.",
     tags: ["TypeScript", "Editor", "Electron"],
@@ -570,9 +569,9 @@ export const projectList = [
     tags: ["Rust", "C++", "Ruby", "Python", "Perl", "Shell", "HTML"],
   },
   {
-    name: "Rust Lang Nursery",
+    name: "Rust Clippy",
     imageSrc: "https://avatars2.githubusercontent.com/u/14631425?s=200&v=4",
-    projectLink: "https://github.com/rust-lang-nursery/rust-clippy/contribute",
+    projectLink: "https://github.com/rust-lang/rust-clippy/contribute",
     description:
       "A collection of lints to catch common mistakes and improve your Rust code.",
     tags: ["Rust", "Compiler", "Parser", "Mentors"],
@@ -615,15 +614,6 @@ export const projectList = [
     tags: ["Proxy Server", "Python", "REST API"],
   },
   {
-    name: "Allenai",
-    imageSrc:
-      "https://news.cs.washington.edu/wp-content/uploads/2015/10/AI2-logo-300x300.png",
-    projectLink: "https://github.com/allenai/allennlp/contribute",
-    description:
-      "conducts high-impact research and engineering to tackle key problems in artificial intelligence.",
-    tags: ["Artificial Intelligence", "Python", "NLP"],
-  },
-  {
     name: "Qute Browser",
     imageSrc: "https://avatars1.githubusercontent.com/u/21955151?s=200&v=4",
     projectLink: "https://github.com/qutebrowser/qutebrowser/contribute",
@@ -641,7 +631,7 @@ export const projectList = [
     name: "Hyper",
     imageSrc:
       "https://raw.githubusercontent.com/vercel/hyper/canary/app/static/icon.png",
-    projectLink: "https://github.com/zeit/hyper/contribute",
+    projectLink: "https://github.com/vercel/hyper/contribute",
     description: "A terminal built on web technologies",
     tags: [
       "HTML",
@@ -657,7 +647,7 @@ export const projectList = [
   {
     name: "Kap",
     imageSrc: "https://avatars3.githubusercontent.com/u/16321113?s=200&v=4",
-    projectLink: "https://github.com/wulkano/kap/contribute",
+    projectLink: "https://github.com/wulkano/Kap/contribute",
     description: "An open-source screen recorder built with web technology",
     tags: ["electron", "javascript", "mac", "oss", "screencast"],
   },
@@ -675,15 +665,6 @@ export const projectList = [
     projectLink: "https://github.com/ifmeorg/ifme",
     description: "A community for mental health experiences",
     tags: ["ruby-on-rails", "javascript", "react"],
-  },
-  {
-    name: "Rebus",
-    imageSrc:
-      "https://raw.githubusercontent.com/ollelauribostrom/rebus/master/logo.png",
-    projectLink: "https://github.com/ollelauribostrom/rebus/contribute",
-    description:
-      "Helping new developers take their first steps as open source contributors by developing a simple rebus game together",
-    tags: ["javascript", "html", "css", "tutorial"],
   },
   {
     name: "PRoot",
@@ -722,24 +703,6 @@ export const projectList = [
     ],
   },
   {
-    name: "Open Source Diversity",
-    imageSrc: "https://avatars1.githubusercontent.com/u/31018274?s=200&v=4",
-    projectLink:
-      "https://github.com/opensourcediversity/opensourcediversity.org/contribute",
-    description:
-      "For more diversity & inclusion in free & open source software communities 😊",
-    tags: [
-      "javascript",
-      "html",
-      "css",
-      "diversity",
-      "inclusion",
-      "🎉",
-      "web",
-      "community",
-    ],
-  },
-  {
     name: "Bitcoin",
     imageSrc:
       "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79",
@@ -764,10 +727,10 @@ export const projectList = [
     ],
   },
   {
-    name: "Next",
+    name: "Next.js",
     imageSrc:
       "https://cloud.githubusercontent.com/assets/13041/19686250/971bf7f8-9ac0-11e6-975c-188defd82df1.png",
-    projectLink: "https://github.com/zeit/next.js/contribute",
+    projectLink: "https://github.com/vercel/next.js/contribute",
     description:
       "Next.js is a framework that most notably allows you to write server-rendered React apps easily",
     tags: ["JavaScript", "server-rendering", "node", "nextjs", "react"],
@@ -838,9 +801,9 @@ export const projectList = [
     tags: ["docker", "containers", "go"],
   },
   {
-    name: "ScyllaDb",
+    name: "ScyllaDB",
     imageSrc: "https://avatars1.githubusercontent.com/u/14364730?s=200&v=4",
-    projectLink: "https://github.com/scylladb/scylla",
+    projectLink: "https://github.com/scylladb/scylladb",
     description:
       "NoSQL data store using the seastar framework, compatible with Apache Cassandra",
     tags: ["nosql", "cpp", "cassandra"],
@@ -997,39 +960,6 @@ export const projectList = [
     ],
   },
   {
-    name: "Mattermost",
-    imageSrc:
-      "https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png",
-    projectLink: "https://github.com/mattermost/mattermost-server/contribute",
-    description: "Open source Slack-alternative for DevOps teams",
-    tags: ["Go", "Javascript", "React", "React Native"],
-  },
-  {
-    name: "Leapcode",
-    imageSrc: "https://avatars1.githubusercontent.com/u/66108516?s=200&v=4",
-    projectLink: "https://github.com/Leapcode-Open/leapcode-frontend/issues",
-    description:
-      "Leapcode is an online community & platform that motivates and rewards first-time open source contributors to get started.",
-    tags: ["Javascript", "React", "Gatsby"],
-  },
-  {
-    name: "Markdown Dungeon",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/markdown-dungeon#contribution-guidelines",
-    description:
-      "This is an example that how to use Markdown creating a dungeon.",
-    tags: ["Markdown", "React", "Gatsby", "Good First Issue", "Beginner"],
-  },
-  {
-    name: "Ansible",
-    imageSrc: "https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
-    projectLink: "https://docs.ansible.com/ansible/latest/community/index.html",
-    description:
-      "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
-    tags: ["Python", "Automated-Testingg", "Beginner"],
-  },
-  {
     name: "start-here-guidelines",
     imageSrc: "https://avatars2.githubusercontent.com/u/35373879?s=200&v=4",
     projectLink:
@@ -1037,13 +967,6 @@ export const projectList = [
     description:
       "Lets Git started in the world of opensource, starting in the Zero To Mastery opensource playground. Especially designed for education and practical experience purposes.",
     tags: ["Markdown", "Beginner"],
-  },
-  {
-    name: "CSS-Art",
-    imageSrc: "https://avatars2.githubusercontent.com/u/35373879?s=200&v=4",
-    projectLink: "https://github.com/zero-to-mastery/CSS-Art#instructions",
-    description: "General Edition - A CSS art challenge, for all skill levels.",
-    tags: ["CSS", "HTML", "Javascript", "Beginner"],
   },
   {
     name: "Chat-e2ee",
@@ -1095,26 +1018,10 @@ export const projectList = [
     tags: ["Shell", "Python", "HTML", "Ruby", "Puppet"],
   },
   {
-    name: "DSA",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink: "https://github.com/MakeContributions/DSA",
-    description: "Data structure and Algorithm (DSA) contributions",
-    tags: [
-      "OpenSource",
-      "Javascript",
-      "C#",
-      "C",
-      "C++",
-      "Python",
-      "Beginner",
-      "DSA",
-    ],
-  },
-  {
     name: "Jest",
     imageSrc:
-      "https://raw.githubusercontent.com/facebook/jest/master/website/static/img/jest-readme-headline.png",
-    projectLink: "https://github.com/facebook/jest/contribute",
+      "https://raw.githubusercontent.com/jestjs/jest/main/website/static/img/jest-readme-headline.png",
+    projectLink: "https://github.com/jestjs/jest/contribute",
     description: "Delightful JavaScript Testing",
     tags: [
       "OpenSource",
@@ -1155,15 +1062,6 @@ export const projectList = [
     tags: ["Go", "TypeScript", "c", "Shell", "Python"],
   },
   {
-    name: "Idea Hub",
-    imageSrc: "https://avatars3.githubusercontent.com/u/67384272?v=4",
-    projectLink:
-      "https://github.com/MakeContributions/ideahub#contribution-guidelines",
-    description:
-      "A collection of ideas and projects that contain from beginner to advanced 🎯🚀",
-    tags: ["Hub", "ideas", "Project List", "Good First Issue", "Beginner"],
-  },
-  {
     name: "Simple Icons",
     imageSrc:
       "https://raw.githubusercontent.com/simple-icons/simple-icons-website/master/public/images/og.png",
@@ -1174,8 +1072,8 @@ export const projectList = [
   {
     name: "Eclipse JKube",
     imageSrc:
-      "https://github.com/eclipse/jkube/raw/master/media/JKube-Logo-final-square-color.png",
-    projectLink: "https://github.com/eclipse/jkube",
+      "https://github.com/eclipse-jkube/jkube/raw/master/media/JKube-Logo-final-square-color.png",
+    projectLink: "https://github.com/eclipse-jkube/jkube",
     description:
       "Cloud-Native Java Applications without a hassle, bring your Java applications to Kubernetes",
     tags: [
@@ -1205,8 +1103,7 @@ export const projectList = [
   },
   {
     name: "Codename One",
-    imageSrc:
-      "https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png",
+    imageSrc: "https://avatars.githubusercontent.com/u/2353641?v=4",
     projectLink: "https://github.com/codenameone/CodenameOne",
     description:
       "Cross-platform mobile app development framework for Java & Kotlin developers",
@@ -1266,7 +1163,7 @@ export const projectList = [
     name: "mindsdb",
     imageSrc:
       "https://raw.githubusercontent.com/mindsdb/mindsdb_native/stable/assets/MindsDBColorPurp%403x.png",
-    projectLink: "https://github.com/mindsdb/mindsdb",
+    projectLink: "https://github.com/mindsdb/minds-platform",
     description:
       "MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.",
     tags: [
@@ -1419,7 +1316,7 @@ export const projectList = [
   {
     name: "FastAPI",
     imageSrc: "https://avatars.githubusercontent.com/u/32770743?s=200&v=4",
-    projectLink: "https://github.com/tiangolo/fastapi",
+    projectLink: "https://github.com/fastapi/fastapi",
     description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python.",
     tags: ["Python", "API", "Web Framework", "Async"],
   },
