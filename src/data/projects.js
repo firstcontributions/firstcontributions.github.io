@@ -1458,4 +1458,28 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Bruno",
+    imageSrc: "https://avatars.githubusercontent.com/u/114530840?s=200&v=4",
+    projectLink: "https://github.com/usebruno/bruno",
+    description: "Bruno is an open-source IDE for exploring and testing APIs, built as a lightweight alternative to Postman and Insomnia.",
+    loadIssues: true,
+    tags: ["JavaScript", "TypeScript", "API", "Desktop", "Developer Tools"],
+  },
+  {
+    name: "Open WebUI",
+    imageSrc: "https://avatars.githubusercontent.com/u/158137808?s=200&v=4",
+    projectLink: "https://github.com/open-webui/open-webui",
+    description: "Open WebUI is a user-friendly AI interface for running and extending local or hosted LLM workflows.",
+    loadIssues: true,
+    tags: ["Python", "TypeScript", "AI", "LLM", "Ollama"],
+  },
+  {
+    name: "Strapi",
+    imageSrc: "https://avatars.githubusercontent.com/u/19872173?s=200&v=4",
+    projectLink: "https://github.com/strapi/strapi",
+    description: "Strapi is an open-source headless CMS for building customizable JavaScript and TypeScript APIs.",
+    loadIssues: true,
+    tags: ["JavaScript", "TypeScript", "CMS", "Node.js", "API"],
+  },
 ];
