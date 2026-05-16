@@ -66,7 +66,7 @@ export const projectList = [
     name: "Hamilton",
     imageSrc:
       "https://github.com/DAGWorks-Inc/hamilton/assets/2328071/feb6abaa-b6d5-4271-a320-0ae4a18d8aa7",
-    projectLink: "https://github.com/dagworks-inc/hamilton",
+    projectLink: "https://github.com/apache/hamilton",
     description:
       "Your single tool to express data, ML, and LLM pipelines with simple python functions. Runs anywhere that python runs, E.G. spark, airflow, jupyter, fastapi, etc. Incrementally adoptable. Use Hamilton to build testable, reusable, and self-documenting dataflows with lineage and metadata out of the box.",
     tags: ["Python", "Data Science", "Machine Learning", "ETL", "DAG"],
@@ -101,7 +101,7 @@ export const projectList = [
     name: "Reseter.css",
     imageSrc:
       "https://raw.githubusercontent.com/kkrishguptaa/reseter.css/main/.github/assets/gardevoir.png",
-    projectLink: "https://github.com/resetercss/reseter.css",
+    projectLink: "https://github.com/kkrishguptaa/reseter.css",
     description:
       "Reseter.css is an awesome CSS boilerplate for a website. It is a great tool for any web designer. Reseter.css resets all the premade styles by the browser. It normalizes the browser's stylesheet for a better cross-browser experience.",
     tags: ["CSS", "Sass", "SCSS", "Less", "Stylus"],
@@ -109,7 +109,7 @@ export const projectList = [
   {
     name: "MoveIt",
     imageSrc: "https://avatars.githubusercontent.com/u/4408844?s=200&v=4",
-    projectLink: "https://github.com/ros-planning/moveit",
+    projectLink: "https://github.com/moveit/moveit",
     description:
       "Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.",
     tags: ["C++", "Python", "Robotics", "Motion Planning"],
@@ -117,7 +117,7 @@ export const projectList = [
   {
     name: "Jina",
     imageSrc: "https://avatars1.githubusercontent.com/u/60539444?s=200&v=4",
-    projectLink: "https://github.com/jina-ai/jina",
+    projectLink: "https://github.com/jina-ai/serve",
     description:
       "An easier way to build neural search on the cloud. An AI-powered search framework, empowering developers to create cross-/multi-modal search systems",
     tags: ["Python", "Machine Learning", "Deep Learning", "NLP"],
@@ -303,9 +303,9 @@ export const projectList = [
     tags: ["JavaScript", "Compiler", "Transpiler"],
   },
   {
-    name: "Pouchdb",
+    name: "PouchDB",
     imageSrc: "https://avatars3.githubusercontent.com/u/3406112?v=3&s=100",
-    projectLink: "https://github.com/pouchdb/pouchdb/contribute",
+    projectLink: "https://github.com/apache/pouchdb/contribute",
     description: "A pocket-sized database.",
     tags: ["JavaScript", "Node.js", "Database"],
   },
@@ -570,9 +570,9 @@ export const projectList = [
     tags: ["Rust", "C++", "Ruby", "Python", "Perl", "Shell", "HTML"],
   },
   {
-    name: "Rust Lang Nursery",
+    name: "Rust Clippy",
     imageSrc: "https://avatars2.githubusercontent.com/u/14631425?s=200&v=4",
-    projectLink: "https://github.com/rust-lang-nursery/rust-clippy/contribute",
+    projectLink: "https://github.com/rust-lang/rust-clippy/contribute",
     description:
       "A collection of lints to catch common mistakes and improve your Rust code.",
     tags: ["Rust", "Compiler", "Parser", "Mentors"],
@@ -746,10 +746,10 @@ export const projectList = [
     ],
   },
   {
-    name: "Next",
+    name: "Next.js",
     imageSrc:
       "https://cloud.githubusercontent.com/assets/13041/19686250/971bf7f8-9ac0-11e6-975c-188defd82df1.png",
-    projectLink: "https://github.com/zeit/next.js/contribute",
+    projectLink: "https://github.com/vercel/next.js/contribute",
     description:
       "Next.js is a framework that most notably allows you to write server-rendered React apps easily",
     tags: ["JavaScript", "server-rendering", "node", "nextjs", "react"],
@@ -820,9 +820,9 @@ export const projectList = [
     tags: ["docker", "containers", "go"],
   },
   {
-    name: "ScyllaDb",
+    name: "ScyllaDB",
     imageSrc: "https://avatars1.githubusercontent.com/u/14364730?s=200&v=4",
-    projectLink: "https://github.com/scylladb/scylla",
+    projectLink: "https://github.com/scylladb/scylladb",
     description:
       "NoSQL data store using the seastar framework, compatible with Apache Cassandra",
     tags: ["nosql", "cpp", "cassandra"],
@@ -979,14 +979,6 @@ export const projectList = [
     ],
   },
   {
-    name: "Mattermost",
-    imageSrc:
-      "https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png",
-    projectLink: "https://github.com/mattermost/mattermost-server/contribute",
-    description: "Open source Slack-alternative for DevOps teams",
-    tags: ["Go", "Javascript", "React", "React Native"],
-  },
-  {
     name: "Ansible",
     imageSrc: "https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
     projectLink: "https://docs.ansible.com/ansible/latest/community/index.html",
@@ -1107,8 +1099,8 @@ export const projectList = [
   {
     name: "Eclipse JKube",
     imageSrc:
-      "https://github.com/eclipse/jkube/raw/master/media/JKube-Logo-final-square-color.png",
-    projectLink: "https://github.com/eclipse/jkube",
+      "https://github.com/eclipse-jkube/jkube/raw/master/media/JKube-Logo-final-square-color.png",
+    projectLink: "https://github.com/eclipse-jkube/jkube",
     description:
       "Cloud-Native Java Applications without a hassle, bring your Java applications to Kubernetes",
     tags: [
@@ -1199,7 +1191,7 @@ export const projectList = [
     name: "mindsdb",
     imageSrc:
       "https://raw.githubusercontent.com/mindsdb/mindsdb_native/stable/assets/MindsDBColorPurp%403x.png",
-    projectLink: "https://github.com/mindsdb/mindsdb",
+    projectLink: "https://github.com/mindsdb/minds-platform",
     description:
       "MindsDB is a ML-SQL Server that enables machine learning workflows for the most powerful databases and datawarehouses using SQL.",
     tags: [
@@ -1352,7 +1344,7 @@ export const projectList = [
   {
     name: "FastAPI",
     imageSrc: "https://avatars.githubusercontent.com/u/32770743?s=200&v=4",
-    projectLink: "https://github.com/tiangolo/fastapi",
+    projectLink: "https://github.com/fastapi/fastapi",
     description: "FastAPI is a modern, fast (high-performance), web framework for building APIs with Python.",
     tags: ["Python", "API", "Web Framework", "Async"],
   },
