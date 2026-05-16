@@ -70,6 +70,15 @@ export const projectList = [
     loadIssues: true,
     tags: ["TypeScript", "Backend", "Serverless", "Database", "Auth"],
   },
+  {
+    name: "Supabase",
+    imageSrc: "https://avatars.githubusercontent.com/u/54469796?v=4",
+    projectLink: "https://github.com/supabase/supabase/contribute",
+    description:
+      "A Postgres development platform for building web, mobile, and AI applications with auth, realtime, and storage.",
+    loadIssues: true,
+    tags: ["TypeScript", "Postgres", "Database", "Auth", "Realtime"],
+  },
 
   {
     name: "Hamilton",
@@ -96,6 +105,15 @@ export const projectList = [
       "An open-source API development ecosystem for REST, GraphQL, realtime APIs, desktop, web, and CLI workflows.",
     loadIssues: true,
     tags: ["TypeScript", "Vue", "API", "GraphQL", "Developer Tools"],
+  },
+  {
+    name: "Excalidraw",
+    imageSrc: "https://avatars.githubusercontent.com/u/59452120?v=4",
+    projectLink: "https://github.com/excalidraw/excalidraw/contribute",
+    description:
+      "A virtual whiteboard for sketching hand-drawn-style diagrams and collaborating visually.",
+    loadIssues: true,
+    tags: ["TypeScript", "Canvas", "Collaboration", "Diagrams", "Productivity"],
   },
 
   {
