@@ -22,23 +22,26 @@ where `<github_username>` is your GitHub username.
 Here you're copying the contents of your firstcontributions.github.io repository on GitHub to your computer.
 
 ## Running The Project
-You should have [yarn](https://yarnpkg.com/en/docs/install) and [node](https://nodejs.org/en/download/) to run the project locally.
+You should have [Node.js](https://nodejs.org/en/download/) installed to run the project locally. This project can be run with npm or pnpm.
 
 Change to the repository directory on your computer (if you are not already there):
 ```
 cd firstcontributions.github.io
 ```
 
-Then install the required Dependencies using:
+Then install the required dependencies using:
 ```
- yarn install
+npm install
+# or
+pnpm install
 ```
 
 *If you run into a dependencies issue, try removing `node_modules`.*
 
 After installation, run:
 ```
-yarn start
+npm run dev
+# or
+pnpm dev
 ```
-Now you can open your cloned project at ` http://localhost:3000/
-`
+Now you can open your cloned project at the local URL printed by Astro, usually `http://localhost:4321/`.
