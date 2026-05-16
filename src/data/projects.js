@@ -61,6 +61,15 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Appwrite",
+    imageSrc: "https://avatars.githubusercontent.com/u/25003669?v=4",
+    projectLink: "https://github.com/appwrite/appwrite/contribute",
+    description:
+      "A backend platform for building web, mobile, and AI apps with auth, databases, storage, functions, and realtime APIs.",
+    loadIssues: true,
+    tags: ["TypeScript", "Backend", "Serverless", "Database", "Auth"],
+  },
 
   {
     name: "Hamilton",
@@ -78,6 +87,15 @@ export const projectList = [
     projectLink: "https://github.com/altair-graphql/altair",
     description: "A beautiful feature-rich GraphQL Client for all platforms.",
     tags: ["GraphQL", "React", "TypeScript"],
+  },
+  {
+    name: "Hoppscotch",
+    imageSrc: "https://avatars.githubusercontent.com/u/56705483?v=4",
+    projectLink: "https://github.com/hoppscotch/hoppscotch/contribute",
+    description:
+      "An open-source API development ecosystem for REST, GraphQL, realtime APIs, desktop, web, and CLI workflows.",
+    loadIssues: true,
+    tags: ["TypeScript", "Vue", "API", "GraphQL", "Developer Tools"],
   },
 
   {
