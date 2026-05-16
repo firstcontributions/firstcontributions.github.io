@@ -1453,6 +1453,21 @@ export const projectList = [
     ],
   },
   {
+    name: "Checkmate",
+    imageSrc: "https://avatars.githubusercontent.com/u/165089105?s=200&v=4",
+    projectLink: "https://github.com/bluewave-labs/Checkmate/contribute",
+    description:
+      "An open-source, self-hosted uptime and server monitoring tool with incident tracking.",
+    tags: [
+      "TypeScript",
+      "React",
+      "Monitoring",
+      "Infrastructure",
+      "Self Hosted",
+      "Good First Issue",
+    ],
+  },
+  {
     name: "Mattermost",
     imageSrc: "https://avatars.githubusercontent.com/u/9131861?s=200&v=4",
     projectLink: "https://github.com/mattermost/mattermost",
