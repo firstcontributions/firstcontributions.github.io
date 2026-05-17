@@ -2,8 +2,21 @@
 import ProjectCard from './ProjectCard.astro';
 import { projectList } from '../data/projects.js';
 
-// Get all unique tags for filtering
-const allTags = [...new Set(projectList.flatMap(project => project.tags || []))].sort();
+// Get all unique tags for filtering, ignoring casing so duplicate values share one option
+const tagOptions = projectList
+  .flatMap(project => project.tags || [])
+  .reduce((tags, tag) => {
+    const normalizedTag = tag.toLowerCase();
+
+    if (!tags.has(normalizedTag)) {
+      tags.set(normalizedTag, tag);
+    }
+
+    return tags;
+  }, new Map());
+const allTags = [...tagOptions.values()].sort((firstTag, secondTag) =>
+  firstTag.localeCompare(secondTag, undefined, { sensitivity: 'base' })
+);
 ---
 
 <div id="container">
