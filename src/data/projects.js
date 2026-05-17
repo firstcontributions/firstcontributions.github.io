@@ -72,6 +72,14 @@ export const projectList = [
     tags: ["Python", "Data Science", "Machine Learning", "ETL", "DAG"],
   },
   {
+    name: "Apache Airflow",
+    imageSrc: "https://avatars.githubusercontent.com/u/47359?v=4",
+    projectLink: "https://github.com/apache/airflow/contribute",
+    description:
+      "Apache Airflow is a platform to programmatically author, schedule, and monitor workflows.",
+    tags: ["Python", "Workflow", "Data Engineering", "Automation"],
+  },
+  {
     name: "altair",
     imageSrc:
       "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
