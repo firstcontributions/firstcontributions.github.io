@@ -74,7 +74,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 
     // Filter by search term
     if (searchValue.trim()) {
-      const searchTerm = searchValue.toLowerCase();
+      const searchTerm = searchValue.trim().toLowerCase();
       filtered = filtered.filter(project =>
         project.name.toLowerCase().includes(searchTerm) ||
         project.description.toLowerCase().includes(searchTerm) ||
