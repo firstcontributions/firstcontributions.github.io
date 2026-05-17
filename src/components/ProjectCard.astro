@@ -29,7 +29,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     <div class="Card-Body">
       <div class="Card-Tag">
         {tags.map((tag) => (
-          <div key={tag}>
+          <div>
             <p>{tag}</p>
           </div>
         ))}
@@ -219,4 +219,3 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     }
   }
 </style>
-
