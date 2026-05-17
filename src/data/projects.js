@@ -1458,4 +1458,12 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Open WebUI",
+    imageSrc: "https://avatars.githubusercontent.com/u/158137808?v=4",
+    projectLink: "https://github.com/open-webui/open-webui/contribute",
+    description:
+      "Open WebUI is a user-friendly AI interface for running and managing self-hosted AI workflows.",
+    tags: ["Python", "Svelte", "TypeScript", "AI", "Self Hosted"],
+  },
 ];
