@@ -1403,6 +1403,15 @@ export const projectList = [
     ],
   },
   {
+    name: "Grafana",
+    imageSrc: "https://avatars.githubusercontent.com/u/7195757?s=200&v=4",
+    projectLink: "https://github.com/grafana/grafana",
+    description:
+      "Grafana is an open and composable observability and data visualization platform.",
+    loadIssues: true,
+    tags: ["Go", "TypeScript", "Observability", "Monitoring", "Dashboard"],
+  },
+  {
     name: "MeiliSearch",
     imageSrc: "https://avatars.githubusercontent.com/u/43250847?s=200&v=4",
     projectLink: "https://github.com/meilisearch/meilisearch",
