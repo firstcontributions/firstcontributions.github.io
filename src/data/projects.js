@@ -184,6 +184,13 @@ export const projectList = [
     tags: ["Testing", "JavaScript", "React"],
   },
   {
+    name: "Vitest",
+    imageSrc: "https://avatars.githubusercontent.com/u/95747107?v=4",
+    projectLink: "https://github.com/vitest-dev/vitest/contribute",
+    description: "Vitest is a fast, Vite-powered testing framework for modern JavaScript and TypeScript projects.",
+    tags: ["Testing", "JavaScript", "TypeScript", "Vite"],
+  },
+  {
     name: "Gauge",
     imageSrc:
       "https://avatars3.githubusercontent.com/u/7044589?s=400&u=8d2ce328da30e81978c303fdb31a2a7a1f0328e3&v=4",
