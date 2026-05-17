@@ -236,6 +236,13 @@ export const projectList = [
     tags: ["JavaScript", "HTML", "Node.js", "Template Engine"],
   },
   {
+    name: "Prettier",
+    imageSrc: "https://avatars.githubusercontent.com/u/25822731?v=4",
+    projectLink: "https://github.com/prettier/prettier/contribute",
+    description: "Prettier is an opinionated code formatter for consistent project style.",
+    tags: ["JavaScript", "TypeScript", "Formatting", "Developer Tools"],
+  },
+  {
     name: "Elasticsearch",
     imageSrc: "https://avatars2.githubusercontent.com/u/6764390?v=3&s=100",
     projectLink: "https://github.com/elastic/elasticsearch/contribute",
