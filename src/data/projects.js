@@ -331,6 +331,14 @@ export const projectList = [
     tags: ["JavaScript", "Node.js", "Runtime"],
   },
   {
+    name: "Bun",
+    imageSrc: "https://avatars.githubusercontent.com/u/108928776?v=4",
+    projectLink: "https://github.com/oven-sh/bun/contribute",
+    description:
+      "Bun is an all-in-one JavaScript runtime, bundler, test runner, and package manager.",
+    tags: ["JavaScript", "TypeScript", "Runtime", "Bundler", "Testing"],
+  },
+  {
     name: "Semantic-UI-React",
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
