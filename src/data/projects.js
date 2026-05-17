@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Medusa",
+    imageSrc: "https://avatars.githubusercontent.com/u/62591822?v=4",
+    projectLink: "https://github.com/medusajs/medusa/contribute",
+    description:
+      "Medusa is an open-source commerce platform for building custom digital commerce applications.",
+    tags: ["TypeScript", "Commerce", "Node.js", "API"],
+  },
 
   {
     name: "Hamilton",
