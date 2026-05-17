@@ -1206,7 +1206,7 @@ export const projectList = [
   {
     name: "Codename One",
     imageSrc:
-      "https://www.codenameone.com/wp-content/uploads/2020/08/footer-logo.png",
+      "https://avatars.githubusercontent.com/u/2353641?s=200&v=4",
     projectLink: "https://github.com/codenameone/CodenameOne",
     description:
       "Cross-platform mobile app development framework for Java & Kotlin developers",
