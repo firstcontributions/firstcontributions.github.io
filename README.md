@@ -59,4 +59,4 @@ pnpm build
 - **Astro**: Static site generator
 - **TypeScript**: Type safety
 - **GitHub API**: Live issue data
-- **CSS**: Modern styling with glassmorphism effects
+- **CSS**: Modern styling with glassmorphism and responsive design
