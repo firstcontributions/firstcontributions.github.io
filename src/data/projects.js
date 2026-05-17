@@ -324,6 +324,14 @@ export const projectList = [
     tags: ["JavaScript", "Education", "Web Development"],
   },
   {
+    name: "WordPress Gutenberg",
+    imageSrc: "https://avatars.githubusercontent.com/u/276006?v=4",
+    projectLink: "https://github.com/WordPress/gutenberg/contribute",
+    description:
+      "Gutenberg is the WordPress block editor project for building and publishing web content.",
+    tags: ["JavaScript", "React", "WordPress", "Editor"],
+  },
+  {
     name: "Node.js",
     imageSrc: "https://avatars1.githubusercontent.com/u/9950313?v=3&s=100",
     projectLink: "https://github.com/nodejs/node/contribute",
