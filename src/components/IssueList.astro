@@ -27,76 +27,76 @@ async function fetchIssues(owner: string, repo: string) {
       'Accept': 'application/vnd.github+json',
       'User-Agent': 'FirstContributions'
     };
-    
+
     if (githubToken) {
       headers['Authorization'] = `Bearer ${githubToken}`;
     }
-    
+
     // Try multiple requests for different label combinations
     const labelCombinations = [
       'good first issue,help wanted',  // Both labels
       'good first issue',              // Just good first issue
       'help wanted'                    // Just help wanted
     ];
-    
+
     let allIssues: any[] = [];
-    
+
     for (const labels of labelCombinations) {
       const encodedLabels = encodeURIComponent(labels);
       const url = `https://api.github.com/repos/${owner}/${repo}/issues?labels=${encodedLabels}&state=open&per_page=10&sort=updated`;
-      
+
       const response = await fetch(url, { headers });
-      
+
       if (response.status === 403) {
         return [];
       }
-      
+
       if (!response.ok) {
         if (response.status === 404) {
           continue; // Try next combination
         }
         continue; // Try next combination
       }
-      
+
       const issues = await response.json();
-      
+
       allIssues = [...allIssues, ...issues];
-      
+
       // If we found issues, break to avoid duplicates
       if (issues.length > 0) {
         break;
       }
     }
-    
+
     // Remove duplicates based on issue number
     const uniqueIssues = allIssues.filter((issue, index, self) => 
       index === self.findIndex(i => i.number === issue.number)
     );
-    
+
     if (uniqueIssues.length === 0) {
       return [];
     }
-    
+
     // Process and prioritize issues
     const processedIssues = uniqueIssues.map((issue: any) => {
       const hasGoodFirstIssue = issue.labels.some((label: any) => 
         label.name.toLowerCase().includes('good first issue') ||
         label.name.toLowerCase().includes('good-first-issue')
       );
-      
+
       return {
         ...issue,
         priority: hasGoodFirstIssue ? 'good first issue' : 'help wanted'
       };
     });
-    
+
     // Sort: good first issue first, then help wanted
     processedIssues.sort((a: any, b: any) => {
       if (a.priority === 'good first issue' && b.priority !== 'good first issue') return -1;
       if (a.priority !== 'good first issue' && b.priority === 'good first issue') return 1;
       return 0;
     });
-    
+
     return processedIssues.slice(0, 3); // Show only 3 issues
   } catch (error) {
     return [];
@@ -221,7 +221,7 @@ if (repoInfo) {
     background: rgba(255, 255, 255, 0.08);
     border-color: rgba(102, 126, 234, 0.3);
     transform: translateY(-1px);
-    box-shavar(--text-primary);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     margin: 0 0 0.5rem 0;
     line-height: 1.4;
     display: -webkit-box;
@@ -253,9 +253,9 @@ if (repoInfo) {
   }
 
   :global:not(.dark) .Issue-Number {
-    background: rgba(0, 0, 0, 0.1)er;
+    background: rgba(0, 0, 0, 0.1);
     font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.8);
   }
 
   .Issue-Number {
@@ -292,18 +292,17 @@ if (repoInfo) {
   }
 
   .Issue-Label.help-wanted {
-    backgrovar(--text-secondary);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 2px 4px rgba(59, 130, 246, 0.1);
   }
 
   .no-issues-text {
     font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 0.25rem;
-    color: var(--text-primary)t {
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-primary);
   }
 
   .no-issues-subtext {

@@ -24,13 +24,12 @@
   function initDarkMode() {
     const toggle = document.getElementById('darkModeToggle');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    
+
     // Check localStorage or system preference
     const isDarkMode = localStorage.getItem('darkMode') === 'true' || 
                       (localStorage.getItem('darkMode') === null && prefersDark.matches);
-    
+
     if (isDarkMode) {
-      document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
