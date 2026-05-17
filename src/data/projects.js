@@ -331,6 +331,14 @@ export const projectList = [
     tags: ["JavaScript", "Node.js", "Runtime"],
   },
   {
+    name: "Fastify",
+    imageSrc: "https://avatars.githubusercontent.com/u/24939410?v=4",
+    projectLink: "https://github.com/fastify/fastify/contribute",
+    description:
+      "Fastify is a fast and low-overhead web framework for Node.js.",
+    tags: ["JavaScript", "Node.js", "Web Framework", "API"],
+  },
+  {
     name: "Semantic-UI-React",
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
