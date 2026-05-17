@@ -18,11 +18,13 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     <div class="Card-Header">
       <img
         class="Project-Logo"
-        alt="the framework or language that the project is build upon"
+        alt={`${name} logo`}
         src={logoLink}
         onerror="this.src='/default.png'"
         width="60"
         height="60"
+        loading="lazy"
+        decoding="async"
       />
       <p class="Card-Title">{name}</p>
     </div>
@@ -219,4 +221,3 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     }
   }
 </style>
-
