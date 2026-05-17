@@ -790,6 +790,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Caddy",
+    imageSrc: "https://avatars.githubusercontent.com/u/12955528?v=4",
+    projectLink: "https://github.com/caddyserver/caddy/contribute",
+    description:
+      "Caddy is a fast, extensible web server with automatic HTTPS and modern HTTP support.",
+    tags: ["Go", "HTTP", "Web Server", "Networking"],
+  },
+  {
     name: "Conda",
     imageSrc: "https://avatars.githubusercontent.com/u/6392739?s=200&v=4",
     projectLink: "https://github.com/conda",
