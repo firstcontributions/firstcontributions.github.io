@@ -917,6 +917,14 @@ export const projectList = [
     tags: ["SVG", "CSS", "font"],
   },
   {
+    name: "Excalidraw",
+    imageSrc: "https://avatars.githubusercontent.com/u/59452120?v=4",
+    projectLink: "https://github.com/excalidraw/excalidraw/contribute",
+    description:
+      "Excalidraw is a virtual whiteboard for sketching hand-drawn style diagrams.",
+    tags: ["TypeScript", "React", "Whiteboard", "Diagrams"],
+  },
+  {
     name: "TallyCTF",
     imageSrc:
       "https://raw.githubusercontent.com/CyberNinjas/TallyCTF/master/modules/core/client/img/brand/Tallylogo_1.png",
