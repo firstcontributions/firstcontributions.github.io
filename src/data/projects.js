@@ -443,7 +443,7 @@ export const projectList = [
   {
     name: "Public Lab",
     imageSrc: "https://code.publiclab.org/images/Boots-ground-02.png",
-    projectLink: "https://publiclab.github.io/community-toolbox/#r=all",
+    projectLink: "https://github.com/publiclab/plots2/contribute",
     description:
       "PublicLab.org - a collaborative knowledge-exchange platform in Rails; we welcome first-time contributors! 🎈",
     tags: [
