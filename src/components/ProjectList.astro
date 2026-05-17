@@ -17,7 +17,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     />
   </div>
   <div id="tag-selector-container" class="inputContainer">
-    <select id="tag-selector" aria-labelledby="tag-selector-container">
+    <select id="tag-selector" aria-label="Filter by tags">
       <option value="">Filter by tags</option>
       {allTags.map(tag => (
         <option value={tag.toLowerCase()}>{tag}</option>
