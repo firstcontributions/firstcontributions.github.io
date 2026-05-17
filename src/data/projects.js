@@ -597,14 +597,14 @@ export const projectList = [
     imageSrc: "https://avatars.githubusercontent.com/u/8440965?s=200&v=4",
     projectLink: "https://github.com/bokeh",
     description: "Interactive Data Visualization in the browser, from Python",
-    tags: ["Javascript", "Python", "Jupiter", "visualization"],
+    tags: ["Javascript", "Python", "Jupyter", "visualization"],
   },
   {
     name: "Sugar Labs",
     imageSrc: "https://avatars3.githubusercontent.com/u/3996398?s=280&v=4",
     projectLink: "https://github.com/sugarlabs",
     description: "Learning Software for children.",
-    tags: ["Ubuntu", "Rasberry Pi", "Debian", "Fedora"],
+    tags: ["Ubuntu", "Raspberry Pi", "Debian", "Fedora"],
   },
   {
     name: "Jupyter Hub",
@@ -1027,7 +1027,7 @@ export const projectList = [
     projectLink: "https://docs.ansible.com/ansible/latest/community/index.html",
     description:
       "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
-    tags: ["Python", "Automated-Testingg", "Beginner"],
+    tags: ["Python", "Automated Testing", "Beginner"],
   },
   {
     name: "start-here-guidelines",
