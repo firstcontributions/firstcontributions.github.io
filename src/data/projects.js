@@ -236,6 +236,13 @@ export const projectList = [
     tags: ["JavaScript", "HTML", "Node.js", "Template Engine"],
   },
   {
+    name: "ESLint",
+    imageSrc: "https://avatars.githubusercontent.com/u/6019716?v=4",
+    projectLink: "https://github.com/eslint/eslint/contribute",
+    description: "ESLint helps developers find and fix problems in JavaScript and TypeScript code.",
+    tags: ["JavaScript", "TypeScript", "Linting", "Developer Tools"],
+  },
+  {
     name: "Elasticsearch",
     imageSrc: "https://avatars2.githubusercontent.com/u/6764390?v=3&s=100",
     projectLink: "https://github.com/elastic/elasticsearch/contribute",
