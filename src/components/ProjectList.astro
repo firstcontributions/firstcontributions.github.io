@@ -2,8 +2,19 @@
 import ProjectCard from './ProjectCard.astro';
 import { projectList } from '../data/projects.js';
 
-// Get all unique tags for filtering
-const allTags = [...new Set(projectList.flatMap(project => project.tags || []))].sort();
+// Get all unique tag values for filtering, ignoring capitalization differences.
+const allTags = [
+  ...projectList
+    .flatMap(project => project.tags || [])
+    .reduce((tags, tag) => {
+      const key = tag.toLowerCase();
+      if (!tags.has(key)) {
+        tags.set(key, tag);
+      }
+      return tags;
+    }, new Map<string, string>())
+    .values()
+].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
 ---
 
 <div id="container">
