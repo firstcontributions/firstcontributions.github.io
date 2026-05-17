@@ -432,6 +432,14 @@ export const projectList = [
     tags: ["JavaScript", "Electron", "Desktop", "Cross Platform"],
   },
   {
+    name: "GitHub Desktop",
+    imageSrc: "https://avatars.githubusercontent.com/u/13171334?v=4",
+    projectLink: "https://github.com/desktop/desktop/contribute",
+    description:
+      "GitHub Desktop is an open-source app for working with Git and GitHub from your desktop.",
+    tags: ["TypeScript", "Electron", "Git", "Desktop"],
+  },
+  {
     name: "Oppia",
     imageSrc:
       "https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png",
