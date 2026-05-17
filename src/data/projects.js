@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Strapi",
+    imageSrc: "https://avatars.githubusercontent.com/u/19872173?v=4",
+    projectLink: "https://github.com/strapi/strapi/contribute",
+    description:
+      "Strapi is an open-source headless CMS for building customizable APIs.",
+    tags: ["JavaScript", "CMS", "API", "Node.js"],
+  },
 
   {
     name: "Hamilton",
