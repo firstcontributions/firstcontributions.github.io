@@ -1403,6 +1403,14 @@ export const projectList = [
     ],
   },
   {
+    name: "PostHog",
+    imageSrc: "https://avatars.githubusercontent.com/u/60330232?v=4",
+    projectLink: "https://github.com/PostHog/posthog/contribute",
+    description:
+      "PostHog is an open-source product analytics platform for building better products.",
+    tags: ["Python", "TypeScript", "Analytics", "Product"],
+  },
+  {
     name: "MeiliSearch",
     imageSrc: "https://avatars.githubusercontent.com/u/43250847?s=200&v=4",
     projectLink: "https://github.com/meilisearch/meilisearch",
