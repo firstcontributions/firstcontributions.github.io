@@ -42,15 +42,16 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
 <script>
   // Get all projects data from the server-rendered content
   const projectList = Array.from(document.querySelectorAll('.Card-Container')).map(card => {
-    const link = card.querySelector('.Card-Real-Link');
+    const link = card.querySelector('.Card-Link');
     const title = card.querySelector('.Card-Title');
     const description = card.querySelector('.Card-Description p');
     const tags = Array.from(card.querySelectorAll('.Card-Tag p')).map(tag => tag.textContent);
+    const content = card.querySelector('.Card-Content');
     const logo = card.querySelector('.Project-Logo');
     
     return {
       name: title?.textContent || '',
-      projectLink: link?.href || '',
+      projectLink: link?.href || content?.getAttribute('data-project-link') || '',
       description: description?.textContent || '',
       tags: tags,
       imageSrc: logo?.src || '',
