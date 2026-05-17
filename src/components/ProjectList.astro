@@ -26,6 +26,10 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   </div>
 </div>
 
+<p id="no-project-results" class="no-project-results" role="status" aria-live="polite" hidden>
+  No projects match your search.
+</p>
+
 <section id="project-list" class="containerLayout">
   {projectList.map((item) => (
     <ProjectCard
@@ -67,6 +71,13 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   const searchInput = document.getElementById('search');
   const tagSelector = document.getElementById('tag-selector');
   const projectListContainer = document.getElementById('project-list');
+  const noResultsMessage = document.getElementById('no-project-results');
+
+  const initialSearchValue = new URLSearchParams(window.location.search).get('q')?.trim() || '';
+  if (initialSearchValue) {
+    searchValue = initialSearchValue;
+    searchInput.value = initialSearchValue;
+  }
 
   // Filter projects function
   function filterProjects() {
@@ -92,6 +103,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     }
 
     filteredProjects = filtered;
+    noResultsMessage.hidden = filteredProjects.length > 0;
     
     // Hide/show cards instead of re-rendering
     projectList.forEach(project => {
@@ -183,6 +195,13 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     column-gap: 1.5rem;
     padding: 2rem 1rem;
     break-inside: avoid;
+  }
+
+  .no-project-results {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
   }
 
 
