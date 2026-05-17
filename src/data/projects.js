@@ -139,6 +139,14 @@ export const projectList = [
     tags: ["JavaScript", "React", "React Native", "Mobile"],
   },
   {
+    name: "TanStack Query",
+    imageSrc: "https://avatars.githubusercontent.com/u/72518640?v=4",
+    projectLink: "https://github.com/TanStack/query/contribute",
+    description:
+      "TanStack Query provides powerful asynchronous state management and data fetching utilities for web applications.",
+    tags: ["TypeScript", "JavaScript", "React", "Vue", "Svelte"],
+  },
+  {
     name: "Typescript",
     imageSrc:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
