@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Prisma",
+    imageSrc: "https://avatars.githubusercontent.com/u/17219288?v=4",
+    projectLink: "https://github.com/prisma/prisma/contribute",
+    description:
+      "Prisma is a next-generation ORM for Node.js and TypeScript applications.",
+    tags: ["TypeScript", "Node.js", "Database", "ORM"],
+  },
 
   {
     name: "Hamilton",
