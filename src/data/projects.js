@@ -1078,6 +1078,13 @@ export const projectList = [
     tags: ["OpenSource", "Mariadb", "Mysql", "HTML", "PHP", "Javascript"],
   },
   {
+    name: "DBeaver",
+    imageSrc: "https://avatars.githubusercontent.com/u/34743864?v=4",
+    projectLink: "https://github.com/dbeaver/dbeaver/contribute",
+    description: "DBeaver is a free universal database tool and SQL client.",
+    tags: ["Java", "SQL", "Database", "Desktop"],
+  },
+  {
     name: "Litefy",
     imageSrc:
       "https://raw.githubusercontent.com/mathkruger/litefy/master/src/assets/logo.png",
