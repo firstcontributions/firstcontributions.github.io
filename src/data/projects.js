@@ -523,6 +523,13 @@ export const projectList = [
     tags: ["Javascript", "Shell", "CSS", "HTML", "Rust"],
   },
   {
+    name: "pnpm",
+    imageSrc: "https://avatars.githubusercontent.com/u/21320719?v=4",
+    projectLink: "https://github.com/pnpm/pnpm/contribute",
+    description: "pnpm is a fast, disk space efficient package manager for JavaScript projects.",
+    tags: ["JavaScript", "Package Manager", "Node.js", "CLI"],
+  },
+  {
     name: "openEBS",
     imageSrc: "https://avatars1.githubusercontent.com/u/20769039?s=200&v=4",
     projectLink: "https://github.com/openebs/",
