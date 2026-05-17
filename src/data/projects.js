@@ -1452,6 +1452,14 @@ export const projectList = [
     tags: ["Go", "Infrastructure as Code", "DevOps", "Cloud"],
   },
   {
+    name: "ToolJet",
+    imageSrc: "https://avatars.githubusercontent.com/u/82193554?v=4",
+    projectLink: "https://github.com/ToolJet/ToolJet/contribute",
+    description:
+      "ToolJet is an open-source platform for building internal tools, dashboards, workflows, and AI agents.",
+    tags: ["TypeScript", "JavaScript", "Internal Tools", "Low Code"],
+  },
+  {
     name: "Ansible",
     imageSrc: "https://avatars.githubusercontent.com/u/1507452?s=200&v=4",
     projectLink: "https://github.com/ansible/ansible",
