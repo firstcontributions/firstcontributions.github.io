@@ -1403,6 +1403,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Apache Superset",
+    imageSrc: "https://avatars.githubusercontent.com/u/47359?v=4",
+    projectLink: "https://github.com/apache/superset/contribute",
+    description:
+      "Apache Superset is an open-source data visualization and exploration platform.",
+    tags: ["Python", "Data Visualization", "Analytics", "BI"],
+  },
+  {
     name: "MeiliSearch",
     imageSrc: "https://avatars.githubusercontent.com/u/43250847?s=200&v=4",
     projectLink: "https://github.com/meilisearch/meilisearch",
