@@ -1,5 +1,6 @@
 {
   "name": "firstcontributions webapp",
+  "private": true,
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,6 +8,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
+  },
+  "engines": {
+    "node": "18.20.8 || ^20.3.0 || >=22.0.0"
   },
   "dependencies": {
     "astro": "^5.15.9"
