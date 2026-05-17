@@ -432,6 +432,14 @@ export const projectList = [
     tags: ["JavaScript", "Electron", "Desktop", "Cross Platform"],
   },
   {
+    name: "Tauri",
+    imageSrc: "https://avatars.githubusercontent.com/u/54536011?v=4",
+    projectLink: "https://github.com/tauri-apps/tauri/contribute",
+    description:
+      "Tauri helps developers build smaller, faster, and more secure desktop and mobile apps with web frontends.",
+    tags: ["Rust", "JavaScript", "Desktop", "Mobile", "Cross Platform"],
+  },
+  {
     name: "Oppia",
     imageSrc:
       "https://www.oppia.org/build/assets/images/logo/288x128_logo_mint.42f8d38467fe745205b3374b33668068.png",
