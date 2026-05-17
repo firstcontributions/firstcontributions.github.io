@@ -1431,6 +1431,14 @@ export const projectList = [
     tags: ["C++", "Game Development", "Game Engine", "GDScript"],
   },
   {
+    name: "Jellyfin",
+    imageSrc: "https://avatars.githubusercontent.com/u/45698031?v=4",
+    projectLink: "https://github.com/jellyfin/jellyfin/contribute",
+    description:
+      "Jellyfin is a free software media system for managing and streaming media.",
+    tags: ["C#", "Media Server", "Streaming", "Self Hosted"],
+  },
+  {
     name: "Hugo",
     imageSrc: "https://avatars.githubusercontent.com/u/1048514?s=200&v=4",
     projectLink: "https://github.com/gohugoio/hugo",
