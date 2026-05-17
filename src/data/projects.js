@@ -1445,6 +1445,14 @@ export const projectList = [
     tags: ["Go", "React", "Chat", "Collaboration"],
   },
   {
+    name: "Supabase",
+    imageSrc: "https://avatars.githubusercontent.com/u/54469796?v=4",
+    projectLink: "https://github.com/supabase/supabase/contribute",
+    description:
+      "Supabase is an open source Postgres development platform for building web, mobile, and AI applications.",
+    tags: ["TypeScript", "Postgres", "Database", "Backend", "Cloud"],
+  },
+  {
     name: "Terraform",
     imageSrc: "https://avatars.githubusercontent.com/u/11051457?s=200&v=4",
     projectLink: "https://github.com/hashicorp/terraform",
