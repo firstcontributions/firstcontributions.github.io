@@ -317,6 +317,13 @@ export const projectList = [
     tags: ["Vim", "Editor", "Cross Platform"],
   },
   {
+    name: "Helix",
+    imageSrc: "https://avatars.githubusercontent.com/u/66235900?v=4",
+    projectLink: "https://github.com/helix-editor/helix/contribute",
+    description: "Helix is a post-modern modal text editor focused on powerful editing workflows.",
+    tags: ["Rust", "Editor", "CLI", "Cross Platform"],
+  },
+  {
     name: "freeCodeCamp",
     imageSrc: "https://avatars0.githubusercontent.com/u/9892522?v=3&s=100",
     projectLink: "https://github.com/freeCodeCamp/freeCodeCamp/contribute",
