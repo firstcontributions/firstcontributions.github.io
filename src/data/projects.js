@@ -1403,6 +1403,14 @@ export const projectList = [
     ],
   },
   {
+    name: "OpenTelemetry JavaScript",
+    imageSrc: "https://avatars.githubusercontent.com/u/49998002?v=4",
+    projectLink: "https://github.com/open-telemetry/opentelemetry-js/contribute",
+    description:
+      "OpenTelemetry JavaScript provides observability APIs and SDKs for JavaScript applications.",
+    tags: ["TypeScript", "JavaScript", "Observability", "Telemetry"],
+  },
+  {
     name: "MeiliSearch",
     imageSrc: "https://avatars.githubusercontent.com/u/43250847?s=200&v=4",
     projectLink: "https://github.com/meilisearch/meilisearch",
