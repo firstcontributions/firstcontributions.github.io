@@ -1458,4 +1458,12 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Storybook",
+    imageSrc: "https://avatars.githubusercontent.com/u/22632046?s=200&v=4",
+    projectLink: "https://github.com/storybookjs/storybook",
+    description: "Storybook is a workshop for building, documenting, and testing UI components in isolation.",
+    loadIssues: true,
+    tags: ["JavaScript", "TypeScript", "UI", "Components", "Testing"],
+  },
 ];
