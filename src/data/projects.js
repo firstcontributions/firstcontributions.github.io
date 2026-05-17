@@ -1082,7 +1082,7 @@ export const projectList = [
     imageSrc:
       "https://raw.githubusercontent.com/mathkruger/litefy/master/src/assets/logo.png",
     projectLink: "https://github.com/mathkruger/litefy/contribute",
-    description: "A lighweight Spotify client for low-end devices",
+    description: "A lightweight Spotify client for low-end devices",
     tags: ["OpenSource", "Angular", "HTML", "CSS", "Javascript", "Typescript"],
   },
   {
