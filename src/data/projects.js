@@ -1417,6 +1417,14 @@ export const projectList = [
     tags: ["JavaScript", "TypeScript", "Frontend", "Compiler"],
   },
   {
+    name: "Qwik",
+    imageSrc: "https://avatars.githubusercontent.com/u/138123704?v=4",
+    projectLink: "https://github.com/QwikDev/qwik/contribute",
+    description:
+      "Qwik is a web framework focused on instant loading and resumable applications.",
+    tags: ["TypeScript", "JavaScript", "Frontend", "Web Framework"],
+  },
+  {
     name: "FastAPI",
     imageSrc: "https://avatars.githubusercontent.com/u/32770743?s=200&v=4",
     projectLink: "https://github.com/tiangolo/fastapi",
