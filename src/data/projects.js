@@ -136,6 +136,7 @@ export const projectList = [
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/facebook/react-native/contribute",
     description: "A framework for building native apps with React.",
+    loadIssues: true,
     tags: ["JavaScript", "React", "React Native", "Mobile"],
   },
   {
@@ -210,6 +211,7 @@ export const projectList = [
     imageSrc: "https://avatars0.githubusercontent.com/u/8527916?v=3&s=100",
     projectLink: "https://github.com/avajs/ava/contribute",
     description: "The Futuristic JavaScript test runner!",
+    loadIssues: true,
     tags: ["JavaScript", "Testing", "Babel"],
   },
   {
@@ -321,6 +323,7 @@ export const projectList = [
     imageSrc: "https://avatars0.githubusercontent.com/u/9892522?v=3&s=100",
     projectLink: "https://github.com/freeCodeCamp/freeCodeCamp/contribute",
     description: "Open Source codebase and curriculum.",
+    loadIssues: true,
     tags: ["JavaScript", "Education", "Web Development"],
   },
   {
@@ -328,6 +331,7 @@ export const projectList = [
     imageSrc: "https://avatars1.githubusercontent.com/u/9950313?v=3&s=100",
     projectLink: "https://github.com/nodejs/node/contribute",
     description: "Node.js JavaScript runtime.",
+    loadIssues: true,
     tags: ["JavaScript", "Node.js", "Runtime"],
   },
   {
@@ -1060,6 +1064,7 @@ export const projectList = [
     imageSrc: "https://avatars0.githubusercontent.com/u/4921959?s=200&v=4",
     projectLink: "https://github.com/zulip/zulip/contribute",
     description: "Powerful Open Source Group Chat",
+    loadIssues: true,
     tags: ["OpenSource", "Chat", "Javascript", "Beginner", "Python"],
   },
   {
@@ -1326,6 +1331,7 @@ export const projectList = [
     projectLink: "https://github.com/matplotlib/matplotlib",
     description:
       "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
+    loadIssues: true,
     tags: [
       "python",
       "gtk",
