@@ -499,7 +499,7 @@ export const projectList = [
     tags: ["CSS", "tips", "guide", "simple", "useful"],
   },
   {
-    name: "AnitaB.org ",
+    name: "AnitaB.org",
     imageSrc:
       "https://user-images.githubusercontent.com/60894542/94313579-9780c080-ff9c-11ea-8853-daa2a1c0fff5.png",
     projectLink: "https://github.com/anitab-org",
