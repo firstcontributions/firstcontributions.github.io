@@ -390,6 +390,14 @@ export const projectList = [
     tags: ["Dart", "Mobile", "Cross Platform"],
   },
   {
+    name: "Penpot",
+    imageSrc: "https://avatars.githubusercontent.com/u/30179644?v=4",
+    projectLink: "https://github.com/penpot/penpot/contribute",
+    description:
+      "Penpot is an open-source design and prototyping platform for product teams.",
+    tags: ["Clojure", "ClojureScript", "Design", "Prototyping"],
+  },
+  {
     name: "Python Koans",
     imageSrc:
       "https://s3.amazonaws.com/media-p.slid.es/thumbnails/akoebbe/b35d77/python-koans.jpg",
