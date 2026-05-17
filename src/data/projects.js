@@ -72,6 +72,14 @@ export const projectList = [
     tags: ["Python", "Data Science", "Machine Learning", "ETL", "DAG"],
   },
   {
+    name: "marimo",
+    imageSrc: "https://avatars.githubusercontent.com/u/98563464?v=4",
+    projectLink: "https://github.com/marimo-team/marimo/contribute",
+    description:
+      "marimo is a reactive Python notebook for reproducible experiments and apps.",
+    tags: ["Python", "Notebook", "Data Science", "Reactive"],
+  },
+  {
     name: "altair",
     imageSrc:
       "https://raw.githubusercontent.com/altair-graphql/altair/master/icons/favicon-96x96.png",
