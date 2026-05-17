@@ -4,6 +4,7 @@ export interface Props {
 	description?: string;
 	keywords?: string;
 	image?: string;
+	imageAlt?: string;
 	url?: string;
 	type?: string;
 }
@@ -13,6 +14,7 @@ const {
 	description = "Learn how to make your first open source contribution in just 5 minutes. Step-by-step guide for beginners with beginner-friendly projects and resources.",
 	keywords = "open source, github, contribute to open source, beginner programmer, first contribution, git, pull request, coding, software development, programming, learn to code",
 	image = "https://firstcontributions.github.io/og-image.svg",
+	imageAlt = "First Contributions open source contribution guide preview",
 	url = "https://firstcontributions.github.io/",
 	type = "website"
 } = Astro.props;
@@ -56,6 +58,7 @@ const {
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
 		<meta property="og:image" content={image} />
+		<meta property="og:image:alt" content={imageAlt} />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
 		<meta property="og:site_name" content="First Contributions" />
@@ -66,8 +69,9 @@ const {
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
 		<meta name="twitter:image" content={image} />
-		<meta name="twitter:creator" content="@firstcontrib" />
-		<meta name="twitter:site" content="@firstcontrib" />
+		<meta name="twitter:image:alt" content={imageAlt} />
+		<meta name="twitter:creator" content="@1stContribution" />
+		<meta name="twitter:site" content="@1stContribution" />
 		
 		<!-- Structured Data / Schema.org -->
 		<script type="application/ld+json">
