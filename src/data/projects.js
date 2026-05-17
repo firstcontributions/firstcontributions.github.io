@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Appwrite",
+    imageSrc: "https://avatars.githubusercontent.com/u/25003669?v=4",
+    projectLink: "https://github.com/appwrite/appwrite/contribute",
+    description:
+      "Appwrite is an open-source backend platform for building web, mobile, and server applications.",
+    tags: ["Backend", "API", "Developer Tools", "Self Hosted"],
+  },
 
   {
     name: "Hamilton",
