@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Hoppscotch",
+    imageSrc: "https://avatars.githubusercontent.com/u/56705483?v=4",
+    projectLink: "https://github.com/hoppscotch/hoppscotch/contribute",
+    description:
+      "Hoppscotch is an open-source API development ecosystem.",
+    tags: ["TypeScript", "API", "Developer Tools", "GraphQL"],
+  },
 
   {
     name: "Hamilton",
