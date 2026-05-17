@@ -38,6 +38,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     />
   ))}
 </section>
+<p id="no-results" class="no-results" hidden>No matching projects found.</p>
 
 <script>
   // Get all projects data from the server-rendered content
@@ -67,6 +68,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   const searchInput = document.getElementById('search');
   const tagSelector = document.getElementById('tag-selector');
   const projectListContainer = document.getElementById('project-list');
+  const noResults = document.getElementById('no-results');
 
   // Filter projects function
   function filterProjects() {
@@ -98,6 +100,10 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
       const isVisible = filteredProjects.includes(project);
       project.element.style.display = isVisible ? 'block' : 'none';
     });
+
+    if (noResults) {
+      noResults.hidden = filteredProjects.length > 0;
+    }
   }
 
   // Event listeners
@@ -183,6 +189,17 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     column-gap: 1.5rem;
     padding: 2rem 1rem;
     break-inside: avoid;
+  }
+
+  .no-results {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    margin: 1rem auto 3rem;
+    text-align: center;
+  }
+
+  .no-results[hidden] {
+    display: none;
   }
 
 
