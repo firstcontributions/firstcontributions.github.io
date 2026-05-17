@@ -288,6 +288,13 @@ export const projectList = [
     tags: ["PowerShell", "Shell", "Cross Platform"],
   },
   {
+    name: "Nushell",
+    imageSrc: "https://avatars.githubusercontent.com/u/50749515?v=4",
+    projectLink: "https://github.com/nushell/nushell/contribute",
+    description: "Nushell is a modern shell that treats pipelines as structured data.",
+    tags: ["Rust", "Shell", "CLI", "Cross Platform"],
+  },
+  {
     name: "Webpack",
     imageSrc: "https://avatars3.githubusercontent.com/u/2105791?v=3&s=100",
     projectLink: "https://github.com/webpack/webpack/contribute",
