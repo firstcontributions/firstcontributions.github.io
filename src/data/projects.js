@@ -1431,6 +1431,14 @@ export const projectList = [
     tags: ["C++", "Game Development", "Game Engine", "GDScript"],
   },
   {
+    name: "Zed",
+    imageSrc: "https://avatars.githubusercontent.com/u/79345384?v=4",
+    projectLink: "https://github.com/zed-industries/zed/contribute",
+    description:
+      "Zed is a high-performance, multiplayer code editor built for fast collaborative development.",
+    tags: ["Rust", "Editor", "Collaboration", "AI"],
+  },
+  {
     name: "Hugo",
     imageSrc: "https://avatars.githubusercontent.com/u/1048514?s=200&v=4",
     projectLink: "https://github.com/gohugoio/hugo",
