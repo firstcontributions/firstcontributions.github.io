@@ -1296,6 +1296,14 @@ export const projectList = [
     tags: ["Python", "Shell", "Automation"],
   },
   {
+    name: "fish shell",
+    imageSrc: "https://avatars.githubusercontent.com/u/1828073?v=4",
+    projectLink: "https://github.com/fish-shell/fish-shell/contribute",
+    description:
+      "fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family.",
+    tags: ["C++", "Shell", "Command Line", "Terminal"],
+  },
+  {
     name: "aprenda-go-com-testes",
     projectLink: "https://github.com/larien/aprenda-go-com-testes",
     imageSrc:
