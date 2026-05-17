@@ -997,6 +997,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Metabase",
+    imageSrc: "https://avatars.githubusercontent.com/u/10520629?v=4",
+    projectLink: "https://github.com/metabase/metabase/contribute",
+    description:
+      "Metabase is an open-source business intelligence and embedded analytics tool.",
+    tags: ["Clojure", "Business Intelligence", "Analytics", "Data"],
+  },
+  {
     name: "Mattermost",
     imageSrc:
       "https://raw.githubusercontent.com/mattermost/mattermost-handbook/3b54c2cd1f823d1ea012ce45d1baa61fb4fbedbc/.gitbook/assets/branding/logo-downloads/mattermost-logo-vertical-blue.png",
