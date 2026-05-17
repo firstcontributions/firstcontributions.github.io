@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Directus",
+    imageSrc: "https://avatars.githubusercontent.com/u/15967950?v=4",
+    projectLink: "https://github.com/directus/directus/contribute",
+    description:
+      "Directus is an open-source data platform for managing SQL databases with APIs.",
+    tags: ["TypeScript", "CMS", "API", "Database"],
+  },
 
   {
     name: "Hamilton",
