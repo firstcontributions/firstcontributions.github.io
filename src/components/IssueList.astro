@@ -8,14 +8,24 @@ const { projectLink, projectName } = Astro.props;
 
 // Extract owner/repo from GitHub URL
 function extractRepoInfo(url: string) {
-  const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)/);
-  if (match) {
+  try {
+    const parsedUrl = new URL(url);
+    if (parsedUrl.hostname !== 'github.com') {
+      return null;
+    }
+
+    const [owner, repo] = parsedUrl.pathname.split('/').filter(Boolean);
+    if (!owner || !repo) {
+      return null;
+    }
+
     return {
-      owner: match[1],
-      repo: match[2].replace(/\/$/, '') // Remove trailing slash
+      owner,
+      repo: repo.replace(/\.git$/, '')
     };
+  } catch {
+    return null;
   }
-  return null;
 }
 
 // Fetch issues from GitHub API on the server
@@ -36,6 +46,7 @@ async function fetchIssues(owner: string, repo: string) {
     const labelCombinations = [
       'good first issue,help wanted',  // Both labels
       'good first issue',              // Just good first issue
+      'good-first-issue',              // Hyphenated good first issue
       'help wanted'                    // Just help wanted
     ];
     
@@ -59,11 +70,12 @@ async function fetchIssues(owner: string, repo: string) {
       }
       
       const issues = await response.json();
+      const issuesOnly = issues.filter((issue: any) => !issue.pull_request);
       
-      allIssues = [...allIssues, ...issues];
+      allIssues = [...allIssues, ...issuesOnly];
       
       // If we found issues, break to avoid duplicates
-      if (issues.length > 0) {
+      if (issuesOnly.length > 0) {
         break;
       }
     }
