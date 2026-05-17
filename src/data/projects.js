@@ -331,6 +331,14 @@ export const projectList = [
     tags: ["JavaScript", "Node.js", "Runtime"],
   },
   {
+    name: "Node-RED",
+    imageSrc: "https://avatars.githubusercontent.com/u/5375661?v=4",
+    projectLink: "https://github.com/node-red/node-red/contribute",
+    description:
+      "Node-RED is a low-code programming tool for event-driven applications.",
+    tags: ["JavaScript", "Node.js", "Low Code", "IoT"],
+  },
+  {
     name: "Semantic-UI-React",
     imageSrc: "https://reactnative.dev/img/header_logo.svg",
     projectLink: "https://github.com/Semantic-Org/Semantic-UI-React/contribute",
