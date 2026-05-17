@@ -1417,6 +1417,14 @@ export const projectList = [
     tags: ["JavaScript", "TypeScript", "Frontend", "Compiler"],
   },
   {
+    name: "Lit",
+    imageSrc: "https://avatars.githubusercontent.com/u/18489846?v=4",
+    projectLink: "https://github.com/lit/lit/contribute",
+    description:
+      "Lit is a simple library for building fast, lightweight web components.",
+    tags: ["TypeScript", "JavaScript", "Web Components", "Frontend"],
+  },
+  {
     name: "FastAPI",
     imageSrc: "https://avatars.githubusercontent.com/u/32770743?s=200&v=4",
     projectLink: "https://github.com/tiangolo/fastapi",
