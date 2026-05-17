@@ -976,6 +976,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Docusaurus",
+    imageSrc: "https://avatars.githubusercontent.com/u/69631?s=200&v=4",
+    projectLink: "https://github.com/facebook/docusaurus",
+    description: "Easy to maintain open source documentation websites.",
+    loadIssues: true,
+    tags: ["JavaScript", "React", "Documentation", "Website"],
+  },
+  {
     name: "ClickHouse",
     imageSrc:
       "https://github.com/ClickHouse/clickhouse-presentations/raw/master/images/logo-400x240.png",
