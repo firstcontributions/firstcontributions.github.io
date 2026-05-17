@@ -61,6 +61,14 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Flagsmith",
+    imageSrc: "https://avatars.githubusercontent.com/u/58150233?v=4",
+    projectLink: "https://github.com/Flagsmith/flagsmith/contribute",
+    description:
+      "Flagsmith is an open-source feature flag and remote config service.",
+    tags: ["Python", "Feature Flags", "DevOps", "API"],
+  },
 
   {
     name: "Hamilton",
