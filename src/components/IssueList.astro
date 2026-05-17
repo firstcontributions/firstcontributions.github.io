@@ -131,7 +131,7 @@ if (repoInfo) {
             </div>
           </div>
           <div class="Issue-Labels">
-            <span class="Issue-Label {issue.priority === 'good first issue' ? 'good-first-issue' : 'help-wanted'}">
+            <span class={`Issue-Label ${issue.priority === 'good first issue' ? 'good-first-issue' : 'help-wanted'}`}>
               {issue.priority === 'good first issue' ? 'Good First Issue' : 'Help Wanted'}
             </span>
           </div>
@@ -224,10 +224,6 @@ if (repoInfo) {
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     margin: 0 0 0.5rem 0;
     line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
     font-weight: 500;
   }
 
@@ -237,6 +233,15 @@ if (repoInfo) {
     align-items: center;
     font-size: 0.75rem;
     color: var(--text-secondary);
+  }
+
+  .Issue-Title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.2;
+    font-weight: 500;
   }
 
   .Issue-Number {
