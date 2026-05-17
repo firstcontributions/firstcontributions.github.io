@@ -910,6 +910,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Mermaid",
+    imageSrc: "https://avatars.githubusercontent.com/u/57169982?v=4",
+    projectLink: "https://github.com/mermaid-js/mermaid/contribute",
+    description:
+      "Mermaid creates diagrams and visualizations from text definitions, similar to Markdown.",
+    tags: ["JavaScript", "TypeScript", "Diagrams", "Visualization"],
+  },
+  {
     name: "FontAwesome",
     imageSrc: "https://avatars1.githubusercontent.com/u/1505683?s=200&v=4",
     projectLink: "https://github.com/FortAwesome/Font-Awesome/contribute",
