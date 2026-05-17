@@ -2,6 +2,7 @@
   "short_name": "First Contributions",
   "name": "First Contributions - Make Your First Open Source Contribution",
   "description": "Learn how to make your first open source contribution in just 5 minutes. Step-by-step guide for beginners with beginner-friendly projects and resources.",
+  "id": "/",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
