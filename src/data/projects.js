@@ -36,6 +36,14 @@ export const projectList = [
     tags: ["design", "opensourcedesign", "open-source", "open-source-design"],
   },
   {
+    name: "OpenRefine",
+    imageSrc: "https://avatars.githubusercontent.com/u/2538880?v=4",
+    projectLink: "https://github.com/OpenRefine/OpenRefine/contribute",
+    description:
+      "OpenRefine is an open-source tool for cleaning, transforming, and improving messy data.",
+    tags: ["Java", "Data Cleaning", "Data Analysis", "Open Data"],
+  },
+  {
     name: "Open Source Diversity",
     imageSrc: "https://avatars1.githubusercontent.com/u/31018274?s=200&v=4",
     projectLink:
