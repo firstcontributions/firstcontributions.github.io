@@ -59,11 +59,12 @@ async function fetchIssues(owner: string, repo: string) {
       }
       
       const issues = await response.json();
+      const issuesOnly = issues.filter((issue: any) => !issue.pull_request);
       
-      allIssues = [...allIssues, ...issues];
+      allIssues = [...allIssues, ...issuesOnly];
       
       // If we found issues, break to avoid duplicates
-      if (issues.length > 0) {
+      if (issuesOnly.length > 0) {
         break;
       }
     }
