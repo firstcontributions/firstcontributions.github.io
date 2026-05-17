@@ -1445,6 +1445,14 @@ export const projectList = [
     tags: ["Go", "React", "Chat", "Collaboration"],
   },
   {
+    name: "Chatwoot",
+    imageSrc: "https://avatars.githubusercontent.com/u/23416667?v=4",
+    projectLink: "https://github.com/chatwoot/chatwoot/contribute",
+    description:
+      "Chatwoot is an open-source customer engagement suite for support teams.",
+    tags: ["Ruby", "Rails", "Chat", "Customer Support"],
+  },
+  {
     name: "Terraform",
     imageSrc: "https://avatars.githubusercontent.com/u/11051457?s=200&v=4",
     projectLink: "https://github.com/hashicorp/terraform",
