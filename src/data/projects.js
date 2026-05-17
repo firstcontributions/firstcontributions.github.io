@@ -1482,4 +1482,28 @@ export const projectList = [
     loadIssues: true,
     tags: ["JavaScript", "TypeScript", "CMS", "Node.js", "API"],
   },
+  {
+    name: "Docusaurus",
+    imageSrc: "https://repository-images.githubusercontent.com/94911145/de889380-2905-11eb-9e9b-9332f0537e38",
+    projectLink: "https://github.com/facebook/docusaurus",
+    description: "Docusaurus helps teams build and maintain open-source documentation websites.",
+    loadIssues: true,
+    tags: ["TypeScript", "React", "Documentation", "Static Site Generator"],
+  },
+  {
+    name: "Directus",
+    imageSrc: "https://repository-images.githubusercontent.com/7122594/7e5b1d59-0bc8-47c3-8a94-c63db5a9c9de",
+    projectLink: "https://github.com/directus/directus",
+    description: "Directus turns databases into headless CMS, admin panels, APIs, and custom apps.",
+    loadIssues: true,
+    tags: ["TypeScript", "Vue", "CMS", "API", "Database"],
+  },
+  {
+    name: "pnpm",
+    imageSrc: "https://repository-images.githubusercontent.com/50565430/8937cd00-7c0f-11e9-8fc4-8ef4a17af653",
+    projectLink: "https://github.com/pnpm/pnpm",
+    description: "pnpm is a fast, disk space efficient package manager for JavaScript projects.",
+    loadIssues: true,
+    tags: ["TypeScript", "JavaScript", "Package Manager", "Node.js"],
+  },
 ];
