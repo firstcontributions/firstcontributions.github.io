@@ -527,7 +527,7 @@ export const projectList = [
     imageSrc: "https://avatars1.githubusercontent.com/u/20769039?s=200&v=4",
     projectLink: "https://github.com/openebs/",
     description:
-      "OpenEBS is an open source storage platform that provides persistent and containerized  block storage for DevOps and container environments.",
+      "OpenEBS is an open source storage platform that provides persistent and containerized block storage for DevOps and container environments.",
     tags: ["Containers", "DevOps", "Go"],
   },
   {
@@ -581,8 +581,8 @@ export const projectList = [
     name: "probot",
     imageSrc: "https://avatars2.githubusercontent.com/u/26350515?s=400&v=4",
     projectLink: "https://github.com/probot/probot/contribute",
-    description: "Probot is a framework for building Github Apps in Node.js.",
-    tags: ["Node.js", "Github", "Javascript"],
+    description: "Probot is a framework for building GitHub Apps in Node.js.",
+    tags: ["Node.js", "GitHub", "Javascript"],
   },
   {
     name: "Open Data Kit",
