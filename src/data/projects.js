@@ -1417,6 +1417,14 @@ export const projectList = [
     tags: ["JavaScript", "TypeScript", "Frontend", "Compiler"],
   },
   {
+    name: "Biome",
+    imageSrc: "https://avatars.githubusercontent.com/u/140182603?v=4",
+    projectLink: "https://github.com/biomejs/biome/contribute",
+    description:
+      "Biome is a fast formatter, linter, and language toolchain for web projects.",
+    tags: ["TypeScript", "JavaScript", "Formatter", "Linter"],
+  },
+  {
     name: "FastAPI",
     imageSrc: "https://avatars.githubusercontent.com/u/32770743?s=200&v=4",
     projectLink: "https://github.com/tiangolo/fastapi",
