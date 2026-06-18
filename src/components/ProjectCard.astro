@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import IssueList from './IssueList.astro';
 
 export interface Props {
@@ -14,15 +15,16 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+  <a class="Card-Real-Link" href={projectLink} aria-label="Card-Real-Link" target="_blank">
     <div class="Card-Header">
-      <img
+      <Image
         class="Project-Logo"
         alt="the framework or language that the project is build upon"
         src={logoLink}
         onerror="this.src='/default.png'"
         width="60"
         height="60"
+        loading="lazy"
       />
       <p class="Card-Title">{name}</p>
     </div>
@@ -41,9 +43,11 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
-      <span>Go to Project</span>
-    </div>
+    {!loadIssues && (
+      <div class="Card-Link">
+        <span>Go to Project</span>
+      </div>
+    )}
   </a>
 </div>
 
