@@ -12,6 +12,7 @@ export const projectList = [
       "Developer Tools",
       "AI Coding Agents",
       "Good First Issue",
+      "First Timers Only",
       "Testing",
       "Documentation",
     ],
