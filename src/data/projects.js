@@ -1,5 +1,22 @@
 export const projectList = [
   {
+    name: "AgentPack",
+    imageSrc: "https://avatars.githubusercontent.com/u/37480057?v=4",
+    projectLink: "https://github.com/vishal2612200/agentpack",
+    description:
+      "Context engine and CLI toolkit for AI coding agents, with beginner-friendly issues for docs, Python, CLI, testing, and benchmarks.",
+    loadIssues: true,
+    tags: [
+      "Python",
+      "CLI",
+      "Developer Tools",
+      "AI Coding Agents",
+      "Good First Issue",
+      "Testing",
+      "Documentation",
+    ],
+  },
+  {
     name: "activist.org",
     imageSrc:
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
