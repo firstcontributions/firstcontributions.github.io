@@ -120,7 +120,7 @@ if (repoInfo) {
   {issues.length > 0 ? (
     <div class="Issues-List">
       {issues.map((issue) => (
-        <a href={issue.html_url} target="_blank" class="Issue-Card">
+        <div href={issue.html_url} target="_blank" class="Issue-Card">
           <div class="Issue-Content">
             <div class="Issue-Title">{issue.title}</div>
             <div class="Issue-Meta">
@@ -135,7 +135,7 @@ if (repoInfo) {
               {issue.priority === 'good first issue' ? 'Good First Issue' : 'Help Wanted'}
             </span>
           </div>
-        </a>
+        </div>
       ))}
     </div>
   ) : (
