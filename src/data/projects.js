@@ -1458,4 +1458,23 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "AI Language Partner",
+    imageSrc: "https://avatars.githubusercontent.com/u/280634153?s=200&v=4",
+    projectLink: "https://github.com/duct-tape2/ai-language-partner",
+    description:
+      "Local-first Japanese speaking practice for Korean learners with browser-friendly language review, documentation, accessibility, API, and test issues.",
+    loadIssues: true,
+    tags: [
+      "TypeScript",
+      "Python",
+      "React Native",
+      "FastAPI",
+      "Education",
+      "Japanese",
+      "Korean",
+      "Accessibility",
+      "Good First Issue",
+    ],
+  },
 ];
