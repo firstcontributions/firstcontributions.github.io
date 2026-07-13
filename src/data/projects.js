@@ -1472,4 +1472,11 @@ export const projectList = [
     description: "A curated, community-driven list of the best tech, software engineering, and developer marketing newsletters.",
     tags: ["Python", "Awesome", "Newsletter", "Devtools", "Devrel", "Developer Marketing", "Good First Issue"],
   },
+  {
+    name: "Awesome Developer Podcasts",
+    imageSrc: "https://avatars.githubusercontent.com/u/185816631?v=4",
+    projectLink: "https://github.com/Infrasity-Labs/awesome-developer-podcasts",
+    description: "A curated directory of developer podcasts for software engineering teams. It is an open-source collection of podcasts that covers system architecture, cloud-native, DevOps, B2B SaaS, AI/ML, and engineering leadership.",
+    tags: ["Python", "Awesome", "Podcasts", "Devtools", "Devrel", "Developer Marketing", "Developer Advocacy", "Good First Issue"],
+  },
 ];
