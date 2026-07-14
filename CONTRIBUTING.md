@@ -42,3 +42,5 @@ yarn start
 ```
 Now you can open your cloned project at ` http://localhost:3000/
 `
+
+-[inwoo](https://github.com/inwoo1127)
