@@ -14,7 +14,8 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+  <!-- Card-Real-Link changed to a div so the entire project card is no longer clickable -->
+  <div class="Card-Real-Link">
     <div class="Card-Header">
       <img
         class="Project-Logo"
@@ -37,14 +38,16 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
       <div class="Card-Description">
         <p>{description}</p>
       </div>
+      <!-- Issues render inside the card body naturally, resolving nested anchor tags issue -->
       {loadIssues && (
         <IssueList projectLink={projectLink} projectName={name} />
       )}
     </div>
-    <div class="Card-Link">
-      <span>Go to Project</span>
-    </div>
-  </a>
+    <!-- Only the Go to project button is clickable now and links to the GitHub repository -->
+    <a class="Card-Link" href={projectLink} target="_blank">
+      <span>Go to project</span>
+    </a>
+  </div>
 </div>
 
 <style>
@@ -156,7 +159,10 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
   }
 
 
+  /* Changed Card-Link from a div to an anchor tag: added display: block and text-decoration: none to preserve original button styling */
   .Card-Link {
+    display: block;
+    text-decoration: none;
     background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
@@ -219,4 +225,3 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     }
   }
 </style>
-
