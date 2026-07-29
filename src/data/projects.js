@@ -18,6 +18,22 @@ export const projectList = [
     ],
   },
   {
+    name: "ImgTouch",
+    imageSrc: "https://raw.githubusercontent.com/ParasxAgarwal/imgtouch/main/preview.png",
+    projectLink: "https://github.com/ParasxAgarwal/imgtouch",
+    description: "AI-powered creative studio for image generation, editing, and enhancement using Google Gemini",
+    loadIssues: false,
+    tags: [
+      "AI",
+      "React",
+      "Gemini",
+      "TypeScript",
+      "Vite",
+      "TailwindCSS",
+      "Image Generation",
+    ],
+  },
+  {
     name: "CircuitVerse",
     imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse/CircuitVerse",
