@@ -19,7 +19,7 @@ export const projectList = [
   },
   {
     name: "ImgTouch",
-    imageSrc: "https://raw.githubusercontent.com/ParasxAgarwal/imgtouch/main/preview.png",
+    imageSrc: "https://raw.githubusercontent.com/ParasxAgarwal/imgtouch/main/public/logo.png",
     projectLink: "https://github.com/ParasxAgarwal/imgtouch",
     description: "AI-powered creative studio for image generation, editing, and enhancement using Google Gemini",
     loadIssues: false,

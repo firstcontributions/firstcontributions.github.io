@@ -235,10 +235,17 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   }
 
   .containerLayout {
-    columns: 3;
-    column-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
     padding: 2rem 1rem;
-    break-inside: avoid;
+    align-items: start;
+  }
+
+  @media (max-width: 980px) {
+    .containerLayout {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
 
@@ -260,8 +267,8 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     }
     
     .containerLayout {
-      columns: 1;
-      column-gap: 1rem;
+      grid-template-columns: 1fr;
+      gap: 1rem;
       padding: 1rem 0.5rem;
     }
 
