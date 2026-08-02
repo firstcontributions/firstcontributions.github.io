@@ -1,5 +1,13 @@
 export const projectList = [
   {
+  name: "Hoppscotch",
+  imageSrc: "https://avatars.githubusercontent.com/u/56705483?s=200&v=4",
+  githubLink: "https://github.com/hoppscotch/hoppscotch",
+  description: "Open source API development ecosystem.",
+  tags: ["TypeScript", "Vue", "API", "REST", "GraphQL"]
+},
+
+  {
     name: "activist.org",
     imageSrc:
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
