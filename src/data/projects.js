@@ -1458,4 +1458,14 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "MemWhale",
+    imageSrc:
+      "https://raw.githubusercontent.com/wuisabel-gif/MemWhale/main/assets/memorywhale-logo-sm.png",
+    projectLink: "https://github.com/wuisabel-gif/MemWhale",
+    description:
+      "Persistent, local memory for developers and their coding agents. Records commands, output, errors, and the fixes that worked into SQLite and serves them over MCP.",
+    loadIssues: true,
+    tags: ["Rust", "TypeScript", "Python", "SQLite", "MCP", "Developer Tools"],
+  },
 ];
