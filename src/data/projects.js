@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Darshannn007 First Contribution",
+    imageSrc: "https://avatars.githubusercontent.com/Darshannn007",
+    projectLink: "https://github.com/Darshannn007/firstcontributions.github.io",
+    description: "This is my first open source contribution to firstcontributions repository.",
+    tags: ["HTML", "CSS", "JavaScript", "Beginner"],
+  },
 ];
