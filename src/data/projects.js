@@ -1458,4 +1458,13 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Rho",
+    imageSrc: "https://avatars.githubusercontent.com/u/67533680?s=200&v=4",
+    projectLink: "https://github.com/matthewyjiang/rho",
+    description:
+      "Lightweight Rust agent harness for coding agents. Bring your own provider, orchestrate agents, and embed via SDK.",
+    loadIssues: true,
+    tags: ["Rust", "AI", "CLI", "TUI", "Coding Agent", "Good First Issue"],
+  },
 ];
