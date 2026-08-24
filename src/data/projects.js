@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "OWASP Web Security Testing Guide",
+    imageSrc: "https://avatars.githubusercontent.com/u/155815?v=4",
+    projectLink: "https://github.com/OWASP/wstg",
+    description: "A comprehensive open-source guide to testing the security of web applications and web services.",
+    tags: ["OWASP", "Web Security", "Penetration Testing", "Cybersecurity"],
+  },
 ];
