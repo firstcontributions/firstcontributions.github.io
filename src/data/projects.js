@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+  name: 'DevOps Mini Docker Project',
+  imageSrc: 'https://avatars.githubusercontent.com/u/9919?s=200&v=4',
+  projectLink: 'https://github.com/aasthakumarii/devops-mini-docker',
+  description: 'A beginner-friendly DevOps project demonstrating Docker, CI/CD with GitHub Actions, and containerized Node.js app deployment.',
+  tags: ['JavaScript', 'Node.js', 'Docker', 'CI/CD', 'GitHub Actions']
+  }
 ];
