@@ -2,69 +2,123 @@
 // Navbar component for social links
 ---
 
-<div class="topnav">
-  <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w" target="_blank" rel="noopener noreferrer">
-    <img src="/slack.svg" class="logo" alt="slack logo" />
-    <span>Slack</span>
+<header class="topnav">
+  <a href="/" class="brand">
+    <span class="brand-icon">🌱</span>
+    <span class="brand-name">First Contributions</span>
   </a>
-  <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">
-    <img src="/youtube.svg" class="logo" alt="youtube logo" />
-    <span>Youtube</span>    
-  </a>
-  <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">
-    <img src="/twitter.svg" class="logo" alt="twitter logo" />
-    <span>Twitter</span>
-  </a>
-  <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">
-    <img src="/github.svg" class="logo" alt="github logo" />
-    <span>GitHub</span>
-  </a>
-</div>
+  <nav class="nav-links">
+    <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w" target="_blank" rel="noopener noreferrer">
+      <img src="/slack.svg" class="logo" alt="slack logo" />
+      <span>Slack</span>
+    </a>
+    <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">
+      <img src="/youtube.svg" class="logo" alt="youtube logo" />
+      <span>Youtube</span>
+    </a>
+    <a href="https://twitter.com/1stContribution" target="_blank" rel="noopener noreferrer">
+      <img src="/twitter.svg" class="logo" alt="twitter logo" />
+      <span>Twitter</span>
+    </a>
+    <a href="https://github.com/firstcontributions/first-contributions" target="_blank" rel="noopener noreferrer">
+      <img src="/github.svg" class="logo" alt="github logo" />
+      <span>GitHub</span>
+    </a>
+  </nav>
+</header>
 
 <style>
   .topnav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.875rem 2rem;
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
-  .topnav a {
+  .brand {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: -0.01em;
+  }
+
+  .brand-icon {
+    font-size: 1.4rem;
+  }
+
+  .brand-name {
+    background: linear-gradient(90deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    padding: 0.4rem 0.875rem;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
   }
 
-  .topnav a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+  .nav-links a:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
-  .topnav .logo {
-    width: 24px;
-    height: 24px;
+  .logo {
+    width: 18px;
+    height: 18px;
+    opacity: 0.85;
   }
 
   @media (max-width: 768px) {
     .topnav {
-      gap: 1rem;
-      padding: 0.5rem;
+      padding: 0.75rem 1rem;
     }
-    
-    .topnav a {
-      padding: 0.25rem 0.5rem;
-    }
-    
-    .topnav span {
+
+    .brand-name {
       display: none;
+    }
+
+    .nav-links {
+      gap: 0.25rem;
+    }
+
+    .nav-links a {
+      padding: 0.4rem 0.5rem;
+    }
+
+    .nav-links span {
+      display: none;
+    }
+
+    .logo {
+      width: 20px;
+      height: 20px;
     }
   }
 </style>

@@ -3,22 +3,47 @@ import Navbar from './Navbar.astro';
 import LinkButton from './LinkButton.astro';
 import ProjectList from './ProjectList.astro';
 import SocialShare from './SocialShare.astro';
+import Footer from './Footer.astro';
 ---
 
 <div class="App">
   <Navbar />
+  
   <div class="App-header">
+    <div class="hero-badge">🌱 Open Source for Everyone</div>
     <h1>
-      Make your first <br/> 
-      <a href="https://firstcontributions.github.io/contribute-to-opensource"> 
-        open source <span>contribution</span> 
-      </a> 
+      Make your first <br/>
+      <a href="https://firstcontributions.github.io/contribute-to-opensource">
+        open source <span>contribution</span>
+      </a>
       <br/> in 5 minutes
     </h1>
+    <p class="hero-subtitle">
+      Join thousands of developers who made their first open source contribution. 
+      Find beginner-friendly projects and start contributing today.
+    </p>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-number">100+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">Opportunities</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-number">5 min</span>
+        <span class="stat-label">To get started</span>
+      </div>
+    </div>
   </div>
+
   <LinkButton />
   <ProjectList />
   <SocialShare />
+  <Footer />
 </div>
 
 <style>
@@ -32,8 +57,24 @@ import SocialShare from './SocialShare.astro';
   }
 
   .App-header {
-    padding: 20px;
+    padding: 4rem 2rem 2rem;
     color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(96, 165, 250, 0.1);
+    border: 1px solid rgba(96, 165, 250, 0.25);
+    color: #60a5fa;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.02em;
   }
 
   .App-header a {
@@ -45,7 +86,7 @@ import SocialShare from './SocialShare.astro';
     font-size: 5.1rem;
     letter-spacing: -0.05em;
     font-weight: 700;
-    margin: 0 0 20px 0;
+    margin: 0 0 1.5rem 0;
     line-height: 1.2;
   }
 
@@ -58,23 +99,77 @@ import SocialShare from './SocialShare.astro';
     animation: gradientShift 4s ease infinite;
   }
 
+  .hero-subtitle {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+  }
+
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -0.03em;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.45);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
   @keyframes gradientShift {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
   }
 
   @media (max-width: 700px) {
+    .App-header {
+      padding: 2.5rem 1.25rem 1.5rem;
+    }
+
     .App-header > h1 {
       font-size: 3.1rem;
       letter-spacing: -0.05em;
       font-weight: 700;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+
+    .stat-number {
+      font-size: 1.4rem;
+    }
+
+    .stat-divider {
+      display: none;
     }
   }
 
