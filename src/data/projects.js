@@ -1458,4 +1458,18 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Awesome Developer Conferences",
+    imageSrc: "https://avatars.githubusercontent.com/u/185816631?v=4",
+    projectLink: "https://github.com/Infrasity-Labs/awesome-developer-conferences",
+    description: "A daily updated directory of developer, DevRel, cloud native, and platform engineering conferences taking place all over the world, separated by regions.",
+    tags: ["Python","Devops Events", "Awesome", "Devtools" "Conferences", "Cloud Native", "Call for Papers", "Devrel", "Good First Issue"],
+  },
+  {
+    name: "Awesome Tech Newsletter",
+    imageSrc: "https://avatars.githubusercontent.com/u/185816631?v=4",
+    projectLink: "https://github.com/Infrasity-Labs/awesome-tech-newsletter",
+    description: "A curated, community-driven list of the best tech, software engineering, and developer marketing newsletters.",
+    tags: ["Python", "Awesome", "Newsletter", "Devtools", "Devrel", "Developer Marketing", "Good First Issue"],
+  },
 ];
