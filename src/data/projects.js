@@ -18,6 +18,14 @@ export const projectList = [
     ],
   },
   {
+    name: "Easyfix",
+    imageSrc: "https://avatars.githubusercontent.com/u/1280387?s=200&v=4",
+    projectLink: "https://github.com/vatsalsinghkv/easy-fix",
+    description: "easyfix — a tool for making \"easy fixes\" to text files.",
+    loadIssues: true,
+    tags: ["shell", "refactoring", "tool", "good first issue"],
+  },
+  {
     name: "CircuitVerse",
     imageSrc: "https://avatars.githubusercontent.com/u/42944450?s=200&v=4",
     projectLink: "https://github.com/CircuitVerse/CircuitVerse",
