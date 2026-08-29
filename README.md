@@ -4,10 +4,10 @@ A website to help people make their first open source contribution.
 
 ## Features
 
-- **Project Discovery**: Browse open source projects suitable for beginners
+- **Project Discovery**: Browse-open source projects suitable for beginners
 - **Issue Integration**: View "good first issue" and "help wanted" issues directly from GitHub
 - **Bento Layout**: Modern, responsive card layout with varying heights
-- **Real-time Data**: Fetches live issue data from GitHub repositories
+- **Real-time Data**: Fetches live issue data from GitHub repositories.
 
 ## Setup
 
@@ -36,7 +36,7 @@ To enable live issue fetching, you'll need a GitHub Personal Access Token:
 GITHUB_TOKEN=your_token_here
 ```
 
-Without a token, the site will work but won't show live GitHub issues due to rate limiting.
+Without a token, the site will work but will not show live GitHub issues due to rate limiting.
 
 ### Development
 
