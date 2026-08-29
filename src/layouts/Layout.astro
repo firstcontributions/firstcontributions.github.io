@@ -23,7 +23,7 @@ const {
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
+
 		<!-- Favicon -->
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -36,20 +36,20 @@ const {
 		<meta name="msapplication-TileColor" content="#667eea" />
 		<meta name="msapplication-TileImage" content="/mstile-150x150.png" />
 		<meta name="theme-color" content="#667eea" />
-		
+
 		<!-- Web App Manifest -->
 		<link rel="manifest" href="/manifest.json" />
-		
+
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<meta name="keywords" content={keywords} />
 		<meta name="author" content="First Contributions" />
 		<meta name="robots" content="index, follow" />
 		<title>{title}</title>
-		
+
 		<!-- Canonical URL -->
 		<link rel="canonical" href={url} />
-		
+
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content={type} />
 		<meta property="og:url" content={url} />
@@ -59,7 +59,7 @@ const {
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
 		<meta property="og:site_name" content="First Contributions" />
-		
+
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content={url} />
@@ -68,7 +68,7 @@ const {
 		<meta property="twitter:image" content={image} />
 		<meta property="twitter:creator" content="@firstcontrib" />
 		<meta property="twitter:site" content="@firstcontrib" />
-		
+
 		<!-- Structured Data / Schema.org -->
 		<script type="application/ld+json">
 		{
@@ -105,6 +105,17 @@ const {
 			}
 		}
 		</script>
+		<script is:inline>
+			// Initialize dark mode before page renders to prevent flash
+			(function() {
+				const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+				const isDarkMode = localStorage.getItem('darkMode') === 'true' ||
+									(localStorage.getItem('darkMode') === null && prefersDark.matches);
+				if (isDarkMode) {
+					document.documentElement.classList.add('dark');
+				}
+			})();
+		</script>
 	</head>
 	<body>
 		<slot />
@@ -112,6 +123,22 @@ const {
 </html>
 
 <style>
+	:root {
+		--bg-primary: #ffffff;
+		--bg-secondary: #f3f4f6;
+		--text-primary: #000000;
+		--text-secondary: #4b5563;
+		--border-color: #e5e7eb;
+	}
+
+	html.dark {
+		--bg-primary: #0a0a0a;
+		--bg-secondary: #1f2937;
+		--text-primary: #ffffff;
+		--text-secondary: #d1d5db;
+		--border-color: #374151;
+	}
+
 	html,
 	body {
 		margin: 0;
@@ -120,10 +147,11 @@ const {
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		background-color: #0a0a0a;
-		color: white;
+		background-color: var(--bg-primary);
+		color: var(--text-primary);
+		transition: background-color 0.3s ease, color 0.3s ease;
 	}
-	
+
 	* {
 		box-sizing: border-box;
 	}

@@ -23,17 +23,19 @@ import SocialShare from './SocialShare.astro';
 
 <style>
   .App {
-    background-color: #0a0a0a;
+    background-color: var(--bg-primary);
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+    transition: background-color 0.3s ease;
   }
 
   .App-header {
     padding: 20px;
-    color: white;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
   }
 
   .App-header a {

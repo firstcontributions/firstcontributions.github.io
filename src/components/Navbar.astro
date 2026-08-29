@@ -1,12 +1,14 @@
 ---
 // Navbar component for social links
+import DarkModeToggle from './DarkModeToggle.astro';
 ---
 
 <div class="topnav">
-  <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w" target="_blank" rel="noopener noreferrer">
-    <img src="/slack.svg" class="logo" alt="slack logo" />
-    <span>Slack</span>
-  </a>
+  <div class="nav-links">
+    <a href="https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w" target="_blank" rel="noopener noreferrer">
+      <img src="/slack.svg" class="logo" alt="slack logo" />
+      <span>Slack</span>
+    </a>
   <a href="https://www.youtube.com/channel/UCMXNFxCvyH5LhUwEcmY8qGQ" target="_blank" rel="noopener noreferrer">
     <img src="/youtube.svg" class="logo" alt="youtube logo" />
     <span>Youtube</span>    
@@ -19,25 +21,45 @@
     <img src="/github.svg" class="logo" alt="github logo" />
     <span>GitHub</span>
   </a>
+  </div>
+  <DarkModeToggle />
 </div>
 
 <style>
   .topnav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  :global:not(.dark) .topnav {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+  }
+
+  :global(.dark) .topnav {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-links {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 1;
   }
 
   .topnav a {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: white;
+    color: var(--text-primary);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 8px;
@@ -45,6 +67,10 @@
   }
 
   .topnav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  :global(.dark) .topnav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
 
@@ -55,14 +81,18 @@
 
   @media (max-width: 768px) {
     .topnav {
-      gap: 1rem;
+      gap: 0.5rem;
       padding: 0.5rem;
     }
-    
+
+    .nav-links {
+      gap: 1rem;
+    }
+
     .topnav a {
       padding: 0.25rem 0.5rem;
     }
-    
+
     .topnav span {
       display: none;
     }
