@@ -61,6 +61,22 @@ export const projectList = [
     description: "Drag & Drop internal tool builder",
     tags: ["UI", "Database", "Editor"],
   },
+  {
+    name: "Payload Components",
+    imageSrc: "https://avatars.githubusercontent.com/u/58126222?v=4",
+    projectLink: "https://github.com/Ducksss/payload-components/contribute",
+    description:
+      "MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects.",
+    loadIssues: true,
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Payload CMS",
+      "shadcn",
+      "Tailwind CSS",
+    ],
+  },
 
   {
     name: "Hamilton",
