@@ -26,6 +26,10 @@ pnpm install
 
 ### GitHub API Setup (Optional)
 
+This step is **optional** and can be skipped if you are just exploring the project or contributing to documentation.
+
+You only need a GitHub Personal Access Token if you want to enable **live issue fetching** from GitHub repositories.
+
 To enable live issue fetching, you'll need a GitHub Personal Access Token:
 
 1. Go to [GitHub Settings > Personal Access Tokens](https://github.com/settings/tokens)
