@@ -90,6 +90,15 @@ export const projectList = [
     tags: ["JavaScript", "TypeScript", "Node.js", "Web App", "Video Game"],
   },
   {
+    name: "Minecraft Endportal finder",
+    imageSrc:
+      "https://raw.githubusercontent.com/Krontixz/EndPortal-Finder/refs/heads/main/icon.svg",
+    projectLink: "https://github.com/Krontixz/EndPortal-Finder",
+    description: "A minecraft seed finder that will find the endportal for you!",
+    tags: ["JS", "Minecraft", "HTML", "Seed-Finder"
+           },
+      
+  {
     name: "Signal-Android",
     imageSrc: "https://avatars.githubusercontent.com/u/702459?s=200&v=4",
     projectLink: "https://github.com/signalapp/Signal-Android",
