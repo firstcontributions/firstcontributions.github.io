@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Dapper",
+    imageSrc: "https://avatars.githubusercontent.com/u/14873132?s=200&v=4",
+    projectLink: "https://github.com/DapperLib/Dapper",
+    description: "A simple object mapper for .NET and high-performance SQL query execution.",
+    tags: ["C#", ".NET", "SQL", "ORM", "Database"],
+  },
 ];
