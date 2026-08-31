@@ -18,7 +18,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     <div class="Card-Header">
       <img
         class="Project-Logo"
-        alt="the framework or language that the project is build upon"
+        alt={`${name} logo`}
         src={logoLink}
         onerror="this.src='/default.png'"
         width="60"
@@ -60,7 +60,6 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     height: auto;
     min-height: 200px;
-    margin-bottom: 1.5rem;
     position: relative;
   }
 
@@ -89,7 +88,6 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
   }
 
   .Card-Real-Link {
-    display: block;
     text-decoration: none;
     color: inherit;
     height: 100%;
