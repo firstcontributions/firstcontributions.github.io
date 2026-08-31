@@ -158,6 +158,12 @@ export const projectList = [
     tags: ["NoSQL", "Database"],
   },
   {
+    name: "My Pythonic Zoo",
+    projectLink: "https://github.com/lizc-au/my-pythonic-zoo",
+    description: "A beginner-friendly cookbook showcasing clean code, Pythonic principles, and self-contained script exhibits.",
+    tags: ["Python", "Beginner"]
+  },
+  {
     name: "Darktable",
     imageSrc:
       "https://raw.githubusercontent.com/darktable-org/darktable/master/data/pixmaps/idbutton.png",
