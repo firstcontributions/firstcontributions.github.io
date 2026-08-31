@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+  name: "Catch The Turtle Game",
+  imageSrc: "https://via.placeholder.com/150",
+  projectLink: "https://github.com/EfeOrhan/catch-the-turtle",
+  description: "A simple turtle game built with Python where player catches turtles to score points.",
+  tags: ["Python", "Game", "Beginner"],
+},
 ];
