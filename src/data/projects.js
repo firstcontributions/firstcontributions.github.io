@@ -1313,13 +1313,13 @@ export const projectList = [
     tags: ["Scala", "Haskell"],
   },
   {
-    name: "Servo",
-    imageSrc: "https://avatars.githubusercontent.com/u/2566135?s=200&v=4",
-    projectLink: "https://github.com/digital-asset/daml/contribute",
-    description:
-      "A browser engine designed for applications including embedded use.",
-    tags: ["Rust", "Browser", "Servo"],
-  },
+  name: "Servo",
+  imageSrc: "https://avatars.githubusercontent.com/u/2566135?s=200&v=4",
+  projectLink: "https://github.com/servo/servo",
+  description:
+    "A browser engine designed for applications including embedded use.",
+  tags: ["Rust", "Browser", "Servo"],
+ },
   {
     name: "matplotlib",
     imageSrc: "https://avatars.githubusercontent.com/u/215947?s=200&v=4",
@@ -1457,5 +1457,12 @@ export const projectList = [
     projectLink: "https://github.com/ansible/ansible",
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
+  },
+  {
+  name: "JupyterLab",
+  imageSrc: "https://avatars.githubusercontent.com/u/7388996?s=200&v=4",
+  projectLink: "https://github.com/jupyterlab/jupyterlab",
+  description: "JupyterLab is the next-generation web-based user interface for Project Jupyter.",
+  tags: ["Python", "Jupyter", "Data Science", "Machine Learning"],
   },
 ];
