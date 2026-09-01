@@ -1458,4 +1458,32 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Jasmine",
+    imageSrc: "https://avatars.githubusercontent.com/u/100132?s=200&v=4",
+    projectLink: "https://github.com/jasmine/jasmine",
+    description: "A behavior-driven development framework for testing JavaScript code.",
+    tags: ["JavaScript", "Testing", "BDD"],
+  },
+  {
+    name: "Storybook",
+    imageSrc: "https://avatars.githubusercontent.com/u/22632657?s=200&v=4",
+    projectLink: "https://github.com/storybookjs/storybook",
+    description: "A frontend workshop for building UI components and pages in isolation.",
+    tags: ["JavaScript", "UI", "Component", "Documentation"],
+  },
+  {
+    name: "Video.js",
+    imageSrc: "https://avatars.githubusercontent.com/u/100132?s=200&v=4",
+    projectLink: "https://github.com/videojs/video.js",
+    description: "A web video player built with HTML5 and JavaScript.",
+    tags: ["JavaScript", "Video", "Player"],
+  },
+  {
+    name: "Impler.io",
+    imageSrc: "https://avatars.githubusercontent.com/u/88747500?s=200&v=4",
+    projectLink: "https://github.com/implerhq/impler",
+    description: "A simple and powerful data import solution for developers.",
+    tags: ["JavaScript", "Data Import", "API"],
+  },
 ];
