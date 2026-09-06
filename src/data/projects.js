@@ -722,24 +722,6 @@ export const projectList = [
     ],
   },
   {
-    name: "Open Source Diversity",
-    imageSrc: "https://avatars1.githubusercontent.com/u/31018274?s=200&v=4",
-    projectLink:
-      "https://github.com/opensourcediversity/opensourcediversity.org/contribute",
-    description:
-      "For more diversity & inclusion in free & open source software communities 😊",
-    tags: [
-      "javascript",
-      "html",
-      "css",
-      "diversity",
-      "inclusion",
-      "🎉",
-      "web",
-      "community",
-    ],
-  },
-  {
     name: "Bitcoin",
     imageSrc:
       "https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v211-mint-aum-currency-13.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1000&s=435abda621bceebc1362c7e657e06c79",
@@ -1020,14 +1002,6 @@ export const projectList = [
     description:
       "This is an example that how to use Markdown creating a dungeon.",
     tags: ["Markdown", "React", "Gatsby", "Good First Issue", "Beginner"],
-  },
-  {
-    name: "Ansible",
-    imageSrc: "https://avatars1.githubusercontent.com/u/1507452?s=200&v=4",
-    projectLink: "https://docs.ansible.com/ansible/latest/community/index.html",
-    description:
-      "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
-    tags: ["Python", "Automated-Testingg", "Beginner"],
   },
   {
     name: "start-here-guidelines",
@@ -1436,13 +1410,6 @@ export const projectList = [
     projectLink: "https://github.com/gohugoio/hugo",
     description: "The world’s fastest framework for building websites.",
     tags: ["Go", "Static Site Generator", "Web"],
-  },
-  {
-    name: "Mattermost",
-    imageSrc: "https://avatars.githubusercontent.com/u/9131861?s=200&v=4",
-    projectLink: "https://github.com/mattermost/mattermost",
-    description: "Open source platform for secure collaboration across the software development lifecycle.",
-    tags: ["Go", "React", "Chat", "Collaboration"],
   },
   {
     name: "Terraform",
