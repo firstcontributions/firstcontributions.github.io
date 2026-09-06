@@ -1458,4 +1458,36 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+    {
+    name: "Deno",
+    imageSrc: "https://avatars.githubusercontent.com/u/42048915?s=200&v=4",
+    projectLink: "https://github.com/denoland/deno",
+    description:
+      "A modern runtime for JavaScript and TypeScript with secure defaults and a great developer experience.",
+    tags: ["JavaScript", "TypeScript", "Rust", "Runtime", "WebAssembly"],
+  },
+  {
+    name: "Ruff",
+    imageSrc: "https://avatars.githubusercontent.com/u/115962839?s=60&v=4",
+    projectLink: "https://github.com/astral-sh/ruff",
+    description:
+      "An extremely fast Python linter and code formatter, written in Rust.",
+    tags: ["Python", "Rust", "Linter", "Formatter", "Developer Tools"],
+  },
+  {
+    name: "Immich",
+    imageSrc: "https://avatars.githubusercontent.com/u/109746326?s=200&v=4",
+    projectLink: "https://github.com/immich-app/immich",
+    description:
+      "A high-performance self-hosted solution for backing up, viewing, managing, and sharing photos and videos.",
+    tags: ["TypeScript", "Self-Hosted", "Photos", "Docker", "Web"],
+  },
+  {
+    name: "Zed",
+    imageSrc: "https://avatars.githubusercontent.com/u/79345384?s=60&v=4",
+    projectLink: "https://github.com/zed-industries/zed",
+    description:
+      "A high-performance, multiplayer code editor built with Rust.",
+    tags: ["Rust", "Editor", "Developer Tools", "Desktop", "Collaboration"],
+  },
 ];
