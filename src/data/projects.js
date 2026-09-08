@@ -1458,4 +1458,12 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Apogee",
+    imageSrc: "https://avatars.githubusercontent.com/u/122383401?s=200&v=4",
+    projectLink: "https://github.com/darshi1337/apogee",
+    description: "Private AI summarizer browser extension for articles, videos, PDFs, and DOCX files. Runs fully local on WebGPU, WebAssembly, Ollama, or llama.cpp.",
+    loadIssues: true,
+    tags: ["JavaScript", "Browser Extension", "AI", "Privacy", "Good First Issue"],
+  },
 ];
