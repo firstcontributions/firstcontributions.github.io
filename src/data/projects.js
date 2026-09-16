@@ -1,5 +1,14 @@
 export const projectList = [
   {
+    name: "DevShelf",
+    imageSrc: "https://avatars.githubusercontent.com/u/326022088?v=4",
+    projectLink: "https://github.com/RitualDev-Lab/DevShelf",
+    description: "Curated crowdsourced developer directory of verified free APIs, dev tools, and AI agents with zero paywalls.",
+    loadIssues: true,
+    tags: ["TypeScript", "Good First Issue", "Developer Tools", "Open Source", "APIs"],
+  },
+
+  {
     name: "activist.org",
     imageSrc:
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
