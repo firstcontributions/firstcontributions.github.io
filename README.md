@@ -55,6 +55,7 @@ pnpm build
 ```
 
 ## Tech Stack
+-ikunaidaima
 
 - **Astro**: Static site generator
 - **TypeScript**: Type safety
