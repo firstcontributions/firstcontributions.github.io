@@ -1458,4 +1458,18 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Vite",
+    imageSrc: "https://vite.dev/assets/vite-light.t8GCa_VF.svg",
+    projectLink: "https://github.com/vitejs/vite",
+    description: "Next generation frontend tooling. It's fast!",
+    tags: ["Typescript", "Javascript", "Html","CSS","Vue"],
+  },
+  {
+    name: "TanStack",
+    imageSrc: "https://tanstack.com/images/logos/logo-color-banner-600.png",
+    projectLink: "https://github.com/tanstack/tanstack.com",
+    description: "Tanstack designed to simplify state management, data fetching, and table handling in modern web applications",
+    tags: ["Typescript", "Javascript", "Html","CSS"],
+  }
 ];
