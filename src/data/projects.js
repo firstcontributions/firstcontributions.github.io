@@ -1458,4 +1458,29 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+    {
+    name: "Ansible",
+    imageSrc: "https://avatars.githubusercontent.com/u/1507452?s=200&v=4",
+    projectLink: "https://github.com/ansible/ansible",
+    description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
+    tags: ["Python", "Automation", "Configuration Management"],
+  },
+
+  {
+    name: "OWASP Juice Shop",
+    imageSrc: "https://avatars.githubusercontent.com/u/1208623?s=200&v=4",
+    projectLink: "https://github.com/juice-shop/juice-shop",
+    description:
+      "An intentionally vulnerable web application for security training, awareness demos, CTFs, and security testing.",
+    tags: [
+      "JavaScript",
+      "TypeScript",
+      "OWASP",
+      "Cybersecurity",
+      "Web Security",
+      "CTF",
+      "Security",
+    ],
+  },
+
 ];
