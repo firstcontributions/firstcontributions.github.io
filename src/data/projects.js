@@ -1458,4 +1458,13 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "ML Failure Lab",
+    imageSrc: "/default.png",
+    projectLink: "https://github.com/sricharanreddycheruku/ml-failure-lab",
+    description:
+      "Small CPU-only Python experiments that explain misleading ML results, with corrections, tests and scoped tasks for new contributors.",
+    loadIssues: true,
+    tags: ["Python", "Machine Learning", "Education", "Good First Issue"],
+  },
 ];
