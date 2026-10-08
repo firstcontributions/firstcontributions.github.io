@@ -1458,4 +1458,14 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "WebGoat",
+    imageSrc:
+      "https://avatars.githubusercontent.com/u/22948627?s=200&v=4",
+    projectLink: "https://github.com/WebGoat/WebGoat",
+    description:
+      "A deliberately insecure application for learning web application security",
+    tags: ["Java", "Web Security", "Cybersecurity", "OWASP", "Beginner"],
+  },
+
 ];
