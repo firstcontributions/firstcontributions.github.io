@@ -1458,4 +1458,14 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "FreshClone",
+    imageSrc:
+      "https://raw.githubusercontent.com/ergishasani/freshclone/0091e0df822c5727d177cdd04ee2c7a36f648ad7/docs/outreach/assets/thumbnail.png",
+    projectLink: "https://github.com/ergishasani/freshclone",
+    description:
+      "Checks marked README setup commands for Node.js/npm projects in disposable Linux Docker containers, with optional HTTP readiness checks.",
+    loadIssues: true,
+    tags: ["TypeScript", "Node.js", "Docker", "CLI", "Testing", "Documentation"],
+  },
 ];
