@@ -1,5 +1,13 @@
 export const projectList = [
   {
+    name: "Summer, Please Turn Off The Lights",
+    imageSrc: "https://raw.githubusercontent.com/iamp1000/summer-please-turn-off-the-lights/master/assets/banner.svg",
+    projectLink: "https://github.com/iamp1000/summer-please-turn-off-the-lights",
+    description: "A local-first desktop controller and audio-reactive lighting engine for TP-Link Tapo smart light strips.",
+    loadIssues: true,
+    tags: ["Python", "IoT", "Smart Home", "Lighting", "Good First Issue"],
+  },
+  {
     name: "activist.org",
     imageSrc:
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
