@@ -14,7 +14,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
 ---
 
 <div class="Card-Container">
-  <a class="Card-Real-Link" href={projectLink} target="_blank">
+  <a class="Card-Real-Link" href={projectLink} target="_blank" rel="noopener noreferrer">
     <div class="Card-Header">
       <img
         class="Project-Logo"
@@ -43,7 +43,7 @@ const { projectLink, logoLink, name, description, tags = [], loadIssues = false 
     <IssueList projectLink={projectLink} projectName={name} />
   )}
   <div class="Card-Link">
-    <a href={projectLink} target="_blank">
+    <a href={projectLink} target="_blank" rel="noopener noreferrer">
       <span>Go to Project</span>
     </a>
   </div>

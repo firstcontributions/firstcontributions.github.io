@@ -120,7 +120,7 @@ if (repoInfo) {
   {issues.length > 0 ? (
     <div class="Issues-List">
       {issues.map((issue) => (
-        <a href={issue.html_url} target="_blank" class="Issue-Card">
+        <a href={issue.html_url} target="_blank" rel="noopener noreferrer" class="Issue-Card">
           <div class="Issue-Content">
             <div class="Issue-Title">{issue.title}</div>
             <div class="Issue-Meta">
