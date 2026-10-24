@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "KanaDojo",
+    imageSrc: "https://avatars.githubusercontent.com/u/169354375?s=200&v=4",
+    projectLink: "https://github.com/lingdojo/kana-dojo",
+    description: "Aesthetic, minimalist platform for learning Japanese inspired by Duolingo and Monkeytype, built with Next.js and TypeScript.",
+    tags: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+  },
 ];
