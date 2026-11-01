@@ -39,6 +39,8 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   ))}
 </section>
 
+<p id="no-results" hidden>No projects match your search or tag filter. Try a different search term or clear the filter.</p>
+
 <script>
   // Get all projects data from the server-rendered content
   const projectList = Array.from(document.querySelectorAll('.Card-Container')).map(card => {
@@ -67,6 +69,7 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   const searchInput = document.getElementById('search');
   const tagSelector = document.getElementById('tag-selector');
   const projectListContainer = document.getElementById('project-list');
+  const noResultsMessage = document.getElementById('no-results');
 
   // Filter projects function
   function filterProjects() {
@@ -92,6 +95,11 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
     }
 
     filteredProjects = filtered;
+
+    // Show a message instead of a blank page when nothing matches
+    if (noResultsMessage) {
+      noResultsMessage.hidden = filteredProjects.length > 0;
+    }
     
     // Hide/show cards instead of re-rendering
     projectList.forEach(project => {
@@ -176,6 +184,13 @@ const allTags = [...new Set(projectList.flatMap(project => project.tags || []))]
   #tag-selector option {
     background: #1a1a1a;
     color: white;
+  }
+
+  #no-results {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 2rem 1rem;
+    margin: 0;
   }
 
   .containerLayout {
