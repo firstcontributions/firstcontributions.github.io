@@ -1,5 +1,15 @@
 export const projectList = [
   {
+    name: "agentswarm.space MCP",
+    imageSrc:
+      "https://raw.githubusercontent.com/andrewsiah/agentswarm-mcp/main/assets/logo.png",
+    projectLink: "https://github.com/andrewsiah/agentswarm-mcp",
+    description:
+      "agentswarm.space work tools for AI agents; small issues with a runnable pinned check; unpaid.",
+    loadIssues: true,
+    tags: ["JavaScript", "Node.js", "MCP", "AI", "Good First Issue"],
+  },
+  {
     name: "activist.org",
     imageSrc:
       "https://raw.githubusercontent.com/activist-org/Organization/main/logos/activistLogoRounded.png",
