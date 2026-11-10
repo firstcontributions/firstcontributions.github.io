@@ -7,12 +7,16 @@ export interface Props {
 const { projectLink, projectName } = Astro.props;
 
 // Extract owner/repo from GitHub URL
+// Project links may carry a #fragment (e.g. #contributing) or a trailing
+// slash; strip both first, otherwise the fragment ends up in the repo name
+// and the issues API request breaks (the fragment swallows /issues?...).
 function extractRepoInfo(url: string) {
-  const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)/);
+  const cleanUrl = url.split(/[?#]/)[0].replace(/\/$/, '');
+  const match = cleanUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
   if (match) {
     return {
       owner: match[1],
-      repo: match[2].replace(/\/$/, '') // Remove trailing slash
+      repo: match[2]
     };
   }
   return null;
