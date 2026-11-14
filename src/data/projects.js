@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "gRPC-Java",
+    imageSrc: "https://avatars.githubusercontent.com/u/7802525?v=4",
+    projectLink: "https://github.com/grpc/grpc-java",
+    description: "The Java implementation of gRPC, an RPC framework for communication between applications using HTTP/2.",
+    tags: ["Java", "RPC", "HTTP/2", "Backend", "Microservices"],
+  },
 ];
