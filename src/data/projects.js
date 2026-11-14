@@ -1458,4 +1458,11 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "goat",
+    imageSrc: "https://avatars.githubusercontent.com/u/258288721?s=200&v=4",
+    projectLink: "https://github.com/USAREUR-AF/goatcore",
+    description: "A self-hosted data fabric: WireGuard mesh, brokerless Zenoh pub/sub and identity-based access control.",
+    tags: ["Rust", "Go", "Networking", "WireGuard"],
+  },
 ];
