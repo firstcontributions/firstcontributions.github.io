@@ -1458,4 +1458,13 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Praxi-Bot",
+    imageSrc: "https://avatars.githubusercontent.com/u/73295089?s=200&v=4",
+    projectLink: "https://github.com/emreocell/Praxi-Bot",
+    description:
+      "A local-first Rust and Tauri AI agent for desktop automation and self-hosted workflows.",
+    loadIssues: true,
+    tags: ["Rust", "Tauri", "React", "TypeScript", "AI Agents", "Good First Issue"],
+  },
 ];
