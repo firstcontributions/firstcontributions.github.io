@@ -1458,4 +1458,13 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Loom",
+    imageSrc:
+      "https://raw.githubusercontent.com/ClickHouse/loom/main/frontend/public/favicon.svg",
+    projectLink: "https://github.com/ClickHouse/loom",
+    description: "Memory, document search and a code index for AI agents.",
+    loadIssues: true,
+    tags: ["Python", "TypeScript", "Documentation", "Good First Issue"],
+  },
 ];
