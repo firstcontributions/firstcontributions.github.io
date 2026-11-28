@@ -1458,4 +1458,13 @@ export const projectList = [
     description: "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy.",
     tags: ["Python", "Automation", "Configuration Management"],
   },
+  {
+    name: "Oribi",
+    imageSrc:
+      "https://raw.githubusercontent.com/samhoon000/Oribi/main/branding/oribi-logo-readme.svg",
+    projectLink: "https://github.com/samhoon000/Oribi/contribute",
+    description:
+      "A Python library that turns pandas DataFrames into structured context about what each row represents, which columns identify records, and where aggregation can mislead.",
+    tags: ["Python", "pandas", "Data Analysis"],
+  },
 ];
